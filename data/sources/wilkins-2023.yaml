@@ -1,0 +1,17 @@
+id: wilkins-2023
+type: preprint
+title: "Automated title and abstract screening for scoping reviews using the GPT-4 Large Language Model"
+authors:
+  - David Wilkins
+year: 2023
+doi: null
+url: https://arxiv.org/abs/2311.07918
+publication_status: "arXiv preprint version 1, 14 November 2023"
+source_category: preprint
+local_file: "incoming/papers/Wilkins - 2023 - Automated title and abstract screening for scoping reviews using the GPT-4 Large language model.pdf"
+notes: >
+  GPTscreenR validation screened 1,147 records from six scoping reviews.
+  Consensus human title/abstract decisions were the reference standard.
+  The chain-of-thought workflow had 71% weighted sensitivity, 89% weighted
+  specificity, and 84% accuracy; a zero-shot comparator was similar. This
+  is a preprint and its scoping-review setting may differ from other reviews.

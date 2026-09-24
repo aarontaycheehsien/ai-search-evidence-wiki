@@ -1,0 +1,25 @@
+id: screening-002
+claim: >
+  Overall screening accuracy alone can obscure lower sensitivity for
+  citations that human reference standards included.
+status: supported
+topics:
+  - llm-screening
+evidence:
+  - source_id: guo-2024
+    relationship: supports
+    locator: "Table 3, PDF p. 5"
+    note: "Weighted accuracy was 0.907, whereas sensitivity for included records was 0.764; only 538 of 24,307 records were included by the reference standard."
+  - source_id: khraisha-2024
+    relationship: supports
+    locator: "Table 1, PDF p. 7"
+    note: "Other-language title/abstract accuracy was 0.88 with sensitivity 0.50; the stratum was highly imbalanced."
+  - source_id: li-2024
+    relationship: supports
+    locator: "Tables 3-4, PDF pp. 17, 19"
+    note: "Preprint: for example, Google PaLM on Meijboom had accuracy 0.890 and sensitivity 0.647; ChatGPT v3.5 on Menon had accuracy 0.711 and sensitivity 0.315."
+  - source_id: wilkins-2023
+    relationship: supports
+    locator: "Results, PDF p. 7"
+    note: "Preprint: GPTscreenR accuracy was 84% while weighted sensitivity was 71%."
+last_reviewed: 2026-09-25

@@ -1,0 +1,20 @@
+id: syriani-2023
+type: preprint
+title: "Assessing the Ability of ChatGPT to Screen Articles for Systematic Reviews"
+authors:
+  - Eugene Syriani
+  - Istvan David
+  - Gauransh Kumar
+year: 2023
+doi: 10.48550/arXiv.2307.06464
+url: https://arxiv.org/abs/2307.06464
+publication_status: "arXiv preprint submitted 12 July 2023"
+source_category: preprint
+local_file: "incoming/papers/Syriani et al. - Assessing the Ability of ChatGPT to Screen Article.pdf"
+notes: >
+  Evaluates GPT-3.5 on five software-engineering review datasets from ReLiS.
+  Tables 5-10 report dataset-specific results; Table 10 shows recall from
+  0.327 to 0.947. Ten repeat runs were used for consistency analysis on two
+  datasets; the other three datasets used one GPT run. The arXiv record
+  identifies this as a 2023 preprint and lists a related journal article
+  under a different title; this record describes the supplied preprint.

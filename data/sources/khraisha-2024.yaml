@@ -1,0 +1,22 @@
+id: khraisha-2024
+type: journal-article
+title: "Can large language models replace humans in systematic reviews? Evaluating GPT-4's efficacy in screening and extracting data from peer-reviewed and grey literature in multiple languages"
+authors:
+  - Qusai Khraisha
+  - Sophie Put
+  - Johanna Kappenberg
+  - Azza Warraitch
+  - Kristin Hadfield
+year: 2024
+doi: 10.1002/jrsm.1715
+url: https://doi.org/10.1002/jrsm.1715
+publication_status: "Published in Research Synthesis Methods"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Khraisha et al. - 2024 - Can large language models replace humans in system.pdf"
+notes: >
+  Preregistered study using the GPT-4 chat interface on 300 titles/abstracts,
+  150 full texts, and extraction from 30 full texts in a refugee parenting
+  review. Table 1 stratifies results by language, literature type, and stage.
+  English peer-reviewed title/abstract data were deliberately balanced;
+  other strata were not. The high-reliability prompt subgroup was also
+  imbalanced, so prompt effects and prevalence cannot be cleanly separated.

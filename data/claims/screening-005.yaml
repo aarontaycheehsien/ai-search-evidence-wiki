@@ -1,0 +1,13 @@
+id: screening-005
+claim: >
+  In a six-review scoping-review evaluation, a chain-of-thought GPT-4
+  screening workflow performed similarly to a zero-shot workflow.
+status: provisional
+topics:
+  - llm-screening
+evidence:
+  - source_id: wilkins-2023
+    relationship: supports
+    locator: "Results, PDF p. 7"
+    note: "Preprint: GPTscreenR accuracy/sensitivity/specificity were 84%/71%/89%, versus 83%/72%/87% for the zero-shot comparator on the same 1,147 records."
+last_reviewed: 2026-09-25

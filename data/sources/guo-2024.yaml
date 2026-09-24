@@ -1,0 +1,22 @@
+id: guo-2024
+type: journal-article
+title: "Automated Paper Screening for Clinical Reviews Using Large Language Models: Data Analysis Study"
+authors:
+  - Eddie Guo
+  - Mehul Gupta
+  - Jiawen Deng
+  - Ye-Jean Park
+  - Michael Paget
+  - Christopher Naugler
+year: 2024
+doi: 10.2196/48996
+url: https://doi.org/10.2196/48996
+publication_status: "Published in Journal of Medical Internet Research 26, e48996"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Guo et al. - 2024 - Automated Paper Screening for Clinical Reviews Usi.pdf"
+notes: >
+  Retrospective comparison with consensus screening decisions across six
+  clinical reviews and 24,307 title/abstract records; 538 were included by
+  the reference standard. The workflow used GPT and GPT-4 APIs depending on
+  token length. Table 3 gives weighted overall accuracy 0.907, inclusion
+  sensitivity 0.764, exclusion sensitivity 0.910, and macro F1 0.600.

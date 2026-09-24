@@ -1,0 +1,25 @@
+id: screening-004
+claim: >
+  Changing the information supplied to an LLM or the decision rule used
+  to interpret its output can alter screening performance.
+status: supported
+topics:
+  - llm-screening
+evidence:
+  - source_id: alshami-2023
+    relationship: supports
+    locator: "Section 3.2 and Figure 9, PDF pp. 17-20"
+    note: "On a 120-record subset, adding abstracts to APA metadata raised the 'not related' class F1 from 81% to 90% and recall from 80% to 93%."
+  - source_id: tran-2024
+    relationship: supports
+    locator: "Table 2, PDF p. 7"
+    note: "The sensitive rule raised sensitivity to 94.6%-99.8% while specificity fell to 2.2%-46.6%, compared with 81.1%-96.5% sensitivity and 25.8%-80.4% specificity under the balanced rule."
+  - source_id: li-2024
+    relationship: contextual
+    locator: "Tables 2-4, PDF pp. 15, 17, 19"
+    note: "Preprint: majority voting changed sensitivity and specificity compared with individual models, in different directions by dataset."
+  - source_id: khraisha-2024
+    relationship: qualifies
+    locator: "Methods and Table 1, PDF pp. 3-4, 7"
+    note: "Prompt reliability differed by criterion, but the high-reliability subgroup was also imbalanced; its result cannot isolate a prompt effect."
+last_reviewed: 2026-09-25

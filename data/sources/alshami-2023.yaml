@@ -1,0 +1,21 @@
+id: alshami-2023
+type: journal-article
+title: "Harnessing the Power of ChatGPT for Automating Systematic Review Process: Methodology, Case Study, Limitations, and Future Directions"
+authors:
+  - Ahmad Alshami
+  - Moustafa Elsayed
+  - Eslam Ali
+  - Abdelrahman E. E. Eltoukhy
+  - Tarek Zayed
+year: 2023
+doi: 10.3390/systems11070351
+url: https://doi.org/10.3390/systems11070351
+publication_status: "Published in Systems 11, article 351"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Alshami et al. - 2023 - Harnessing the Power of ChatGPT for Automating Sys.pdf"
+notes: >
+  One case study on IoT in water and wastewater management. The screening
+  evaluation used 120 of 496 articles and expert majority vote as benchmark.
+  The paper also evaluates search and extraction, but this wiki records only
+  findings relevant to citation screening. The abstract's overall accuracy
+  statement should not be read as performance across all review settings.

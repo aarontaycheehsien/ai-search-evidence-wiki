@@ -1,0 +1,14 @@
+id: llm-screening
+title: LLMs for Citation Screening
+type: question
+question: >
+  How well can large language models perform citation screening in evidence
+  synthesis?
+claim_ids:
+  - screening-001
+  - screening-002
+  - screening-003
+  - screening-004
+  - screening-005
+  - screening-006
+last_reviewed: 2026-09-25

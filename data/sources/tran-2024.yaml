@@ -1,0 +1,29 @@
+id: tran-2024
+type: journal-article
+title: "Sensitivity and Specificity of Using GPT-3.5 Turbo Models for Title and Abstract Screening in Systematic Reviews and Meta-analyses"
+authors:
+  - Viet-Thi Tran
+  - Gerald Gartlehner
+  - Sally Yaacoub
+  - Isabelle Boutron
+  - Lukas Schwingshackl
+  - Julia Stadelmaier
+  - Isolde Sommer
+  - Farzaneh Alebouyeh
+  - Sivem Afach
+  - Joerg Meerpohl
+  - Philippe Ravaud
+year: 2024
+doi: 10.7326/M23-3389
+url: https://doi.org/10.7326/M23-3389
+publication_status: "Published in Annals of Internal Medicine, 21 May 2024"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Tran et al. - 2024 - Sensitivity and Specificity of Using GPT-3.5 Turbo.pdf"
+notes: >
+  Retrospective diagnostic accuracy study across five systematic reviews and
+  22,665 citations. Tables 2 and 3 distinguish balanced and sensitivity-
+  optimized rules. Table 3 reports full-text inclusions missed by trimming
+  as 1/26, 0/8, 1/200, 0/29, and 11/445 across the five reviews. The abstract
+  and discussion summarize a smaller maximum (0 to 1 of 26), which does not
+  match the 11/445 table entry. Claim records use Table 3 and flag this
+  discrepancy rather than silently reconciling it.

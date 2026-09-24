@@ -1,0 +1,18 @@
+id: screening-006
+claim: >
+  In a retrospective five-review evaluation, using GPT-3.5 as a second
+  reviewer or to trim citations involved a tradeoff between manual work
+  and missed eligible records.
+status: provisional
+topics:
+  - llm-screening
+evidence:
+  - source_id: tran-2024
+    relationship: supports
+    locator: "Results, Discussion, Tables 2-3, PDF pp. 2, 7-8"
+    note: "Balanced-rule recommendations added 10,279 false positives across 22,665 citations for reconciliation. Sensitive-rule trimming removed 2.0%-45.4% of citations by review, while Table 3 shows 0-11 full-text inclusions missed by review. Retrospective design does not establish prospective workload savings."
+  - source_id: syriani-2023
+    relationship: contextual
+    locator: "Section 6.2, PDF pp. 21-24"
+    note: "The manuscript models work saved over sampling in software-engineering reviews; it does not test the same human-plus-LLM workflow as Tran et al."
+last_reviewed: 2026-09-25

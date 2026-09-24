@@ -1,0 +1,29 @@
+id: screening-001
+claim: >
+  Observed sensitivity of LLM citation screening differs substantially
+  between evaluated review datasets and decision rules.
+status: supported
+topics:
+  - llm-screening
+evidence:
+  - source_id: syriani-2023
+    relationship: supports
+    locator: "Table 10, PDF p. 19"
+    note: "GPT-3.5 recall ranged from 0.327 to 0.947 across five software-engineering review datasets."
+  - source_id: tran-2024
+    relationship: supports
+    locator: "Table 2, PDF p. 7"
+    note: "Across five reviews, sensitivity was 81.1%-96.5% under the balanced rule and 94.6%-99.8% under the sensitive rule."
+  - source_id: khraisha-2024
+    relationship: contextual
+    locator: "Table 1, PDF p. 7"
+    note: "GPT-4 title/abstract sensitivity was 0.42 for balanced English peer-reviewed records, 0.48 for English grey literature, and 0.50 for other-language records."
+  - source_id: li-2024
+    relationship: supports
+    locator: "Tables 2-4, PDF pp. 15, 17, 19"
+    note: "Preprint: ChatGPT v4.0 sensitivity was 0.930, 0.812, and 0.932 in three selected datasets."
+  - source_id: guo-2024
+    relationship: supports
+    locator: "Table 3, PDF p. 5"
+    note: "Inclusion sensitivity ranged from 0.593 to 1.000 across six clinical review datasets; weighted overall sensitivity was 0.764."
+last_reviewed: 2026-09-25
