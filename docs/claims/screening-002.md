@@ -1,10 +1,6 @@
 > **THIS FILE IS GENERATED. DO NOT EDIT DIRECTLY.**
 
-# screening-002
-
-## Claim
-
-Overall screening accuracy alone can obscure lower sensitivity for citations that human reference standards included.
+# Overall screening accuracy alone can obscure lower sensitivity for citations that human reference standards included.
 
 **Status:** supported
 

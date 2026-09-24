@@ -1,10 +1,6 @@
 > **THIS FILE IS GENERATED. DO NOT EDIT DIRECTLY.**
 
-# screening-006
-
-## Claim
-
-In a retrospective five-review evaluation, using GPT-3.5 as a second reviewer or to trim citations involved a tradeoff between manual work and missed eligible records.
+# In a retrospective five-review evaluation, using GPT-3.5 as a second reviewer or to trim citations involved a tradeoff between manual work and missed eligible records.
 
 **Status:** provisional
 

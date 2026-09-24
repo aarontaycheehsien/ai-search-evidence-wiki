@@ -1,10 +1,6 @@
 > **THIS FILE IS GENERATED. DO NOT EDIT DIRECTLY.**
 
-# screening-005
-
-## Claim
-
-In a six-review scoping-review evaluation, a chain-of-thought GPT-4 screening workflow performed similarly to a zero-shot workflow.
+# In a six-review scoping-review evaluation, a chain-of-thought GPT-4 screening workflow performed similarly to a zero-shot workflow.
 
 **Status:** provisional
 

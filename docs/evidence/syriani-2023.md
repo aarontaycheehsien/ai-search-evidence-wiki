@@ -15,6 +15,6 @@
 
 ## Linked claims
 
-- [screening-001](../claims/screening-001.md) — **supports**: Observed sensitivity of LLM citation screening differs substantially between evaluated review datasets and decision rules.
-- [screening-003](../claims/screening-003.md) — **supports**: Several evaluated LLM screening workflows missed eligible citations under their reference standards, so automatic exclusion can omit studies.
-- [screening-006](../claims/screening-006.md) — **contextual**: In a retrospective five-review evaluation, using GPT-3.5 as a second reviewer or to trim citations involved a tradeoff between manual work and missed eligible records.
+- [Observed sensitivity of LLM citation screening differs substantially between evaluated review datasets and decision rules.](../claims/screening-001.md) — **supports**
+- [Several evaluated LLM screening workflows missed eligible citations under their reference standards, so automatic exclusion can omit studies.](../claims/screening-003.md) — **supports**
+- [In a retrospective five-review evaluation, using GPT-3.5 as a second reviewer or to trim citations involved a tradeoff between manual work and missed eligible records.](../claims/screening-006.md) — **contextual**

@@ -17,9 +17,7 @@ The relationships and source categories below come from the structured evidence 
 
 ## Key claims
 
-### [screening-001](../claims/screening-001.md)
-
-Observed sensitivity of LLM citation screening differs substantially between evaluated review datasets and decision rules.
+### [Observed sensitivity of LLM citation screening differs substantially between evaluated review datasets and decision rules.](../claims/screening-001.md)
 
 **Status:** supported
 
@@ -29,9 +27,7 @@ Observed sensitivity of LLM citation screening differs substantially between eva
 - **supports** — [Evaluating the Effectiveness of Large Language Models in Abstract Screening: A Comparative Analysis](../evidence/li-2024.md) (preprint); locator: Tables 2-4, PDF pp. 15, 17, 19. Preprint: ChatGPT v4.0 sensitivity was 0.930, 0.812, and 0.932 in three selected datasets.
 - **supports** — [Automated Paper Screening for Clinical Reviews Using Large Language Models: Data Analysis Study](../evidence/guo-2024.md) (peer-reviewed-study); locator: Table 3, PDF p. 5. Inclusion sensitivity ranged from 0.593 to 1.000 across six clinical review datasets; weighted overall sensitivity was 0.764.
 
-### [screening-002](../claims/screening-002.md)
-
-Overall screening accuracy alone can obscure lower sensitivity for citations that human reference standards included.
+### [Overall screening accuracy alone can obscure lower sensitivity for citations that human reference standards included.](../claims/screening-002.md)
 
 **Status:** supported
 
@@ -40,9 +36,7 @@ Overall screening accuracy alone can obscure lower sensitivity for citations tha
 - **supports** — [Evaluating the Effectiveness of Large Language Models in Abstract Screening: A Comparative Analysis](../evidence/li-2024.md) (preprint); locator: Tables 3-4, PDF pp. 17, 19. Preprint: for example, Google PaLM on Meijboom had accuracy 0.890 and sensitivity 0.647; ChatGPT v3.5 on Menon had accuracy 0.711 and sensitivity 0.315.
 - **supports** — [Automated title and abstract screening for scoping reviews using the GPT-4 Large Language Model](../evidence/wilkins-2023.md) (preprint); locator: Results, PDF p. 7. Preprint: GPTscreenR accuracy was 84% while weighted sensitivity was 71%.
 
-### [screening-003](../claims/screening-003.md)
-
-Several evaluated LLM screening workflows missed eligible citations under their reference standards, so automatic exclusion can omit studies.
+### [Several evaluated LLM screening workflows missed eligible citations under their reference standards, so automatic exclusion can omit studies.](../claims/screening-003.md)
 
 **Status:** supported
 
@@ -53,9 +47,7 @@ Several evaluated LLM screening workflows missed eligible citations under their 
 - **supports** — [Sensitivity and Specificity of Using GPT-3.5 Turbo Models for Title and Abstract Screening in Systematic Reviews and Meta-analyses](../evidence/tran-2024.md) (peer-reviewed-study); locator: Table 3, PDF p. 8. With the sensitivity-optimized trimming rule, full-text inclusions missed were 1/26, 0/8, 1/200, 0/29, and 11/445 across the five reviews. This table conflicts with the paper's smaller abstract summary.
 - **supports** — [Automated title and abstract screening for scoping reviews using the GPT-4 Large Language Model](../evidence/wilkins-2023.md) (preprint); locator: Results, PDF p. 7. Preprint: 71% weighted sensitivity across 1,147 records in six scoping reviews.
 
-### [screening-004](../claims/screening-004.md)
-
-Changing the information supplied to an LLM or the decision rule used to interpret its output can alter screening performance.
+### [Changing the information supplied to an LLM or the decision rule used to interpret its output can alter screening performance.](../claims/screening-004.md)
 
 **Status:** supported
 
@@ -64,17 +56,13 @@ Changing the information supplied to an LLM or the decision rule used to interpr
 - **contextual** — [Evaluating the Effectiveness of Large Language Models in Abstract Screening: A Comparative Analysis](../evidence/li-2024.md) (preprint); locator: Tables 2-4, PDF pp. 15, 17, 19. Preprint: majority voting changed sensitivity and specificity compared with individual models, in different directions by dataset.
 - **qualifies** — [Can large language models replace humans in systematic reviews? Evaluating GPT-4's efficacy in screening and extracting data from peer-reviewed and grey literature in multiple languages](../evidence/khraisha-2024.md) (peer-reviewed-study); locator: Methods and Table 1, PDF pp. 3-4, 7. Prompt reliability differed by criterion, but the high-reliability subgroup was also imbalanced; its result cannot isolate a prompt effect.
 
-### [screening-005](../claims/screening-005.md)
-
-In a six-review scoping-review evaluation, a chain-of-thought GPT-4 screening workflow performed similarly to a zero-shot workflow.
+### [In a six-review scoping-review evaluation, a chain-of-thought GPT-4 screening workflow performed similarly to a zero-shot workflow.](../claims/screening-005.md)
 
 **Status:** provisional
 
 - **supports** — [Automated title and abstract screening for scoping reviews using the GPT-4 Large Language Model](../evidence/wilkins-2023.md) (preprint); locator: Results, PDF p. 7. Preprint: GPTscreenR accuracy/sensitivity/specificity were 84%/71%/89%, versus 83%/72%/87% for the zero-shot comparator on the same 1,147 records.
 
-### [screening-006](../claims/screening-006.md)
-
-In a retrospective five-review evaluation, using GPT-3.5 as a second reviewer or to trim citations involved a tradeoff between manual work and missed eligible records.
+### [In a retrospective five-review evaluation, using GPT-3.5 as a second reviewer or to trim citations involved a tradeoff between manual work and missed eligible records.](../claims/screening-006.md)
 
 **Status:** provisional
 
@@ -100,8 +88,8 @@ No independent experiments are linked.
 
 ## Important uncertainties
 
-- [screening-005](../claims/screening-005.md) is marked **provisional**: In a six-review scoping-review evaluation, a chain-of-thought GPT-4 screening workflow performed similarly to a zero-shot workflow.
-- [screening-006](../claims/screening-006.md) is marked **provisional**: In a retrospective five-review evaluation, using GPT-3.5 as a second reviewer or to trim citations involved a tradeoff between manual work and missed eligible records.
+- [In a six-review scoping-review evaluation, a chain-of-thought GPT-4 screening workflow performed similarly to a zero-shot workflow.](../claims/screening-005.md) is marked **provisional**.
+- [In a retrospective five-review evaluation, using GPT-3.5 as a second reviewer or to trim citations involved a tradeoff between manual work and missed eligible records.](../claims/screening-006.md) is marked **provisional**.
 
 Read the individual source records for study design, scope, and unresolved reporting discrepancies.
 

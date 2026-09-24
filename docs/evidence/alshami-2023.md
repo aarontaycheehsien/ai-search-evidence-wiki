@@ -15,4 +15,4 @@
 
 ## Linked claims
 
-- [screening-004](../claims/screening-004.md) — **supports**: Changing the information supplied to an LLM or the decision rule used to interpret its output can alter screening performance.
+- [Changing the information supplied to an LLM or the decision rule used to interpret its output can alter screening performance.](../claims/screening-004.md) — **supports**

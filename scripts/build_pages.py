@@ -31,7 +31,7 @@ def _claim_map(claims: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
 
 
 def render_claim(claim: dict[str, Any], sources: dict[str, dict[str, Any]], topics: dict[str, dict[str, Any]]) -> str:
-    lines = [MARKER, "", f"# {claim['id']}", "", "## Claim", "", claim["claim"].strip(), "", f"**Status:** {claim['status']}", "", "## Evidence", ""]
+    lines = [MARKER, "", f"# {claim['claim'].strip()}", "", f"**Status:** {claim['status']}", "", "## Evidence", ""]
     if not claim["evidence"]:
         lines.append("No evidence records are linked to this claim.")
     for ev in claim["evidence"]:
@@ -62,7 +62,7 @@ def render_source(source: dict[str, Any], claims: list[dict[str, Any]]) -> str:
         matches = [ev for ev in claim["evidence"] if ev["source_id"] == source["id"]]
         for ev in matches:
             found = True
-            lines.append(f"- [{claim['id']}](../claims/{claim['id']}.md) — **{ev['relationship']}**: {claim['claim'].strip()}")
+            lines.append(f"- [{claim['claim'].strip()}](../claims/{claim['id']}.md) — **{ev['relationship']}**")
     if not found:
         lines.append("No claims linked.")
     lines.append("")
@@ -82,7 +82,7 @@ def render_source_index(sources: list[dict[str, Any]]) -> str:
 
 def render_claim_index(claims: list[dict[str, Any]]) -> str:
     lines = [MARKER, "", "# Claims", "", "Claims and their evidence relationships are generated from `data/claims/`.", ""]
-    lines.extend(f"- [{claim['id']}]({claim['id']}.md) — **{claim['status']}**: {claim['claim'].strip()}" for claim in claims)
+    lines.extend(f"- [{claim['claim'].strip()}]({claim['id']}.md) — **{claim['status']}**" for claim in claims)
     lines.append("")
     return "\n".join(lines)
 
@@ -107,7 +107,7 @@ def render_topic(topic: dict[str, Any], claims: dict[str, dict[str, Any]], sourc
         "", "## Key claims", "",
     ]
     for claim in topic_claims:
-        lines.extend([f"### [{claim['id']}](../claims/{claim['id']}.md)", "", claim["claim"].strip(), "", f"**Status:** {claim['status']}", ""])
+        lines.extend([f"### [{claim['claim'].strip()}](../claims/{claim['id']}.md)", "", f"**Status:** {claim['status']}", ""])
         if not claim["evidence"]:
             lines.extend(["No source is linked.", ""])
         for ev in claim["evidence"]:
@@ -130,7 +130,7 @@ def render_topic(topic: dict[str, Any], claims: dict[str, dict[str, Any]], sourc
     lines.extend(["## Important uncertainties", ""])
     flagged = [claim for claim in topic_claims if claim["status"] in {"provisional", "uncertain", "mixed", "contradicted"}]
     if flagged:
-        lines.extend(f"- [{claim['id']}](../claims/{claim['id']}.md) is marked **{claim['status']}**: {claim['claim'].strip()}" for claim in flagged)
+        lines.extend(f"- [{claim['claim'].strip()}](../claims/{claim['id']}.md) is marked **{claim['status']}**." for claim in flagged)
     else:
         lines.append("No linked claim is currently flagged as provisional, uncertain, mixed, or contradicted.")
     lines.extend(["", "Read the individual source records for study design, scope, and unresolved reporting discrepancies.", "", f"**Last reviewed:** {topic.get('last_reviewed', 'Not recorded')}", ""])

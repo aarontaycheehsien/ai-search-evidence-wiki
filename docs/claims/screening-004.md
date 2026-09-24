@@ -1,10 +1,6 @@
 > **THIS FILE IS GENERATED. DO NOT EDIT DIRECTLY.**
 
-# screening-004
-
-## Claim
-
-Changing the information supplied to an LLM or the decision rule used to interpret its output can alter screening performance.
+# Changing the information supplied to an LLM or the decision rule used to interpret its output can alter screening performance.
 
 **Status:** supported
 

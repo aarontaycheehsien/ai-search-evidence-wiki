@@ -1,10 +1,6 @@
 > **THIS FILE IS GENERATED. DO NOT EDIT DIRECTLY.**
 
-# screening-003
-
-## Claim
-
-Several evaluated LLM screening workflows missed eligible citations under their reference standards, so automatic exclusion can omit studies.
+# Several evaluated LLM screening workflows missed eligible citations under their reference standards, so automatic exclusion can omit studies.
 
 **Status:** supported
 

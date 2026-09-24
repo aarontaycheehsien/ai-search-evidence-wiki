@@ -1,10 +1,6 @@
 > **THIS FILE IS GENERATED. DO NOT EDIT DIRECTLY.**
 
-# screening-001
-
-## Claim
-
-Observed sensitivity of LLM citation screening differs substantially between evaluated review datasets and decision rules.
+# Observed sensitivity of LLM citation screening differs substantially between evaluated review datasets and decision rules.
 
 **Status:** supported
 
