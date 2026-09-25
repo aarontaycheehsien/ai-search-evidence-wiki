@@ -1,0 +1,23 @@
+id: woelfle-2024
+type: preprint
+title: "Benchmarking Human-AI Collaboration for Common Evidence Appraisal Tools"
+authors:
+  - Tim Woelfle
+  - Julian Hirt
+  - Perrine Janiaud
+  - Ludwig Kappos
+  - John P. A. Ioannidis
+  - Lars G. Hemkens
+year: 2024
+doi: 10.1101/2024.04.21.24306137
+url: https://doi.org/10.1101/2024.04.21.24306137
+publication_status: "medRxiv preprint posted 22 April 2024; not peer reviewed"
+source_category: preprint
+local_file: "incoming/papers/Woelfle et al - 2024 - Benchmarking human-AI collaboration for evidence appraisal.pdf"
+notes: >
+  Compared five LLMs, combinations of LLMs, and human-LLM pairs with human
+  consensus for PRISMA, AMSTAR, and PRECIS-2 ratings. Standalone LLMs performed
+  below individual humans. Human-LLM agreement workflows improved accuracy for
+  PRISMA and AMSTAR while deferring a minority of items, but PRECIS-2 required
+  deferral for roughly three quarters of ratings. This is a preprint and the
+  workload savings were modeled rather than prospectively measured.

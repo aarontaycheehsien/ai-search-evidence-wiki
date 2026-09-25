@@ -1,0 +1,14 @@
+id: citation-001
+claim: >
+  Verifying that an LLM cites real papers is insufficient to establish evidence
+  fidelity because the generated claims may still misstate, overstate, or
+  contradict those papers.
+status: supported
+topics:
+  - citation-fidelity
+evidence:
+  - source_id: linardon-2026
+    relationship: supports
+    locator: "Methods, PDF pp. 2-4; Results and Table 2, PDF p. 5"
+    note: "All 209 cited publications were identifiable, but only 43.5% of 333 citation-claim pairs were fully accurate; 19.8% were fabricated or contradictory and 18.3% contained major inaccuracies. The audit used one ChatGPT-5 configuration in mental health."
+last_reviewed: 2026-09-25

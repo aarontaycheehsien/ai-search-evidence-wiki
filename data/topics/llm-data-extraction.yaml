@@ -1,0 +1,10 @@
+id: llm-data-extraction
+title: LLMs for structured data extraction
+type: question
+question: >
+  How accurate, complete, and efficient are large language models for extracting
+  structured data from studies for evidence synthesis?
+claim_ids:
+  - extraction-001
+  - extraction-002
+last_reviewed: 2026-09-25

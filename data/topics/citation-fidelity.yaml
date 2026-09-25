@@ -1,0 +1,9 @@
+id: citation-fidelity
+title: Citation fidelity in LLM-generated reviews
+type: question
+question: >
+  Do claims in large-language-model-generated literature reviews accurately
+  represent the papers they cite?
+claim_ids:
+  - citation-001
+last_reviewed: 2026-09-25

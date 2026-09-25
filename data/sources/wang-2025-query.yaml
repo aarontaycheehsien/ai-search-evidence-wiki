@@ -1,0 +1,21 @@
+id: wang-2025-query
+type: conference-paper
+title: "Reassessing Large Language Model Boolean Query Generation for Systematic Reviews"
+authors:
+  - Shuai Wang
+  - Harrisen Scells
+  - Bevan Koopman
+  - Guido Zuccon
+year: 2025
+doi: 10.1145/3726302.3730329
+url: https://doi.org/10.1145/3726302.3730329
+publication_status: "Published in the Proceedings of the 48th ACM SIGIR Conference; local file is the arXiv v2 author manuscript"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Wang et al - 2025 - Reassessing LLM Boolean Query Generation.pdf"
+notes: >
+  Reproducibility study of LLM-generated PubMed Boolean queries using CLEF TAR
+  and seed-study benchmarks. Results varied materially by model, prompt,
+  validation, and seed choice. Generated queries generally had higher precision
+  but lower recall than expert manual queries; combining guided queries could
+  approach manual recall while sharply reducing precision. The authors flag
+  possible benchmark contamination and the post-hoc nature of best-seed choice.

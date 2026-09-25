@@ -1,0 +1,23 @@
+id: linardon-2026
+type: journal-article
+title: "Fluency Without Fidelity: Errors in Citation-Attributed Claims in Large Language Model-Generated Literature Reviews in Mental Health"
+authors:
+  - Jake Linardon
+  - Mariel Messer
+  - Cleo Anderson
+  - Olivia Marie Soliman
+  - Claudia Liu
+  - Joseph Firth
+  - John Torous
+year: 2026
+doi: 10.1007/s41347-026-00630-6
+url: https://doi.org/10.1007/s41347-026-00630-6
+publication_status: "Published in Journal of Technology in Behavioral Science"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Linardon et al - 2026 - Fluency Without Fidelity.pdf"
+notes: >
+  Audited 333 citation-claim pairs in 12 ChatGPT-5-generated mental-health
+  literature reviews. Every reference mapped to a real publication, yet only
+  43.5% of claims were fully accurate; 19.8% were fabricated or contradictory
+  and 18.3% had major inaccuracies. The study used one model, one prompt, and
+  one domain, so rates should not be generalized to all systems or topics.

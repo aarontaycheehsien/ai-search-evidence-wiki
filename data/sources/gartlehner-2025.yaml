@@ -1,0 +1,35 @@
+id: gartlehner-2025
+type: journal-article
+title: "Artificial Intelligence-Assisted Data Extraction With a Large Language Model: A Study Within Reviews"
+authors:
+  - Gerald Gartlehner
+  - Shannon Kugley
+  - Karen Crotty
+  - Meera Viswanathan
+  - Andreea Dobrescu
+  - Barbara Nussbaumer-Streit
+  - Graham Booth
+  - Jonathan R. Treadwell
+  - Jung Min Han
+  - Jesse Wagner
+  - Eric A. Apaydin
+  - Erin L. Coppola
+  - Margaret Maglione
+  - Rainer Hilscher
+  - Robert Chew
+  - Meagan Pilar
+  - Bryan Swanton
+  - Leila C. Kahwati
+year: 2025
+doi: 10.7326/ANNALS-25-00739
+url: https://doi.org/10.7326/ANNALS-25-00739
+publication_status: "Published in Annals of Internal Medicine 178(12), 1763-1771"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Gartlehner et al - 2025 - AI-assisted data extraction with an LLM.pdf"
+notes: >
+  Prospective study within six ongoing reviews comparing Claude-first extraction
+  checked by a human with conventional human-first extraction checked by a
+  second human. Across 9,341 data items from 63 studies, the AI-assisted workflow
+  had 91.0% accuracy versus 89.0% for human-only extraction and saved a median
+  41 minutes per study. Both arms retained errors, and only discordant items were
+  adjudicated, so shared errors could have been missed.

@@ -1,0 +1,18 @@
+id: appraisal-001
+claim: >
+  Standalone general-purpose LLMs have not demonstrated sufficient agreement or
+  diagnostic performance for autonomous risk-of-bias and evidence-appraisal
+  judgments.
+status: supported
+topics:
+  - ai-evidence-appraisal
+evidence:
+  - source_id: nyrhi-2026
+    relationship: supports
+    locator: "Abstract, PDF p. 1; Table 2 and Results, PDF p. 4; Tables 3-4, PDF p. 6"
+    note: "Across two 100-trial corpora, Cohen kappa ranged from 0.27 to 0.39 for RoB 1 and 0.06 to 0.13 for RoB 2; high-risk sensitivity was 0.05-0.55, PPV 0.31-0.50, and NPV 0.48-0.61."
+  - source_id: woelfle-2024
+    relationship: supports
+    locator: "Table 2, PDF p. 8"
+    note: "In this preprint, individual LLM accuracy was 63%-70% for PRISMA, 53%-74% for AMSTAR, and 38%-55% for PRECIS-2, below individual-human accuracy of 89%, 89%, and 75%."
+last_reviewed: 2026-09-25

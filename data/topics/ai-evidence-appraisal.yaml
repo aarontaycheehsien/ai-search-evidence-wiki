@@ -1,0 +1,10 @@
+id: ai-evidence-appraisal
+title: AI for risk-of-bias and evidence appraisal
+type: question
+question: >
+  How reliably can large language models assess risk of bias, reporting quality,
+  methodological rigor, and study design?
+claim_ids:
+  - appraisal-001
+  - appraisal-002
+last_reviewed: 2026-09-25

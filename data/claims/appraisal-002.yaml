@@ -1,0 +1,18 @@
+id: appraisal-002
+claim: >
+  Human-LLM agreement workflows may improve simpler checklist-based appraisal,
+  but the apparent benefit falls sharply for appraisal tasks requiring complex
+  contextual judgment.
+status: provisional
+topics:
+  - ai-evidence-appraisal
+evidence:
+  - source_id: woelfle-2024
+    relationship: supports
+    locator: "Table 3, PDF pp. 10-11; Discussion and limitations, PDF pp. 12-14"
+    note: "Human-LLM pairs reached 89%-96% accuracy for PRISMA and 91%-95% for AMSTAR while deferring 25%-52% of ratings. PRECIS-2 reached 80%-86% but deferred 71%-76%, and only one of ten pairings significantly outperformed a human alone. This evidence is from a preprint and workload savings were not prospectively measured."
+  - source_id: nyrhi-2026
+    relationship: qualifies
+    locator: "Results and interpretation, PDF pp. 4-7"
+    note: "A later peer-reviewed validation found poor RoB 2 agreement and recommends supervised triage or second-assessor use rather than autonomous assessment."
+last_reviewed: 2026-09-25

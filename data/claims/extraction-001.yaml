@@ -1,0 +1,14 @@
+id: extraction-001
+claim: >
+  In one prospective study within reviews, human-verified LLM extraction was
+  slightly more accurate and faster than a conventional human-only workflow,
+  while both approaches retained consequential errors.
+status: supported
+topics:
+  - llm-data-extraction
+evidence:
+  - source_id: gartlehner-2025
+    relationship: supports
+    locator: "Results, PDF pp. 7-9; Figure 2, PDF p. 19; Tables 1-2, PDF pp. 20-21"
+    note: "Across 9,341 items from 63 studies, AI-assisted versus human-only accuracy was 91.0% versus 89.0%, major-error rates were 2.5% versus 2.7%, and median time was 84 versus 125 minutes per study. Only discordant extractions were adjudicated."
+last_reviewed: 2026-09-25

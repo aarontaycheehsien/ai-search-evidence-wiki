@@ -1,0 +1,25 @@
+id: nyrhi-2026
+type: journal-article
+title: "Large language models for risk-of-bias assessment in randomised clinical trials—a comparative validation study"
+authors:
+  - Lauri Nyrhi
+  - Ville Ponkilainen
+  - Juho Laaksonen
+  - Lauri Kuikka
+  - Lauri Paljakka
+  - Teemu Karjalainen
+  - Ville M. Mattila
+  - Ilari Kuitunen
+year: 2026
+doi: 10.1016/j.ebiom.2026.106238
+url: https://doi.org/10.1016/j.ebiom.2026.106238
+publication_status: "Published in eBioMedicine 126, 106238"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Nyrhi et al - 2026 - LLMs for risk-of-bias assessment.pdf"
+notes: >
+  Preregistered validation of four LLMs against published human judgments for
+  100 RoB 1 and 100 RoB 2 trial assessments. Agreement was fair for RoB 1 and
+  poor for RoB 2, with low positive and negative predictive values and systematic
+  over-flagging of concerns. The human reference judgments may themselves be
+  imperfect, sampling was not random, and training-data contamination could not
+  be excluded.

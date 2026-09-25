@@ -1,0 +1,10 @@
+id: llm-search-strategy-generation
+title: LLMs for search strategy generation and expansion
+type: question
+question: >
+  How reliably do large language models generate or expand literature-search
+  queries for evidence synthesis?
+claim_ids:
+  - search-001
+  - search-002
+last_reviewed: 2026-09-25

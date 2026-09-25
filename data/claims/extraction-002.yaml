@@ -1,0 +1,18 @@
+id: extraction-002
+claim: >
+  Current LLM data extraction can be precise yet incomplete, with omissions as
+  the dominant error; task-specific prompts improve recall but do not remove the
+  need for human verification of meta-analytic data.
+status: supported
+topics:
+  - llm-data-extraction
+evidence:
+  - source_id: li-2026-extraction
+    relationship: supports
+    locator: "Table 2, PDF p. 9; Figures 2-3 and Table 3, PDF pp. 10-11; error analysis, PDF pp. 14-15"
+    note: "Across 58 RCTs, baseline statistical-result recall ranged from 0.214 to 0.445 despite precision of 0.856 to 0.939. Customized prompts raised recall by 14.8 percentage points on average; 87.8% of 22,196 catalogued errors were missing fields."
+  - source_id: gartlehner-2025
+    relationship: contextual
+    locator: "Results, PDF pp. 7-9"
+    note: "A supervised workflow performed well in a real-world comparison, but still had a 9.0% overall incorrect-extraction rate and a 2.5% major-error rate."
+last_reviewed: 2026-09-25

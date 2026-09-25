@@ -1,0 +1,14 @@
+id: search-002
+claim: >
+  Generative query expansion does not produce uniform retrieval gains across
+  biomedical benchmarks; its effect depends on the expansion method and dataset
+  and often changes ranking more than overall screening coverage.
+status: supported
+topics:
+  - llm-search-strategy-generation
+evidence:
+  - source_id: fang-2026-query
+    relationship: supports
+    locator: "Table 2, PDF pp. 6-7; Discussion, PDF pp. 9-11"
+    note: "Across eight expansion methods and three LLMs, several BioASQ and PubMedQA results fell below the unexpanded baseline, while most TREC Precision Medicine configurations improved recall or nDCG. The authors characterize the main effect as reranking with limited screening-stage impact."
+last_reviewed: 2026-09-25

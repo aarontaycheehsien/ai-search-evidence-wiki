@@ -1,6 +1,6 @@
 # AI Search Evidence Wiki
 
-A small Git-based evidence wiki about AI-assisted academic search and evidence synthesis. Version 1 focuses on LLMs for citation screening in evidence synthesis.
+A small Git-based evidence wiki about AI-assisted academic search and evidence synthesis. Current topics cover citation screening, research assistants, search-strategy generation, structured data extraction, evidence appraisal, citation fidelity, and deduplication.
 
 The repository keeps source and claim records in YAML. Python scripts validate those records and deterministically generate Markdown pages. Zensical builds the Markdown into a static site. Codex Desktop can provide interactive reasoning while a human reviews proposed evidence changes; the repository itself makes no LLM or API calls.
 

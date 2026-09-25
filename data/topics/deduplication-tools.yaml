@@ -1,0 +1,9 @@
+id: deduplication-tools
+title: Automated deduplication tools for evidence synthesis
+type: question
+question: >
+  What accuracy and time tradeoffs have been observed among automated and
+  semi-automated deduplication tools?
+claim_ids:
+  - dedup-001
+last_reviewed: 2026-09-25
