@@ -1,0 +1,18 @@
+id: assistant-001
+claim: >
+  Elicit has shown higher precision but lower sensitivity than completed
+  evidence-synthesis searches in retrospective comparisons; its output has
+  also varied across repeated searches.
+status: mixed
+topics:
+  - research-assistant-tools
+evidence:
+  - source_id: lau-golder-2025
+    relationship: supports
+    locator: "Abstract, p. 1; case-study results, PDF pp. 4–6"
+    note: "Across four evidence syntheses, mean sensitivity was 39.5% for Elicit versus 94.5% for original searches, while mean precision was 41.8% versus 7.55%. Elicit also found eligible studies absent from the original searches."
+  - source_id: bernard-2025
+    relationship: qualifies
+    locator: "Results, PDF pp. 3–4"
+    note: "For one umbrella-review question, repeated runs retrieved 246, 169, and 172 records; Elicit found 3 of 17 included reviews from the prior review and 3 additional eligible reviews. This used an earlier product version and one topic."
+last_reviewed: 2026-09-25

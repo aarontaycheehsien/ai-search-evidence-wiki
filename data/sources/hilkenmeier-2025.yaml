@@ -1,0 +1,20 @@
+id: hilkenmeier-2025
+type: journal-article
+title: "Evaluating the AI Tool ‘Elicit’ as a Semi-Automated Second Reviewer for Data Extraction in Systematic Reviews: A Proof-of-Concept"
+authors:
+  - Frederic Hilkenmeier
+  - Marie Pelzer
+  - Christian Stierle
+  - Jakob Fink-Lamotte
+year: 2025
+doi: 10.1177/08944393251404052
+url: https://doi.org/10.1177/08944393251404052
+publication_status: "Published in Social Science Computer Review"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Hilkenmeier et al - 2025 - Elicit second reviewer data extraction.pdf"
+notes: >
+  Proof-of-concept within one systematic review, comparing Elicit with human
+  extraction over 43 studies and 602 data points. Against a consensus ground
+  truth, reported accuracy was 81.4% for Elicit and 86.7% for the human
+  reviewer; extraction agreement was lower for complex result and construct
+  fields. The review topic and prompt calibration limit generalization.

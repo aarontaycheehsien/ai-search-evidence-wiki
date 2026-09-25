@@ -1,0 +1,27 @@
+id: sanghera-2025
+type: journal-article
+title: "High-performance automated abstract screening with large language model ensembles"
+authors:
+  - Rohan Sanghera
+  - Arun James Thirunavukarasu
+  - Marc El Khoury
+  - Jessica O'Logbon
+  - Yuqing Chen
+  - Archie Watt
+  - Mustafa Mahmood
+  - Hamid Butt
+  - George Nishimura
+  - Andrew A.S. Soltan
+year: 2025
+doi: 10.1093/jamia/ocaf050
+url: https://doi.org/10.1093/jamia/ocaf050
+publication_status: "Published in Journal of the American Medical Informatics Association 32(5), 893-904"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Sanghera et al - 2025 - High-performance automated abstract screening.pdf"
+notes: >
+  Retrospective evaluation using 23 Cochrane reviews. Prompt selection used a
+  balanced 800-record development sample; performance was then assessed on
+  119,695 search-result records. The authors report very low precision in the
+  comprehensive set and a sensitivity-workload tradeoff across ensemble rules.
+  Workload reductions are calculated from the retrospective screening data,
+  not measured staff time in a prospective review.

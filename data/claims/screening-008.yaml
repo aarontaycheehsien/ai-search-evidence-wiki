@@ -1,0 +1,14 @@
+id: screening-008
+claim: >
+  In a four-reviewer comparison, reviewers given LLM-generated PICOS summaries
+  screened the same citation set faster and had higher observed sensitivity
+  than reviewers who saw titles and abstracts alone.
+status: provisional
+topics:
+  - llm-screening
+evidence:
+  - source_id: vallamchetla-2025
+    relationship: supports
+    locator: "PubMed abstract, Methods and Results (PMID 40447171)"
+    note: "Abstract-only evidence: on 1,003 records, assisted reviewers took 116 and 90 minutes versus 463 and 370 minutes for unassisted reviewers; reported sensitivities were 100% versus 88% and 92%. Four distinct trainees were compared, so the observed difference does not isolate a causal effect of the summaries."
+last_reviewed: 2026-09-25

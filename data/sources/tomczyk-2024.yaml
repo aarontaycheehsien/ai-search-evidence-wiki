@@ -1,0 +1,20 @@
+id: tomczyk-2024
+type: journal-article
+title: "Are AI tools better than traditional tools in literature searching? Evidence from E-commerce research"
+authors:
+  - Przemysław Tomczyk
+  - Philipp Brüggemann
+  - Niklas Mergner
+  - Maria Petrescu
+year: 2024
+doi: 10.1177/09610006241295802
+url: https://doi.org/10.1177/09610006241295802
+publication_status: "Published in Journal of Librarianship and Information Science"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Tomczyk et al - 2024 - AI vs traditional literature search.pdf"
+notes: >
+  Manually assessed the top eight results from Scopus, Web of Science, Elicit,
+  and SciSpace for nine e-commerce questions. The paper reports title/abstract
+  accuracy of 56% for Elicit and 33% for SciSpace, versus 65% for Scopus and
+  78% for Web of Science; AI tools also surfaced unique items. Narrow topic
+  domain and top-eight sampling limit generalization.

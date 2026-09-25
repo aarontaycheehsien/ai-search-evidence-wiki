@@ -1,0 +1,18 @@
+id: assistant-006
+claim: >
+  User-facing evaluations identify speed and ease of use as benefits of Elicit,
+  alongside concerns about generated-abstract accuracy, brevity, and
+  transparency of result counts.
+status: provisional
+topics:
+  - research-assistant-tools
+evidence:
+  - source_id: fenske-2024
+    relationship: supports
+    locator: "Results, PDF pp. 5–9"
+    note: "In a descriptive course study with 323 graduate nursing students, 26.0% preferred Elicit, compared with 30.7% for PubMed and 31.6% for CINAHL. Among Elicit-preferring students, 38.8% cited ease of use and 16.3% cited speed; across respondents, 34.1% identified inaccurate abstracts and 39.5% overly brief abstracts as weaknesses. This was not a blinded article-level accuracy benchmark."
+  - source_id: patterson-2025
+    relationship: contextual
+    locator: "Methods and results, PDF pp. 3–6"
+    note: "Librarian/student raters valued discovery and search features, but the study used a small rater group and had low average agreement."
+last_reviewed: 2026-09-25

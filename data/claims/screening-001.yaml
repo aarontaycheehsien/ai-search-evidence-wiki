@@ -20,10 +20,22 @@ evidence:
     note: "GPT-4 title/abstract sensitivity was 0.42 for balanced English peer-reviewed records, 0.48 for English grey literature, and 0.50 for other-language records."
   - source_id: li-2024
     relationship: supports
-    locator: "Tables 2-4, PDF pp. 15, 17, 19"
-    note: "Preprint: ChatGPT v4.0 sensitivity was 0.930, 0.812, and 0.932 in three selected datasets."
+    locator: "Tables 2-4, journal PDF pp. 9, 11-12"
+    note: "Published journal version: ChatGPT v4.0 sensitivity was 0.930, 0.812, and 0.932 in three selected datasets."
   - source_id: guo-2024
     relationship: supports
     locator: "Table 3, PDF p. 5"
     note: "Inclusion sensitivity ranged from 0.593 to 1.000 across six clinical review datasets; weighted overall sensitivity was 0.764."
+  - source_id: sanghera-2025
+    relationship: supports
+    locator: "Table 3, PDF p. 7"
+    note: "Across 119,695 records from 23 reviews, selected model-prompt combinations had sensitivity from 0.756 to 1.000."
+  - source_id: homiar-2025
+    relationship: supports
+    locator: "Table 3, PDF p. 4"
+    note: "Title/abstract sensitivity was 0.91 on the baseline set, 1.00 in update 1, and 0.58 in update 2; sensitivity for final full-text inclusions was 1.00 in each set."
+  - source_id: cao-2025
+    relationship: supports
+    locator: "PubMed abstract, Results (PMID 39993313)"
+    note: "Abstract-only evidence: optimized-prompt sensitivity ranged from 86.7% to 100% across ten reviews, with weighted sensitivity 97.7%."
 last_reviewed: 2026-09-25

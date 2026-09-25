@@ -1,0 +1,21 @@
+id: galbreath-2025
+type: journal-article
+title: "AI-Infused Discovery Environments: Information Retrieval Boon or Overpromised Hype?"
+authors:
+  - Blake L. Galbreath
+  - Erica England
+  - Corey M. Johnson
+  - Jen Saulnier Lange
+year: 2025
+doi: 10.5860/ital.v44i4.17465
+url: https://doi.org/10.5860/ital.v44i4.17465
+publication_status: "Published in Information Technology and Libraries 44(4)"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Galbreath et al - 2025 - Primo Research Assistant evaluation.pdf"
+notes: >
+  Evaluated Primo Research Assistant (PRA) against expert Boolean searches using
+  natural-language queries from a Primo zero-results report. Across the
+  analyzed queries, the abstract reports similar proportions of topic-relevant
+  sources for PRA and conventional Primo (46.3% and 45.6%); it also reports
+  limited title overlap and some overview-summary misrepresentation. Results
+  are from one institution and a beta implementation.

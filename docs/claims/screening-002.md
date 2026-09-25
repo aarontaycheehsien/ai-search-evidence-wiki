@@ -25,10 +25,10 @@
 ### Evaluating the Effectiveness of Large Language Models in Abstract Screening: A Comparative Analysis
 
 - **Source:** [li-2024](../evidence/li-2024.md)
-- **Category:** preprint
+- **Category:** peer-reviewed-study
 - **Relationship:** supports
-- **Locator:** Tables 3-4, PDF pp. 17, 19
-- **Note:** Preprint: for example, Google PaLM on Meijboom had accuracy 0.890 and sensitivity 0.647; ChatGPT v3.5 on Menon had accuracy 0.711 and sensitivity 0.315.
+- **Locator:** Tables 3-4, journal PDF pp. 11-12
+- **Note:** Published journal version: Google PaLM on Meijboom had accuracy 0.890 and sensitivity 0.647; ChatGPT v3.5 on Menon had accuracy 0.711 and sensitivity 0.315.
 
 ### Automated title and abstract screening for scoping reviews using the GPT-4 Large Language Model
 
@@ -37,6 +37,14 @@
 - **Relationship:** supports
 - **Locator:** Results, PDF p. 7
 - **Note:** Preprint: GPTscreenR accuracy was 84% while weighted sensitivity was 71%.
+
+### High-performance automated abstract screening with large language model ensembles
+
+- **Source:** [sanghera-2025](../evidence/sanghera-2025.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** contextual
+- **Locator:** Table 3, PDF p. 7
+- **Note:** On 119,695 low-prevalence search results, selected model-prompt combinations had positive predictive values of 0.004-0.096 despite balanced accuracies of 0.710-0.926; this illustrates a different misleading summary-metric problem.
 
 ## Topics
 

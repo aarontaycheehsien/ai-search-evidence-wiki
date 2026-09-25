@@ -1,0 +1,41 @@
+id: homiar-2025
+type: journal-article
+title: "Development and evaluation of prompts for a large language model to screen titles and abstracts in a living systematic review"
+authors:
+  - Ava Homiar
+  - James Thomas
+  - Edoardo G Ostinelli
+  - Jaycee Kennett
+  - Claire Friedrich
+  - Pim Cuijpers
+  - Mathias Harrer
+  - Stefan Leucht
+  - Clara Miguel
+  - Alessandro Rodolico
+  - Yuki Kataoka
+  - Tomohiro Takayama
+  - Keisuke Yoshimura
+  - Ryuhei So
+  - Yasushi Tsujimoto
+  - Yosuke Yamagishi
+  - Shiro Takagi
+  - Masatsugu Sakata
+  - Đorđe Bašić
+  - Eirini Karyotaki
+  - Jennifer Potts
+  - Georgia Salanti
+  - Toshi A Furukawa
+  - Andrea Cipriani
+year: 2025
+doi: 10.1136/bmjment-2025-301762
+url: https://doi.org/10.1136/bmjment-2025-301762
+publication_status: "Published in BMJ Mental Health 28, 2025"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Homiar et al - 2025 - Development and evaluation of prompts.pdf"
+notes: >
+  One living review on prodopaminergic interventions for anhedonia. Prompts
+  were developed on 1,045 baseline records, then evaluated on remaining
+  baseline records and two updates. Table 3 distinguishes title/abstract
+  decisions from studies ultimately included after full-text review. Reported
+  workload reductions are simulated; the authors did not measure prospective
+  staff time for the LLM-assisted workflow.

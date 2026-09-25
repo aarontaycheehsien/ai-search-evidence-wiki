@@ -1,0 +1,22 @@
+id: assistant-005
+claim: >
+  Elicit data-extraction evaluations report imperfect accuracy that varies by
+  field and evidence base, supporting human verification rather than
+  autonomous use.
+status: mixed
+topics:
+  - research-assistant-tools
+evidence:
+  - source_id: hilkenmeier-2025
+    relationship: supports
+    locator: "Results, PDF pp. 6–7; methods, pp. 3–5"
+    note: "Across 43 studies and 602 data points, Elicit accuracy was 81.4% versus 86.7% for a human reviewer against a consensus ground truth; agreement and accuracy were lower for complex constructs and main-results fields."
+  - source_id: mazzali-2026
+    relationship: qualifies
+    locator: "Results, PDF p. 8"
+    note: "Elicit disagreed with reviewers on 24.4% of general and 30.4% of additional AMSTAR-2 EH appraisal items; errors clustered on multi-component and expert-interpretation questions."
+  - source_id: lagisz-2026
+    relationship: qualifies
+    locator: "Abstract, PDF p. 1; Results, PDF pp. 10–13"
+    note: "Across seven life/environmental science reviews, test-set extraction accuracy was 86.6%; re-extraction across accounts agreed on 90% of values but only 46% of supporting quotes and 30% of reasoning. Accuracy in high-accuracy mode was 82.1%. Prompt-development results tended to be higher than results on held-out articles."
+last_reviewed: 2026-09-25

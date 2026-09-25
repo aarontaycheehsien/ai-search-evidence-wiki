@@ -1,0 +1,23 @@
+id: mazzali-2026
+type: journal-article
+title: "Evaluating Elicit’s systematic reviews workflow in an umbrella review on air pollution and acute lower respiratory infections: a methodological study for quality appraisal"
+authors:
+  - Cristina Mazzali
+  - Tiziana Pinciroli
+  - Maria Rosa Valetto
+  - Pietro Dri
+  - Antonio Giampiero Russo
+year: 2026
+doi: 10.1186/s12874-026-02892-3
+url: https://doi.org/10.1186/s12874-026-02892-3
+publication_status: "Published in BMC Medical Research Methodology 26:167"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Mazzali et al - 2026 - Elicit systematic review workflow.pdf"
+notes: >
+  Compared a traditional umbrella-review workflow with Elicit. The searches
+  themselves had only 8% overlap and therefore did not permit direct recall
+  comparison. Applying Elicit screening to the traditional 324-record corpus
+  yielded title/abstract recall 90.9% and precision 42.9%; full-text recall was
+  100% and precision 62.5%. Quality-appraisal answers disagreed with reviewers
+  on 24.4% of general items and 30.4% of additional items. See the paper for
+  confidence intervals, task definitions, and limitations.

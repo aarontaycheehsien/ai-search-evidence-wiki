@@ -1,0 +1,20 @@
+id: patterson-2025
+type: journal-article
+title: "Which AI Tools Work Best for Research? Using Librarian and Student Perspectives to Inform a Rating Rubric"
+authors:
+  - Brandon Patterson
+  - Carlos Flores
+  - Nick Hauschild
+  - Jared Branch
+year: 2025
+doi: 10.1080/15424065.2025.2546052
+url: https://doi.org/10.1080/15424065.2025.2546052
+publication_status: "Published in Journal of Electronic Resources in Medical Libraries 22(3), 133-138"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Patterson et al - 2025 - AI research tool rating rubric.pdf"
+notes: >
+  Rubric-based assessment of 15 tools by a librarian and one or two student
+  raters across discovery, search, and reviews. Undermind and paid Elicit were
+  top-rated overall, but average interrater agreement was 21.1% and agreement
+  for Undermind was 54%; this is a small subjective usability/rubric study, not
+  a retrieval benchmark.

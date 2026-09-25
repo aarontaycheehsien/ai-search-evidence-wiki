@@ -102,9 +102,12 @@ def test_changed_claim_maps_to_its_pages() -> None:
     assert affected_claim("screening-001") == [
         "docs/claims/index.md",
         "docs/claims/screening-001.md",
+        "docs/evidence/cao-2025.md",
         "docs/evidence/guo-2024.md",
+        "docs/evidence/homiar-2025.md",
         "docs/evidence/khraisha-2024.md",
         "docs/evidence/li-2024.md",
+        "docs/evidence/sanghera-2025.md",
         "docs/evidence/syriani-2023.md",
         "docs/evidence/tran-2024.md",
         "docs/questions/llm-screening.md",

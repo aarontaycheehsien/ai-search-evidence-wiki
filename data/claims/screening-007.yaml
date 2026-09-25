@@ -1,0 +1,26 @@
+id: screening-007
+claim: >
+  Evaluated LLM screening workflows yielded calculated reductions in manual
+  screening volume, with the amount saved dependent on the decision rule and
+  observed sensitivity.
+status: supported
+topics:
+  - llm-screening
+evidence:
+  - source_id: sanghera-2025
+    relationship: supports
+    locator: "Table 4, PDF p. 9"
+    note: "On 119,695 retrospective records, perfect-sensitivity parallel ensembles had calculated workload reductions of 37.55%-41.81%; a series ensemble reached 99.13% with sensitivity 0.6900. These are modeled record counts, not observed reviewer time."
+  - source_id: homiar-2025
+    relationship: supports
+    locator: "Table 3, PDF p. 4"
+    note: "Simulated manual-screening reductions were 65.72% in the baseline set and 79.04% and 85.63% in two updates, with title/abstract sensitivity 0.91, 1.00, and 0.58 respectively."
+  - source_id: nykvist-2025
+    relationship: supports
+    locator: "Table 1 and Results, PDF pp. 3-4"
+    note: "In one environmental review, work saved over sampling rose from 0.55 at cutoff 0.5 to 0.75 at cutoff 0.8, while recall fell from 1.00 to 0.96."
+  - source_id: fagerberg-2026
+    relationship: contextual
+    locator: "Table 1 and note, PDF pp. 7-8"
+    note: "Preprint prospective deployment routed 10,821 of 74,679 records to routine human review and estimated 34 versus 415 first-pass person-days; time was modeled and implementation overhead omitted."
+last_reviewed: 2026-09-25

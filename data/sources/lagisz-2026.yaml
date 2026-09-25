@@ -1,0 +1,25 @@
+id: lagisz-2026
+type: journal-article
+title: "Using Elicit AI research assistant for data extraction in systematic reviews: A feasibility study across environmental and life sciences"
+authors:
+  - Malgorzata Lagisz
+  - Ayumi Mizuno
+  - Kyle Morrison
+  - Pietro Pollo
+  - Lorenzo Ricolfi
+  - Yefeng Yang
+  - Shinichi Nakagawa
+year: 2026
+doi: 10.1017/rsm.2026.10080
+url: https://doi.org/10.1017/rsm.2026.10080
+publication_status: "Published in Research Synthesis Methods"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Lagisz et al - 2026 - Elicit data extraction feasibility.pdf"
+notes: >
+  Evaluated extraction across seven life and environmental science reviews,
+  using eight papers per review for prompt development and another eight for
+  testing. Test accuracy was 86.6%; repeating extraction with different
+  accounts yielded 90% agreement on values but only 46% quote and 30% reasoning
+  matches. The high-accuracy mode's accuracy was 82.1%. The study reports that
+  accuracy varied and was lower on test articles than during prompt
+  development; time savings were not measured.

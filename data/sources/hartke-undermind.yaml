@@ -1,0 +1,21 @@
+id: hartke-undermind
+type: vendor-white-paper
+title: "Benchmarking the Undermind Search Assistant"
+authors:
+  - Thomas Hartke
+  - Joshua Ramette
+year: 2024
+url: https://www.undermind.ai/static/Undermind_whitepaper.pdf
+publication_status: "Undermind.ai vendor-authored white paper dated 5 January 2024; not peer reviewed"
+source_category: vendor-documentation
+local_file: "incoming/papers/Hartke and Ramette - 2024 - Undermind benchmark.pdf"
+notes: >
+  Vendor benchmark of an early Undermind implementation that searched 2.3
+  million arXiv papers using GPT-4. It compares approximately 300 late-2023
+  user queries with five GPT-4-generated Google Scholar keyword searches per
+  query. Relevance for both systems was assigned by Undermind's own classifier;
+  a separate manual check covered 432 classified papers. The report claims
+  roughly tenfold greater result yield and density and estimates 97.6% recovery
+  of highly relevant papers found in Google Scholar's top results. These are
+  vendor-reported results whose comparator construction, shared classifier,
+  arXiv-only scope, and model-based extrapolation constrain interpretation.

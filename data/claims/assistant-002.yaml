@@ -1,0 +1,22 @@
+id: assistant-002
+claim: >
+  Independent tool comparisons report different retrieval relevance and
+  coverage profiles across query sets; current evidence does not establish a
+  general-purpose winner over conventional library search.
+status: mixed
+topics:
+  - research-assistant-tools
+evidence:
+  - source_id: tomczyk-2024
+    relationship: supports
+    locator: "Methods and Findings, PDF p. 5"
+    note: "For the top eight results across nine e-commerce questions, title/abstract accuracy was 56% for Elicit and 33% for SciSpace, compared with 65% for Scopus and 78% for Web of Science; AI tools also surfaced unique papers."
+  - source_id: galbreath-2025
+    relationship: contextual
+    locator: "Abstract, p. 1; results section"
+    note: "Across 103 natural-language queries, the share of top citations judged relevant was similar for Primo Research Assistant and conventional Primo (46.3% vs 45.6%), with limited title overlap."
+  - source_id: tranfield-2024
+    relationship: qualifies
+    locator: "Preliminary Results, PDF pp. 4–5"
+    note: "In a six-tool comparison across ten STEM subdisciplines, SciSpace had high citation overlap and Elicit retrieved fewer recent materials; abstract relevance scoring was still ongoing, so this is descriptive coverage evidence rather than a completed accuracy comparison."
+last_reviewed: 2026-09-25

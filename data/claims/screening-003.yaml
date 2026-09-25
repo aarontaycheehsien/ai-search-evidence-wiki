@@ -16,8 +16,8 @@ evidence:
     note: "GPT-4 title/abstract sensitivity was 0.42-0.50 across the reported literature strata."
   - source_id: li-2024
     relationship: supports
-    locator: "Tables 2-4, PDF pp. 15, 17, 19"
-    note: "Preprint: ChatGPT v4.0 sensitivity was below 1.0 on each of the three selected datasets."
+    locator: "Tables 2-4, journal PDF pp. 9, 11-12"
+    note: "Published journal version: ChatGPT v4.0 sensitivity was below 1.0 on each of the three selected datasets."
   - source_id: syriani-2023
     relationship: supports
     locator: "Table 10, PDF p. 19"
@@ -30,4 +30,12 @@ evidence:
     relationship: supports
     locator: "Results, PDF p. 7"
     note: "Preprint: 71% weighted sensitivity across 1,147 records in six scoping reviews."
+  - source_id: sanghera-2025
+    relationship: supports
+    locator: "Table 3, PDF p. 7"
+    note: "Four of five selected model-prompt combinations had sensitivity below 1.0 on the comprehensive 119,695-record dataset."
+  - source_id: homiar-2025
+    relationship: contextual
+    locator: "Table 3, PDF p. 4"
+    note: "This single living-review evaluation retained all final full-text inclusions, while title/abstract sensitivity fell to 0.58 in one update; the reference-standard stage changes the interpretation."
 last_reviewed: 2026-09-25

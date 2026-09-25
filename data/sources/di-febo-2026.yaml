@@ -1,0 +1,25 @@
+id: di-febo-2026
+type: journal-article
+title: "Comparative evaluation of artificial intelligence–assisted literature search tools for identifying clinically meaningful evidence in cardiology"
+authors:
+  - Riccardo Di Febo
+  - Maximiliano Jeanneret Medina
+  - Alexandre Renaud
+  - Maryam Dridi
+  - Valentine Pecriaux
+  - Benoit Lequeux
+  - Stephane Lafitte
+  - Baptiste Maille
+  - Aymeric Menet
+year: 2026
+doi: 10.1093/ehjdh/ztag125
+url: https://doi.org/10.1093/ehjdh/ztag125
+publication_status: "Published in European Heart Journal - Digital Health"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Di Febo et al - 2026 - AI literature search cardiology comparison.pdf"
+notes: >
+  Compared ChatGPT-5, Elicit, Consensus, Scite, and PubMed on four cardiology
+  topics, with blinded expert judgments of relevance and key references. The
+  abstract identifies substantial tool-level variation, but reports ChatGPT-5
+  rather than Consensus as the top performer. This is a narrow, single-domain
+  evaluation at one product snapshot; do not infer a general ranking from it.

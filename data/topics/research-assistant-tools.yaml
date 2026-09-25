@@ -1,0 +1,15 @@
+id: research-assistant-tools
+title: Empirical evaluations of AI research assistants
+type: question
+question: >
+  What do empirical studies report about the retrieval, relevance, usability,
+  and evidence-extraction performance of AI research assistants and discovery
+  tools?
+claim_ids:
+  - assistant-001
+  - assistant-002
+  - assistant-003
+  - assistant-004
+  - assistant-005
+  - assistant-006
+last_reviewed: 2026-09-25

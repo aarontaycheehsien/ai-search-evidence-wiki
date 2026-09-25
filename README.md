@@ -4,7 +4,7 @@ A small Git-based evidence wiki about AI-assisted academic search and evidence s
 
 The repository keeps source and claim records in YAML. Python scripts validate those records and deterministically generate Markdown pages. Zensical builds the Markdown into a static site. Codex Desktop can provide interactive reasoning while a human reviews proposed evidence changes; the repository itself makes no LLM or API calls.
 
-The current evidence records were extracted from seven PDFs supplied in `incoming/papers/`. Four are recorded as journal studies and three as preprints. Review the source locators and notes before relying on a claim.
+The evidence records include journal studies and preprints. Most were extracted from PDFs in `incoming/papers/`; two newer records are limited to saved PubMed abstracts because full texts were unavailable. Review each source's locator and notes before relying on a claim.
 
 ## Structure
 

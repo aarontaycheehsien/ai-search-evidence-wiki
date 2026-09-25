@@ -25,10 +25,10 @@
 ### Evaluating the Effectiveness of Large Language Models in Abstract Screening: A Comparative Analysis
 
 - **Source:** [li-2024](../evidence/li-2024.md)
-- **Category:** preprint
+- **Category:** peer-reviewed-study
 - **Relationship:** supports
-- **Locator:** Tables 2-4, PDF pp. 15, 17, 19
-- **Note:** Preprint: ChatGPT v4.0 sensitivity was below 1.0 on each of the three selected datasets.
+- **Locator:** Tables 2-4, journal PDF pp. 9, 11-12
+- **Note:** Published journal version: ChatGPT v4.0 sensitivity was below 1.0 on each of the three selected datasets.
 
 ### Assessing the Ability of ChatGPT to Screen Articles for Systematic Reviews
 
@@ -53,6 +53,22 @@
 - **Relationship:** supports
 - **Locator:** Results, PDF p. 7
 - **Note:** Preprint: 71% weighted sensitivity across 1,147 records in six scoping reviews.
+
+### High-performance automated abstract screening with large language model ensembles
+
+- **Source:** [sanghera-2025](../evidence/sanghera-2025.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Table 3, PDF p. 7
+- **Note:** Four of five selected model-prompt combinations had sensitivity below 1.0 on the comprehensive 119,695-record dataset.
+
+### Development and evaluation of prompts for a large language model to screen titles and abstracts in a living systematic review
+
+- **Source:** [homiar-2025](../evidence/homiar-2025.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** contextual
+- **Locator:** Table 3, PDF p. 4
+- **Note:** This single living-review evaluation retained all final full-text inclusions, while title/abstract sensitivity fell to 0.58 in one update; the reference-standard stage changes the interpretation.
 
 ## Topics
 

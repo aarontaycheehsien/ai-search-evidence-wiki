@@ -1,0 +1,21 @@
+id: nykvist-2025
+type: journal-article
+title: "Testing the utility of GPT for title and abstract screening in environmental systematic evidence synthesis"
+authors:
+  - Björn Nykvist
+  - Biljana Macura
+  - Maria Xylia
+  - Erik Olsson
+year: 2025
+doi: 10.1186/s13750-025-00360-x
+url: https://doi.org/10.1186/s13750-025-00360-x
+publication_status: "Published in Environmental Evidence 14, article 7, 2025"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Nykvist et al - 2025 - Testing the utility of GPT.pdf"
+notes: >
+  Retrospective evaluation of one environmental review with 11,984 records.
+  Three GPT versions were tested with one prompt and relevance-probability
+  thresholds. Table 1 reports GPT-4-1106 recall of 1.00 at thresholds through
+  0.6 and lower recall at higher thresholds. Work saved is a modeled screening
+  count, not observed reviewer time; generalizability beyond this review is
+  untested.

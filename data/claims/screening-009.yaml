@@ -1,0 +1,14 @@
+id: screening-009
+claim: >
+  A 2026 preprint reports prospective audited LLM triage in two national
+  guideline programmes, with no confirmed final false negatives among sampled
+  AI-excluded records after post-unblinding adjudication.
+status: provisional
+topics:
+  - llm-screening
+evidence:
+  - source_id: fagerberg-2026
+    relationship: supports
+    locator: "Table 1 and Results, PDF pp. 7-9"
+    note: "The locked ensemble placed 63,858 of 74,679 records in the AI-excluded pool. In 600 sampled AI-excluded records, none was a confirmed final false negative after unblinding; all 38 finally retained records in the 680-record completed audit had been AI flagged. The final standard incorporated AI outputs, and the sample cannot rule out rare or review-local misses."
+last_reviewed: 2026-09-25

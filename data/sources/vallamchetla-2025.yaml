@@ -1,0 +1,24 @@
+id: vallamchetla-2025
+type: journal-article
+title: "Do it faster with PICOS: Generative AI-Assisted systematic review screening"
+authors:
+  - Sai Krishna Vallamchetla
+  - Omar Abdelkader
+  - Ali Elnaggar
+  - Doaa Ramadan
+  - Md Manjurul Islam Shourav
+  - Irbaz B Riaz
+  - Michelle P Lin
+year: 2025
+doi: 10.1016/j.jbi.2025.104860
+url: https://doi.org/10.1016/j.jbi.2025.104860
+publication_status: "Published in Journal of Biomedical Informatics 168, article 104860, August 2025"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Vallamchetla et al - 2025 - PubMed abstract.xml"
+notes: >
+  Abstract-only extraction from PubMed PMID 40447171; the full paper was not
+  available locally. Four neurology trainees independently screened the same
+  1,003 records. One reviewer in each experience pair received LLM-generated
+  PICOS summaries. The abstract reports screening times and sensitivity, but
+  this small comparison cannot isolate the summaries from individual reviewer
+  differences or establish generalizable time savings.

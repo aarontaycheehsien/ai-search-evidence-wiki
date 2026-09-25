@@ -1,0 +1,19 @@
+id: tranfield-2024
+type: conference-paper
+title: "Navigating Machine-Driven Research Landscapes: A Comparative Approach"
+authors:
+  - Wynn Tranfield
+  - C. Caldwell
+year: 2024
+doi: 10.1145/3678884.3681842
+url: https://doi.org/10.1145/3678884.3681842
+publication_status: "Published in the Companion Publication of the 2024 ACM Conference on Computer-Supported Cooperative Work and Social Computing"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Tranfield and Caldwell - 2024 - Machine-driven research landscapes.pdf"
+notes: >
+  Preliminary comparison of six tools, including SciSpace and Elicit, across
+  ten STEM subdisciplines using 50 top-ranked citations per tool and blinded
+  abstract screening. The paper reports substantial overlap among SciSpace
+  results and lower recent-item representation for Elicit. Relevance scoring
+  was still ongoing, so these descriptive coverage results are not a complete
+  accuracy evaluation.

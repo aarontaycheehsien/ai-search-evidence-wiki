@@ -16,10 +16,14 @@ evidence:
     note: "Other-language title/abstract accuracy was 0.88 with sensitivity 0.50; the stratum was highly imbalanced."
   - source_id: li-2024
     relationship: supports
-    locator: "Tables 3-4, PDF pp. 17, 19"
-    note: "Preprint: for example, Google PaLM on Meijboom had accuracy 0.890 and sensitivity 0.647; ChatGPT v3.5 on Menon had accuracy 0.711 and sensitivity 0.315."
+    locator: "Tables 3-4, journal PDF pp. 11-12"
+    note: "Published journal version: Google PaLM on Meijboom had accuracy 0.890 and sensitivity 0.647; ChatGPT v3.5 on Menon had accuracy 0.711 and sensitivity 0.315."
   - source_id: wilkins-2023
     relationship: supports
     locator: "Results, PDF p. 7"
     note: "Preprint: GPTscreenR accuracy was 84% while weighted sensitivity was 71%."
+  - source_id: sanghera-2025
+    relationship: contextual
+    locator: "Table 3, PDF p. 7"
+    note: "On 119,695 low-prevalence search results, selected model-prompt combinations had positive predictive values of 0.004-0.096 despite balanced accuracies of 0.710-0.926; this illustrates a different misleading summary-metric problem."
 last_reviewed: 2026-09-25

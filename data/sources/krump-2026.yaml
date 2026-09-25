@@ -1,0 +1,23 @@
+id: krump-2026
+type: preprint
+title: "Evaluating Eight Retrieval-Augmented Generation (RAG) Large Language Models’ Responses to Clinical Questions: A Comparative Study"
+authors:
+  - Poppy A. Krump
+  - Mallory N. Blasingame
+  - Taneya Y. Koonce
+  - Annette M. Williams
+  - Jing Su
+  - Nunzia B. Giuse
+year: 2026
+doi: 10.64898/2026.08.10.26360108
+url: https://doi.org/10.64898/2026.08.10.26360108
+publication_status: "medRxiv preprint posted 12 August 2026; not peer reviewed; abstract-only evidence"
+source_category: preprint
+notes: >
+  Abstract reports a comparative evaluation of eight tools, including
+  Undermind, Consensus, SciSpace, and Elicit, using 12 generated clinical
+  questions. No statistically significant differences were found in coverage
+  of critical or non-critical concepts (p=.95 and p=.16), and no tool was
+  consistently complete. Full text was unavailable from Undermind and SMU
+  LibKey; the public medRxiv PDF endpoint also returned rate-limit errors during
+  retrieval, so methods and limitations have not been independently checked.

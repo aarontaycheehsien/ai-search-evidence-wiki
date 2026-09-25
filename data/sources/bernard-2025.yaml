@@ -1,0 +1,22 @@
+id: bernard-2025
+type: journal-article
+title: "Using artificial intelligence for systematic review: the example of elicit"
+authors:
+  - Nicolas Bernard
+  - Yoshimasa Sagawa Jr
+  - Nathalie Bier
+  - Thomas Lihoreau
+  - Lionel Pazart
+  - Thomas Tannou
+year: 2025
+doi: 10.1186/s12874-025-02528-y
+url: https://doi.org/10.1186/s12874-025-02528-y
+publication_status: "Published in BMC Medical Research Methodology 25:75"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Bernard et al - 2025 - Elicit systematic review.pdf"
+notes: >
+  Repeated an Elicit search three times for an umbrella-review question and
+  compared included studies with a prior independent review. Full text reports
+  246, 169, and 172 records across the three trials, with only 3 of 17 prior
+  included reviews also found by Elicit and 3 additional eligible reviews.
+  This is a single topic and an older Elicit version; retrieval counts varied.
