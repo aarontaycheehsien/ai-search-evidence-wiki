@@ -30,6 +30,7 @@ Record the measures, decision rules, and reference standards used by each study;
 - [General-purpose AI assistants](../tools/general-purpose-ai-assistants.md)
 - [Consensus](../tools/consensus.md)
 - [SciSpace](../tools/scispace.md)
+- [Scite and Scite Assistant](../tools/scite.md)
 - [Undermind.ai](../tools/undermind.md)
 - [Primo Research Assistant](../tools/primo-research-assistant.md)
 - [Scopus AI](../tools/scopus-ai.md)

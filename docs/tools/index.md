@@ -11,6 +11,7 @@ Counts describe distinct linked source records. A source may appear under multip
 - [General-purpose AI assistants](general-purpose-ai-assistants.md) (10) — 2025–2026; 4 peer-reviewed studies, 6 preprints
 - [Consensus](consensus.md) (6) — 2025–2026; 3 peer-reviewed studies, 3 preprints
 - [SciSpace](scispace.md) (4) — 2024–2026; 3 peer-reviewed studies, 1 preprint
+- [Scite and Scite Assistant](scite.md) (4) — 2024–2026; 3 peer-reviewed studies, 1 preprint
 - [Undermind.ai](undermind.md) (3) — 2024–2026; 1 peer-reviewed study, 1 preprint, 1 vendor documentation record
 - [Primo Research Assistant](primo-research-assistant.md) (2) — 2025–2026; 2 peer-reviewed studies
 - [Research Rabbit](research-rabbit.md) (2) — 2026; 2 peer-reviewed studies

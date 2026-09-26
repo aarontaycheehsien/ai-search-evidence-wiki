@@ -13,6 +13,7 @@ topics:
   - lens-org
   - spidercite
   - general-purpose-ai-assistants
+  - scite
 evidence:
   - source_id: tomczyk-2024
     relationship: supports
@@ -25,7 +26,7 @@ evidence:
   - source_id: tranfield-2024
     relationship: qualifies
     locator: "Preliminary Results, PDF pp. 4–5"
-    note: "In a six-tool comparison across ten STEM subdisciplines, SciSpace had high citation overlap and Elicit retrieved fewer recent materials; abstract relevance scoring was still ongoing, so this is descriptive coverage evidence rather than a completed accuracy comparison."
+    note: "In a six-tool comparison across ten STEM subdisciplines, SciSpace had high citation overlap and Elicit retrieved fewer recent materials. Figure 3 labels Scite's cross-tool duplicated-result proportion as 26.6%; this is overlap with other tools, not within-tool duplicates or accuracy. Scite bibliographic search was tested; Assistant is not identified. Relevance scoring was ongoing, so this is descriptive coverage evidence rather than a completed accuracy comparison."
   - source_id: featherstone-2025
     relationship: supports
     locator: "Methods, PDF pp. 2-5; Tables 2-5, PDF pp. 7-12"
@@ -34,4 +35,35 @@ evidence:
     relationship: qualifies
     locator: "Methods, PDF pp. 7-9; Table 10 and Results, PDF p. 13"
     note: "For one research question, usable-source counts and repeat-run overlap varied across Consensus, ChatGPT, You.com, and Perplexity. The study is a preprint with one rater per tool."
-last_reviewed: 2026-09-26
+  - source_id: di-febo-2026
+    relationship: supports
+    locator: "Methods, PDF pp. 3-4; Results and Figure 4, pp. 6-7; limitations, p. 9"
+    note: >
+      On four CRT topics, Scite Assistant had median proportions of relevant
+      and expert-defined key references of 20% and 10%, compared with 90% and
+      60% for ChatGPT-5. Both primary metrics divide qualifying items by retrieved
+      articles and are precision-type, not exhaustive recall. The free web
+      interfaces, one run per prompt, tool-contributed reference standard,
+      single subdomain, and different corpus/purpose boundaries constrain
+      general tool rankings.
+  - source_id: moulaison-sandy-2025
+    relationship: qualifies
+    locator: "Tables 1-2, PDF p. 5; limitations, p. 7"
+    note: >
+      Paid Scite was judged favourably on review-output features in an
+      exploratory English/Spanish e-reading task, whereas factual accuracy
+      and source relevance were deferred. The paper does not name Assistant.
+      These affordance observations and Di Febo's retrieval precision results
+      concern different constructs; they are not a resolved cross-study
+      contradiction or a common tool-effectiveness ranking.
+  - source_id: krump-2026
+    relationship: contextual
+    locator: "medRxiv abstract only; saved Undermind metadata in incoming/undermind-scite-search-2026-09-27.json"
+    note: >
+      The abstract names Scite among eight RAG tools tested on 12 generated
+      clinical questions and reports no significant between-tool differences
+      in critical (p=.95) or non-critical (p=.16) concept coverage. It does not
+      identify the Scite interface/model or its scores. Full text remains
+      unavailable through Undermind. These tests do not establish equivalence,
+      complete evidence retrieval, or factual answer accuracy.
+last_reviewed: 2026-09-27

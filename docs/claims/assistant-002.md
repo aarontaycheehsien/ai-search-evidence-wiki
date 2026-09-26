@@ -2,9 +2,25 @@
 
 # Independent tool comparisons report different retrieval relevance and coverage profiles across query sets; current evidence does not establish a general-purpose winner over conventional library search.
 
-**Status:** mixed — 5 sources; 2024–2026; 4 peer-reviewed studies, 1 preprint
+**Status:** mixed — 8 sources; 2024–2026; 6 peer-reviewed studies, 2 preprints
 
 ## Evidence
+
+### Comparative evaluation of artificial intelligence–assisted literature search tools for identifying clinically meaningful evidence in cardiology
+
+- **Source:** [di-febo-2026](../evidence/di-febo-2026.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Methods, PDF pp. 3-4; Results and Figure 4, pp. 6-7; limitations, p. 9
+- **Note:** On four CRT topics, Scite Assistant had median proportions of relevant and expert-defined key references of 20% and 10%, compared with 90% and 60% for ChatGPT-5. Both primary metrics divide qualifying items by retrieved articles and are precision-type, not exhaustive recall. The free web interfaces, one run per prompt, tool-contributed reference standard, single subdomain, and different corpus/purpose boundaries constrain general tool rankings.
+
+### AI literature review systems: an analysis of performance, affordances, and outputs for a complex topic in the social sciences
+
+- **Source:** [moulaison-sandy-2025](../evidence/moulaison-sandy-2025.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** qualifies
+- **Locator:** Tables 1-2, PDF p. 5; limitations, p. 7
+- **Note:** Paid Scite was judged favourably on review-output features in an exploratory English/Spanish e-reading task, whereas factual accuracy and source relevance were deferred. The paper does not name Assistant. These affordance observations and Di Febo's retrieval precision results concern different constructs; they are not a resolved cross-study contradiction or a common tool-effectiveness ranking.
 
 ### AI-Infused Discovery Environments: Information Retrieval Boon or Overpromised Hype?
 
@@ -36,7 +52,15 @@
 - **Category:** peer-reviewed-study
 - **Relationship:** qualifies
 - **Locator:** Preliminary Results, PDF pp. 4–5
-- **Note:** In a six-tool comparison across ten STEM subdisciplines, SciSpace had high citation overlap and Elicit retrieved fewer recent materials; abstract relevance scoring was still ongoing, so this is descriptive coverage evidence rather than a completed accuracy comparison.
+- **Note:** In a six-tool comparison across ten STEM subdisciplines, SciSpace had high citation overlap and Elicit retrieved fewer recent materials. Figure 3 labels Scite's cross-tool duplicated-result proportion as 26.6%; this is overlap with other tools, not within-tool duplicates or accuracy. Scite bibliographic search was tested; Assistant is not identified. Relevance scoring was ongoing, so this is descriptive coverage evidence rather than a completed accuracy comparison.
+
+### Evaluating Eight Retrieval-Augmented Generation (RAG) Large Language Models’ Responses to Clinical Questions: A Comparative Study
+
+- **Source:** [krump-2026](../evidence/krump-2026.md)
+- **Category:** preprint
+- **Relationship:** contextual
+- **Locator:** medRxiv abstract only; saved Undermind metadata in incoming/undermind-scite-search-2026-09-27.json
+- **Note:** The abstract names Scite among eight RAG tools tested on 12 generated clinical questions and reports no significant between-tool differences in critical (p=.95) or non-critical (p=.16) concept coverage. It does not identify the Scite interface/model or its scores. Full text remains unavailable through Undermind. These tests do not establish equivalence, complete evidence retrieval, or factual answer accuracy.
 
 ### Useful for Exploration, Risky for Precision: Evaluating AI Tools in Academic Research
 
@@ -56,5 +80,6 @@
 - [Lens.org](../tools/lens-org.md)
 - [SpiderCite](../tools/spidercite.md)
 - [General-purpose AI assistants](../tools/general-purpose-ai-assistants.md)
+- [Scite and Scite Assistant](../tools/scite.md)
 
-**Last reviewed:** 2026-09-26
+**Last reviewed:** 2026-09-27

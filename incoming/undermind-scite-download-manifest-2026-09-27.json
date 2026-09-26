@@ -1,0 +1,53 @@
+{
+  "downloaded_on": "2026-09-27",
+  "provider": "Undermind MCP",
+  "workspace_id": "088fb2d4-b2aa-47ec-a78a-7acf932bbe10",
+  "search_path": "/research-assistant-tool-evaluations/Empirical evaluation of Scite Assistant",
+  "result_count": 4,
+  "download_count": 3,
+  "new_source_count": 1,
+  "notes": "All available PDFs downloaded via MCP-provided links; pypdf and pdfinfo parsed each. Existing identical PDFs retained at their source-record paths. Raw metadata/abstract for the unavailable PDF is in the search export. Signed URLs omitted.",
+  "papers": [
+    {
+      "cite_key": "Mou25",
+      "source_id": "moulaison-sandy-2025",
+      "file": "incoming/papers/Moulaison-Sandy et al - 2025 - AI literature review systems.pdf",
+      "status": "downloaded",
+      "bytes": 160855,
+      "pages": 9,
+      "sha256": "53ea0fb6ca2e9e0e215e8687e1808bcff62cc2608f3559908e4e7d3c5fb9ed87",
+      "pdf_structure_verified": true,
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Feb26",
+      "source_id": "di-febo-2026",
+      "file": "incoming/papers/Di Febo et al - 2026 - AI literature search cardiology comparison.pdf",
+      "status": "downloaded-identical-to-existing",
+      "bytes": 1569703,
+      "pages": 10,
+      "sha256": "8eaeed57459808494bc432522b25cc58fec99e17690cbd2da8d2f5dfa308cac9",
+      "pdf_structure_verified": true,
+      "processing_status": "updated-existing-full-text-source"
+    },
+    {
+      "cite_key": "Kru26",
+      "source_id": "krump-2026",
+      "file": "incoming/undermind-scite-search-2026-09-27.json",
+      "status": "pdf-unavailable-metadata-saved",
+      "pdf_structure_verified": null,
+      "processing_status": "abstract-only-no-full-text-promotion"
+    },
+    {
+      "cite_key": "Tra24d",
+      "source_id": "tranfield-2024",
+      "file": "incoming/papers/Tranfield and Caldwell - 2024 - Machine-driven research landscapes.pdf",
+      "status": "downloaded-identical-to-existing",
+      "bytes": 1286561,
+      "pages": 6,
+      "sha256": "19c64c442a49020d330cad25dbc446f1d43c6454a5a2c420a1236286f1f1b665",
+      "pdf_structure_verified": true,
+      "processing_status": "updated-existing-adjacent-search-evidence"
+    }
+  ]
+}

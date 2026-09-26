@@ -31,6 +31,7 @@ Record the measures, decision rules, and reference standards used by each study;
 - [Academic search prototypes and benchmarks](../tools/academic-search-benchmarks.md)
 - [General-purpose AI assistants](../tools/general-purpose-ai-assistants.md)
 - [Consensus](../tools/consensus.md)
+- [Scite and Scite Assistant](../tools/scite.md)
 - [Undermind.ai](../tools/undermind.md)
 - [Scopus AI](../tools/scopus-ai.md)
 - [Google Scholar Labs](../tools/scholar-labs.md)

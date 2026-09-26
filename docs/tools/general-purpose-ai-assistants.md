@@ -24,6 +24,13 @@ Cross-tool claims are repeated where relevant, but the evidence shown below is l
 - **contextual** — [How Researchers Navigate Accountability, Transparency, and Trust When Using AI Tools in Early-Stage Research: A Think-Aloud Study](../evidence/gautam-2026.md) (peer-reviewed-study); locator: Sections 4.2.3-4.2.5, PDF p. 7. Eight of 15 researchers used redundant manual verification; three described burdens from detailed prompting. Qualitative reports identify work added by verification but do not quantify net task time.
 - **qualifies** — [Language models for data extraction and risk of bias assessment in complementary medicine](../evidence/lai-2025-complementary-medicine.md) (peer-reviewed-study); locator: Figure 2, PDF p. 3; Methods, p. 5. Assisted extraction time of 14.7 min includes generation, verification and modification; the 86.9-min manual comparator is historical. This provides evidence that checking need not erase all gains, while not establishing a concurrent causal comparison.
 
+### [Independent tool comparisons report different retrieval relevance and coverage profiles across query sets; current evidence does not establish a general-purpose winner over conventional library search.](../claims/assistant-002.md)
+
+**Status:** mixed
+
+- **supports** — [Comparative evaluation of artificial intelligence–assisted literature search tools for identifying clinically meaningful evidence in cardiology](../evidence/di-febo-2026.md) (peer-reviewed-study); locator: Methods, PDF pp. 3-4; Results and Figure 4, pp. 6-7; limitations, p. 9. On four CRT topics, Scite Assistant had median proportions of relevant and expert-defined key references of 20% and 10%, compared with 90% and 60% for ChatGPT-5. Both primary metrics divide qualifying items by retrieved articles and are precision-type, not exhaustive recall. The free web interfaces, one run per prompt, tool-contributed reference standard, single subdomain, and different corpus/purpose boundaries constrain general tool rankings.
+- **qualifies** — [Useful for Exploration, Risky for Precision: Evaluating AI Tools in Academic Research](../evidence/dathe-2026.md) (preprint); locator: Methods, PDF pp. 7-9; Table 10 and Results, PDF p. 13. For one research question, usable-source counts and repeat-run overlap varied across Consensus, ChatGPT, You.com, and Perplexity. The study is a preprint with one rater per tool.
+
 ### [One single-domain study reported high Consensus precision on a specialized tissue-engineering query, while broader comparative studies do not support treating that result as a stable cross-domain performance estimate.](../claims/assistant-003.md)
 
 **Status:** provisional
@@ -54,12 +61,6 @@ Cross-tool claims are repeated where relevant, but the evidence shown below is l
 **Status:** provisional
 
 - **supports** — [Do AI chatbots find what experts would? Effects of model, user role, and sample size on study retrieval for medical questions](../evidence/liu-2026-study-retrieval.md) (preprint); locator: Methods, Figure 2 and metadata analysis, PDF pp. 4–8. Mean per-response recall: ChatGPT GPT-5.5 63.1%, Claude Sonnet 5 37.0%, Gemini 3.1 Pro 17.3%. Pooled recovery across models/roles/repetitions 328/442 (74.2%) is a different outcome, not a single-search result. Model names as reported; not a current-product guarantee.
-
-### [Independent tool comparisons report different retrieval relevance and coverage profiles across query sets; current evidence does not establish a general-purpose winner over conventional library search.](../claims/assistant-002.md)
-
-**Status:** mixed
-
-- **qualifies** — [Useful for Exploration, Risky for Precision: Evaluating AI Tools in Academic Research](../evidence/dathe-2026.md) (preprint); locator: Methods, PDF pp. 7-9; Table 10 and Results, PDF p. 13. For one research question, usable-source counts and repeat-run overlap varied across Consensus, ChatGPT, You.com, and Perplexity. The study is a preprint with one rater per tool.
 
 ### [One student survey reported higher satisfaction with traditional search engines than generative AI, with substantial variation by student group and frequency of use.](../claims/assistant-009.md)
 
@@ -107,12 +108,12 @@ No vendor, system, experimental, or editorial records are linked.
 ## Important uncertainties
 
 - [AI search and extraction tools can reduce initial search or screening effort, but measured efficiency gains may coincide with lower retrieval sensitivity or be offset by prompt development, screening, and human verification.](../claims/assistant-007.md) is marked **provisional**.
+- [Independent tool comparisons report different retrieval relevance and coverage profiles across query sets; current evidence does not establish a general-purpose winner over conventional library search.](../claims/assistant-002.md) is marked **mixed**.
 - [One single-domain study reported high Consensus precision on a specialized tissue-engineering query, while broader comparative studies do not support treating that result as a stable cross-domain performance estimate.](../claims/assistant-003.md) is marked **provisional**.
 - [A one-topic audit distinguishes citation traceability from repeat-run retrieval stability, but conflicting count denominators make aggregate tool comparisons uncertain.](../claims/assistant-018.md) is marked **uncertain**.
 - [A forty-abstract medical citation task found missing references and metadata/relevance failures across five free chatbots, with outcomes depending on the error definition.](../claims/assistant-025.md) is marked **provisional**.
 - [A single-library analytics study found that generative AI referrals concentrated on repository content, especially theses and dissertations; referral counts do not establish retrieval quality or user intent.](../claims/assistant-010.md) is marked **provisional**.
 - [An independent preprint finds substantial model-dependent misses when chatbots retrieve studies from twenty Cochrane reviews, even where citation metadata is mostly accurate.](../claims/assistant-024.md) is marked **provisional**.
-- [Independent tool comparisons report different retrieval relevance and coverage profiles across query sets; current evidence does not establish a general-purpose winner over conventional library search.](../claims/assistant-002.md) is marked **mixed**.
 - [One student survey reported higher satisfaction with traditional search engines than generative AI, with substantial variation by student group and frequency of use.](../claims/assistant-009.md) is marked **provisional**.
 - [PaperAsk reports reliability problems that vary by task and requested citation count; whole-response failure rates are not per-citation hallucination rates.](../claims/assistant-030.md) is marked **provisional**.
 

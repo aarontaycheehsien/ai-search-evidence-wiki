@@ -1,0 +1,28 @@
+id: moulaison-sandy-2025
+type: journal-article
+title: "AI literature review systems: an analysis of performance, affordances, and outputs for a complex topic in the social sciences"
+authors:
+  - Heather Moulaison-Sandy
+  - Wilson Castaño-Muñoz
+  - Laura Ridenour
+  - Denice Adkins
+year: 2025
+doi: 10.47989/ir30iConf46906
+url: https://doi.org/10.47989/ir30iConf46906
+publication_status: "Published in Information Research 30(iConf), 1244-1252 (2025)"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Moulaison-Sandy et al - 2025 - AI literature review systems.pdf"
+notes: >
+  Independent exploratory evaluation by researchers affiliated with the
+  University of Missouri and University of Antioquia. Paid versions of Scite,
+  Jenni.ai, OpenRead, and Wisio were piloted and demonstrated to the research
+  team using a shared initial prompt for a 500-1000-word review of e-reading
+  in English and Spanish, with interactive refinements and collaborative
+  coding. Tables 1-2 report Scite output affordances and 10 references with no
+  reference hallucinations reported. The paper refers only to Scite, not
+  Scite Assistant, and does not identify its model/version or a repeated-run
+  sample. PDF p. 7 explicitly leaves text accuracy and source relevance for
+  future research. These observations do not establish Assistant answer
+  accuracy, claim-source fidelity, retrieval completeness, or a general tool
+  ranking. PDF downloaded through Undermind MCP on 2026-09-27; see the Scite
+  search export, download manifest, and processing report in incoming/.

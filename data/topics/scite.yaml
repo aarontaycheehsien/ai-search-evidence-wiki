@@ -1,0 +1,27 @@
+id: scite
+title: Scite and Scite Assistant
+type: tool
+description: >
+  Direct Scite Assistant reference-retrieval evidence, studies of generative
+  outputs labelled only Scite, and adjacent bibliographic-search evaluations.
+  Evidence entries specify which feature and task were tested: literature
+  search relevance, citation existence, review-output features, and clinical
+  concept coverage are not interchangeable measures of Assistant accuracy.
+  Abstract-only preprints retain their access and feature-attribution limits.
+claim_ids:
+  - assistant-002
+  - assistant-036
+  - assistant-037
+  - assistant-038
+concept_ids:
+  - precision
+  - recall-and-sensitivity
+  - reference-standards
+  - human-in-the-loop-verification
+  - reproducibility-and-stability
+evidence_source_ids:
+  - di-febo-2026
+  - moulaison-sandy-2025
+  - krump-2026
+  - tranfield-2024
+last_reviewed: 2026-09-27

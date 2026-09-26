@@ -4,13 +4,13 @@
 
 Each source retains its publication category. Open a record for bibliographic details, scope notes, and linked claims.
 
-92 sources; 2020–2026; 67 peer-reviewed studies, 23 preprints, 1 vendor documentation record, 1 editorial source
+93 sources; 2020–2026; 68 peer-reviewed studies, 23 preprints, 1 vendor documentation record, 1 editorial source
 
 Counts describe distinct linked source records. A source may appear under multiple entries; source counts and year ranges are not evidence-quality ratings. Years are the years recorded for the sources.
 
-## Peer-reviewed studies (67)
+## Peer-reviewed studies (68)
 
-2020–2026; 67 peer-reviewed studies
+2020–2026; 68 peer-reviewed studies
 
 - [A critical evaluation of generative query expansion on biomedical literature retrieval](fang-2026-query.md) (2026)
 - [AI-accelerated meta-analysis in psychology: Large language models code study properties with high accuracy](azaad-2026-meta-analysis-coding.md) (2026)
@@ -36,6 +36,7 @@ Counts describe distinct linked source records. A source may appear under multip
 - [What level of automation is 'good enough'? A benchmark of large language models for meta-analysis data extraction](li-2026-extraction.md) (2026)
 - [‘GenAI’ Literature Search Tools and Scholarly Diversity: An Algorithmic Ethnographical Analysis](chandler-2026-scholarly-diversity.md) (2026)
 - [A foundation model for human-AI collaboration in medical literature mining](wang-2025-leads.md) (2025)
+- [AI literature review systems: an analysis of performance, affordances, and outputs for a complex topic in the social sciences](moulaison-sandy-2025.md) (2025)
 - [AI-Infused Discovery Environments: Information Retrieval Boon or Overpromised Hype?](galbreath-2025.md) (2025)
 - [An automated framework for assessing how well LLMs cite relevant medical references](wu-2025-sourcecheckup.md) (2025)
 - [Artificial Intelligence Search Tools for Evidence Synthesis: Comparative Analysis and Implementation Recommendations](featherstone-2025.md) (2025)

@@ -27,6 +27,7 @@ Record the measures, decision rules, and reference standards used by each study;
 - [Elicit.com](../tools/elicit.md)
 - [Academic search prototypes and benchmarks](../tools/academic-search-benchmarks.md)
 - [General-purpose AI assistants](../tools/general-purpose-ai-assistants.md)
+- [Scite and Scite Assistant](../tools/scite.md)
 - [Undermind.ai](../tools/undermind.md)
 - [Research Rabbit](../tools/research-rabbit.md)
 - [Scopus AI](../tools/scopus-ai.md)

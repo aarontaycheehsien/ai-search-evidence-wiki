@@ -13,6 +13,7 @@ doi: 10.64898/2026.08.10.26360108
 url: https://doi.org/10.64898/2026.08.10.26360108
 publication_status: "medRxiv preprint posted 12 August 2026; not peer reviewed; abstract-only evidence"
 source_category: preprint
+local_file: "incoming/undermind-scite-search-2026-09-27.json"
 notes: >
   Abstract reports a comparative evaluation of eight tools, including
   Undermind, Consensus, SciSpace, and Elicit, using 12 generated clinical
@@ -21,3 +22,8 @@ notes: >
   consistently complete. Full text was unavailable from Undermind and SMU
   LibKey; the public medRxiv PDF endpoint also returned rate-limit errors during
   retrieval, so methods and limitations have not been independently checked.
+  On 2026-09-27 Undermind MCP again reported the PDF unavailable; its abstract
+  and metadata were saved in the local Scite search export. The abstract also
+  includes Scite but does not identify the exact feature/model/tier or report
+  Scite-specific scores. Non-significant between-tool tests are not evidence
+  of equivalence, exhaustive retrieval, or factual answer accuracy.
