@@ -70,8 +70,16 @@
 - **Locator:** PubMed abstract, Results (PMID 39993313)
 - **Note:** Abstract-only evidence: optimized-prompt sensitivity ranged from 86.7% to 100% across ten reviews, with weighted sensitivity 97.7%.
 
+### Performance Comparison of Large Language Models for Efficient Literature Screening
+
+- **Source:** [colangelo-2025-screening](../evidence/colangelo-2025-screening.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Results sections 3.1-3.6 and Figures 3-8, PDF pp. 11-16
+- **Note:** Model behavior differed sharply on target-enriched subsets: GPT-4o had 100% recall across evaluated quartiles, while OpenHermes missed nearly all targets and GPT-2 accepted all records in single-prompt screening. Two domain-specific target sets limit generalization.
+
 ## Topics
 
 - [LLMs for Citation Screening](../topics/llm-screening.md)
 
-**Last reviewed:** 2026-09-25
+**Last reviewed:** 2026-09-26

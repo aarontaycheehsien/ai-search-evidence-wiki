@@ -30,6 +30,22 @@
 - **Locator:** Results, Tables 1-3, PDF pp. 5-8; Discussion, PDF pp. 8-9
 - **Note:** Across eight studies, at least one of GPT-5.2 or Gemini 3 Pro was fully correct on 95.1% of 384 fields. The authors frame parallel LLMs as a human-verified first-pass approach; the adjudicator was not blinded to model outputs.
 
+### Collaborative large language models for automated data extraction in living systematic reviews
+
+- **Source:** [khan-2025-collaborative-extraction](../evidence/khan-2025-collaborative-extraction.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Results, PDF pp. 4-6; Figure 3, p. 6
+- **Note:** Among 391 held-out responses, 342 initially concordant outputs had accuracy 0.94 compared with 0.89 and 0.90 for the individual models. Only 25/49 discordant outputs became concordant after critique, with 0.76 accuracy in that subset; no workflow timing measured.
+
+### Language models for data extraction and risk of bias assessment in complementary medicine
+
+- **Source:** [lai-2025-complementary-medicine](../evidence/lai-2025-complementary-medicine.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Results and Figure 2, PDF pp. 2-3; Table 1, p. 4; Methods, p. 5
+- **Note:** Human-assisted Moonshot extraction accuracy increased from 95.12% to 97.92%. Generation plus verification/modification took 14.7 min per trial; the 86.9-min manual benchmark came from prior literature, not a concurrent control.
+
 ## Topics
 
 - [LLMs for structured data extraction](../topics/llm-data-extraction.md)

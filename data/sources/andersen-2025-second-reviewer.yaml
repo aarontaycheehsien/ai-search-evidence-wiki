@@ -1,0 +1,19 @@
+id: andersen-2025-second-reviewer
+type: journal-article
+title: "Using Artificial Intelligence Tools as Second Reviewers for Data Extraction in Systematic Reviews: A Performance Comparison of Two AI Tools Against Human Reviewers"
+authors:
+  - "T. Helms Andersen"
+  - "T. M. Marcussen"
+  - "A. D. Termannsen"
+  - "T. W. H. Lawaetz"
+  - "O. Nørgaard"
+year: 2025
+doi: 10.1002/cesm.70036
+url: https://doi.org/10.1002/cesm.70036
+publication_status: "Published in Cochrane Evidence Synthesis and Methods 3:e70036"
+source_category: peer-reviewed-study
+notes: >
+  Full text read remotely through Undermind read_pdfs (And25) on 2026-09-26.
+  Local PDF download was blocked; no local PDF is asserted. Reading audit:
+  incoming/undermind-full-text-reading-2026-09-26.md.
+  30 articles from three reviews, 90 extraction prompts per tool. Elicit high-accuracy mode and ChatGPT GPT-4o were evaluated against reconciled human data. Precision/recall were 92.2%/92.2% and 90.9%/88.8%. Mild underreporting counted as true positive; Elicit fully complete output was 80/90, ChatGPT 76/90. Seven of 180 outputs contained confabulations. The abstract and results/discussion differ on ChatGPT study-design/population category percentages; raw counts and aggregate Table 2 are retained without silently resolving the discrepancy. No task-time measurement; absent data and repeatability not evaluated.

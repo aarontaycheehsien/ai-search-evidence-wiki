@@ -30,6 +30,22 @@
 - **Locator:** Methods and Results, PDF pp. 4-12
 - **Note:** Forty of 70 successful extraction variables required two to four prompt iterations, and 20 of 90 variables failed to reach the development threshold after five iterations; manual-versus-AI time was not measured.
 
+### How Researchers Navigate Accountability, Transparency, and Trust When Using AI Tools in Early-Stage Research: A Think-Aloud Study
+
+- **Source:** [gautam-2026](../evidence/gautam-2026.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** contextual
+- **Locator:** Sections 4.2.3-4.2.5, PDF p. 7
+- **Note:** Eight of 15 researchers used redundant manual verification; three described burdens from detailed prompting. Qualitative reports identify work added by verification but do not quantify net task time.
+
+### Language models for data extraction and risk of bias assessment in complementary medicine
+
+- **Source:** [lai-2025-complementary-medicine](../evidence/lai-2025-complementary-medicine.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** qualifies
+- **Locator:** Figure 2, PDF p. 3; Methods, p. 5
+- **Note:** Assisted extraction time of 14.7 min includes generation, verification and modification; the 86.9-min manual comparator is historical. This provides evidence that checking need not erase all gains, while not establishing a concurrent causal comparison.
+
 ## Topics
 
 - [Empirical evaluations of AI research assistants](../topics/research-assistant-tools.md)

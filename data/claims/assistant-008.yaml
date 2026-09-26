@@ -1,0 +1,12 @@
+id: assistant-008
+claim: >
+  In a small qualitative study of researchers using AI discovery and synthesis tools, opaque provenance and confident outputs prompted compensatory source verification and context-dependent trust.
+status: provisional
+topics:
+  - research-assistant-tools
+evidence:
+  - source_id: gautam-2026
+    relationship: supports
+    locator: "Sections 3-4, PDF pp. 3-8; limitations, p. 10"
+    note: "Think-aloud sessions with 15 researchers included Research Rabbit and Elicit tasks. Nine raised retrieval/source opacity concerns and eight used redundant manual verification. This is lived-experience evidence, not a retrieval-accuracy benchmark."
+last_reviewed: 2026-09-26

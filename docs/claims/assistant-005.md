@@ -46,6 +46,14 @@
 - **Locator:** Results, PDF p. 1; Discussion, PDF p. 2
 - **Note:** Across 24 trials, Elicit identified disease correctly in all cases but misidentified study location and produced inputs yielding incorrect Jadad scores in 5 of 24 cases each.
 
+### Using Artificial Intelligence Tools as Second Reviewers for Data Extraction in Systematic Reviews: A Performance Comparison of Two AI Tools Against Human Reviewers
+
+- **Source:** [andersen-2025-second-reviewer](../evidence/andersen-2025-second-reviewer.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Results sections 4.1-4.5, PDF pp. 4-6; Table 2, p. 6
+- **Note:** Elicit precision and recall were both 92.2%, but mild underreporting counted as true positive; fully complete extractions were 80/90 and confabulations occurred in 4/90. No timing or absent-data benchmark.
+
 ## Topics
 
 - [Empirical evaluations of AI research assistants](../topics/research-assistant-tools.md)

@@ -10,6 +10,7 @@ claim_ids:
   - extraction-003
   - extraction-004
   - extraction-005
+  - extraction-006
 concept_ids:
   - recall-and-sensitivity
   - precision

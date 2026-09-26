@@ -62,8 +62,16 @@
 - **Locator:** Table 4, PDF p. 9
 - **Note:** Across 119,695 records, parallel ensemble rules with sensitivity 1.000 had calculated workload reductions of 37.55%-41.81%; series rules saved more screening but had lower sensitivity.
 
+### Performance Comparison of Large Language Models for Efficient Literature Screening
+
+- **Source:** [colangelo-2025-screening](../evidence/colangelo-2025-screening.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Results sections 3.4-3.6 and Figures 6-8, PDF pp. 13-16
+- **Note:** In the most similar periodontal quartile, changing verbose to concise prompts reduced GPT-4o precision from 90% to 75% and Claude 3 Haiku precision from 16.1% to 11.5%. Two-stage prompts did not rescue weaker models.
+
 ## Topics
 
 - [LLMs for Citation Screening](../topics/llm-screening.md)
 
-**Last reviewed:** 2026-09-25
+**Last reviewed:** 2026-09-26

@@ -13,6 +13,9 @@ claim_ids:
   - assistant-005
   - assistant-006
   - assistant-007
+  - assistant-008
+  - assistant-009
+  - assistant-010
 concept_ids:
   - recall-and-sensitivity
   - precision

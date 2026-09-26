@@ -51,4 +51,12 @@ evidence:
     relationship: supports
     locator: "Results, PDF p. 1"
     note: "Disease was extracted correctly for all 24 dermatology trials, while study location and Jadad-score inputs were wrong in 5 of 24 cases each."
+  - source_id: andersen-2025-second-reviewer
+    relationship: supports
+    locator: "Results sections 4.1-4.2, PDF p. 5"
+    note: "Elicit found all study-design data in 30/30 articles and all outcome data in 22/30; ChatGPT counts were 29/30 and 21/30. Raw counts are used because abstract and discussion category percentages disagree."
+  - source_id: lai-2025-complementary-medicine
+    relationship: qualifies
+    locator: "Table 1, PDF p. 4; Methods, p. 5"
+    note: "Moonshot outcomes accuracy was 97.64%, exceeding methods (90.86%) and data/analysis (91.33%); this 107-trial complementary-medicine evaluation is a counterexample to treating numerical outcomes as uniformly hardest."
 last_reviewed: 2026-09-26

@@ -129,6 +129,7 @@ def test_changed_claim_maps_to_its_pages() -> None:
         "docs/claims/index.md",
         "docs/claims/screening-001.md",
         "docs/evidence/cao-2025.md",
+        "docs/evidence/colangelo-2025-screening.md",
         "docs/evidence/guo-2024.md",
         "docs/evidence/homiar-2025.md",
         "docs/evidence/khraisha-2024.md",

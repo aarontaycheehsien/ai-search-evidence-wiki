@@ -94,6 +94,22 @@
 - **Locator:** Results, PDF p. 1
 - **Note:** Disease was extracted correctly for all 24 dermatology trials, while study location and Jadad-score inputs were wrong in 5 of 24 cases each.
 
+### Using Artificial Intelligence Tools as Second Reviewers for Data Extraction in Systematic Reviews: A Performance Comparison of Two AI Tools Against Human Reviewers
+
+- **Source:** [andersen-2025-second-reviewer](../evidence/andersen-2025-second-reviewer.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Results sections 4.1-4.2, PDF p. 5
+- **Note:** Elicit found all study-design data in 30/30 articles and all outcome data in 22/30; ChatGPT counts were 29/30 and 21/30. Raw counts are used because abstract and discussion category percentages disagree.
+
+### Language models for data extraction and risk of bias assessment in complementary medicine
+
+- **Source:** [lai-2025-complementary-medicine](../evidence/lai-2025-complementary-medicine.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** qualifies
+- **Locator:** Table 1, PDF p. 4; Methods, p. 5
+- **Note:** Moonshot outcomes accuracy was 97.64%, exceeding methods (90.86%) and data/analysis (91.33%); this 107-trial complementary-medicine evaluation is a counterexample to treating numerical outcomes as uniformly hardest.
+
 ## Topics
 
 - [LLMs for structured data extraction](../topics/llm-data-extraction.md)

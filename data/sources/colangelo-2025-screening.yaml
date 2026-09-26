@@ -1,0 +1,19 @@
+id: colangelo-2025-screening
+type: journal-article
+title: "Performance Comparison of Large Language Models for Efficient Literature Screening"
+authors:
+  - "Maria Teresa Colangelo"
+  - "Stefano Guizzardi"
+  - "Marco Meleti"
+  - "Elena Calciolari"
+  - "Carlo Galli"
+year: 2025
+doi: 10.3390/biomedinformatics5020025
+url: https://doi.org/10.3390/biomedinformatics5020025
+publication_status: "Published in BioMedInformatics 5:25"
+source_category: peer-reviewed-study
+notes: >
+  Full text read remotely through Undermind read_pdfs (Col25) on 2026-09-26.
+  Local PDF download was blocked; no local PDF is asserted. Reading audit:
+  incoming/undermind-full-text-reading-2026-09-26.md.
+  Six models evaluated on title/abstract screening using two review-derived target sets (periodontal regeneration and bronchoscopy). Pools were stratified by semantic similarity, sampled and target articles inserted into each subset. GPT-4o achieved high recall, while precision declined in the most similar quartile; weaker models either missed targets or accepted everything. Synthetic target-enriched subsets, small domain-specific target sets, and no end-to-end timing limit generalization. The reported subset size and confusion-count totals appear inconsistent; avoid derived pooled denominators.

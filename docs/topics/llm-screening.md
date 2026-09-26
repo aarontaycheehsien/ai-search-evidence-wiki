@@ -13,7 +13,7 @@ Define the evidence-synthesis setting, eligible study types, and task boundaries
 
 ## Overview
 
-This topic groups 10 claims linked to 14 source records.
+This topic groups 10 claims linked to 15 source records.
 
 ## Current evidence
 
@@ -33,6 +33,7 @@ The relationships and source categories below come from the structured evidence 
 - **supports** — [High-performance automated abstract screening with large language model ensembles](../evidence/sanghera-2025.md) (peer-reviewed-study); locator: Table 3, PDF p. 7. Across 119,695 records from 23 reviews, selected model-prompt combinations had sensitivity from 0.756 to 1.000.
 - **supports** — [Development and evaluation of prompts for a large language model to screen titles and abstracts in a living systematic review](../evidence/homiar-2025.md) (peer-reviewed-study); locator: Table 3, PDF p. 4. Title/abstract sensitivity was 0.91 on the baseline set, 1.00 in update 1, and 0.58 in update 2; sensitivity for final full-text inclusions was 1.00 in each set.
 - **supports** — [Development of Prompt Templates for Large Language Model-Driven Screening in Systematic Reviews](../evidence/cao-2025.md) (peer-reviewed-study); locator: PubMed abstract, Results (PMID 39993313). Abstract-only evidence: optimized-prompt sensitivity ranged from 86.7% to 100% across ten reviews, with weighted sensitivity 97.7%.
+- **supports** — [Performance Comparison of Large Language Models for Efficient Literature Screening](../evidence/colangelo-2025-screening.md) (peer-reviewed-study); locator: Results sections 3.1-3.6 and Figures 3-8, PDF pp. 11-16. Model behavior differed sharply on target-enriched subsets: GPT-4o had 100% recall across evaluated quartiles, while OpenHermes missed nearly all targets and GPT-2 accepted all records in single-prompt screening. Two domain-specific target sets limit generalization.
 
 ### [Overall screening accuracy alone can obscure lower sensitivity for citations that human reference standards included.](../claims/screening-002.md)
 
@@ -68,6 +69,7 @@ The relationships and source categories below come from the structured evidence 
 - **supports** — [Development of Prompt Templates for Large Language Model-Driven Screening in Systematic Reviews](../evidence/cao-2025.md) (peer-reviewed-study); locator: PubMed abstract, Results (PMID 39993313). Abstract-only evidence: optimized prompts had 97.7% weighted sensitivity in abstract screening across ten reviews versus 49.0% for zero-shot prompts.
 - **supports** — [Testing the utility of GPT for title and abstract screening in environmental systematic evidence synthesis](../evidence/nykvist-2025.md) (peer-reviewed-study); locator: Table 1, PDF p. 3. In one environmental review, GPT-4 recall was 1.00 at cutoff 0.5 and 0.96 at cutoff 0.8, while work saved over sampling rose from 0.55 to 0.75.
 - **supports** — [High-performance automated abstract screening with large language model ensembles](../evidence/sanghera-2025.md) (peer-reviewed-study); locator: Table 4, PDF p. 9. Across 119,695 records, parallel ensemble rules with sensitivity 1.000 had calculated workload reductions of 37.55%-41.81%; series rules saved more screening but had lower sensitivity.
+- **supports** — [Performance Comparison of Large Language Models for Efficient Literature Screening](../evidence/colangelo-2025-screening.md) (peer-reviewed-study); locator: Results sections 3.4-3.6 and Figures 6-8, PDF pp. 13-16. In the most similar periodontal quartile, changing verbose to concise prompts reduced GPT-4o precision from 90% to 75% and Claude 3 Haiku precision from 16.1% to 11.5%. Two-stage prompts did not rescue weaker models.
 
 ### [In a six-review scoping-review evaluation, a chain-of-thought GPT-4 screening workflow performed similarly to a zero-shot workflow.](../claims/screening-005.md)
 
@@ -127,6 +129,7 @@ Record unresolved questions and evidence gaps here as they are identified during
 
 - [Harnessing the Power of ChatGPT for Automating Systematic Review Process: Methodology, Case Study, Limitations, and Future Directions](../evidence/alshami-2023.md)
 - [Development of Prompt Templates for Large Language Model-Driven Screening in Systematic Reviews](../evidence/cao-2025.md)
+- [Performance Comparison of Large Language Models for Efficient Literature Screening](../evidence/colangelo-2025-screening.md)
 - [Automated Paper Screening for Clinical Reviews Using Large Language Models: Data Analysis Study](../evidence/guo-2024.md)
 - [Development and evaluation of prompts for a large language model to screen titles and abstracts in a living systematic review](../evidence/homiar-2025.md)
 - [Can large language models replace humans in systematic reviews? Evaluating GPT-4's efficacy in screening and extracting data from peer-reviewed and grey literature in multiple languages](../evidence/khraisha-2024.md)
@@ -157,4 +160,4 @@ No independent experiments are linked.
 
 Read the individual source records for study design, scope, and unresolved reporting discrepancies.
 
-**Last reviewed:** 2026-09-25
+**Last reviewed:** 2026-09-26

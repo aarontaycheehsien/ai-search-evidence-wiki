@@ -1,0 +1,16 @@
+id: kim-2026-library-referrals
+type: preprint
+title: "Understanding Generative AI-mediated User Engagement with Academic Library Resources"
+authors:
+  - "Hae Min Kim"
+  - "Stacy Stanislaw"
+year: 2026
+doi: 10.48550/arXiv.2607.20328
+url: https://doi.org/10.48550/arXiv.2607.20328
+publication_status: "arXiv preprint; no publication venue stated in the PDF"
+source_category: preprint
+notes: >
+  Full text read remotely through Undermind read_pdfs (Kim26e) on 2026-09-26.
+  Local PDF download was blocked; no local PDF is asserted. Reading audit:
+  incoming/undermind-full-text-reading-2026-09-26.md.
+  Single-institution GA4 referral analysis at Drexel University Libraries, August 2023-October 2025. Of 9,753 AI-referred sessions, 7,303 reached the repository; 4,098 repository sessions reached theses/dissertations. Referral tracking may undercount app traffic and retain bot noise. Engagement metrics do not measure relevance, completeness, usability or user intent; release/traffic associations do not establish causation. The PDF reports differing aggregate and table user counts, so session counts are used for the claim.

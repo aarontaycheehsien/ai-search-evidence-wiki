@@ -27,4 +27,8 @@ evidence:
     relationship: supports
     locator: "Results, PDF p. 1; Discussion, PDF p. 2"
     note: "Across 24 trials, Elicit identified disease correctly in all cases but misidentified study location and produced inputs yielding incorrect Jadad scores in 5 of 24 cases each."
+  - source_id: andersen-2025-second-reviewer
+    relationship: supports
+    locator: "Results sections 4.1-4.5, PDF pp. 4-6; Table 2, p. 6"
+    note: "Elicit precision and recall were both 92.2%, but mild underreporting counted as true positive; fully complete extractions were 80/90 and confabulations occurred in 4/90. No timing or absent-data benchmark."
 last_reviewed: 2026-09-26

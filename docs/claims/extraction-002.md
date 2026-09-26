@@ -54,6 +54,22 @@
 - **Locator:** Tables 4-9, PDF pp. 12-19; limitations, PDF pp. 26-27
 - **Note:** This bioRxiv preprint reports proportional equivalence for pooled effects in five agricultural datasets. LLM-based alignment materially affected matching agreement without changing extracted values, and variance extraction was not formally validated; the result therefore qualifies, but does not negate, errors in item-level extraction.
 
+### Collaborative large language models for automated data extraction in living systematic reviews
+
+- **Source:** [khan-2025-collaborative-extraction](../evidence/khan-2025-collaborative-extraction.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** qualifies
+- **Locator:** Results, PDF pp. 4-5
+- **Note:** Single-model test precision was 0.98/0.94 and recall 0.87/0.91; initial concordant outputs were 94% accurate, showing stronger performance in this narrow prostate-cancer benchmark while retaining omissions and hallucinations.
+
+### Using Artificial Intelligence Tools as Second Reviewers for Data Extraction in Systematic Reviews: A Performance Comparison of Two AI Tools Against Human Reviewers
+
+- **Source:** [andersen-2025-second-reviewer](../evidence/andersen-2025-second-reviewer.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Results and Table 2, PDF pp. 4-6; Discussion, p. 7
+- **Note:** Mild underreporting counted as successful extraction, yet only 80/90 Elicit and 76/90 ChatGPT outputs were fully complete. Seven of 180 outputs contained confabulations; the proposed second-reviewer workflow retains human reconciliation.
+
 ## Topics
 
 - [LLMs for structured data extraction](../topics/llm-data-extraction.md)

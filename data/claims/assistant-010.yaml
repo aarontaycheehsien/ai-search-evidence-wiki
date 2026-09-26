@@ -1,0 +1,12 @@
+id: assistant-010
+claim: >
+  A single-library analytics study found that generative AI referrals concentrated on repository content, especially theses and dissertations; referral counts do not establish retrieval quality or user intent.
+status: provisional
+topics:
+  - research-assistant-tools
+evidence:
+  - source_id: kim-2026-library-referrals
+    relationship: supports
+    locator: "Methodology, PDF pp. 6-9; content-level results and Table 3, pp. 14-15; limitations, pp. 17-19"
+    note: "This arXiv preprint reports 9,753 AI-referred sessions across Drexel library systems, including 7,303 repository sessions; theses/dissertations accounted for 4,098 (56.1%) repository sessions. Incomplete referrer tracking and potential bot noise limit interpretation."
+last_reviewed: 2026-09-26

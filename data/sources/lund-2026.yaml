@@ -1,0 +1,17 @@
+id: lund-2026
+type: preprint
+title: "Measuring University Students’ Satisfaction with Traditional Search Engines and Generative AI Tools as Information Sources"
+authors:
+  - "Brady D. Lund"
+  - "Scott J. Warren"
+  - "Zoe A. Teel"
+year: 2026
+doi: 10.48550/arXiv.2601.00493
+url: https://doi.org/10.48550/arXiv.2601.00493
+publication_status: "arXiv preprint; no journal venue stated in the PDF"
+source_category: preprint
+notes: >
+  Full text read remotely through Undermind read_pdfs (Lun26) on 2026-09-26.
+  Local PDF download was blocked; no local PDF is asserted. Reading audit:
+  incoming/undermind-full-text-reading-2026-09-26.md.
+  Cross-sectional convenience survey of 236 US university students, 75% graduate students. Mean satisfaction was 3.12 for search engines versus 2.11 for generative AI on a 0-4 scale. Self-reported satisfaction across mixed academic and general information tasks, not retrieval accuracy or task efficiency. Methods describe August-September 2025 while the abstract says late fall 2025; this timing discrepancy is retained.

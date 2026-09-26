@@ -22,8 +22,16 @@
 - **Locator:** Table 2, PDF p. 8
 - **Note:** In this preprint, individual LLM accuracy was 63%-70% for PRISMA, 53%-74% for AMSTAR, and 38%-55% for PRECIS-2, below individual-human accuracy of 89%, 89%, and 75%.
 
+### Language models for data extraction and risk of bias assessment in complementary medicine
+
+- **Source:** [lai-2025-complementary-medicine](../evidence/lai-2025-complementary-medicine.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** qualifies
+- **Locator:** Results, PDF p. 2; Table 2, p. 4; Methods, p. 5
+- **Note:** Standalone models reached 95.70% and 96.9% aggregate RoB accuracy across 107 trials, but sensitivity was 0.50 for selective reporting and 0.40 for other bias. These domain results qualify the high aggregate accuracy; historical manual benchmarks are not concurrent controls.
+
 ## Topics
 
 - [AI for risk-of-bias and evidence appraisal](../topics/ai-evidence-appraisal.md)
 
-**Last reviewed:** 2026-09-25
+**Last reviewed:** 2026-09-26
