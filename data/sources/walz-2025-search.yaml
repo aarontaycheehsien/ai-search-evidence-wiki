@@ -1,0 +1,17 @@
+id: walz-2025-search
+type: journal-article
+title: "Human vs. machine in medical search strategy development: a comparative evaluation of ChatGPT-4.1"
+authors:
+  - J. Walz
+year: 2025
+doi: 10.32384/jeahil21697
+url: https://doi.org/10.32384/jeahil21697
+publication_status: "Published in Journal of EAHIL 21(4), 18-21"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Walz et al - 2025 - ChatGPT-4.1 medical search strategies.pdf"
+notes: >
+  Compared six ChatGPT-4.1 MEDLINE strategies across two Cochrane topics with
+  published expert strategies using PRESS. Five of six retrieved all benchmark
+  included articles, but hallucinated MeSH terms appeared in five of six and
+  syntax/display errors required repair. Only two topics and one reviewer were
+  used; precision and time savings were not quantified.

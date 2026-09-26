@@ -1,0 +1,26 @@
+id: search-003
+claim: >
+  LLM-generated Boolean strategies can contain invalid syntax, fabricated or
+  incorrect controlled-vocabulary terms, and substantial run-to-run variation,
+  so generated queries need technical and subject review before use.
+status: supported
+topics:
+  - llm-search-strategy-generation
+evidence:
+  - source_id: wang-2023-boolean
+    relationship: supports
+    locator: "MeSH analysis and prompt variability, PDF pp. 12-14"
+    note: "The study reports that more than half of generated MeSH terms for query formulation were invalid, with similarly high invalidity during query refinement; repeated runs also showed wide recall variation."
+  - source_id: staudinger-2024-query
+    relationship: supports
+    locator: "Syntax validation results, PDF p. 7"
+    note: "1,771 of 11,200 generated queries (15.8%) had malformed or unbalanced parentheses."
+  - source_id: walz-2025-search
+    relationship: supports
+    locator: "PRESS assessment and error analysis, PDF pp. 2-3"
+    note: "Hallucinated MeSH terms occurred in 5 of 6 strategies, and output formatting errors required manual correction."
+  - source_id: reed-2024-search
+    relationship: supports
+    locator: "Results and discussion, PDF pp. 5-8"
+    note: "Outputs varied substantially over five runs and occasionally used phrase quotation that interfered with PubMed Automatic Term Mapping."
+last_reviewed: 2026-09-26

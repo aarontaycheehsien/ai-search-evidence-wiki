@@ -1,0 +1,21 @@
+id: staudinger-2024-query
+type: conference-paper
+title: "A Reproducibility and Generalizability Study of Large Language Models for Query Generation"
+authors:
+  - Moritz Staudinger
+  - Wojciech Kusa
+  - Florina Piroi
+  - Aldo Lipani
+  - Allan Hanbury
+year: 2024
+doi: 10.1145/3673791.3698432
+url: https://doi.org/10.1145/3673791.3698432
+publication_status: "Published in the Proceedings of the 2024 ACM SIGIR-AP Conference"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Staudinger et al - 2024 - Reproducibility Boolean query generation.pdf"
+notes: >
+  Reproduced and extended Boolean-query generation experiments across CLEF TAR
+  and seed collections. LLM recall remained well below expert-query recall and
+  results varied across models and prompts; 15.8% of generated queries contained
+  malformed parentheses. Small benchmark collections and stochastic outputs
+  limit precision of model rankings.

@@ -1,0 +1,24 @@
+id: adam-2024-search
+type: journal-article
+title: "Literature search sandbox: a large language model that generates search queries for systematic reviews"
+authors:
+  - Gaelen P. Adam
+  - Jay DeYoung
+  - Alice Paul
+  - Ian J. Saldanha
+  - Ethan M. Balk
+  - Thomas A. Trikalinos
+  - Byron C. Wallace
+year: 2024
+doi: 10.1093/jamiaopen/ooae098
+url: https://doi.org/10.1093/jamiaopen/ooae098
+publication_status: "Published in JAMIA Open 7(3), ooae098"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Adam et al - 2024 - Literature search sandbox.pdf"
+notes: >
+  Fine-tuned Mistral-Instruct-7B on PROSPERO search queries and evaluated it on
+  57 reviews. Median sensitivity was 85% with title-only input and 86% with
+  title plus key questions; respective median numbers needed to read were 1,206
+  and 908. Eight librarian interviews concluded that generated queries needed
+  scrutiny and were better suited to scoping or initial drafts. Training queries
+  were protocol searches and did not necessarily reflect final expert strategies.

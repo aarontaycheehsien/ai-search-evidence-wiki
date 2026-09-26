@@ -1,0 +1,18 @@
+id: budau-2024-fass
+type: journal-article
+title: "Fully Automated Scholarly Search for Biomedical Systematic Literature Reviews"
+authors:
+  - Leandra Budau
+  - Farhood Ensan
+year: 2024
+doi: 10.1109/ACCESS.2024.3405529
+url: https://doi.org/10.1109/ACCESS.2024.3405529
+publication_status: "Published in IEEE Access 12, 83764-83773"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Budau and Ensan - 2024 - Automated scholarly search FASS-BSLR.pdf"
+notes: >
+  Benchmarked ChatGPT-generated PubMed Boolean queries against automated and
+  expert queries across 111 COVID-19 reviews, including 62 with manual queries.
+  Zero-seed ChatGPT recall@1000 was 0.2594 versus 0.3581 for manual queries;
+  three seed studies raised ChatGPT recall@1000 to 0.3300. The corpus was
+  restricted to COVID-19 and PubMed-indexed studies.

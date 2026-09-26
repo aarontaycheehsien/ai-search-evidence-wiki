@@ -11,4 +11,32 @@ evidence:
     relationship: supports
     locator: "Tables 2-3, PDF pp. 6-7; Discussion and limitations, PDF p. 13"
     note: "Across 71 CLEF TAR topics, the expert manual recall was 0.8436 while the best reported generated-query recall in Table 2 was 0.6545. On the seed collection, combining guided queries reached recall 0.7361 versus 0.7241 for manual queries but with very low precision; best-seed selection was post hoc."
+  - source_id: wang-2023-boolean
+    relationship: supports
+    locator: "Table 4, PDF p. 8; Tables 6-7, PDF pp. 10-11"
+    note: "On CLEF, the best single ChatGPT formulation prompt had recall 0.5035 versus 0.8317 for the original human query. Guided seed-based formulation improved recall to 0.5171 on the Seed Collection, while still showing run-to-run variation."
+  - source_id: adam-2024-search
+    relationship: supports
+    locator: "Table 1, PDF p. 6"
+    note: "Fine-tuned Mistral queries achieved median sensitivity of 85%-86% on 57 reviews, below the 100% median for human strategies; generated queries required a median 908-1,206 citations to read versus 580 for human queries."
+  - source_id: staudinger-2024-query
+    relationship: supports
+    locator: "Tables 1 and 3, PDF pp. 5-6"
+    note: "On CLEF TAR, human-query recall was 0.832, while the maximum reported LLM recall was 0.150; on the Seed Collection, the maximum model recall was 0.267 versus 0.711 for the human baseline."
+  - source_id: budau-2024-fass
+    relationship: supports
+    locator: "Table 4, PDF p. 6; Table 8, PDF p. 9"
+    note: "On a 62-review COVID-19 subset, ChatGPT recall@1000 was 0.2594 without seeds and 0.3300 with three seeds, compared with 0.3581 for manual queries."
+  - source_id: park-2025-search
+    relationship: supports
+    locator: "Table 6, PDF p. 14"
+    note: "For one obesity-psychotherapy topic across 139 included studies, ChatGPT-5 recall was 46.8% and Gemini 2.5 recall 49.6%, compared with 54.7% for a medical librarian; all precision estimates were below 1%."
+  - source_id: wang-2026-autobool
+    relationship: qualifies
+    locator: "Table 5, PDF p. 14; Table 6, PDF p. 15"
+    note: "AutoBool reached CLEF TAR recall 0.8387 versus 0.8458 for expert queries while retrieving 818 versus 14,327 documents, but Seed Collection recall remained lower (0.6828 vs. 0.7241)."
+  - source_id: walz-2025-search
+    relationship: qualifies
+    locator: "Results, PDF p. 3"
+    note: "Five of six ChatGPT-4.1 strategies across two topics retrieved all benchmark included articles, but no precision or time advantage was measured and hallucinated MeSH terms were common."
 last_reviewed: 2026-09-25

@@ -1,0 +1,21 @@
+id: nasser-2025-chained
+type: conference-paper
+title: "Chained Prompting for Better Systematic Review Search Strategies"
+authors:
+  - Fatima Nasser
+  - Fouad Trad
+  - Ammar Mohanna
+  - Ghada El-Hajj Fuleihan
+  - Ali Chehab
+year: 2025
+doi: 10.1109/FLLM67465.2025.11391048
+url: https://doi.org/10.1109/FLLM67465.2025.11391048
+publication_status: "Published in the 2025 International Conference on Foundation and Large Language Models; local copy carries an arXiv manuscript header"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Nasser et al - 2025 - Chained prompting search strategies.pdf"
+notes: >
+  Evaluated a multi-stage PICO and terminology-to-Boolean pipeline on 81
+  PubMed-indexed LEADSInstruct reviews. The authors report average recall of
+  0.87 for their full pipeline versus 0.10 for direct GPT-4o prompting, but
+  precision and screening workload were not reported. Reviews returning over
+  1,000 citations or API errors were excluded, limiting interpretation.
