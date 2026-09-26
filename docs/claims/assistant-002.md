@@ -6,14 +6,6 @@
 
 ## Evidence
 
-### Are AI tools better than traditional tools in literature searching? Evidence from E-commerce research
-
-- **Source:** [tomczyk-2024](../evidence/tomczyk-2024.md)
-- **Category:** peer-reviewed-study
-- **Relationship:** supports
-- **Locator:** Methods and Findings, PDF p. 5
-- **Note:** For the top eight results across nine e-commerce questions, title/abstract accuracy was 56% for Elicit and 33% for SciSpace, compared with 65% for Scopus and 78% for Web of Science; AI tools also surfaced unique papers.
-
 ### AI-Infused Discovery Environments: Information Retrieval Boon or Overpromised Hype?
 
 - **Source:** [galbreath-2025](../evidence/galbreath-2025.md)
@@ -22,14 +14,6 @@
 - **Locator:** Abstract, p. 1; results section
 - **Note:** Across 103 natural-language queries, the share of top citations judged relevant was similar for Primo Research Assistant and conventional Primo (46.3% vs 45.6%), with limited title overlap.
 
-### Navigating Machine-Driven Research Landscapes: A Comparative Approach
-
-- **Source:** [tranfield-2024](../evidence/tranfield-2024.md)
-- **Category:** peer-reviewed-study
-- **Relationship:** qualifies
-- **Locator:** Preliminary Results, PDF pp. 4–5
-- **Note:** In a six-tool comparison across ten STEM subdisciplines, SciSpace had high citation overlap and Elicit retrieved fewer recent materials; abstract relevance scoring was still ongoing, so this is descriptive coverage evidence rather than a completed accuracy comparison.
-
 ### Artificial Intelligence Search Tools for Evidence Synthesis: Comparative Analysis and Implementation Recommendations
 
 - **Source:** [featherstone-2025](../evidence/featherstone-2025.md)
@@ -37,6 +21,22 @@
 - **Relationship:** supports
 - **Locator:** Methods, PDF pp. 2-5; Tables 2-5, PDF pp. 7-12
 - **Note:** Across six review projects, average sensitivity was 0.676 for Lens.org, 0.230-0.257 for SpiderCite, and 0.244 for Copilot, versus 0.986 for customary searches; results differed between simple and complex projects.
+
+### Are AI tools better than traditional tools in literature searching? Evidence from E-commerce research
+
+- **Source:** [tomczyk-2024](../evidence/tomczyk-2024.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Methods and Findings, PDF p. 5
+- **Note:** For the top eight results across nine e-commerce questions, title/abstract accuracy was 56% for Elicit and 33% for SciSpace, compared with 65% for Scopus and 78% for Web of Science; AI tools also surfaced unique papers.
+
+### Navigating Machine-Driven Research Landscapes: A Comparative Approach
+
+- **Source:** [tranfield-2024](../evidence/tranfield-2024.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** qualifies
+- **Locator:** Preliminary Results, PDF pp. 4–5
+- **Note:** In a six-tool comparison across ten STEM subdisciplines, SciSpace had high citation overlap and Elicit retrieved fewer recent materials; abstract relevance scoring was still ongoing, so this is descriptive coverage evidence rather than a completed accuracy comparison.
 
 ### Useful for Exploration, Risky for Precision: Evaluating AI Tools in Academic Research
 

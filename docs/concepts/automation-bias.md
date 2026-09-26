@@ -18,9 +18,9 @@ Record the measures, decision rules, and reference standards used by each study;
 
 ## Related topics
 
-- [AI for risk-of-bias and evidence appraisal](../topics/ai-evidence-appraisal.md)
-- [LLMs for Citation Screening](../topics/llm-screening.md)
 - [LLMs for structured data extraction](../topics/llm-data-extraction.md)
+- [LLMs for Citation Screening](../topics/llm-screening.md)
+- [AI for risk-of-bias and evidence appraisal](../topics/ai-evidence-appraisal.md)
 
 ## Related tools
 

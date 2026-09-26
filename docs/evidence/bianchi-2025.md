@@ -17,5 +17,5 @@
 
 ## Linked claims
 
-- [Elicit data-extraction evaluations report imperfect accuracy that varies by field and evidence base, supporting human verification rather than autonomous use.](../claims/assistant-005.md) — **supports**
 - [LLM extraction performance varies by field and structural complexity: explicit study descriptors are generally easier than numerical outcomes, relational bindings, and complete synthesis-ready records.](../claims/extraction-003.md) — **supports**
+- [Elicit data-extraction evaluations report imperfect accuracy that varies by field and evidence base, supporting human verification rather than autonomous use.](../claims/assistant-005.md) — **supports**

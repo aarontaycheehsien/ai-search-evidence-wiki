@@ -18,7 +18,7 @@
 ## Linked claims
 
 - [Observed sensitivity of LLM citation screening differs substantially between evaluated review datasets and decision rules.](../claims/screening-001.md) — **supports**
-- [Overall screening accuracy alone can obscure lower sensitivity for citations that human reference standards included.](../claims/screening-002.md) — **contextual**
-- [Several evaluated LLM screening workflows missed eligible citations under their reference standards, so automatic exclusion can omit studies.](../claims/screening-003.md) — **supports**
 - [Changing the information supplied to an LLM or the decision rule used to interpret its output can alter screening performance.](../claims/screening-004.md) — **supports**
+- [Several evaluated LLM screening workflows missed eligible citations under their reference standards, so automatic exclusion can omit studies.](../claims/screening-003.md) — **supports**
+- [Overall screening accuracy alone can obscure lower sensitivity for citations that human reference standards included.](../claims/screening-002.md) — **contextual**
 - [Evaluated LLM screening workflows yielded calculated reductions in manual screening volume, with the amount saved dependent on the decision rule and observed sensitivity.](../claims/screening-007.md) — **supports**

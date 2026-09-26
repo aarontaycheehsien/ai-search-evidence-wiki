@@ -6,14 +6,6 @@
 
 ## Evidence
 
-### High-performance automated abstract screening with large language model ensembles
-
-- **Source:** [sanghera-2025](../evidence/sanghera-2025.md)
-- **Category:** peer-reviewed-study
-- **Relationship:** supports
-- **Locator:** Table 4, PDF p. 9
-- **Note:** On 119,695 retrospective records, perfect-sensitivity parallel ensembles had calculated workload reductions of 37.55%-41.81%; a series ensemble reached 99.13% with sensitivity 0.6900. These are modeled record counts, not observed reviewer time.
-
 ### Development and evaluation of prompts for a large language model to screen titles and abstracts in a living systematic review
 
 - **Source:** [homiar-2025](../evidence/homiar-2025.md)
@@ -21,6 +13,14 @@
 - **Relationship:** supports
 - **Locator:** Table 3, PDF p. 4
 - **Note:** Simulated manual-screening reductions were 65.72% in the baseline set and 79.04% and 85.63% in two updates, with title/abstract sensitivity 0.91, 1.00, and 0.58 respectively.
+
+### High-performance automated abstract screening with large language model ensembles
+
+- **Source:** [sanghera-2025](../evidence/sanghera-2025.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Table 4, PDF p. 9
+- **Note:** On 119,695 retrospective records, perfect-sensitivity parallel ensembles had calculated workload reductions of 37.55%-41.81%; a series ensemble reached 99.13% with sensitivity 0.6900. These are modeled record counts, not observed reviewer time.
 
 ### Testing the utility of GPT for title and abstract screening in environmental systematic evidence synthesis
 

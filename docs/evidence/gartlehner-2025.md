@@ -17,5 +17,5 @@
 
 ## Linked claims
 
-- [In one prospective study within reviews, human-verified LLM extraction was slightly more accurate and faster than a conventional human-only workflow, while both approaches retained consequential errors.](../claims/extraction-001.md) — **supports**
 - [Current LLM data extraction can be precise yet incomplete, with omissions as the dominant error; task-specific prompts improve recall but do not remove the need for human verification of meta-analytic data.](../claims/extraction-002.md) — **contextual**
+- [In one prospective study within reviews, human-verified LLM extraction was slightly more accurate and faster than a conventional human-only workflow, while both approaches retained consequential errors.](../claims/extraction-001.md) — **supports**

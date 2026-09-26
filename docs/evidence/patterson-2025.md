@@ -17,5 +17,5 @@
 
 ## Linked claims
 
-- [A small rubric study rated Undermind and paid Elicit highly, but its low interrater agreement makes these ratings preliminary; Undermind’s quantified search-performance claims come from a vendor-authored benchmark.](../claims/assistant-004.md) — **supports**
 - [User-facing evaluations identify speed and ease of use as benefits of Elicit, alongside concerns about generated-abstract accuracy, brevity, and transparency of result counts.](../claims/assistant-006.md) — **contextual**
+- [A small rubric study rated Undermind and paid Elicit highly, but its low interrater agreement makes these ratings preliminary; Undermind’s quantified search-performance claims come from a vendor-authored benchmark.](../claims/assistant-004.md) — **supports**

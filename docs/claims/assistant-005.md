@@ -6,14 +6,6 @@
 
 ## Evidence
 
-### Evaluating the AI Tool ‘Elicit’ as a Semi-Automated Second Reviewer for Data Extraction in Systematic Reviews: A Proof-of-Concept
-
-- **Source:** [hilkenmeier-2025](../evidence/hilkenmeier-2025.md)
-- **Category:** peer-reviewed-study
-- **Relationship:** supports
-- **Locator:** Results, PDF pp. 6–7; methods, pp. 3–5
-- **Note:** Across 43 studies and 602 data points, Elicit accuracy was 81.4% versus 86.7% for a human reviewer against a consensus ground truth; agreement and accuracy were lower for complex constructs and main-results fields.
-
 ### Evaluating Elicit’s systematic reviews workflow in an umbrella review on air pollution and acute lower respiratory infections: a methodological study for quality appraisal
 
 - **Source:** [mazzali-2026](../evidence/mazzali-2026.md)
@@ -21,6 +13,14 @@
 - **Relationship:** qualifies
 - **Locator:** Results, PDF p. 8
 - **Note:** Elicit disagreed with reviewers on 24.4% of general and 30.4% of additional AMSTAR-2 EH appraisal items; errors clustered on multi-component and expert-interpretation questions.
+
+### The Use of Artificial Intelligence in Dermatology Systematic Reviews: A Comparative Analysis of Elicit Against Human Reviewers
+
+- **Source:** [vyas-2026](../evidence/vyas-2026.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Results, PDF p. 1; Discussion, PDF p. 2
+- **Note:** Across 24 trials, Elicit identified disease correctly in all cases but misidentified study location and produced inputs yielding incorrect Jadad scores in 5 of 24 cases each.
 
 ### Using Elicit AI research assistant for data extraction in systematic reviews: A feasibility study across environmental and life sciences
 
@@ -38,13 +38,13 @@
 - **Locator:** Methods, PDF p. 2; Results and Figure 1, PDF pp. 3-4
 - **Note:** Across 140 field-level comparisons in 20 trials, Elicit outputs were equivalent to human extractions in 20.7%, contained more correct information in 29.3%, were incomplete in 45.7%, and were incorrect in 4.3%; intervention fields were least complete.
 
-### The Use of Artificial Intelligence in Dermatology Systematic Reviews: A Comparative Analysis of Elicit Against Human Reviewers
+### Evaluating the AI Tool ‘Elicit’ as a Semi-Automated Second Reviewer for Data Extraction in Systematic Reviews: A Proof-of-Concept
 
-- **Source:** [vyas-2026](../evidence/vyas-2026.md)
+- **Source:** [hilkenmeier-2025](../evidence/hilkenmeier-2025.md)
 - **Category:** peer-reviewed-study
 - **Relationship:** supports
-- **Locator:** Results, PDF p. 1; Discussion, PDF p. 2
-- **Note:** Across 24 trials, Elicit identified disease correctly in all cases but misidentified study location and produced inputs yielding incorrect Jadad scores in 5 of 24 cases each.
+- **Locator:** Results, PDF pp. 6–7; methods, pp. 3–5
+- **Note:** Across 43 studies and 602 data points, Elicit accuracy was 81.4% versus 86.7% for a human reviewer against a consensus ground truth; agreement and accuracy were lower for complex constructs and main-results fields.
 
 ### Using Artificial Intelligence Tools as Second Reviewers for Data Extraction in Systematic Reviews: A Performance Comparison of Two AI Tools Against Human Reviewers
 

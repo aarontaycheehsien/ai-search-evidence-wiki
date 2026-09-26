@@ -18,18 +18,18 @@ Record the measures, decision rules, and reference standards used by each study;
 
 ## Related topics
 
-- [AI for risk-of-bias and evidence appraisal](../topics/ai-evidence-appraisal.md)
-- [Citation fidelity in LLM-generated reviews](../topics/citation-fidelity.md)
-- [Automated deduplication tools for evidence synthesis](../topics/deduplication-tools.md)
 - [LLMs for structured data extraction](../topics/llm-data-extraction.md)
 - [LLMs for Citation Screening](../topics/llm-screening.md)
 - [LLMs for search strategy generation and expansion](../topics/llm-search-strategy-generation.md)
+- [Citation fidelity in LLM-generated reviews](../topics/citation-fidelity.md)
+- [AI for risk-of-bias and evidence appraisal](../topics/ai-evidence-appraisal.md)
+- [Automated deduplication tools for evidence synthesis](../topics/deduplication-tools.md)
 
 ## Related tools
 
-- [Consensus](../tools/consensus.md)
 - [Elicit.com](../tools/elicit.md)
 - [General-purpose AI assistants](../tools/general-purpose-ai-assistants.md)
+- [Consensus](../tools/consensus.md)
 - [Undermind.ai](../tools/undermind.md)
 
 ## Linked claims

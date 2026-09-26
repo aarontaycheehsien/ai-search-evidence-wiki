@@ -17,6 +17,6 @@
 
 ## Linked claims
 
-- [Elicit data-extraction evaluations report imperfect accuracy that varies by field and evidence base, supporting human verification rather than autonomous use.](../claims/assistant-005.md) — **supports**
-- [Current LLM data extraction can be precise yet incomplete, with omissions as the dominant error; task-specific prompts improve recall but do not remove the need for human verification of meta-analytic data.](../claims/extraction-002.md) — **supports**
 - [LLM extraction performance varies by field and structural complexity: explicit study descriptors are generally easier than numerical outcomes, relational bindings, and complete synthesis-ready records.](../claims/extraction-003.md) — **supports**
+- [Current LLM data extraction can be precise yet incomplete, with omissions as the dominant error; task-specific prompts improve recall but do not remove the need for human verification of meta-analytic data.](../claims/extraction-002.md) — **supports**
+- [Elicit data-extraction evaluations report imperfect accuracy that varies by field and evidence base, supporting human verification rather than autonomous use.](../claims/assistant-005.md) — **supports**

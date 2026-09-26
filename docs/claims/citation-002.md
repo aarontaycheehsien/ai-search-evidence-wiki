@@ -6,14 +6,6 @@
 
 ## Evidence
 
-### Evaluating and Guarding Citation Faithfulness in Agentic Scientific Synthesis
-
-- **Source:** [goo-2026-citation-faithfulness](../evidence/goo-2026-citation-faithfulness.md)
-- **Category:** preprint
-- **Relationship:** supports
-- **Locator:** Abstract; Sections 5.3-5.4; Figure 3; Table S3
-- **Note:** Applying five gold-validated verifiers to identical outputs produced unsupported-citation estimates of about 3-18%; negative-specific agreement on which citations to flag was 0.27-0.30 on 300 cited sentences. This source is a preprint.
-
 ### Fluency Without Fidelity: Errors in Citation-Attributed Claims in Large Language Model-Generated Literature Reviews in Mental Health
 
 - **Source:** [linardon-2026](../evidence/linardon-2026.md)
@@ -29,6 +21,14 @@
 - **Relationship:** contextual
 - **Locator:** Methods and Table 4, PDF pp. 8-12
 - **Note:** Reported per-review reference accuracy based on manual judgments of whether reference explanations were consistent with original articles, a different unit and rubric from claim-pair audits.
+
+### Evaluating and Guarding Citation Faithfulness in Agentic Scientific Synthesis
+
+- **Source:** [goo-2026-citation-faithfulness](../evidence/goo-2026-citation-faithfulness.md)
+- **Category:** preprint
+- **Relationship:** supports
+- **Locator:** Abstract; Sections 5.3-5.4; Figure 3; Table S3
+- **Note:** Applying five gold-validated verifiers to identical outputs produced unsupported-citation estimates of about 3-18%; negative-specific agreement on which citations to flag was 0.27-0.30 on 300 cited sentences. This source is a preprint.
 
 ### ReportBench: Evaluating Deep Research Agents via Academic Survey Tasks
 

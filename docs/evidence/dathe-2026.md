@@ -18,5 +18,5 @@
 ## Linked claims
 
 - [Independent tool comparisons report different retrieval relevance and coverage profiles across query sets; current evidence does not establish a general-purpose winner over conventional library search.](../claims/assistant-002.md) — **qualifies**
-- [One single-domain study reported high Consensus precision on a specialized tissue-engineering query, while broader comparative studies do not support treating that result as a stable cross-domain performance estimate.](../claims/assistant-003.md) — **qualifies**
 - [User-facing evaluations identify speed and ease of use as benefits of Elicit, alongside concerns about generated-abstract accuracy, brevity, and transparency of result counts.](../claims/assistant-006.md) — **qualifies**
+- [One single-domain study reported high Consensus precision on a specialized tissue-engineering query, while broader comparative studies do not support treating that result as a stable cross-domain performance estimate.](../claims/assistant-003.md) — **qualifies**

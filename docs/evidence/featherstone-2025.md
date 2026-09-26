@@ -17,6 +17,6 @@
 
 ## Linked claims
 
+- [AI search and extraction tools can reduce initial search or screening effort, but measured efficiency gains may coincide with lower retrieval sensitivity or be offset by prompt development, screening, and human verification.](../claims/assistant-007.md) — **supports**
 - [Independent tool comparisons report different retrieval relevance and coverage profiles across query sets; current evidence does not establish a general-purpose winner over conventional library search.](../claims/assistant-002.md) — **supports**
 - [User-facing evaluations identify speed and ease of use as benefits of Elicit, alongside concerns about generated-abstract accuracy, brevity, and transparency of result counts.](../claims/assistant-006.md) — **contextual**
-- [AI search and extraction tools can reduce initial search or screening effort, but measured efficiency gains may coincide with lower retrieval sensitivity or be offset by prompt development, screening, and human verification.](../claims/assistant-007.md) — **supports**

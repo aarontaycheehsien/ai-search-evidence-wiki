@@ -212,3 +212,28 @@ def test_evidence_context_uses_authoritative_counts_and_categories() -> None:
     assert "Scaffold with no directly linked evidence." in pages["docs/concepts/precision.md"]
     assert "docs/topics/index.md" in affected_source("guo-2024")
     assert "docs/tools/index.md" in affected_source("hartke-undermind")
+
+
+def test_evidence_indexes_rank_source_volume_with_peer_reviewed_tiebreak() -> None:
+    pages = render_all()
+    tools = pages["docs/tools/index.md"]
+    topics = pages["docs/topics/index.md"]
+    assert tools.index("[Elicit.com]") < tools.index("[General-purpose AI assistants]")
+    assert tools.index("[SciSpace]") < tools.index("[Undermind.ai]")
+    assert topics.index("[LLMs for structured data extraction]") < topics.index("[LLMs for Citation Screening]")
+    claims = pages["docs/claims/index.md"]
+    assert "13 sources;" in claims
+    assert "9 sources;" in claims
+    assert claims.index("13 sources;") < claims.index("9 sources;")
+
+
+def test_evidence_lists_put_peer_reviewed_sources_before_other_categories() -> None:
+    pages = render_all()
+    claim = pages["docs/claims/assistant-004.md"]
+    study = claim.index("### Which AI Tools Work Best for Research?")
+    preprint = claim.index("### Evaluating Eight Retrieval-Augmented Generation")
+    vendor = claim.index("### Benchmarking the Undermind Search Assistant")
+    assert study < preprint < vendor
+    source_index = pages["docs/evidence/index.md"]
+    assert source_index.index("## Peer-reviewed studies") < source_index.index("## Preprints")
+    assert source_index.index("OpenExtract: Automated Data Extraction") < source_index.index("Harnessing the Power of ChatGPT")

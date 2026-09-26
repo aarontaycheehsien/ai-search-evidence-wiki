@@ -18,18 +18,18 @@ Record the measures, decision rules, and reference standards used by each study;
 
 ## Related topics
 
-- [AI for risk-of-bias and evidence appraisal](../topics/ai-evidence-appraisal.md)
 - [LLMs for structured data extraction](../topics/llm-data-extraction.md)
 - [LLMs for Citation Screening](../topics/llm-screening.md)
+- [AI for risk-of-bias and evidence appraisal](../topics/ai-evidence-appraisal.md)
 
 ## Related tools
 
 - [Elicit.com](../tools/elicit.md)
 - [General-purpose AI assistants](../tools/general-purpose-ai-assistants.md)
+- [Undermind.ai](../tools/undermind.md)
 - [Microsoft Copilot](../tools/microsoft-copilot.md)
 - [Research Rabbit](../tools/research-rabbit.md)
 - [SpiderCite](../tools/spidercite.md)
-- [Undermind.ai](../tools/undermind.md)
 
 ## Linked claims
 

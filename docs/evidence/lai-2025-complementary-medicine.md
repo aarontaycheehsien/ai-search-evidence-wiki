@@ -17,7 +17,7 @@
 
 ## Linked claims
 
-- [Standalone general-purpose LLMs have not demonstrated sufficient agreement or diagnostic performance for autonomous risk-of-bias and evidence-appraisal judgments.](../claims/appraisal-001.md) — **qualifies**
-- [AI search and extraction tools can reduce initial search or screening effort, but measured efficiency gains may coincide with lower retrieval sensitivity or be offset by prompt development, screening, and human verification.](../claims/assistant-007.md) — **qualifies**
 - [LLM extraction performance varies by field and structural complexity: explicit study descriptors are generally easier than numerical outcomes, relational bindings, and complete synthesis-ready records.](../claims/extraction-003.md) — **qualifies**
+- [AI search and extraction tools can reduce initial search or screening effort, but measured efficiency gains may coincide with lower retrieval sensitivity or be offset by prompt development, screening, and human verification.](../claims/assistant-007.md) — **qualifies**
 - [Small workflow evaluations report that human-plus-LLM or complementary multi-LLM extraction can improve accuracy or coverage and reduce extraction time, while retaining a human verification role.](../claims/extraction-005.md) — **supports**
+- [Standalone general-purpose LLMs have not demonstrated sufficient agreement or diagnostic performance for autonomous risk-of-bias and evidence-appraisal judgments.](../claims/appraisal-001.md) — **qualifies**

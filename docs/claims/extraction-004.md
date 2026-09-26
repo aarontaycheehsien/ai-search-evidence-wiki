@@ -6,14 +6,6 @@
 
 ## Evidence
 
-### Performance of large language models and prompt engineering strategies for data extraction in systematic reviews
-
-- **Source:** [oami-2026-extraction](../evidence/oami-2026-extraction.md)
-- **Category:** peer-reviewed-study
-- **Relationship:** supports
-- **Locator:** Results, Tables 2-3 and Figure 4, PDF pp. 3-7
-- **Note:** Chain-of-thought and self-reflection prompts produced only modest accuracy changes; self-reflection increased mean processing time compared with standard prompts.
-
 ### Assessing data extraction in randomized clinical trials with large language models
 
 - **Source:** [yisha-2026-rct-extraction](../evidence/yisha-2026-rct-extraction.md)
@@ -21,6 +13,14 @@
 - **Relationship:** supports
 - **Locator:** Methods and Results, PDF pp. 2-4
 - **Note:** LLM-modified prompts did not significantly change extraction accuracy compared with the original prompts in this 105-RCT proof-of-concept.
+
+### Performance of large language models and prompt engineering strategies for data extraction in systematic reviews
+
+- **Source:** [oami-2026-extraction](../evidence/oami-2026-extraction.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Results, Tables 2-3 and Figure 4, PDF pp. 3-7
+- **Note:** Chain-of-thought and self-reflection prompts produced only modest accuracy changes; self-reflection increased mean processing time compared with standard prompts.
 
 ### What level of automation is 'good enough'? A benchmark of large language models for meta-analysis data extraction
 

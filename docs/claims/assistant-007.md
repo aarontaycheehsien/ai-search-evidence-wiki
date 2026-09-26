@@ -6,13 +6,13 @@
 
 ## Evidence
 
-### Artificial Intelligence Search Tools for Evidence Synthesis: Comparative Analysis and Implementation Recommendations
+### How Researchers Navigate Accountability, Transparency, and Trust When Using AI Tools in Early-Stage Research: A Think-Aloud Study
 
-- **Source:** [featherstone-2025](../evidence/featherstone-2025.md)
+- **Source:** [gautam-2026](../evidence/gautam-2026.md)
 - **Category:** peer-reviewed-study
-- **Relationship:** supports
-- **Locator:** Tables 2-5, PDF pp. 7-12; focus-group findings, PDF pp. 13-15
-- **Note:** The tested tools required less search execution and modeled screening time than customary practice, but average sensitivity across six review projects was 0.230-0.676 versus 0.986 for the reference searches.
+- **Relationship:** contextual
+- **Locator:** Sections 4.2.3-4.2.5, PDF p. 7
+- **Note:** Eight of 15 researchers used redundant manual verification; three described burdens from detailed prompting. Qualitative reports identify work added by verification but do not quantify net task time.
 
 ### The Use of Artificial Intelligence in Dermatology Systematic Reviews: A Comparative Analysis of Elicit Against Human Reviewers
 
@@ -30,13 +30,13 @@
 - **Locator:** Methods and Results, PDF pp. 4-12
 - **Note:** Forty of 70 successful extraction variables required two to four prompt iterations, and 20 of 90 variables failed to reach the development threshold after five iterations; manual-versus-AI time was not measured.
 
-### How Researchers Navigate Accountability, Transparency, and Trust When Using AI Tools in Early-Stage Research: A Think-Aloud Study
+### Artificial Intelligence Search Tools for Evidence Synthesis: Comparative Analysis and Implementation Recommendations
 
-- **Source:** [gautam-2026](../evidence/gautam-2026.md)
+- **Source:** [featherstone-2025](../evidence/featherstone-2025.md)
 - **Category:** peer-reviewed-study
-- **Relationship:** contextual
-- **Locator:** Sections 4.2.3-4.2.5, PDF p. 7
-- **Note:** Eight of 15 researchers used redundant manual verification; three described burdens from detailed prompting. Qualitative reports identify work added by verification but do not quantify net task time.
+- **Relationship:** supports
+- **Locator:** Tables 2-5, PDF pp. 7-12; focus-group findings, PDF pp. 13-15
+- **Note:** The tested tools required less search execution and modeled screening time than customary practice, but average sensitivity across six review projects was 0.230-0.676 versus 0.986 for the reference searches.
 
 ### Language models for data extraction and risk of bias assessment in complementary medicine
 

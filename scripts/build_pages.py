@@ -22,6 +22,7 @@ SOURCE_LABELS = {
     "editorial-source": ("editorial source", "editorial sources"),
 }
 COUNT_NOTE = "Counts describe distinct linked source records. A source may appear under multiple entries; source counts and year ranges are not evidence-quality ratings. Years are the years recorded for the sources."
+SOURCE_CATEGORY_ORDER = {category: rank for rank, category in enumerate(SOURCE_LABELS)}
 
 
 def evidence_summary(records: list[dict[str, Any]], include_count: bool = True) -> str:
@@ -49,6 +50,30 @@ def record_sources(record: dict[str, Any], claims: dict[str, dict[str, Any]], so
     return [sources[source_id] for source_id in sorted(ids)]
 
 
+def _source_order(source: dict[str, Any]) -> tuple[Any, ...]:
+    """Order evidence classes first, then newer and alphabetically by title."""
+    year = source.get("year")
+    return (SOURCE_CATEGORY_ORDER[source["source_category"]], -(year or 0), source["title"].casefold(), source["id"])
+
+
+def _ranked_records(records: list[dict[str, Any]], claims: dict[str, dict[str, Any]], sources: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
+    """Order entries by distinct source volume, then peer-reviewed source count."""
+    def key(record: dict[str, Any]) -> tuple[Any, ...]:
+        linked = record_sources(record, claims, sources)
+        peer_reviewed = sum(source["source_category"] == "peer-reviewed-study" for source in linked)
+        return (-len(linked), -peer_reviewed, record["title"].casefold(), record["id"])
+    return sorted(records, key=key)
+
+
+def _claim_order(claim: dict[str, Any], sources: dict[str, dict[str, Any]], allowed_source_ids: set[str] | None = None) -> tuple[Any, ...]:
+    source_ids = {ev["source_id"] for ev in claim["evidence"]}
+    if allowed_source_ids is not None:
+        source_ids.intersection_update(allowed_source_ids)
+    records = [sources[source_id] for source_id in source_ids]
+    peer_reviewed = sum(source["source_category"] == "peer-reviewed-study" for source in records)
+    return (-len(source_ids), -peer_reviewed, claim["claim"].strip().casefold(), claim["id"])
+
+
 def load_records(kind: str) -> list[dict[str, Any]]:
     return [yaml.safe_load(path.read_text(encoding="utf-8")) for path in sorted((ROOT / "data" / kind).glob("*.yaml"))]
 
@@ -74,7 +99,7 @@ def render_claim(claim: dict[str, Any], sources: dict[str, dict[str, Any]], topi
     lines = [MARKER, "", f"# {claim['claim'].strip()}", "", f"**Status:** {claim['status']} — {evidence_summary(claim_sources(claim, sources))}", "", "## Evidence", ""]
     if not claim["evidence"]:
         lines.append("No evidence records are linked to this claim.")
-    for ev in claim["evidence"]:
+    for ev in sorted(claim["evidence"], key=lambda item: _source_order(sources[item["source_id"]])):
         src = sources[ev["source_id"]]
         lines.extend([
             f"### {src['title']}", "",
@@ -98,13 +123,13 @@ def render_claim(claim: dict[str, Any], sources: dict[str, dict[str, Any]], topi
     return "\n".join(lines)
 
 
-def render_source(source: dict[str, Any], claims: list[dict[str, Any]]) -> str:
+def render_source(source: dict[str, Any], claims: list[dict[str, Any]], sources: dict[str, dict[str, Any]]) -> str:
     category = SOURCE_LABELS[source['source_category']][0]
     lines = [MARKER, "", f"# {source['title']}", "", f"**Source:** {source.get('year') or 'year not recorded'}; {category}", "", "## Bibliographic information", "",
              f"- **Authors:** {', '.join(source['authors'])}", f"- **Year:** {_line(source.get('year'))}", f"- **DOI:** {_line(source.get('doi'))}", f"- **URL:** {_line(source.get('url'))}",
              f"- **Publication status:** {source['publication_status']}", f"- **Source category:** {source['source_category']}", f"- **Record type:** {source['type']}", f"- **Notes:** {_line(source.get('notes'))}", "", "## Linked claims", ""]
     found = False
-    for claim in claims:
+    for claim in sorted(claims, key=lambda item: _claim_order(item, sources)):
         matches = [ev for ev in claim["evidence"] if ev["source_id"] == source["id"]]
         for ev in matches:
             found = True
@@ -122,7 +147,7 @@ def render_source_index(sources: list[dict[str, Any]]) -> str:
         matching = [source for source in sources if source["source_category"] == category]
         if matching:
             lines.extend([f"## {heading} ({len(matching)})", "", evidence_summary(matching, include_count=False), ""])
-            lines.extend(f"- [{source['title']}]({source['id']}.md) ({_line(source.get('year'))})" for source in matching)
+            lines.extend(f"- [{source['title']}]({source['id']}.md) ({_line(source.get('year'))})" for source in sorted(matching, key=_source_order))
             lines.append("")
     return "\n".join(lines)
 
@@ -130,7 +155,8 @@ def render_source_index(sources: list[dict[str, Any]]) -> str:
 def render_claim_index(claims: list[dict[str, Any]], sources: dict[str, dict[str, Any]]) -> str:
     lines = [MARKER, "", "# Claims", "", "Claims and their evidence relationships are generated from `data/claims/`.", ""]
     lines.extend([COUNT_NOTE, ""])
-    lines.extend(f"- [{claim['claim'].strip()}]({claim['id']}.md) — **{claim['status']}**; {evidence_summary(claim_sources(claim, sources))}" for claim in claims)
+    ordered_claims = sorted(claims, key=lambda item: _claim_order(item, sources))
+    lines.extend(f"- [{claim['claim'].strip()}]({claim['id']}.md) — **{claim['status']}**; {evidence_summary(claim_sources(claim, sources))}" for claim in ordered_claims)
     lines.append("")
     return "\n".join(lines)
 
@@ -138,10 +164,9 @@ def render_claim_index(claims: list[dict[str, Any]], sources: dict[str, dict[str
 def render_topic_index(topics: list[dict[str, Any]], claims: dict[str, dict[str, Any]], sources: dict[str, dict[str, Any]]) -> str:
     lines = [MARKER, "", "# Topics", "", "Research questions organized around AI-assisted academic search and evidence synthesis.", ""]
     lines.extend([COUNT_NOTE, ""])
-    for topic in topics:
-        if topic["type"] == "question":
-            linked = record_sources(topic, claims, sources)
-            lines.append(f"- [{topic['title']}]({topic['id']}.md) ({len(linked)}) — {evidence_summary(linked, include_count=False)}")
+    for topic in _ranked_records([item for item in topics if item["type"] == "question"], claims, sources):
+        linked = record_sources(topic, claims, sources)
+        lines.append(f"- [{topic['title']}]({topic['id']}.md) ({len(linked)}) — {evidence_summary(linked, include_count=False)}")
     lines.append("")
     return "\n".join(lines)
 
@@ -152,7 +177,7 @@ def render_tool_index(tools: list[dict[str, Any]], claims: dict[str, dict[str, A
         "Empirical evaluations organized by the research assistant or discovery tool evaluated.", "",
     ]
     lines.extend([COUNT_NOTE, ""])
-    for tool in tools:
+    for tool in _ranked_records(tools, claims, sources):
         linked = record_sources(tool, claims, sources)
         lines.append(f"- [{tool['title']}]({tool['id']}.md) ({len(linked)}) — {evidence_summary(linked, include_count=False)}")
     lines.append("")
@@ -167,9 +192,9 @@ def render_concept_index(topics: list[dict[str, Any]]) -> str:
 
 
 def render_topic(topic: dict[str, Any], claims: dict[str, dict[str, Any]], sources: dict[str, dict[str, Any]], experiments: list[dict[str, Any]], concepts: dict[str, dict[str, Any]]) -> str:
-    topic_claims = [claims[cid] for cid in topic["claim_ids"]]
+    topic_claims = sorted((claims[cid] for cid in topic["claim_ids"]), key=lambda item: _claim_order(item, sources))
     linked_ids = {ev["source_id"] for claim in topic_claims for ev in claim["evidence"]}
-    linked_sources = [source for source in sources.values() if source["id"] in linked_ids]
+    linked_sources = sorted((source for source in sources.values() if source["id"] in linked_ids), key=_source_order)
     lines = [
         MARKER, "", f"# {topic['title']}", "", f"**Evidence:** {evidence_summary(linked_sources)}", "", "## Research question", "",
         topic.get("question", "No question recorded."), "", "## Scope and review boundaries", "",
@@ -183,7 +208,7 @@ def render_topic(topic: dict[str, Any], claims: dict[str, dict[str, Any]], sourc
         lines.extend([f"### [{claim['claim'].strip()}](../claims/{claim['id']}.md)", "", f"**Status:** {claim['status']}", ""])
         if not claim["evidence"]:
             lines.extend(["No source is linked.", ""])
-        for ev in claim["evidence"]:
+        for ev in sorted(claim["evidence"], key=lambda item: _source_order(sources[item["source_id"]])):
             src = sources[ev["source_id"]]
             lines.append(f"- **{ev['relationship']}** — [{src['title']}](../evidence/{src['id']}.md) ({src['source_category']}); locator: {_line(ev.get('locator'))}. {_line(ev.get('note'))}")
         lines.append("")
@@ -195,10 +220,10 @@ def render_topic(topic: dict[str, Any], claims: dict[str, dict[str, Any]], sourc
         lines.append("No concepts are linked yet.")
     lines.extend(["", "## Open questions and evidence gaps", "", "Record unresolved questions and evidence gaps here as they are identified during review.", ""])
     lines.extend(["## Peer-reviewed studies", ""])
-    studies = [s for s in linked_sources if s["source_category"] == "peer-reviewed-study"]
+    studies = sorted((s for s in linked_sources if s["source_category"] == "peer-reviewed-study"), key=_source_order)
     lines.extend(f"- [{s['title']}](../evidence/{s['id']}.md)" for s in studies) if studies else lines.append("No peer-reviewed study records are linked.")
     lines.extend(["", "## Preprints and unverified manuscripts", ""])
-    preprints = [s for s in linked_sources if s["source_category"] == "preprint"]
+    preprints = sorted((s for s in linked_sources if s["source_category"] == "preprint"), key=_source_order)
     lines.extend(f"- [{s['title']}](../evidence/{s['id']}.md) — {s['publication_status']}" for s in preprints) if preprints else lines.append("No preprints or unverified manuscripts are linked.")
     lines.extend(["", "## Independent experiments", ""])
     related = [e for e in experiments if any(cid in topic["claim_ids"] for cid in e.get("related_claims", []))]
@@ -208,7 +233,7 @@ def render_topic(topic: dict[str, Any], claims: dict[str, dict[str, Any]], sourc
     else:
         lines.extend(["No independent experiments are linked.", ""])
     lines.extend(["## Important uncertainties", ""])
-    flagged = [claim for claim in topic_claims if claim["status"] in {"provisional", "uncertain", "mixed", "contradicted"}]
+    flagged = sorted((claim for claim in topic_claims if claim["status"] in {"provisional", "uncertain", "mixed", "contradicted"}), key=lambda item: _claim_order(item, sources))
     if flagged:
         lines.extend(f"- [{claim['claim'].strip()}](../claims/{claim['id']}.md) is marked **{claim['status']}**." for claim in flagged)
     else:
@@ -220,7 +245,8 @@ def render_topic(topic: dict[str, Any], claims: dict[str, dict[str, Any]], sourc
 def render_tool(tool: dict[str, Any], claims: dict[str, dict[str, Any]], sources: dict[str, dict[str, Any]], concepts: dict[str, dict[str, Any]]) -> str:
     tool_claims = [claims[cid] for cid in tool["claim_ids"]]
     included_source_ids = set(tool["evidence_source_ids"])
-    linked_sources = [source for source in sources.values() if source["id"] in included_source_ids]
+    linked_sources = sorted((source for source in sources.values() if source["id"] in included_source_ids), key=_source_order)
+    tool_claims.sort(key=lambda claim: _claim_order(claim, sources, included_source_ids))
     lines = [
         MARKER, "", f"# {tool['title']}", "", f"**Evidence:** {evidence_summary(linked_sources)}", "", "## Scope", "",
         tool["description"], "", "## Overview", "",
@@ -229,7 +255,7 @@ def render_tool(tool: dict[str, Any], claims: dict[str, dict[str, Any]], sources
         "## Key claims", "",
     ]
     for claim in tool_claims:
-        relevant_evidence = [ev for ev in claim["evidence"] if ev["source_id"] in included_source_ids]
+        relevant_evidence = sorted((ev for ev in claim["evidence"] if ev["source_id"] in included_source_ids), key=lambda item: _source_order(sources[item["source_id"]]))
         if not relevant_evidence:
             continue
         lines.extend([f"### [{claim['claim'].strip()}](../claims/{claim['id']}.md)", "", f"**Status:** {claim['status']}", ""])
@@ -254,13 +280,13 @@ def render_tool(tool: dict[str, Any], claims: dict[str, dict[str, Any]], sources
     lines.extend(["", "### Other evidence categories", ""])
     lines.extend(f"- [{s['title']}](../evidence/{s['id']}.md) — {s['source_category']}" for s in other) if other else lines.append("No vendor, system, experimental, or editorial records are linked.")
     lines.extend(["", "## Important uncertainties", ""])
-    flagged = [claim for claim in tool_claims if claim["status"] in {"provisional", "uncertain", "mixed", "contradicted"}]
+    flagged = sorted((claim for claim in tool_claims if claim["status"] in {"provisional", "uncertain", "mixed", "contradicted"}), key=lambda item: _claim_order(item, sources, included_source_ids))
     lines.extend(f"- [{claim['claim'].strip()}](../claims/{claim['id']}.md) is marked **{claim['status']}**." for claim in flagged) if flagged else lines.append("No linked claim is currently flagged as provisional, uncertain, mixed, or contradicted.")
     lines.extend(["", "Read the individual source records for study design, scope, and unresolved reporting discrepancies.", "", f"**Last reviewed:** {tool.get('last_reviewed', 'Not recorded')}", ""])
     return "\n".join(lines)
 
 
-def render_concept(concept: dict[str, Any], topics: dict[str, dict[str, Any]], tools: list[dict[str, Any]], claims: dict[str, dict[str, Any]]) -> str:
+def render_concept(concept: dict[str, Any], topics: dict[str, dict[str, Any]], tools: list[dict[str, Any]], claims: dict[str, dict[str, Any]], sources: dict[str, dict[str, Any]]) -> str:
     lines = [
         MARKER, "", f"# {concept['title']}", "", "Scaffold with no directly linked evidence." if not concept['claim_ids'] else "Concept scaffold with directly linked claims.", "", "## Working definition", "",
         "To be defined and cited. This scaffold does not assert a definition.", "",
@@ -272,13 +298,14 @@ def render_concept(concept: dict[str, Any], topics: dict[str, dict[str, Any]], t
     ]
     related = concept.get("related_topics", [])
     if related:
-        lines.extend(f"- [{topics[topic_id]['title']}](../topics/{topic_id}.md)" for topic_id in related)
+        related_records = [topics[topic_id] for topic_id in related]
+        lines.extend(f"- [{topic['title']}](../topics/{topic['id']}.md)" for topic in _ranked_records(related_records, claims, sources))
     else:
         lines.append("No topics linked yet.")
     related_tools = [tool for tool in tools if concept["id"] in tool.get("concept_ids", [])]
     lines.extend(["", "## Related tools", ""])
     if related_tools:
-        lines.extend(f"- [{tool['title']}](../tools/{tool['id']}.md)" for tool in related_tools)
+        lines.extend(f"- [{tool['title']}](../tools/{tool['id']}.md)" for tool in _ranked_records(related_tools, claims, sources))
     else:
         lines.append("No tools linked yet.")
     lines.extend(["", "## Linked claims", ""])
@@ -313,11 +340,11 @@ def render_all() -> dict[str, str]:
     for tool in tools:
         output[f"docs/tools/{tool['id']}.md"] = render_tool(tool, claim_by_id, source_by_id, concept_by_id)
     for concept in concepts:
-        output[f"docs/concepts/{concept['id']}.md"] = render_concept(concept, topic_by_id, tools, claim_by_id)
+        output[f"docs/concepts/{concept['id']}.md"] = render_concept(concept, topic_by_id, tools, claim_by_id, source_by_id)
     for claim in claims:
         output[f"docs/claims/{claim['id']}.md"] = render_claim(claim, source_by_id, topic_by_id)
     for source in sources:
-        output[f"docs/evidence/{source['id']}.md"] = render_source(source, claims)
+        output[f"docs/evidence/{source['id']}.md"] = render_source(source, claims, source_by_id)
     return output
 
 

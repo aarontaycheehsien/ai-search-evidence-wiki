@@ -17,6 +17,6 @@
 
 ## Linked claims
 
-- [Overall screening accuracy alone can obscure lower sensitivity for citations that human reference standards included.](../claims/screening-002.md) — **supports**
 - [Several evaluated LLM screening workflows missed eligible citations under their reference standards, so automatic exclusion can omit studies.](../claims/screening-003.md) — **supports**
+- [Overall screening accuracy alone can obscure lower sensitivity for citations that human reference standards included.](../claims/screening-002.md) — **supports**
 - [In a six-review scoping-review evaluation, a chain-of-thought GPT-4 screening workflow performed similarly to a zero-shot workflow.](../claims/screening-005.md) — **supports**

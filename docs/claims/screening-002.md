@@ -6,6 +6,14 @@
 
 ## Evidence
 
+### High-performance automated abstract screening with large language model ensembles
+
+- **Source:** [sanghera-2025](../evidence/sanghera-2025.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** contextual
+- **Locator:** Table 3, PDF p. 7
+- **Note:** On 119,695 low-prevalence search results, selected model-prompt combinations had positive predictive values of 0.004-0.096 despite balanced accuracies of 0.710-0.926; this illustrates a different misleading summary-metric problem.
+
 ### Automated Paper Screening for Clinical Reviews Using Large Language Models: Data Analysis Study
 
 - **Source:** [guo-2024](../evidence/guo-2024.md)
@@ -37,14 +45,6 @@
 - **Relationship:** supports
 - **Locator:** Results, PDF p. 7
 - **Note:** Preprint: GPTscreenR accuracy was 84% while weighted sensitivity was 71%.
-
-### High-performance automated abstract screening with large language model ensembles
-
-- **Source:** [sanghera-2025](../evidence/sanghera-2025.md)
-- **Category:** peer-reviewed-study
-- **Relationship:** contextual
-- **Locator:** Table 3, PDF p. 7
-- **Note:** On 119,695 low-prevalence search results, selected model-prompt combinations had positive predictive values of 0.004-0.096 despite balanced accuracies of 0.710-0.926; this illustrates a different misleading summary-metric problem.
 
 ## Topics
 
