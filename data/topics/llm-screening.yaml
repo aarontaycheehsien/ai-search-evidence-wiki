@@ -15,4 +15,12 @@ claim_ids:
   - screening-008
   - screening-009
   - screening-010
+concept_ids:
+  - recall-and-sensitivity
+  - precision
+  - reference-standards
+  - human-in-the-loop-verification
+  - reproducibility-and-stability
+  - automation-bias
+  - extraction-and-screening-errors
 last_reviewed: 2026-09-25

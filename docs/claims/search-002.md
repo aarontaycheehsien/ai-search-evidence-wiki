@@ -16,6 +16,6 @@
 
 ## Topics
 
-- [LLMs for search strategy generation and expansion](../questions/llm-search-strategy-generation.md)
+- [LLMs for search strategy generation and expansion](../topics/llm-search-strategy-generation.md)
 
 **Last reviewed:** 2026-09-25

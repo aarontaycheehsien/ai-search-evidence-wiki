@@ -1,15 +1,11 @@
 # AI Search Evidence Wiki
 
-A living evidence base about AI-assisted academic search and evidence synthesis. Version 1 covers **LLMs for citation screening in evidence synthesis**.
+Version 2 organizes this living, source-linked evidence base around empirical evaluations of AI-assisted academic search and evidence synthesis. Topic pages present linked claims and study records; concept pages provide a shared vocabulary for comparing results. Concept pages are scaffolds and do not introduce findings.
 
-The current records were extracted from seven supplied papers. Source pages identify journal studies and preprints separately. Some claims remain provisional, and two papers have a discrepancy between their summary prose and a results table that is recorded on their source pages.
+## Explore
 
-## Questions
-
-- [LLMs for Citation Screening](questions/llm-screening.md)
-
-## Evidence
-
+- [Topics](topics/index.md)
+- [Concepts](concepts/index.md)
 - [Sources](evidence/index.md)
 - [Claims](claims/index.md)
 - [Independent experiments](evidence/independent-experiments.md)
@@ -19,4 +15,4 @@ The current records were extracted from seven supplied papers. Source pages iden
 - [Methodology](methodology.md)
 - [How this wiki is maintained](maintenance.md)
 
-Evidence records are maintained in YAML under `data/`. The Markdown evidence pages are generated from those records. Human interpretation belongs in `editorial/` and remains separate.
+YAML under `data/` is authoritative. Generated Markdown is a view of those records. Human interpretation in `editorial/` remains separate.

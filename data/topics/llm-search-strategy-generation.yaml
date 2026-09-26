@@ -9,4 +9,9 @@ claim_ids:
   - search-002
   - search-003
   - search-004
+concept_ids:
+  - recall-and-sensitivity
+  - precision
+  - reference-standards
+  - reproducibility-and-stability
 last_reviewed: 2026-09-26

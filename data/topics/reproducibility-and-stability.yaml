@@ -1,0 +1,12 @@
+id: reproducibility-and-stability
+title: Reproducibility and output stability
+type: concept
+claim_ids: []
+related_topics:
+  - ai-evidence-appraisal
+  - citation-fidelity
+  - deduplication-tools
+  - llm-data-extraction
+  - llm-screening
+  - llm-search-strategy-generation
+  - research-assistant-tools

@@ -1,6 +1,8 @@
 > **THIS FILE IS GENERATED. DO NOT EDIT DIRECTLY.**
 
-# Questions
+# Topics
+
+Research questions organized around AI-assisted academic search and evidence synthesis.
 
 - [AI for risk-of-bias and evidence appraisal](ai-evidence-appraisal.md)
 - [Citation fidelity in LLM-generated reviews](citation-fidelity.md)

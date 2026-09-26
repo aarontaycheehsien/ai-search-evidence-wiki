@@ -7,4 +7,10 @@ question: >
 claim_ids:
   - appraisal-001
   - appraisal-002
+concept_ids:
+  - reference-standards
+  - human-in-the-loop-verification
+  - reproducibility-and-stability
+  - automation-bias
+  - extraction-and-screening-errors
 last_reviewed: 2026-09-25

@@ -2,14 +2,18 @@
 
 # AI for risk-of-bias and evidence appraisal
 
-## Question
+## Research question
 
 How reliably can large language models assess risk of bias, reporting quality, methodological rigor, and study design?
 
 
+## Scope and review boundaries
+
+Define the evidence-synthesis setting, eligible study types, and task boundaries here. Keep scope decisions explicit and source-backed where they depend on empirical evidence.
+
 ## Overview
 
-This question groups 2 claims linked to 2 source records.
+This topic groups 2 claims linked to 2 source records.
 
 ## Current evidence
 
@@ -30,6 +34,18 @@ The relationships and source categories below come from the structured evidence 
 
 - **supports** — [Benchmarking Human-AI Collaboration for Common Evidence Appraisal Tools](../evidence/woelfle-2024.md) (preprint); locator: Table 3, PDF pp. 10-11; Discussion and limitations, PDF pp. 12-14. Human-LLM pairs reached 89%-96% accuracy for PRISMA and 91%-95% for AMSTAR while deferring 25%-52% of ratings. PRECIS-2 reached 80%-86% but deferred 71%-76%, and only one of ten pairings significantly outperformed a human alone. This evidence is from a preprint and workload savings were not prospectively measured.
 - **qualifies** — [Large language models for risk-of-bias assessment in randomised clinical trials—a comparative validation study](../evidence/nyrhi-2026.md) (peer-reviewed-study); locator: Results and interpretation, PDF pp. 4-7. A later peer-reviewed validation found poor RoB 2 agreement and recommends supervised triage or second-assessor use rather than autonomous assessment.
+
+## Connected concepts
+
+- [Reference standards and ground truth](../concepts/reference-standards.md)
+- [Human-in-the-loop verification](../concepts/human-in-the-loop-verification.md)
+- [Reproducibility and output stability](../concepts/reproducibility-and-stability.md)
+- [Automation bias and reviewer oversight](../concepts/automation-bias.md)
+- [Error types in screening and extraction](../concepts/extraction-and-screening-errors.md)
+
+## Open questions and evidence gaps
+
+Record unresolved questions and evidence gaps here as they are identified during review.
 
 ## Peer-reviewed studies
 

@@ -12,4 +12,12 @@ claim_ids:
   - assistant-004
   - assistant-005
   - assistant-006
+concept_ids:
+  - recall-and-sensitivity
+  - precision
+  - reference-standards
+  - human-in-the-loop-verification
+  - reproducibility-and-stability
+  - automation-bias
+  - extraction-and-screening-errors
 last_reviewed: 2026-09-25

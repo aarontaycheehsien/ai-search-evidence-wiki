@@ -16,6 +16,6 @@
 
 ## Topics
 
-- [Automated deduplication tools for evidence synthesis](../questions/deduplication-tools.md)
+- [Automated deduplication tools for evidence synthesis](../topics/deduplication-tools.md)
 
 **Last reviewed:** 2026-09-25

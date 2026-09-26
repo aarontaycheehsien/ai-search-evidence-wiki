@@ -2,14 +2,18 @@
 
 # Automated deduplication tools for evidence synthesis
 
-## Question
+## Research question
 
 What accuracy and time tradeoffs have been observed among automated and semi-automated deduplication tools?
 
 
+## Scope and review boundaries
+
+Define the evidence-synthesis setting, eligible study types, and task boundaries here. Keep scope decisions explicit and source-backed where they depend on empirical evidence.
+
 ## Overview
 
-This question groups 1 claims linked to 1 source records.
+This topic groups 1 claims linked to 1 source records.
 
 ## Current evidence
 
@@ -22,6 +26,17 @@ The relationships and source categories below come from the structured evidence 
 **Status:** supported
 
 - **supports** — [Evaluating the accuracy and speed of eight deduplication tools: A comparative study](../evidence/bateup-2026.md) (peer-reviewed-study); locator: Results and Table 3, PDF p. 8; Tables 5-7, PDF pp. 10-11; limitations, PDF pp. 12-13. Across 22,778 records from five review searches, unique records removed in error ranged from 2 to 22, missed duplicates from 34 to 280, and total processing time from 42 seconds to 20 hours 34 minutes.
+
+## Connected concepts
+
+- [Recall and sensitivity](../concepts/recall-and-sensitivity.md)
+- [Precision](../concepts/precision.md)
+- [Reference standards and ground truth](../concepts/reference-standards.md)
+- [Reproducibility and output stability](../concepts/reproducibility-and-stability.md)
+
+## Open questions and evidence gaps
+
+Record unresolved questions and evidence gaps here as they are identified during review.
 
 ## Peer-reviewed studies
 

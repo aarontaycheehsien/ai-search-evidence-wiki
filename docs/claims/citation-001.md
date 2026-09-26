@@ -16,6 +16,6 @@
 
 ## Topics
 
-- [Citation fidelity in LLM-generated reviews](../questions/citation-fidelity.md)
+- [Citation fidelity in LLM-generated reviews](../topics/citation-fidelity.md)
 
 **Last reviewed:** 2026-09-25

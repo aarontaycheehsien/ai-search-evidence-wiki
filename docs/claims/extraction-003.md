@@ -80,6 +80,6 @@
 
 ## Topics
 
-- [LLMs for structured data extraction](../questions/llm-data-extraction.md)
+- [LLMs for structured data extraction](../topics/llm-data-extraction.md)
 
 **Last reviewed:** 2026-09-26

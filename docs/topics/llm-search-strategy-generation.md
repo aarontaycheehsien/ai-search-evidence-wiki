@@ -2,14 +2,18 @@
 
 # LLMs for search strategy generation and expansion
 
-## Question
+## Research question
 
 How reliably do large language models generate or expand literature-search queries for evidence synthesis?
 
 
+## Scope and review boundaries
+
+Define the evidence-synthesis setting, eligible study types, and task boundaries here. Keep scope decisions explicit and source-backed where they depend on empirical evidence.
+
 ## Overview
 
-This question groups 4 claims linked to 11 source records.
+This topic groups 4 claims linked to 11 source records.
 
 ## Current evidence
 
@@ -53,6 +57,17 @@ The relationships and source categories below come from the structured evidence 
 - **supports** — [Chained Prompting for Better Systematic Review Search Strategies](../evidence/nasser-2025-chained.md) (peer-reviewed-study); locator: Table I, PDF p. 5; dataset and exclusions, PDF pp. 3, 7. A chained pipeline reported mean recall 0.87 across 81 selected reviews, compared with 0.10 for direct GPT-4o prompting, but did not report precision or workload and excluded searches returning over 1,000 records.
 - **supports** — [AutoBool: Reinforcement-Learned LLM for Effective Automatic Systematic Reviews Boolean Query Generation](../evidence/wang-2026-autobool.md) (peer-reviewed-study); locator: Table 5, PDF p. 14; Table 6, PDF p. 15. On CLEF TAR, AutoBool recall was 0.8387 versus 0.8458 for expert queries while retrieving 818 versus 14,327 documents; on the Seed Collection, recall was 0.6828 versus 0.7241.
 - **qualifies** — [Fully Automated Scholarly Search for Biomedical Systematic Literature Reviews](../evidence/budau-2024-fass.md) (peer-reviewed-study); locator: Tables 4 and 8, PDF pp. 6, 9. In a COVID-19 benchmark, ChatGPT zero-seed recall@1000 was below manual queries (0.2594 vs 0.3581); three seed documents narrowed the gap to 0.3300.
+
+## Connected concepts
+
+- [Recall and sensitivity](../concepts/recall-and-sensitivity.md)
+- [Precision](../concepts/precision.md)
+- [Reference standards and ground truth](../concepts/reference-standards.md)
+- [Reproducibility and output stability](../concepts/reproducibility-and-stability.md)
+
+## Open questions and evidence gaps
+
+Record unresolved questions and evidence gaps here as they are identified during review.
 
 ## Peer-reviewed studies
 

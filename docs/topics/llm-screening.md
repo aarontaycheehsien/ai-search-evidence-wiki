@@ -2,14 +2,18 @@
 
 # LLMs for Citation Screening
 
-## Question
+## Research question
 
 How well can large language models perform citation screening in evidence synthesis?
 
 
+## Scope and review boundaries
+
+Define the evidence-synthesis setting, eligible study types, and task boundaries here. Keep scope decisions explicit and source-backed where they depend on empirical evidence.
+
 ## Overview
 
-This question groups 10 claims linked to 14 source records.
+This topic groups 10 claims linked to 14 source records.
 
 ## Current evidence
 
@@ -104,6 +108,20 @@ The relationships and source categories below come from the structured evidence 
 **Status:** provisional
 
 - **supports** — [Evaluating Elicit’s systematic reviews workflow in an umbrella review on air pollution and acute lower respiratory infections: a methodological study for quality appraisal](../evidence/mazzali-2026.md) (peer-reviewed-study); locator: Results, PDF p. 7 (title/abstract stage) and p. 8 (full-text stage); abstract, p. 1. At title/abstract screening, Elicit selected 70 records versus 33 traditionally, with 30 overlapping (recall 90.9%, 95% CI 75.7–98.1; precision 42.9%, 95% CI 31.1–55.3). Full-text selection had recall 100% and precision 62.5%. This comparison applies Elicit functions to the same 324 records; the separate natural-language retrieval set overlapped the traditional search by only 8%, so this does not establish end-to-end search recall.
+
+## Connected concepts
+
+- [Recall and sensitivity](../concepts/recall-and-sensitivity.md)
+- [Precision](../concepts/precision.md)
+- [Reference standards and ground truth](../concepts/reference-standards.md)
+- [Human-in-the-loop verification](../concepts/human-in-the-loop-verification.md)
+- [Reproducibility and output stability](../concepts/reproducibility-and-stability.md)
+- [Automation bias and reviewer oversight](../concepts/automation-bias.md)
+- [Error types in screening and extraction](../concepts/extraction-and-screening-errors.md)
+
+## Open questions and evidence gaps
+
+Record unresolved questions and evidence gaps here as they are identified during review.
 
 ## Peer-reviewed studies
 

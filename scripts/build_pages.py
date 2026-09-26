@@ -11,7 +11,7 @@ import yaml
 from scripts.validate import ROOT, validate
 
 MARKER = "> **THIS FILE IS GENERATED. DO NOT EDIT DIRECTLY.**"
-GENERATED_DIRS = ("docs/questions", "docs/claims", "docs/evidence")
+GENERATED_DIRS = ("docs/topics", "docs/concepts", "docs/claims", "docs/evidence")
 
 
 def load_records(kind: str) -> list[dict[str, Any]]:
@@ -46,7 +46,7 @@ def render_claim(claim: dict[str, Any], sources: dict[str, dict[str, Any]], topi
         ])
     lines.extend(["## Topics", ""])
     if claim["topics"]:
-        lines.extend(f"- [{topics[t]['title']}](../questions/{t}.md)" for t in claim["topics"])
+        lines.extend(f"- [{topics[t]['title']}](../topics/{t}.md)" for t in claim["topics"])
     else:
         lines.append("No topic linked.")
     lines.extend(["", f"**Last reviewed:** {claim['last_reviewed']}", ""])
@@ -87,21 +87,29 @@ def render_claim_index(claims: list[dict[str, Any]]) -> str:
     return "\n".join(lines)
 
 
-def render_question_index(topics: list[dict[str, Any]]) -> str:
-    lines = [MARKER, "", "# Questions", ""]
+def render_topic_index(topics: list[dict[str, Any]]) -> str:
+    lines = [MARKER, "", "# Topics", "", "Research questions organized around AI-assisted academic search and evidence synthesis.", ""]
     lines.extend(f"- [{topic['title']}]({topic['id']}.md)" for topic in topics if topic["type"] == "question")
     lines.append("")
     return "\n".join(lines)
 
 
-def render_topic(topic: dict[str, Any], claims: dict[str, dict[str, Any]], sources: dict[str, dict[str, Any]], experiments: list[dict[str, Any]]) -> str:
+def render_concept_index(topics: list[dict[str, Any]]) -> str:
+    lines = [MARKER, "", "# Concepts", "", "Cross-cutting concepts used to describe and compare AI-assisted evidence-synthesis research.", ""]
+    lines.extend(f"- [{topic['title']}]({topic['id']}.md)" for topic in topics if topic["type"] == "concept")
+    lines.append("")
+    return "\n".join(lines)
+
+
+def render_topic(topic: dict[str, Any], claims: dict[str, dict[str, Any]], sources: dict[str, dict[str, Any]], experiments: list[dict[str, Any]], concepts: dict[str, dict[str, Any]]) -> str:
     topic_claims = [claims[cid] for cid in topic["claim_ids"]]
     linked_ids = {ev["source_id"] for claim in topic_claims for ev in claim["evidence"]}
     linked_sources = [source for source in sources.values() if source["id"] in linked_ids]
     lines = [
-        MARKER, "", f"# {topic['title']}", "", "## Question", "",
-        topic.get("question", "No question recorded."), "", "## Overview", "",
-        f"This question groups {len(topic_claims)} claims linked to {len(linked_sources)} source records.", "",
+        MARKER, "", f"# {topic['title']}", "", "## Research question", "",
+        topic.get("question", "No question recorded."), "", "## Scope and review boundaries", "",
+        "Define the evidence-synthesis setting, eligible study types, and task boundaries here. Keep scope decisions explicit and source-backed where they depend on empirical evidence.", "", "## Overview", "",
+        f"This topic groups {len(topic_claims)} claims linked to {len(linked_sources)} source records.", "",
         "## Current evidence", "",
         "The relationships and source categories below come from the structured evidence records. Results are reported in each source's own review setting; this page does not pool them.",
         "", "## Key claims", "",
@@ -114,6 +122,13 @@ def render_topic(topic: dict[str, Any], claims: dict[str, dict[str, Any]], sourc
             src = sources[ev["source_id"]]
             lines.append(f"- **{ev['relationship']}** — [{src['title']}](../evidence/{src['id']}.md) ({src['source_category']}); locator: {_line(ev.get('locator'))}. {_line(ev.get('note'))}")
         lines.append("")
+    lines.extend(["## Connected concepts", ""])
+    connected = [concepts[concept_id] for concept_id in topic.get("concept_ids", [])]
+    if connected:
+        lines.extend(f"- [{concept['title']}](../concepts/{concept['id']}.md)" for concept in connected)
+    else:
+        lines.append("No concepts are linked yet.")
+    lines.extend(["", "## Open questions and evidence gaps", "", "Record unresolved questions and evidence gaps here as they are identified during review.", ""])
     lines.extend(["## Peer-reviewed studies", ""])
     studies = [s for s in linked_sources if s["source_category"] == "peer-reviewed-study"]
     lines.extend(f"- [{s['title']}](../evidence/{s['id']}.md)" for s in studies) if studies else lines.append("No peer-reviewed study records are linked.")
@@ -137,6 +152,30 @@ def render_topic(topic: dict[str, Any], claims: dict[str, dict[str, Any]], sourc
     return "\n".join(lines)
 
 
+def render_concept(concept: dict[str, Any], topics: dict[str, dict[str, Any]], claims: dict[str, dict[str, Any]]) -> str:
+    lines = [
+        MARKER, "", f"# {concept['title']}", "", "## Working definition", "",
+        "To be defined and cited. This scaffold does not assert a definition.", "",
+        "## Why it matters in evidence synthesis", "",
+        "Describe the concept's relevance to AI-assisted academic search or evidence synthesis, supported by linked sources where appropriate.", "",
+        "## How studies operationalize it", "",
+        "Record the measures, decision rules, and reference standards used by each study; do not assume measures are interchangeable.", "",
+        "## Related topics", "",
+    ]
+    related = concept.get("related_topics", [])
+    if related:
+        lines.extend(f"- [{topics[topic_id]['title']}](../topics/{topic_id}.md)" for topic_id in related)
+    else:
+        lines.append("No topics linked yet.")
+    lines.extend(["", "## Linked claims", ""])
+    if concept.get("claim_ids"):
+        lines.extend(f"- [{claims[claim_id]['claim'].strip()}](../claims/{claim_id}.md)" for claim_id in concept["claim_ids"])
+    else:
+        lines.extend(["No claims are linked directly yet. Follow the related topic pages to see the current evidence.", ""])
+    lines.extend(["## Open questions", "", "Record unresolved definitions, measurement choices, and evidence gaps here.", ""])
+    return "\n".join(lines)
+
+
 def render_all() -> dict[str, str]:
     sources = load_records("sources")
     claims = load_records("claims")
@@ -145,13 +184,18 @@ def render_all() -> dict[str, str]:
     source_by_id = _source_map(sources)
     claim_by_id = _claim_map(claims)
     topic_by_id = {item["id"]: item for item in topics}
+    questions = [item for item in topics if item["type"] == "question"]
+    concepts = [item for item in topics if item["type"] == "concept"]
+    concept_by_id = {item["id"]: item for item in concepts}
     output: dict[str, str] = {}
-    output["docs/questions/index.md"] = render_question_index(topics)
+    output["docs/topics/index.md"] = render_topic_index(topics)
+    output["docs/concepts/index.md"] = render_concept_index(topics)
     output["docs/claims/index.md"] = render_claim_index(claims)
     output["docs/evidence/index.md"] = render_source_index(sources)
-    for topic in topics:
-        if topic["type"] == "question":
-            output[f"docs/questions/{topic['id']}.md"] = render_topic(topic, claim_by_id, source_by_id, experiments)
+    for topic in questions:
+        output[f"docs/topics/{topic['id']}.md"] = render_topic(topic, claim_by_id, source_by_id, experiments, concept_by_id)
+    for concept in concepts:
+        output[f"docs/concepts/{concept['id']}.md"] = render_concept(concept, topic_by_id, claim_by_id)
     for claim in claims:
         output[f"docs/claims/{claim['id']}.md"] = render_claim(claim, source_by_id, topic_by_id)
     for source in sources:

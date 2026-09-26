@@ -40,6 +40,6 @@
 
 ## Topics
 
-- [LLMs for Citation Screening](../questions/llm-screening.md)
+- [LLMs for Citation Screening](../topics/llm-screening.md)
 
 **Last reviewed:** 2026-09-25

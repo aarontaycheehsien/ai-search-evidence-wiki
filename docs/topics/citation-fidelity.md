@@ -2,14 +2,18 @@
 
 # Citation fidelity in LLM-generated reviews
 
-## Question
+## Research question
 
 Do claims in large-language-model-generated literature reviews accurately represent the papers they cite?
 
 
+## Scope and review boundaries
+
+Define the evidence-synthesis setting, eligible study types, and task boundaries here. Keep scope decisions explicit and source-backed where they depend on empirical evidence.
+
 ## Overview
 
-This question groups 1 claims linked to 1 source records.
+This topic groups 1 claims linked to 1 source records.
 
 ## Current evidence
 
@@ -22,6 +26,16 @@ The relationships and source categories below come from the structured evidence 
 **Status:** supported
 
 - **supports** — [Fluency Without Fidelity: Errors in Citation-Attributed Claims in Large Language Model-Generated Literature Reviews in Mental Health](../evidence/linardon-2026.md) (peer-reviewed-study); locator: Methods, PDF pp. 2-4; Results and Table 2, PDF p. 5. All 209 cited publications were identifiable, but only 43.5% of 333 citation-claim pairs were fully accurate; 19.8% were fabricated or contradictory and 18.3% contained major inaccuracies. The audit used one ChatGPT-5 configuration in mental health.
+
+## Connected concepts
+
+- [Reference standards and ground truth](../concepts/reference-standards.md)
+- [Reproducibility and output stability](../concepts/reproducibility-and-stability.md)
+- [Error types in screening and extraction](../concepts/extraction-and-screening-errors.md)
+
+## Open questions and evidence gaps
+
+Record unresolved questions and evidence gaps here as they are identified during review.
 
 ## Peer-reviewed studies
 

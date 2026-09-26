@@ -123,6 +123,26 @@ def validate(root: Path = ROOT) -> list[str]:
             errors.append(f"{label}: invalid type {topic.get('type')!r}")
         if topic.get("type") == "question" and not topic.get("question"):
             errors.append(f"{label}: question topics require a question field")
+        if topic.get("type") == "question":
+            _required(topic, ("concept_ids",), label, errors)
+            concept_ids = topic.get("concept_ids", [])
+            if not isinstance(concept_ids, list):
+                errors.append(f"{label}: concept_ids must be a list")
+            else:
+                for concept_id in concept_ids:
+                    concept = topic_by_id.get(concept_id)
+                    if concept is None or concept.get("type") != "concept":
+                        errors.append(f"{label}: references missing concept {concept_id!r}")
+        if topic.get("type") == "concept":
+            _required(topic, ("related_topics",), label, errors)
+            related_topics = topic.get("related_topics", [])
+            if not isinstance(related_topics, list):
+                errors.append(f"{label}: related_topics must be a list")
+            else:
+                for related_id in related_topics:
+                    related = topic_by_id.get(related_id)
+                    if related is None or related.get("type") != "question":
+                        errors.append(f"{label}: references missing research topic {related_id!r}")
         if not isinstance(topic.get("claim_ids"), list):
             errors.append(f"{label}: claim_ids must be a list")
         else:

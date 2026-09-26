@@ -24,6 +24,6 @@
 
 ## Topics
 
-- [AI for risk-of-bias and evidence appraisal](../questions/ai-evidence-appraisal.md)
+- [AI for risk-of-bias and evidence appraisal](../topics/ai-evidence-appraisal.md)
 
 **Last reviewed:** 2026-09-25

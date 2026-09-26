@@ -2,14 +2,18 @@
 
 # LLMs for structured data extraction
 
-## Question
+## Research question
 
 How accurate, complete, and efficient are large language models for extracting structured data from studies for evidence synthesis?
 
 
+## Scope and review boundaries
+
+Define the evidence-synthesis setting, eligible study types, and task boundaries here. Keep scope decisions explicit and source-backed where they depend on empirical evidence.
+
 ## Overview
 
-This question groups 5 claims linked to 11 source records.
+This topic groups 5 claims linked to 11 source records.
 
 ## Current evidence
 
@@ -63,6 +67,20 @@ The relationships and source categories below come from the structured evidence 
 - **supports** — [A foundation model for human-AI collaboration in medical literature mining](../evidence/wang-2025-leads.md) (peer-reviewed-study); locator: Results, Figure 5 and text, PDF pp. 8-9. In a pilot involving 90 clinical-trial publications and two medical researchers, the expert-plus-LEADS arm achieved accuracy 0.85 versus 0.80 for expert-only and reduced task time by 26.9%; authors note the pilot was small and expert oversight remains needed.
 - **supports** — [Custom GPT models for complex rheumatology systematic reviews: A two-part evaluation of data extraction and prognosis appraisal](../evidence/munguia-realpozo-2026-custom-gpt.md) (peer-reviewed-study); locator: Results, Table 1 and Figure 1, PDF pp. 5-6. In 15 SLE metabolomics studies, customized GPT-4o extraction took a mean 5.7 minutes per study versus 30.4 minutes for human reviewers, but overall template concordance was 25.0%, supporting speed gains with substantial verification needs.
 - **supports** — [Automated data extraction for systematic reviews using GPT-5.2 and Google Gemini Pro 3: A dual-large language model approach in orthopaedic research](../evidence/vivekanantha-2026-dual-extraction.md) (peer-reviewed-study); locator: Results, Tables 1-3, PDF pp. 5-8; Discussion, PDF pp. 8-9. Across eight studies, at least one of GPT-5.2 or Gemini 3 Pro was fully correct on 95.1% of 384 fields. The authors frame parallel LLMs as a human-verified first-pass approach; the adjudicator was not blinded to model outputs.
+
+## Connected concepts
+
+- [Recall and sensitivity](../concepts/recall-and-sensitivity.md)
+- [Precision](../concepts/precision.md)
+- [Reference standards and ground truth](../concepts/reference-standards.md)
+- [Human-in-the-loop verification](../concepts/human-in-the-loop-verification.md)
+- [Reproducibility and output stability](../concepts/reproducibility-and-stability.md)
+- [Automation bias and reviewer oversight](../concepts/automation-bias.md)
+- [Error types in screening and extraction](../concepts/extraction-and-screening-errors.md)
+
+## Open questions and evidence gaps
+
+Record unresolved questions and evidence gaps here as they are identified during review.
 
 ## Peer-reviewed studies
 

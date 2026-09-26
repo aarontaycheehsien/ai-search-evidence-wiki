@@ -24,6 +24,6 @@
 
 ## Topics
 
-- [Empirical evaluations of AI research assistants](../questions/research-assistant-tools.md)
+- [Empirical evaluations of AI research assistants](../topics/research-assistant-tools.md)
 
 **Last reviewed:** 2026-09-25

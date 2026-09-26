@@ -10,4 +10,12 @@ claim_ids:
   - extraction-003
   - extraction-004
   - extraction-005
+concept_ids:
+  - recall-and-sensitivity
+  - precision
+  - reference-standards
+  - human-in-the-loop-verification
+  - reproducibility-and-stability
+  - automation-bias
+  - extraction-and-screening-errors
 last_reviewed: 2026-09-26

@@ -2,14 +2,18 @@
 
 # Empirical evaluations of AI research assistants
 
-## Question
+## Research question
 
 What do empirical studies report about the retrieval, relevance, usability, and evidence-extraction performance of AI research assistants and discovery tools?
 
 
+## Scope and review boundaries
+
+Define the evidence-synthesis setting, eligible study types, and task boundaries here. Keep scope decisions explicit and source-backed where they depend on empirical evidence.
+
 ## Overview
 
-This question groups 6 claims linked to 14 source records.
+This topic groups 6 claims linked to 14 source records.
 
 ## Current evidence
 
@@ -62,6 +66,20 @@ The relationships and source categories below come from the structured evidence 
 
 - **supports** — [Incorporating Generative AI to Promote Inquiry-Based Learning: Comparing Elicit AI Research Assistant to PubMed and CINAHL Complete](../evidence/fenske-2024.md) (peer-reviewed-study); locator: Results, PDF pp. 5–9. In a descriptive course study with 323 graduate nursing students, 26.0% preferred Elicit, compared with 30.7% for PubMed and 31.6% for CINAHL. Among Elicit-preferring students, 38.8% cited ease of use and 16.3% cited speed; across respondents, 34.1% identified inaccurate abstracts and 39.5% overly brief abstracts as weaknesses. This was not a blinded article-level accuracy benchmark.
 - **contextual** — [Which AI Tools Work Best for Research? Using Librarian and Student Perspectives to Inform a Rating Rubric](../evidence/patterson-2025.md) (peer-reviewed-study); locator: Methods and results, PDF pp. 3–6. Librarian/student raters valued discovery and search features, but the study used a small rater group and had low average agreement.
+
+## Connected concepts
+
+- [Recall and sensitivity](../concepts/recall-and-sensitivity.md)
+- [Precision](../concepts/precision.md)
+- [Reference standards and ground truth](../concepts/reference-standards.md)
+- [Human-in-the-loop verification](../concepts/human-in-the-loop-verification.md)
+- [Reproducibility and output stability](../concepts/reproducibility-and-stability.md)
+- [Automation bias and reviewer oversight](../concepts/automation-bias.md)
+- [Error types in screening and extraction](../concepts/extraction-and-screening-errors.md)
+
+## Open questions and evidence gaps
+
+Record unresolved questions and evidence gaps here as they are identified during review.
 
 ## Peer-reviewed studies
 

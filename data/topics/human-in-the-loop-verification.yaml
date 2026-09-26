@@ -1,0 +1,9 @@
+id: human-in-the-loop-verification
+title: Human-in-the-loop verification
+type: concept
+claim_ids: []
+related_topics:
+  - ai-evidence-appraisal
+  - llm-data-extraction
+  - llm-screening
+  - research-assistant-tools

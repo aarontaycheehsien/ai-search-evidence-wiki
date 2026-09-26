@@ -1,6 +1,6 @@
 # AI Search Evidence Wiki
 
-A small Git-based evidence wiki about AI-assisted academic search and evidence synthesis. Current topics cover citation screening, research assistants, search-strategy generation, structured data extraction, evidence appraisal, citation fidelity, and deduplication.
+A Git-based evidence wiki about AI-assisted academic search and evidence synthesis. Version 2 organizes the evidence into research topics and cross-cutting concept scaffolds. Current topics cover citation screening, research assistants, search-strategy generation, structured data extraction, evidence appraisal, citation fidelity, and deduplication.
 
 The repository keeps source and claim records in YAML. Python scripts validate those records and deterministically generate Markdown pages. Zensical builds the Markdown into a static site. Codex Desktop can provide interactive reasoning while a human reviews proposed evidence changes; the repository itself makes no LLM or API calls.
 
@@ -11,10 +11,10 @@ The evidence records include journal studies and preprints. Most were extracted 
 - `incoming/papers/`: place papers here for human-assisted processing.
 - `data/sources/`: bibliographic and source-type records.
 - `data/claims/`: stable claim records with explicit source relationships.
-- `data/topics/`: questions and topics that group claims.
+- `data/topics/`: topic and concept records that group claims and connect the wiki's cross-cutting concepts.
 - `data/experiments/`: independent experiments, kept distinct from published research.
 - `editorial/`: human-written interpretation; not generated or silently edited.
-- `docs/`: site source, including generated question, claim, and evidence pages.
+- `docs/`: site source, including generated topic, concept, claim, and evidence pages.
 - `scripts/`: validation, deterministic generation, dependency reporting, stale-claim reporting, and site build tools.
 - `outputs/`: reserved for future downstream briefs, textbook sections, and articles.
 
@@ -68,4 +68,4 @@ The wiki is published at [https://aarontaycheehsien.github.io/ai-search-evidence
 
 ## Scope limits
 
-Version 1 does not include hosted model calls, API integration, embeddings, vector databases, RAG, autonomous literature search, chatbot features, automatic publication without review, or automatic Git commits. `outputs/` is reserved and not yet implemented.
+Version 2 remains a curated static evidence site. It does not include hosted model calls, API integration, embeddings, vector databases, RAG, autonomous literature search, chatbot features, or automatic publication or Git commits. `outputs/` is reserved for future downstream briefs, textbook sections, and articles.
