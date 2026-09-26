@@ -1,0 +1,25 @@
+id: goo-2026-citation-faithfulness
+type: preprint
+title: "Evaluating and Guarding Citation Faithfulness in Agentic Scientific Synthesis"
+authors:
+  - Taewan Goo
+  - Junsik Kim
+  - Kyulhee Han
+  - GwonYul Jo
+  - Jong-Soo Kim
+  - Tae-Hyung Kim
+year: 2026
+doi: 10.48550/arXiv.2607.20527
+url: https://doi.org/10.48550/arXiv.2607.20527
+publication_status: "arXiv preprint 2607.20527v1; manuscript submitted to ACM"
+source_category: preprint
+local_file: "incoming/papers/Goo et al - 2026 - Citation faithfulness in scientific synthesis.pdf"
+notes: >
+  Applied five gold-validated verifiers to identical claim-citation pairs from
+  agentic scientific-synthesis outputs. The measured unsupported-citation rate
+  ranged from about 3% to about 18% as verifier strictness changed. On 300
+  cited sentences, verifiers agreed strongly on supported citations but only
+  weakly on which citations to flag (negative-specific agreement 0.27-0.30).
+  The study concerns multi-paper cited answers and is a preprint; it also shows
+  that verifier-dependent rates should not be compared without a shared
+  protocol.

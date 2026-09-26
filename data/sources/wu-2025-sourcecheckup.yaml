@@ -1,0 +1,28 @@
+id: wu-2025-sourcecheckup
+type: journal-article
+title: "An automated framework for assessing how well LLMs cite relevant medical references"
+authors:
+  - Kevin Wu
+  - Eric Wu
+  - Kevin Wei
+  - Angela Zhang
+  - Allison Casasola
+  - Teresa Nguyen
+  - Sith Riantawan
+  - Patricia Shi
+  - Daniel Ho
+  - James Zou
+year: 2025
+doi: 10.1038/s41467-025-58551-6
+url: https://doi.org/10.1038/s41467-025-58551-6
+publication_status: "Published in Nature Communications 16:3615"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Wu et al - 2025 - SourceCheckup medical references.pdf"
+notes: >
+  Evaluated seven LLMs on 800 medical questions and nearly 58,000
+  statement-source pairs. Between 50% and 90% of responses were not fully
+  supported by their cited sources; GPT-4o with web search had 55% fully
+  supported responses. The automated verifier agreed with physician consensus
+  on 88.7% of 400 annotated pairs, and physicians confirmed 105 of 110 pairs
+  that the verifier marked unsupported. This is adjacent evidence from medical
+  question answering rather than literature-review generation.

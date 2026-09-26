@@ -1,0 +1,35 @@
+id: luo-2025-clinical-reviews
+type: journal-article
+title: "Cross sectional pilot study on clinical review generation using large language models"
+authors:
+  - Zining Luo
+  - Yang Qiao
+  - Xinyu Xu
+  - Xiangyu Li
+  - Mengyan Xiao
+  - Aijia Kang
+  - Dunrui Wang
+  - Yueshan Pang
+  - Xing Xie
+  - Sijun Xie
+  - Dachen Luo
+  - Xuefeng Ding
+  - Zhenglong Liu
+  - Ying Liu
+  - Aimin Hu
+  - Yixing Ren
+  - Jiebin Xie
+year: 2025
+doi: 10.1038/s41746-025-01535-z
+url: https://doi.org/10.1038/s41746-025-01535-z
+publication_status: "Published in npj Digital Medicine 8:170"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Luo et al - 2025 - Clinical review generation using LLMs.pdf"
+notes: >
+  Compared 2,169 AI-generated clinical reviews with 62 reviews from four
+  leading medical journals. Reference accuracy was the percentage of cited
+  references whose explanation in a review was manually judged consistent
+  with the original article. The pooled AI median was 100% (IQR 73.55-100%)
+  versus 100% (IQR 100-100%) for human reviews; standalone LLMs had a median
+  of 95% (IQR 51.22-100%). Results varied substantially across systems and
+  generation workflows, and the study did not cover all clinical fields.

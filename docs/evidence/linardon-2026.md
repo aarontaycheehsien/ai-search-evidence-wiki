@@ -16,3 +16,4 @@
 ## Linked claims
 
 - [Verifying that an LLM cites real papers is insufficient to establish evidence fidelity because the generated claims may still misstate, overstate, or contradict those papers.](../claims/citation-001.md) — **supports**
+- [Reported citation-fidelity rates for LLM-generated scientific syntheses are sensitive to the evaluation protocol, so comparisons require the same unit of analysis, support rubric, verifier, and source-access procedure.](../claims/citation-002.md) — **contextual**

@@ -1,0 +1,22 @@
+id: li-2025-reportbench
+type: preprint
+title: "ReportBench: Evaluating Deep Research Agents via Academic Survey Tasks"
+authors:
+  - Minghao Li
+  - Ying Zeng
+  - Zhihao Cheng
+  - Cong Ma
+  - Kai Jia
+year: 2025
+doi: 10.48550/arXiv.2508.15804
+url: https://doi.org/10.48550/arXiv.2508.15804
+publication_status: "arXiv preprint 2508.15804v1"
+source_category: preprint
+local_file: "incoming/papers/Li et al - 2025 - ReportBench academic survey tasks.pdf"
+notes: >
+  ReportBench sampled 100 prompts from a corpus of 678 post-2020 academic
+  survey papers. A GPT-4o-based pipeline extracted cited statements and judged
+  semantic consistency with retrieved source documents. Match rates ranged
+  from 31.43% to 78.87% across six systems. Because source support was scored
+  by an automated judge and the paper is a preprint, the estimates require
+  independent human validation.

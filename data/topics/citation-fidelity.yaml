@@ -6,8 +6,9 @@ question: >
   represent the papers they cite?
 claim_ids:
   - citation-001
+  - citation-002
 concept_ids:
   - reference-standards
   - reproducibility-and-stability
   - extraction-and-screening-errors
-last_reviewed: 2026-09-25
+last_reviewed: 2026-09-26

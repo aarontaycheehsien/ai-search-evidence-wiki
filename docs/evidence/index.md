@@ -29,6 +29,7 @@ Each source retains its publication category. Open a record for bibliographic de
 - [Evaluating the Effectiveness of Large Language Models in Abstract Screening: A Comparative Analysis](li-2024.md) (2024)
 - [What level of automation is 'good enough'? A benchmark of large language models for meta-analysis data extraction](li-2026-extraction.md) (2026)
 - [Fluency Without Fidelity: Errors in Citation-Attributed Claims in Large Language Model-Generated Literature Reviews in Mental Health](linardon-2026.md) (2026)
+- [Cross sectional pilot study on clinical review generation using large language models](luo-2025-clinical-reviews.md) (2025)
 - [Evaluating Elicit’s systematic reviews workflow in an umbrella review on air pollution and acute lower respiratory infections: a methodological study for quality appraisal](mazzali-2026.md) (2026)
 - [Custom GPT models for complex rheumatology systematic reviews: A two-part evaluation of data extraction and prognosis appraisal](munguia-realpozo-2026-custom-gpt.md) (2026)
 - [Chained Prompting for Better Systematic Review Search Strategies](nasser-2025-chained.md) (2025)
@@ -50,13 +51,16 @@ Each source retains its publication category. Open a record for bibliographic de
 - [A foundation model for human-AI collaboration in medical literature mining](wang-2025-leads.md) (2025)
 - [Reassessing Large Language Model Boolean Query Generation for Systematic Reviews](wang-2025-query.md) (2025)
 - [AutoBool: Reinforcement-Learned LLM for Effective Automatic Systematic Reviews Boolean Query Generation](wang-2026-autobool.md) (2026)
+- [An automated framework for assessing how well LLMs cite relevant medical references](wu-2025-sourcecheckup.md) (2025)
 - [Assessing data extraction in randomized clinical trials with large language models](yisha-2026-rct-extraction.md) (2026)
 
 ## Preprints
 
 - [Audited large language model triage for systematic review screening in national clinical guideline production: validation and prospective deployment](fagerberg-2026.md) (2026)
+- [Evaluating and Guarding Citation Faithfulness in Agentic Scientific Synthesis](goo-2026-citation-faithfulness.md) (2026)
 - [Breaking the Extraction Bottleneck: A Single AI Agent Achieves Statistical Equivalence with Human-Extracted Meta-Analysis Data Across Five Agricultural Datasets](halpern-2026-agricultural-extraction.md) (2026)
 - [Evaluating Eight Retrieval-Augmented Generation (RAG) Large Language Models’ Responses to Clinical Questions: A Comparative Study](krump-2026.md) (2026)
+- [ReportBench: Evaluating Deep Research Agents via Academic Survey Tasks](li-2025-reportbench.md) (2025)
 - [Assessing the Ability of ChatGPT to Screen Articles for Systematic Reviews](syriani-2023.md) (2023)
 - [Diagnosing Structural Failures in LLM-Based Evidence Extraction for Meta-Analysis](tan-2026-structural.md) (2026)
 - [Automated title and abstract screening for scoping reviews using the GPT-4 Large Language Model](wilkins-2023.md) (2023)
