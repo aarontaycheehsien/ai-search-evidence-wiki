@@ -2,7 +2,7 @@
 
 # Generative query expansion does not produce uniform retrieval gains across biomedical benchmarks; its effect depends on the expansion method and dataset and often changes ranking more than overall screening coverage.
 
-**Status:** supported
+**Status:** supported — 1 source; 2026; 1 peer-reviewed study
 
 ## Evidence
 

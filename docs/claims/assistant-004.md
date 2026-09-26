@@ -2,7 +2,7 @@
 
 # A small rubric study rated Undermind and paid Elicit highly, but its low interrater agreement makes these ratings preliminary; Undermind’s quantified search-performance claims come from a vendor-authored benchmark.
 
-**Status:** provisional
+**Status:** provisional — 3 sources; 2024–2026; 1 peer-reviewed study, 1 preprint, 1 vendor documentation record
 
 ## Evidence
 

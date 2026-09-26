@@ -2,6 +2,8 @@
 
 # Evaluating the accuracy and speed of eight deduplication tools: A comparative study
 
+**Source:** 2026; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Sarah Bateup, Helen Fulbright, Klas Moberg, Kaitlyn Hair, Emmy Peterson, Claire M. Stansfield, Riaz Qureshi, Justin Clark

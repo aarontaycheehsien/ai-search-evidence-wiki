@@ -2,6 +2,8 @@
 
 # Custom GPT models for complex rheumatology systematic reviews: A two-part evaluation of data extraction and prognosis appraisal
 
+**Source:** 2026; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Pamela Munguía-Realpozo, Edith Ramírez-Lara, Claudia Mendoza-Pinto, Ivet Etchegaray-Morales, Juan Carlos Solis-Poblano, Marco Alejandro Trinidad-González, Jorge Ayón-Aguilar, Máximo Alejandro García-Flores, Álvaro José Montiel-Jarquín

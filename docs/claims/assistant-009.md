@@ -2,7 +2,7 @@
 
 # One student survey reported higher satisfaction with traditional search engines than generative AI, with substantial variation by student group and frequency of use.
 
-**Status:** provisional
+**Status:** provisional — 1 source; 2026; 1 preprint
 
 ## Evidence
 

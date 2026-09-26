@@ -2,6 +2,8 @@
 
 # Incorporating Generative AI to Promote Inquiry-Based Learning: Comparing Elicit AI Research Assistant to PubMed and CINAHL Complete
 
+**Source:** 2024; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Rachel F. Fenske, J. A. A. Otts

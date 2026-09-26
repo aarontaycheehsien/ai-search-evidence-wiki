@@ -2,7 +2,7 @@
 
 # Several evaluated LLM screening workflows missed eligible citations under their reference standards, so automatic exclusion can omit studies.
 
-**Status:** supported
+**Status:** supported — 8 sources; 2023–2025; 6 peer-reviewed studies, 2 preprints
 
 ## Evidence
 

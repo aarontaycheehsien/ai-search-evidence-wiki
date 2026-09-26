@@ -2,6 +2,8 @@
 
 # Can ChatGPT Write a Good Boolean Query for Systematic Review Literature Search?
 
+**Source:** 2023; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Shuai Wang, Harrisen Scells, Guido Zuccon, Bevan Koopman

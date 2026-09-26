@@ -2,7 +2,7 @@
 
 # Elicit has shown higher precision but lower sensitivity than completed evidence-synthesis searches in retrospective comparisons; its output has also varied across repeated searches.
 
-**Status:** mixed
+**Status:** mixed — 3 sources; 2025–2026; 3 peer-reviewed studies
 
 ## Evidence
 

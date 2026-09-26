@@ -2,6 +2,8 @@
 
 # Harnessing the Power of ChatGPT for Automating Systematic Review Process: Methodology, Case Study, Limitations, and Future Directions
 
+**Source:** 2023; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Ahmad Alshami, Moustafa Elsayed, Eslam Ali, Abdelrahman E. E. Eltoukhy, Tarek Zayed

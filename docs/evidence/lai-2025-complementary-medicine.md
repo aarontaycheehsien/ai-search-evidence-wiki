@@ -2,6 +2,8 @@
 
 # Language models for data extraction and risk of bias assessment in complementary medicine
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Honghao Lai, Jiayi Liu, Chunyang Bai, Hui Liu, Bei Pan, Xufei Luo, Liangying Hou, Weilong Zhao, Danni Xia, Jinhui Tian, Yaolong Chen, Lu Zhang, Janne Estill, Jie Liu, Xing Liao, Nannan Shi, Xin Sun, Hongcai Shang, Zhaoxiang Bian, Kehu Yang, Luqi Huang, Long Ge, ADVANCED Working Group

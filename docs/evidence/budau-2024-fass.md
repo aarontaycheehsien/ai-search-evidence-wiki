@@ -2,6 +2,8 @@
 
 # Fully Automated Scholarly Search for Biomedical Systematic Literature Reviews
 
+**Source:** 2024; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Leandra Budau, Farhood Ensan

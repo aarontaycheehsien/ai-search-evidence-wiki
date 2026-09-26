@@ -2,7 +2,7 @@
 
 # Elicit data-extraction evaluations report imperfect accuracy that varies by field and evidence base, supporting human verification rather than autonomous use.
 
-**Status:** mixed
+**Status:** mixed — 6 sources; 2025–2026; 6 peer-reviewed studies
 
 ## Evidence
 

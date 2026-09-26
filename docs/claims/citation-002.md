@@ -2,7 +2,7 @@
 
 # Reported citation-fidelity rates for LLM-generated scientific syntheses are sensitive to the evaluation protocol, so comparisons require the same unit of analysis, support rubric, verifier, and source-access procedure.
 
-**Status:** provisional
+**Status:** provisional — 4 sources; 2025–2026; 2 peer-reviewed studies, 2 preprints
 
 ## Evidence
 

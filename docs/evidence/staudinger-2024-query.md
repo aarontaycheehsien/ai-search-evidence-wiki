@@ -2,6 +2,8 @@
 
 # A Reproducibility and Generalizability Study of Large Language Models for Query Generation
 
+**Source:** 2024; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Moritz Staudinger, Wojciech Kusa, Florina Piroi, Aldo Lipani, Allan Hanbury

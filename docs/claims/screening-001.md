@@ -2,7 +2,7 @@
 
 # Observed sensitivity of LLM citation screening differs substantially between evaluated review datasets and decision rules.
 
-**Status:** supported
+**Status:** supported — 9 sources; 2023–2025; 8 peer-reviewed studies, 1 preprint
 
 ## Evidence
 

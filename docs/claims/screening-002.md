@@ -2,7 +2,7 @@
 
 # Overall screening accuracy alone can obscure lower sensitivity for citations that human reference standards included.
 
-**Status:** supported
+**Status:** supported — 5 sources; 2023–2025; 4 peer-reviewed studies, 1 preprint
 
 ## Evidence
 

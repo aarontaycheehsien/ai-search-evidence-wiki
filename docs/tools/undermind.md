@@ -2,6 +2,8 @@
 
 # Undermind.ai
 
+**Evidence:** 3 sources; 2024–2026; 1 peer-reviewed study, 1 preprint, 1 vendor documentation record
+
 ## Scope
 
 Independent and vendor-authored evaluations that include Undermind's literature-search or answer-generation performance.

@@ -2,6 +2,8 @@
 
 # AI for risk-of-bias and evidence appraisal
 
+**Evidence:** 3 sources; 2024–2026; 2 peer-reviewed studies, 1 preprint
+
 ## Research question
 
 How reliably can large language models assess risk of bias, reporting quality, methodological rigor, and study design?

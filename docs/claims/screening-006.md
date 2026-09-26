@@ -2,7 +2,7 @@
 
 # In a retrospective five-review evaluation, using GPT-3.5 as a second reviewer or to trim citations involved a tradeoff between manual work and missed eligible records.
 
-**Status:** provisional
+**Status:** provisional — 2 sources; 2023–2024; 1 peer-reviewed study, 1 preprint
 
 ## Evidence
 

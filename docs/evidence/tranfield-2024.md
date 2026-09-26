@@ -2,6 +2,8 @@
 
 # Navigating Machine-Driven Research Landscapes: A Comparative Approach
 
+**Source:** 2024; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Wynn Tranfield, C. Caldwell

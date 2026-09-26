@@ -2,6 +2,8 @@
 
 # Using artificial intelligence for systematic review: the example of elicit
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Nicolas Bernard, Yoshimasa Sagawa Jr, Nathalie Bier, Thomas Lihoreau, Lionel Pazart, Thomas Tannou

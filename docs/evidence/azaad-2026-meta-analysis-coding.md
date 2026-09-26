@@ -2,6 +2,8 @@
 
 # AI-accelerated meta-analysis in psychology: Large language models code study properties with high accuracy
 
+**Source:** 2026; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Shaheed Azaad

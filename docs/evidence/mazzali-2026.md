@@ -2,6 +2,8 @@
 
 # Evaluating Elicit’s systematic reviews workflow in an umbrella review on air pollution and acute lower respiratory infections: a methodological study for quality appraisal
 
+**Source:** 2026; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Cristina Mazzali, Tiziana Pinciroli, Maria Rosa Valetto, Pietro Dri, Antonio Giampiero Russo

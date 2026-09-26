@@ -2,6 +2,8 @@
 
 # Data Extractions Using a Large Language Model (Elicit) and Human Reviewers in Randomized Controlled Trials: A Systematic Comparison
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Joleen Bianchi, Julian Hirt, Magdalena Vogt, Janine Vetsch

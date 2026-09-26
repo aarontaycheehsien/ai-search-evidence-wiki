@@ -2,7 +2,7 @@
 
 # Additional reasoning or self-reflection prompting does not consistently improve extraction accuracy and can increase processing time.
 
-**Status:** supported
+**Status:** supported — 3 sources; 2026; 3 peer-reviewed studies
 
 ## Evidence
 

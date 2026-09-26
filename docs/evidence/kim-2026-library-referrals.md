@@ -2,6 +2,8 @@
 
 # Understanding Generative AI-mediated User Engagement with Academic Library Resources
 
+**Source:** 2026; preprint
+
 ## Bibliographic information
 
 - **Authors:** Hae Min Kim, Stacy Stanislaw

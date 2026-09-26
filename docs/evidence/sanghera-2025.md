@@ -2,6 +2,8 @@
 
 # High-performance automated abstract screening with large language model ensembles
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Rohan Sanghera, Arun James Thirunavukarasu, Marc El Khoury, Jessica O'Logbon, Yuqing Chen, Archie Watt, Mustafa Mahmood, Hamid Butt, George Nishimura, Andrew A.S. Soltan

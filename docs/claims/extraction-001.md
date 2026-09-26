@@ -2,7 +2,7 @@
 
 # In one prospective study within reviews, human-verified LLM extraction was slightly more accurate and faster than a conventional human-only workflow, while both approaches retained consequential errors.
 
-**Status:** supported
+**Status:** supported — 1 source; 2025; 1 peer-reviewed study
 
 ## Evidence
 

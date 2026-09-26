@@ -2,6 +2,8 @@
 
 # Evaluating Eight Retrieval-Augmented Generation (RAG) Large Language Models’ Responses to Clinical Questions: A Comparative Study
 
+**Source:** 2026; preprint
+
 ## Bibliographic information
 
 - **Authors:** Poppy A. Krump, Mallory N. Blasingame, Taneya Y. Koonce, Annette M. Williams, Jing Su, Nunzia B. Giuse

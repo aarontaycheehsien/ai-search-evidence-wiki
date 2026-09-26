@@ -2,6 +2,8 @@
 
 # Do it faster with PICOS: Generative AI-Assisted systematic review screening
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Sai Krishna Vallamchetla, Omar Abdelkader, Ali Elnaggar, Doaa Ramadan, Md Manjurul Islam Shourav, Irbaz B Riaz, Michelle P Lin

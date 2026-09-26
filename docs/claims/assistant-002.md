@@ -2,7 +2,7 @@
 
 # Independent tool comparisons report different retrieval relevance and coverage profiles across query sets; current evidence does not establish a general-purpose winner over conventional library search.
 
-**Status:** mixed
+**Status:** mixed — 5 sources; 2024–2026; 4 peer-reviewed studies, 1 preprint
 
 ## Evidence
 

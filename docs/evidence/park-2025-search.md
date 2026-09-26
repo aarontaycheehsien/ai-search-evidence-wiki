@@ -2,6 +2,8 @@
 
 # Quality Evaluation of Generative AI-Based Search Strategies in Systematic Reviews and Comparison of Search Performance with Human Expert (Medical Librarian)
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Hye Won Park, Dong Won Shin, Na Jin Kim

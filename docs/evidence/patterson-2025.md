@@ -2,6 +2,8 @@
 
 # Which AI Tools Work Best for Research? Using Librarian and Student Perspectives to Inform a Rating Rubric
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Brandon Patterson, Carlos Flores, Nick Hauschild, Jared Branch

@@ -2,6 +2,8 @@
 
 # Literature search sandbox: a large language model that generates search queries for systematic reviews
 
+**Source:** 2024; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Gaelen P. Adam, Jay DeYoung, Alice Paul, Ian J. Saldanha, Ethan M. Balk, Thomas A. Trikalinos, Byron C. Wallace

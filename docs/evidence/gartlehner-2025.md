@@ -2,6 +2,8 @@
 
 # Artificial Intelligence-Assisted Data Extraction With a Large Language Model: A Study Within Reviews
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Gerald Gartlehner, Shannon Kugley, Karen Crotty, Meera Viswanathan, Andreea Dobrescu, Barbara Nussbaumer-Streit, Graham Booth, Jonathan R. Treadwell, Jung Min Han, Jesse Wagner, Eric A. Apaydin, Erin L. Coppola, Margaret Maglione, Rainer Hilscher, Robert Chew, Meagan Pilar, Bryan Swanton, Leila C. Kahwati

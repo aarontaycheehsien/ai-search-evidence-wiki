@@ -2,6 +2,8 @@
 
 # What level of automation is 'good enough'? A benchmark of large language models for meta-analysis data extraction
 
+**Source:** 2026; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Lingbo Li, Anuradha Mathrani, Teo Susnjak

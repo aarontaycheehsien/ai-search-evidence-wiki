@@ -2,6 +2,8 @@
 
 # Evaluating and Guarding Citation Faithfulness in Agentic Scientific Synthesis
 
+**Source:** 2026; preprint
+
 ## Bibliographic information
 
 - **Authors:** Taewan Goo, Junsik Kim, Kyulhee Han, GwonYul Jo, Jong-Soo Kim, Tae-Hyung Kim

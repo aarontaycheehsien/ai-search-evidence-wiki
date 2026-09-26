@@ -2,6 +2,8 @@
 
 # Cross sectional pilot study on clinical review generation using large language models
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Zining Luo, Yang Qiao, Xinyu Xu, Xiangyu Li, Mengyan Xiao, Aijia Kang, Dunrui Wang, Yueshan Pang, Xing Xie, Sijun Xie, Dachen Luo, Xuefeng Ding, Zhenglong Liu, Ying Liu, Aimin Hu, Yixing Ren, Jiebin Xie

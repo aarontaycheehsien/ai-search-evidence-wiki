@@ -2,6 +2,8 @@
 
 # Using Elicit AI research assistant for data extraction in systematic reviews: A feasibility study across environmental and life sciences
 
+**Source:** 2026; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Malgorzata Lagisz, Ayumi Mizuno, Kyle Morrison, Pietro Pollo, Lorenzo Ricolfi, Yefeng Yang, Shinichi Nakagawa

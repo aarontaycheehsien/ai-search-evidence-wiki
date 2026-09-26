@@ -2,6 +2,8 @@
 
 # LLMs for Citation Screening
 
+**Evidence:** 15 sources; 2023–2026; 12 peer-reviewed studies, 3 preprints
+
 ## Research question
 
 How well can large language models perform citation screening in evidence synthesis?

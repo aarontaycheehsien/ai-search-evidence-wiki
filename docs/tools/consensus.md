@@ -2,6 +2,8 @@
 
 # Consensus
 
+**Evidence:** 4 sources; 2026; 2 peer-reviewed studies, 2 preprints
+
 ## Scope
 
 Empirical evaluations that report retrieval relevance, coverage, or stability results for Consensus.

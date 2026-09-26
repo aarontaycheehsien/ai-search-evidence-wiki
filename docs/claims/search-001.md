@@ -2,7 +2,7 @@
 
 # LLM-generated Boolean search strategies remain highly sensitive to model, prompt, validation, and seed-study choices, and generally do not match the recall of expert manual strategies without substantial precision tradeoffs.
 
-**Status:** supported
+**Status:** supported — 8 sources; 2023–2026; 8 peer-reviewed studies
 
 ## Evidence
 

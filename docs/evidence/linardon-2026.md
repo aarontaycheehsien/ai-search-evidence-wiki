@@ -2,6 +2,8 @@
 
 # Fluency Without Fidelity: Errors in Citation-Attributed Claims in Large Language Model-Generated Literature Reviews in Mental Health
 
+**Source:** 2026; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Jake Linardon, Mariel Messer, Cleo Anderson, Olivia Marie Soliman, Claudia Liu, Joseph Firth, John Torous

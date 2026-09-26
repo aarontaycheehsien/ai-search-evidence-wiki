@@ -2,6 +2,8 @@
 
 # Chained Prompting for Better Systematic Review Search Strategies
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Fatima Nasser, Fouad Trad, Ammar Mohanna, Ghada El-Hajj Fuleihan, Ali Chehab

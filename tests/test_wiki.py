@@ -5,7 +5,7 @@ from pathlib import Path
 import yaml
 
 from scripts.affected_pages import affected_claim, affected_source
-from scripts.build_pages import ROOT, render_all
+from scripts.build_pages import ROOT, evidence_summary, record_sources, render_all
 from scripts.validate import validate
 
 
@@ -151,17 +151,20 @@ def test_changed_claim_maps_to_its_pages() -> None:
         "docs/evidence/sanghera-2025.md",
         "docs/evidence/syriani-2023.md",
         "docs/evidence/tran-2024.md",
+        "docs/topics/index.md",
         "docs/topics/llm-screening.md",
     ]
 
 
 def test_changed_source_maps_to_its_pages() -> None:
     assert affected_source("guo-2024") == [
+        "docs/claims/index.md",
         "docs/claims/screening-001.md",
         "docs/claims/screening-002.md",
         "docs/claims/screening-003.md",
         "docs/evidence/guo-2024.md",
         "docs/evidence/index.md",
+        "docs/topics/index.md",
         "docs/topics/llm-screening.md",
     ]
 
@@ -176,3 +179,36 @@ def test_changed_tool_source_maps_only_to_relevant_tool_pages() -> None:
     pages = affected_source("hartke-undermind")
     assert "docs/tools/undermind.md" in pages
     assert "docs/tools/elicit.md" not in pages
+
+
+def test_evidence_summary_deduplicates_and_handles_years() -> None:
+    source = {"id": "one", "year": 2025, "source_category": "peer-reviewed-study"}
+    undated = {"id": "two", "year": None, "source_category": "vendor-documentation"}
+    assert evidence_summary([source, source]) == "1 source; 2025; 1 peer-reviewed study"
+    assert evidence_summary([source, undated]) == "2 sources; 2025; 1 undated; 1 peer-reviewed study, 1 vendor documentation record"
+    assert evidence_summary([undated]) == "1 source; no source years recorded; 1 undated; 1 vendor documentation record"
+    assert evidence_summary([]) == "0 sources; no source years recorded"
+    newer = {"id": "three", "year": 2026, "source_category": "preprint"}
+    assert evidence_summary([source, newer]) == "2 sources; 2025–2026; 1 peer-reviewed study, 1 preprint"
+
+
+def test_record_sources_respects_tool_filter_and_topic_deduplication() -> None:
+    sources = {name: {"id": name, "year": 2025, "source_category": "preprint"} for name in ("one", "two")}
+    claims = {"claim": {"evidence": [{"source_id": "one"}, {"source_id": "one"}, {"source_id": "two"}]}}
+    tool = {"type": "tool", "evidence_source_ids": ["one", "one"], "claim_ids": ["claim"]}
+    topic = {"type": "question", "claim_ids": ["claim"]}
+    assert [s["id"] for s in record_sources(tool, claims, sources)] == ["one"]
+    assert [s["id"] for s in record_sources(topic, claims, sources)] == ["one", "two"]
+
+
+def test_evidence_context_uses_authoritative_counts_and_categories() -> None:
+    pages = render_all()
+    tools = pages["docs/tools/index.md"]
+    assert "[Elicit.com](elicit.md) (14) — 2024–2026; 13 peer-reviewed studies, 1 preprint" in tools
+    assert "[Undermind.ai](undermind.md) (3) — 2024–2026; 1 peer-reviewed study, 1 preprint, 1 vendor documentation record" in tools
+    assert "[Consensus](consensus.md) (4) — 2026; 2 peer-reviewed studies, 2 preprints" in tools
+    assert "(15) — 2023–2026; 12 peer-reviewed studies, 3 preprints" in pages["docs/topics/index.md"]
+    assert "**Evidence:** 14 sources; 2024–2026; 13 peer-reviewed studies, 1 preprint" in pages["docs/tools/elicit.md"]
+    assert "Scaffold with no directly linked evidence." in pages["docs/concepts/precision.md"]
+    assert "docs/topics/index.md" in affected_source("guo-2024")
+    assert "docs/tools/index.md" in affected_source("hartke-undermind")

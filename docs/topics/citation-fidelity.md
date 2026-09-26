@@ -2,6 +2,8 @@
 
 # Citation fidelity in LLM-generated reviews
 
+**Evidence:** 5 sources; 2025–2026; 3 peer-reviewed studies, 2 preprints
+
 ## Research question
 
 Do claims in large-language-model-generated literature reviews accurately represent the papers they cite?

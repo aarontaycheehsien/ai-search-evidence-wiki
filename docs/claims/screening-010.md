@@ -2,7 +2,7 @@
 
 # In one umbrella-review workflow study, Elicit screening on a shared 324-record corpus recovered most traditionally included studies but selected many additional records that reviewers judged ineligible.
 
-**Status:** provisional
+**Status:** provisional — 1 source; 2026; 1 peer-reviewed study
 
 ## Evidence
 

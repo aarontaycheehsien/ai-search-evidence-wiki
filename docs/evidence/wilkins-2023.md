@@ -2,6 +2,8 @@
 
 # Automated title and abstract screening for scoping reviews using the GPT-4 Large Language Model
 
+**Source:** 2023; preprint
+
 ## Bibliographic information
 
 - **Authors:** David Wilkins

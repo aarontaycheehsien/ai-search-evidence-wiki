@@ -2,6 +2,8 @@
 
 # Human vs. machine in medical search strategy development: a comparative evaluation of ChatGPT-4.1
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** J. Walz

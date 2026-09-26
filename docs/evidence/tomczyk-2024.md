@@ -2,6 +2,8 @@
 
 # Are AI tools better than traditional tools in literature searching? Evidence from E-commerce research
 
+**Source:** 2024; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Przemysław Tomczyk, Philipp Brüggemann, Niklas Mergner, Maria Petrescu

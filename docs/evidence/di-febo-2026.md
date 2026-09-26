@@ -2,6 +2,8 @@
 
 # Comparative evaluation of artificial intelligence–assisted literature search tools for identifying clinically meaningful evidence in cardiology
 
+**Source:** 2026; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Riccardo Di Febo, Maximiliano Jeanneret Medina, Alexandre Renaud, Maryam Dridi, Valentine Pecriaux, Benoit Lequeux, Stephane Lafitte, Baptiste Maille, Aymeric Menet

@@ -2,6 +2,8 @@
 
 # How Researchers Navigate Accountability, Transparency, and Trust When Using AI Tools in Early-Stage Research: A Think-Aloud Study
 
+**Source:** 2026; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Sanjana Gautam, Houjiang Liu, Yujin Choi, Matthew Lease

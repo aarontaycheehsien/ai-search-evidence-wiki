@@ -2,6 +2,8 @@
 
 # Reassessing Large Language Model Boolean Query Generation for Systematic Reviews
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Shuai Wang, Harrisen Scells, Bevan Koopman, Guido Zuccon

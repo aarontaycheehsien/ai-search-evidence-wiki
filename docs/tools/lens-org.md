@@ -2,6 +2,8 @@
 
 # Lens.org
 
+**Evidence:** 1 source; 2025; 1 peer-reviewed study
+
 ## Scope
 
 Evidence from comparative search and workflow evaluations that include Lens.org.

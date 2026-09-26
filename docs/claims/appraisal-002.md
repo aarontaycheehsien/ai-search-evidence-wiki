@@ -2,7 +2,7 @@
 
 # Human-LLM agreement workflows may improve simpler checklist-based appraisal, but the apparent benefit falls sharply for appraisal tasks requiring complex contextual judgment.
 
-**Status:** provisional
+**Status:** provisional — 2 sources; 2024–2026; 1 peer-reviewed study, 1 preprint
 
 ## Evidence
 

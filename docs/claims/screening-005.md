@@ -2,7 +2,7 @@
 
 # In a six-review scoping-review evaluation, a chain-of-thought GPT-4 screening workflow performed similarly to a zero-shot workflow.
 
-**Status:** provisional
+**Status:** provisional — 1 source; 2023; 1 preprint
 
 ## Evidence
 

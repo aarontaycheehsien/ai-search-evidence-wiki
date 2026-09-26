@@ -2,6 +2,8 @@
 
 # Audited large language model triage for systematic review screening in national clinical guideline production: validation and prospective deployment
 
+**Source:** 2026; preprint
+
 ## Bibliographic information
 
 - **Authors:** Petter Fagerberg, Oscar Sallander, Kim Vikhe Patil, Charlotta Thunborg, Lina Lundström, Anders Berg, Anastasia Nyman, Natalia Borg, Thomas Lindén

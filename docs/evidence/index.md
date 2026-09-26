@@ -4,7 +4,13 @@
 
 Each source retains its publication category. Open a record for bibliographic details, scope notes, and linked claims.
 
-## Peer-reviewed studies
+68 sources; 2023–2026; 55 peer-reviewed studies, 12 preprints, 1 vendor documentation record
+
+Counts describe distinct linked source records. A source may appear under multiple entries; source counts and year ranges are not evidence-quality ratings. Years are the years recorded for the sources.
+
+## Peer-reviewed studies (55)
+
+2023–2026; 55 peer-reviewed studies
 
 - [OpenExtract: Automated Data Extraction for Systematic Reviews in Health](achterberg-2026-openextract.md) (2026)
 - [Literature search sandbox: a large language model that generates search queries for systematic reviews](adam-2024-search.md) (2024)
@@ -62,7 +68,9 @@ Each source retains its publication category. Open a record for bibliographic de
 - [An automated framework for assessing how well LLMs cite relevant medical references](wu-2025-sourcecheckup.md) (2025)
 - [Assessing data extraction in randomized clinical trials with large language models](yisha-2026-rct-extraction.md) (2026)
 
-## Preprints
+## Preprints (12)
+
+2023–2026; 12 preprints
 
 - [Useful for Exploration, Risky for Precision: Evaluating AI Tools in Academic Research](dathe-2026.md) (2026)
 - [Audited large language model triage for systematic review screening in national clinical guideline production: validation and prospective deployment](fagerberg-2026.md) (2026)
@@ -77,6 +85,8 @@ Each source retains its publication category. Open a record for bibliographic de
 - [Automated title and abstract screening for scoping reviews using the GPT-4 Large Language Model](wilkins-2023.md) (2023)
 - [Benchmarking Human-AI Collaboration for Common Evidence Appraisal Tools](woelfle-2024.md) (2024)
 
-## Vendor documentation
+## Vendor documentation (1)
+
+2024; 1 vendor documentation record
 
 - [Benchmarking the Undermind Search Assistant](hartke-undermind.md) (2024)

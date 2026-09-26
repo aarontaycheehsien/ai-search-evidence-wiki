@@ -2,6 +2,8 @@
 
 # Optimizing scholarly literature search: a comparative study of relevance and evidence quality across AI-powered, semantic, and traditional search engines
 
+**Source:** 2026; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Vahideh Zarea Gavgani, Mina Mahami-Oskouei, Sara Bazdar, Mina Oghbatalab

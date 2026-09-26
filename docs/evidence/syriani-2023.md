@@ -2,6 +2,8 @@
 
 # Assessing the Ability of ChatGPT to Screen Articles for Systematic Reviews
 
+**Source:** 2023; preprint
+
 ## Bibliographic information
 
 - **Authors:** Eugene Syriani, Istvan David, Gauransh Kumar

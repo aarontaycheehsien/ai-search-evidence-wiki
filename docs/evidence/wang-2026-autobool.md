@@ -2,6 +2,8 @@
 
 # AutoBool: Reinforcement-Learned LLM for Effective Automatic Systematic Reviews Boolean Query Generation
 
+**Source:** 2026; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Shuai Wang, Harrisen Scells, Bevan Koopman, Guido Zuccon

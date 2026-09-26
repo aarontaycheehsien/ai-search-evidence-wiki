@@ -2,6 +2,8 @@
 
 # SciSpace
 
+**Evidence:** 3 sources; 2024–2026; 2 peer-reviewed studies, 1 preprint
+
 ## Scope
 
 Comparative evaluations that include SciSpace's literature retrieval, citation coverage, or answer-generation performance.

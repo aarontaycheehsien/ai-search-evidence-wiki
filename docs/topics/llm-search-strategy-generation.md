@@ -2,6 +2,8 @@
 
 # LLMs for search strategy generation and expansion
 
+**Evidence:** 11 sources; 2023–2026; 11 peer-reviewed studies
+
 ## Research question
 
 How reliably do large language models generate or expand literature-search queries for evidence synthesis?

@@ -2,6 +2,8 @@
 
 # Comparison of Elicit AI and Traditional Literature Searching in Evidence Syntheses Using Four Case Studies
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Oscar Lau, Su Golder

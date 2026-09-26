@@ -2,6 +2,8 @@
 
 # A critical evaluation of generative query expansion on biomedical literature retrieval
 
+**Source:** 2026; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Yilu Fang, Gongbo Zhang, Fangyi Chen, Yifan Peng, Chunhua Weng

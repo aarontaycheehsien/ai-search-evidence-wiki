@@ -2,6 +2,8 @@
 
 # Research Rabbit
 
+**Evidence:** 1 source; 2026; 1 peer-reviewed study
+
 ## Scope
 
 User-facing evidence about provenance, trust, and verification while using Research Rabbit for early-stage discovery.

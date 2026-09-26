@@ -2,7 +2,7 @@
 
 # Fine-tuning and multi-stage query construction can improve Boolean-search recall on specific evidence-synthesis benchmarks, but reported performance depends on dataset and evaluation depth, and may trade precision or workload.
 
-**Status:** supported
+**Status:** supported — 4 sources; 2024–2026; 4 peer-reviewed studies
 
 ## Evidence
 

@@ -2,7 +2,7 @@
 
 # Current LLM data extraction can be precise yet incomplete, with omissions as the dominant error; task-specific prompts improve recall but do not remove the need for human verification of meta-analytic data.
 
-**Status:** supported
+**Status:** supported — 8 sources; 2025–2026; 6 peer-reviewed studies, 2 preprints
 
 ## Evidence
 

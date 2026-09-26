@@ -2,7 +2,7 @@
 
 # Changing the information supplied to an LLM or the decision rule used to interpret its output can alter screening performance.
 
-**Status:** supported
+**Status:** supported — 8 sources; 2023–2025; 8 peer-reviewed studies
 
 ## Evidence
 

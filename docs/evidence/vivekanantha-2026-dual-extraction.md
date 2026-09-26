@@ -2,6 +2,8 @@
 
 # Automated data extraction for systematic reviews using GPT-5.2 and Google Gemini Pro 3: A dual-large language model approach in orthopaedic research
 
+**Source:** 2026; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Prushoth Vivekanantha, Harjind Kahlon, Oluwatoba T. Balogun, Marc Daniel Bouchard, Darren de Sa, Olufemi R. Ayeni, Jeffrey Kay

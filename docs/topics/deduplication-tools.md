@@ -2,6 +2,8 @@
 
 # Automated deduplication tools for evidence synthesis
 
+**Evidence:** 1 source; 2026; 1 peer-reviewed study
+
 ## Research question
 
 What accuracy and time tradeoffs have been observed among automated and semi-automated deduplication tools?

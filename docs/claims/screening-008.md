@@ -2,7 +2,7 @@
 
 # In a four-reviewer comparison, reviewers given LLM-generated PICOS summaries screened the same citation set faster and had higher observed sensitivity than reviewers who saw titles and abstracts alone.
 
-**Status:** provisional
+**Status:** provisional — 1 source; 2025; 1 peer-reviewed study
 
 ## Evidence
 

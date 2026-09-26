@@ -2,6 +2,8 @@
 
 # ReportBench: Evaluating Deep Research Agents via Academic Survey Tasks
 
+**Source:** 2025; preprint
+
 ## Bibliographic information
 
 - **Authors:** Minghao Li, Ying Zeng, Zhihao Cheng, Cong Ma, Kai Jia

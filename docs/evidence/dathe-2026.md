@@ -2,6 +2,8 @@
 
 # Useful for Exploration, Risky for Precision: Evaluating AI Tools in Academic Research
 
+**Source:** 2026; preprint
+
 ## Bibliographic information
 
 - **Authors:** Anthea Dathe, Kiran Hoffmann, Aline Mangold

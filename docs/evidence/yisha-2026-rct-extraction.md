@@ -2,6 +2,8 @@
 
 # Assessing data extraction in randomized clinical trials with large language models
 
+**Source:** 2026; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Zuhaer Yisha, Peng Zou, Sheng Li, Lin Zhang, Linfa Guo, Aodun Gu, G. Liu, T. Liu, Xiaolong Wang

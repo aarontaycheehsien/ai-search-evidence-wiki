@@ -2,6 +2,8 @@
 
 # Diagnosing Structural Failures in LLM-Based Evidence Extraction for Meta-Analysis
 
+**Source:** 2026; preprint
+
 ## Bibliographic information
 
 - **Authors:** Zhiyin Tan, Jennifer D'Souza

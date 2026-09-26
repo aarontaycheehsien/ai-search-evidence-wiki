@@ -2,6 +2,8 @@
 
 # Error types in screening and extraction
 
+Scaffold with no directly linked evidence.
+
 ## Working definition
 
 To be defined and cited. This scaffold does not assert a definition.

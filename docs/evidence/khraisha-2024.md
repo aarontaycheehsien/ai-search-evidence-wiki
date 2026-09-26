@@ -2,6 +2,8 @@
 
 # Can large language models replace humans in systematic reviews? Evaluating GPT-4's efficacy in screening and extracting data from peer-reviewed and grey literature in multiple languages
 
+**Source:** 2024; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Qusai Khraisha, Sophie Put, Johanna Kappenberg, Azza Warraitch, Kristin Hadfield

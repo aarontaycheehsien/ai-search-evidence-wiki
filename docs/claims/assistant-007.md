@@ -2,7 +2,7 @@
 
 # AI search and extraction tools can reduce initial search or screening effort, but measured efficiency gains may coincide with lower retrieval sensitivity or be offset by prompt development, screening, and human verification.
 
-**Status:** provisional
+**Status:** provisional — 5 sources; 2025–2026; 5 peer-reviewed studies
 
 ## Evidence
 

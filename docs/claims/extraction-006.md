@@ -2,7 +2,7 @@
 
 # Agreement between extraction models can identify a more accurate subset of outputs, but neither initial agreement nor agreement reached through cross-critique guarantees correctness.
 
-**Status:** supported
+**Status:** supported — 1 source; 2025; 1 peer-reviewed study
 
 ## Evidence
 

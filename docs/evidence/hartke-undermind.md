@@ -2,6 +2,8 @@
 
 # Benchmarking the Undermind Search Assistant
 
+**Source:** 2024; vendor documentation record
+
 ## Bibliographic information
 
 - **Authors:** Thomas Hartke, Joshua Ramette

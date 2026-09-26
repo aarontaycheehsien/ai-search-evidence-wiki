@@ -2,7 +2,7 @@
 
 # User-facing evaluations identify speed and ease of use as benefits of Elicit, alongside concerns about generated-abstract accuracy, brevity, and transparency of result counts.
 
-**Status:** provisional
+**Status:** provisional — 5 sources; 2024–2026; 4 peer-reviewed studies, 1 preprint
 
 ## Evidence
 

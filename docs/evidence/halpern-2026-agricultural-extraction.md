@@ -2,6 +2,8 @@
 
 # Breaking the Extraction Bottleneck: A Single AI Agent Achieves Statistical Equivalence with Human-Extracted Meta-Analysis Data Across Five Agricultural Datasets
 
+**Source:** 2026; preprint
+
 ## Bibliographic information
 
 - **Authors:** Moshe Halpern

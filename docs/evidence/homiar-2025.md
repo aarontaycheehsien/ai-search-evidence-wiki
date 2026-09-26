@@ -2,6 +2,8 @@
 
 # Development and evaluation of prompts for a large language model to screen titles and abstracts in a living systematic review
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Ava Homiar, James Thomas, Edoardo G Ostinelli, Jaycee Kennett, Claire Friedrich, Pim Cuijpers, Mathias Harrer, Stefan Leucht, Clara Miguel, Alessandro Rodolico, Yuki Kataoka, Tomohiro Takayama, Keisuke Yoshimura, Ryuhei So, Yasushi Tsujimoto, Yosuke Yamagishi, Shiro Takagi, Masatsugu Sakata, Đorđe Bašić, Eirini Karyotaki, Jennifer Potts, Georgia Salanti, Toshi A Furukawa, Andrea Cipriani

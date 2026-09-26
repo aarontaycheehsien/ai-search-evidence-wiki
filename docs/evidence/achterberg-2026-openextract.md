@@ -2,6 +2,8 @@
 
 # OpenExtract: Automated Data Extraction for Systematic Reviews in Health
 
+**Source:** 2026; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Jim Achterberg, Bram van Dijk, Jing Meng, Saif Ul Islam, Gregory Epiphaniou, Carsten Maple, Xuefei Ding, Theodoros N. Arvanitis, Simon Brouwer, Marcel Haas, Marco Spruit

@@ -2,7 +2,7 @@
 
 # In a small qualitative study of researchers using AI discovery and synthesis tools, opaque provenance and confident outputs prompted compensatory source verification and context-dependent trust.
 
-**Status:** provisional
+**Status:** provisional — 1 source; 2026; 1 peer-reviewed study
 
 ## Evidence
 

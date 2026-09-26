@@ -2,7 +2,7 @@
 
 # A single-library analytics study found that generative AI referrals concentrated on repository content, especially theses and dissertations; referral counts do not establish retrieval quality or user intent.
 
-**Status:** provisional
+**Status:** provisional — 1 source; 2026; 1 preprint
 
 ## Evidence
 

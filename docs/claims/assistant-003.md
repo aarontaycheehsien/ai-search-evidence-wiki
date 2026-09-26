@@ -2,7 +2,7 @@
 
 # One single-domain study reported high Consensus precision on a specialized tissue-engineering query, while broader comparative studies do not support treating that result as a stable cross-domain performance estimate.
 
-**Status:** provisional
+**Status:** provisional — 4 sources; 2026; 2 peer-reviewed studies, 2 preprints
 
 ## Evidence
 

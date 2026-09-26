@@ -2,7 +2,7 @@
 
 # A 2026 preprint reports prospective audited LLM triage in two national guideline programmes, with no confirmed final false negatives among sampled AI-excluded records after post-unblinding adjudication.
 
-**Status:** provisional
+**Status:** provisional — 1 source; 2026; 1 preprint
 
 ## Evidence
 

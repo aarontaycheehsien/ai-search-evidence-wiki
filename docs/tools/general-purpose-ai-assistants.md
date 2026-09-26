@@ -2,6 +2,8 @@
 
 # General-purpose AI assistants
 
+**Evidence:** 6 sources; 2025–2026; 3 peer-reviewed studies, 3 preprints
+
 ## Scope
 
 Cross-tool evidence on systems such as ChatGPT, Perplexity, You.com, Scite, and other generative assistants used to find or refer users to research.

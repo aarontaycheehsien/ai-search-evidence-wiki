@@ -2,6 +2,8 @@
 
 # Evaluating the AI Tool ‘Elicit’ as a Semi-Automated Second Reviewer for Data Extraction in Systematic Reviews: A Proof-of-Concept
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Frederic Hilkenmeier, Marie Pelzer, Christian Stierle, Jakob Fink-Lamotte

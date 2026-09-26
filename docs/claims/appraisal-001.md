@@ -2,7 +2,7 @@
 
 # Standalone general-purpose LLMs have not demonstrated sufficient agreement or diagnostic performance for autonomous risk-of-bias and evidence-appraisal judgments.
 
-**Status:** supported
+**Status:** supported — 3 sources; 2024–2026; 2 peer-reviewed studies, 1 preprint
 
 ## Evidence
 

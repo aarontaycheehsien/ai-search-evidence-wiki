@@ -2,6 +2,8 @@
 
 # Performance of large language models and prompt engineering strategies for data extraction in systematic reviews
 
+**Source:** 2026; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** T. Oami, Y. Okada, Kenjiro Maeda, T.-a. Nakada

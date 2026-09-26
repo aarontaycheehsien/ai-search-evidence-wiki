@@ -2,7 +2,7 @@
 
 # LLM-generated Boolean strategies can contain invalid syntax, fabricated or incorrect controlled-vocabulary terms, and substantial run-to-run variation, so generated queries need technical and subject review before use.
 
-**Status:** supported
+**Status:** supported — 4 sources; 2023–2025; 4 peer-reviewed studies
 
 ## Evidence
 

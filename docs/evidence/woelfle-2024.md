@@ -2,6 +2,8 @@
 
 # Benchmarking Human-AI Collaboration for Common Evidence Appraisal Tools
 
+**Source:** 2024; preprint
+
 ## Bibliographic information
 
 - **Authors:** Tim Woelfle, Julian Hirt, Perrine Janiaud, Ludwig Kappos, John P. A. Ioannidis, Lars G. Hemkens

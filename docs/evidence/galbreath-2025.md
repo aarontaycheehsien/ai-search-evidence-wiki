@@ -2,6 +2,8 @@
 
 # AI-Infused Discovery Environments: Information Retrieval Boon or Overpromised Hype?
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Blake L. Galbreath, Erica England, Corey M. Johnson, Jen Saulnier Lange

@@ -2,7 +2,7 @@
 
 # Evaluated LLM screening workflows yielded calculated reductions in manual screening volume, with the amount saved dependent on the decision rule and observed sensitivity.
 
-**Status:** supported
+**Status:** supported — 4 sources; 2025–2026; 3 peer-reviewed studies, 1 preprint
 
 ## Evidence
 

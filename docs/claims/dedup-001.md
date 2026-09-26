@@ -2,7 +2,7 @@
 
 # Automated and semi-automated deduplication tools show different tradeoffs between removing unique records, retaining duplicates, and reviewer time, so no single evaluated tool is best for every review workflow.
 
-**Status:** supported
+**Status:** supported — 1 source; 2026; 1 peer-reviewed study
 
 ## Evidence
 

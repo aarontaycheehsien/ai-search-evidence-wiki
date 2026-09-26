@@ -2,6 +2,8 @@
 
 # Testing the utility of GPT for title and abstract screening in environmental systematic evidence synthesis
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Björn Nykvist, Biljana Macura, Maria Xylia, Erik Olsson

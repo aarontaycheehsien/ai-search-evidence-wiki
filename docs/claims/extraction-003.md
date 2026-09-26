@@ -2,7 +2,7 @@
 
 # LLM extraction performance varies by field and structural complexity: explicit study descriptors are generally easier than numerical outcomes, relational bindings, and complete synthesis-ready records.
 
-**Status:** supported
+**Status:** supported — 13 sources; 2025–2026; 11 peer-reviewed studies, 2 preprints
 
 ## Evidence
 

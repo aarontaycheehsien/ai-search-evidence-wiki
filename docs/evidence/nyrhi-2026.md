@@ -2,6 +2,8 @@
 
 # Large language models for risk-of-bias assessment in randomised clinical trials—a comparative validation study
 
+**Source:** 2026; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Lauri Nyrhi, Ville Ponkilainen, Juho Laaksonen, Lauri Kuikka, Lauri Paljakka, Teemu Karjalainen, Ville M. Mattila, Ilari Kuitunen

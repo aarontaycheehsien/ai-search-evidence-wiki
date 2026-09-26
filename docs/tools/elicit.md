@@ -2,6 +2,8 @@
 
 # Elicit.com
 
+**Evidence:** 14 sources; 2024–2026; 13 peer-reviewed studies, 1 preprint
+
 ## Scope
 
 Empirical evaluations of Elicit's literature retrieval, screening, extraction, appraisal, usability, and reproducibility.

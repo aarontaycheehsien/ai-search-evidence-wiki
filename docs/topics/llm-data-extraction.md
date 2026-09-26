@@ -2,6 +2,8 @@
 
 # LLMs for structured data extraction
 
+**Evidence:** 16 sources; 2025–2026; 14 peer-reviewed studies, 2 preprints
+
 ## Research question
 
 How accurate, complete, and efficient are large language models for extracting structured data from studies for evidence synthesis?

@@ -2,6 +2,8 @@
 
 # Primo Research Assistant
 
+**Evidence:** 1 source; 2025; 1 peer-reviewed study
+
 ## Scope
 
 Comparative evidence on the relevance and overlap of Primo Research Assistant results and conventional Primo search results.

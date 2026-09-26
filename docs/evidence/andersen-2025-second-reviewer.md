@@ -2,6 +2,8 @@
 
 # Using Artificial Intelligence Tools as Second Reviewers for Data Extraction in Systematic Reviews: A Performance Comparison of Two AI Tools Against Human Reviewers
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** T. Helms Andersen, T. M. Marcussen, A. D. Termannsen, T. W. H. Lawaetz, O. Nørgaard

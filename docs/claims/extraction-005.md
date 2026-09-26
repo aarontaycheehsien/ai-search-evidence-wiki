@@ -2,7 +2,7 @@
 
 # Small workflow evaluations report that human-plus-LLM or complementary multi-LLM extraction can improve accuracy or coverage and reduce extraction time, while retaining a human verification role.
 
-**Status:** supported
+**Status:** supported — 5 sources; 2025–2026; 5 peer-reviewed studies
 
 ## Evidence
 

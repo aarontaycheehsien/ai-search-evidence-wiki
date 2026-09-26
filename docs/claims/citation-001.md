@@ -2,7 +2,7 @@
 
 # Verifying that an LLM cites real papers is insufficient to establish evidence fidelity because the generated claims may still misstate, overstate, or contradict those papers.
 
-**Status:** supported
+**Status:** supported — 5 sources; 2025–2026; 3 peer-reviewed studies, 2 preprints
 
 ## Evidence
 

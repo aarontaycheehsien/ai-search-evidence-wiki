@@ -2,6 +2,8 @@
 
 # Performance Comparison of Large Language Models for Efficient Literature Screening
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Maria Teresa Colangelo, Stefano Guizzardi, Marco Meleti, Elena Calciolari, Carlo Galli

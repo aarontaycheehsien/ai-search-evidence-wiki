@@ -2,6 +2,8 @@
 
 # Artificial Intelligence Search Tools for Evidence Synthesis: Comparative Analysis and Implementation Recommendations
 
+**Source:** 2025; peer-reviewed study
+
 ## Bibliographic information
 
 - **Authors:** Robin Featherstone, Melissa Walter, Danielle MacDougall, Eric Morenz, Sharon Bailey, Robyn Butcher, Caitlyn Ford, Hannah Loshak, David Kaunelis
