@@ -1,0 +1,20 @@
+id: halpern-2026-agricultural-extraction
+type: preprint
+title: "Breaking the Extraction Bottleneck: A Single AI Agent Achieves Statistical Equivalence with Human-Extracted Meta-Analysis Data Across Five Agricultural Datasets"
+authors:
+  - Moshe Halpern
+year: 2026
+doi: 10.64898/2026.02.17.706322
+url: https://doi.org/10.64898/2026.02.17.706322
+publication_status: "bioRxiv preprint posted 2026-03-23"
+source_category: preprint
+local_file: "incoming/papers/Halpern - 2026 - AI extraction agricultural meta-analysis preprint.pdf"
+notes: >
+  A single Claude Opus 4.6 agent extracted numerical effects across five
+  agricultural meta-analysis datasets: 1,149 observations matched from 136
+  papers. The paper reports proportional TOST equivalence in all five datasets
+  and correlations of 0.984-0.999. Important qualification: LLM-based alignment
+  was used to match extracted observations to reference rows, and materially
+  changed agreement metrics without changing extracted values. Some validation
+  data informed pipeline refinement; variance extraction was not formally
+  validated, and individual-level agreement was wider than aggregate agreement.

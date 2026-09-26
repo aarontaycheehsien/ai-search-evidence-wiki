@@ -1,0 +1,42 @@
+id: wang-2025-leads
+type: journal-article
+title: "A foundation model for human-AI collaboration in medical literature mining"
+authors:
+  - Zifeng Wang
+  - Lang Cao
+  - Qiao Jin
+  - Joey Chan
+  - Nicholas Wan
+  - Behdad Afzali
+  - Hyun-Jin Cho
+  - Chang-In Choi
+  - Mehdi Emamverdi
+  - Manjot K. Gill
+  - Sun-Hyung Kim
+  - Yijia Li
+  - Yi Liu
+  - Yiming Luo
+  - Hanley Ong
+  - Justin F. Rousseau
+  - Irfan Sheikh
+  - Jenny J. Wei
+  - Ziyang Xu
+  - Christopher M. Zallek
+  - Kyungsang Kim
+  - Yifan Peng
+  - Zhiyong Lu
+  - Jimeng Sun
+year: 2025
+doi: 10.1038/s41467-025-62058-5
+url: https://doi.org/10.1038/s41467-025-62058-5
+publication_status: "Published in Nature Communications 16, 8361"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Wang et al - 2025 - LEADS foundation model literature mining.pdf"
+notes: >
+  Evaluated the specialized LEADS model across literature-mining tasks and in a
+  workflow pilot. In the data-extraction pilot, two researchers processed 90
+  clinical-trial publications; the expert-plus-LEADS arm had accuracy 0.85
+  versus 0.80 for expert-only and took 83.3 versus 113.9 seconds per task
+  (26.9% less time). The pilot was small; model outputs still required expert
+  checking, and results depend on the paper's curated training and evaluation
+  data.

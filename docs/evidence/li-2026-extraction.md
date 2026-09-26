@@ -16,3 +16,4 @@
 ## Linked claims
 
 - [Current LLM data extraction can be precise yet incomplete, with omissions as the dominant error; task-specific prompts improve recall but do not remove the need for human verification of meta-analytic data.](../claims/extraction-002.md) — **supports**
+- [Additional reasoning or self-reflection prompting does not consistently improve extraction accuracy and can increase processing time.](../claims/extraction-004.md) — **qualifies**

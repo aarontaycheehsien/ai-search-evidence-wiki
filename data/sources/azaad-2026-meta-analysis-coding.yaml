@@ -1,0 +1,20 @@
+id: azaad-2026-meta-analysis-coding
+type: journal-article
+title: "AI-accelerated meta-analysis in psychology: Large language models code study properties with high accuracy"
+authors:
+  - Shaheed Azaad
+year: 2026
+doi: 10.3758/s13428-026-03020-1
+url: https://doi.org/10.3758/s13428-026-03020-1
+publication_status: "Published in Behavior Research Methods 58, 143"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Azaad - 2026 - LLM coding study properties in meta-analysis.pdf"
+notes: >
+  Tested GPT-5 and Gemini 2.5 Pro on conceptual study-property coding in three
+  psychology meta-analyses. Overall agreement with published human codes was
+  93% and 92%, respectively. Twenty studies per meta-analysis were initially
+  sampled, with a second 20-source sample used for one analysis after
+  coding-manual ambiguities were revised. The benchmark was limited to three
+  psychology meta-analyses, and
+  published human codes were treated as the reference despite incomplete human
+  double-coding.

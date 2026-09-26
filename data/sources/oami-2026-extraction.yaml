@@ -1,0 +1,22 @@
+id: oami-2026-extraction
+type: journal-article
+title: "Performance of large language models and prompt engineering strategies for data extraction in systematic reviews"
+authors:
+  - T. Oami
+  - Y. Okada
+  - Kenjiro Maeda
+  - T.-a. Nakada
+year: 2026
+doi: 10.3389/fdgth.2026.1799623
+url: https://doi.org/10.3389/fdgth.2026.1799623
+publication_status: "Published in Frontiers in Digital Health 8, 1799623"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Oami et al - 2026 - LLM prompt strategies data extraction.pdf"
+notes: >
+  Evaluated ChatGPT-4o, Claude 3 Sonnet, and Gemini 1.5 Pro on 36 trials from
+  five sepsis guideline questions. Background-data no-error rates ranged from
+  81.6% to 92.4%; outcome-data no-error rates ranged from 27.8% to 80.7%.
+  Missing or incorrect values accounted for most errors. Chain-of-thought and
+  self-reflection prompts changed accuracy only modestly; self-reflection
+  increased processing time. Reproducibility was lower for outcome extraction
+  than for background fields.

@@ -1,0 +1,24 @@
+id: vivekanantha-2026-dual-extraction
+type: journal-article
+title: "Automated data extraction for systematic reviews using GPT-5.2 and Google Gemini Pro 3: A dual-large language model approach in orthopaedic research"
+authors:
+  - Prushoth Vivekanantha
+  - Harjind Kahlon
+  - Oluwatoba T. Balogun
+  - Marc Daniel Bouchard
+  - Darren de Sa
+  - Olufemi R. Ayeni
+  - Jeffrey Kay
+year: 2026
+doi: 10.1002/ksa.70412
+url: https://doi.org/10.1002/ksa.70412
+publication_status: "Published in Knee Surgery, Sports Traumatology, Arthroscopy 34, 3011-3029"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Vivekanantha et al - 2026 - Dual LLM extraction orthopaedic review.pdf"
+notes: >
+  Tested GPT-5.2 and Gemini 3 Pro on 384 fields from eight studies in one
+  paediatric revision ACLR review. Both models were fully correct on 82.0% of
+  fields; at least one model was fully correct on 95.1%. Extraction took 27.0
+  and 35.8 minutes respectively, at a combined reported API cost of $3.22.
+  The sample was narrow, the human adjudicator was not blinded to model output,
+  and the authors describe the approach as a first pass requiring human review.

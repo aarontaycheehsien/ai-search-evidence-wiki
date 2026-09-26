@@ -16,6 +16,9 @@ Claims and their evidence relationships are generated from `data/claims/`.
 - [Automated and semi-automated deduplication tools show different tradeoffs between removing unique records, retaining duplicates, and reviewer time, so no single evaluated tool is best for every review workflow.](dedup-001.md) — **supported**
 - [In one prospective study within reviews, human-verified LLM extraction was slightly more accurate and faster than a conventional human-only workflow, while both approaches retained consequential errors.](extraction-001.md) — **supported**
 - [Current LLM data extraction can be precise yet incomplete, with omissions as the dominant error; task-specific prompts improve recall but do not remove the need for human verification of meta-analytic data.](extraction-002.md) — **supported**
+- [LLM extraction performance varies by field and structural complexity: explicit study descriptors are generally easier than numerical outcomes, relational bindings, and complete synthesis-ready records.](extraction-003.md) — **supported**
+- [Additional reasoning or self-reflection prompting does not consistently improve extraction accuracy and can increase processing time.](extraction-004.md) — **supported**
+- [Small workflow evaluations report that human-plus-LLM or complementary multi-LLM extraction can improve accuracy or coverage and reduce extraction time, while retaining a human verification role.](extraction-005.md) — **supported**
 - [Observed sensitivity of LLM citation screening differs substantially between evaluated review datasets and decision rules.](screening-001.md) — **supported**
 - [Overall screening accuracy alone can obscure lower sensitivity for citations that human reference standards included.](screening-002.md) — **supported**
 - [Several evaluated LLM screening workflows missed eligible citations under their reference standards, so automatic exclusion can omit studies.](screening-003.md) — **supported**

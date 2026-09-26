@@ -1,0 +1,21 @@
+id: extraction-004
+claim: >
+  Additional reasoning or self-reflection prompting does not consistently
+  improve extraction accuracy and can increase processing time.
+status: supported
+topics:
+  - llm-data-extraction
+evidence:
+  - source_id: oami-2026-extraction
+    relationship: supports
+    locator: "Results, Tables 2-3 and Figure 4, PDF pp. 3-7"
+    note: "Chain-of-thought and self-reflection prompts produced only modest accuracy changes; self-reflection increased mean processing time compared with standard prompts."
+  - source_id: yisha-2026-rct-extraction
+    relationship: supports
+    locator: "Methods and Results, PDF pp. 2-4"
+    note: "LLM-modified prompts did not significantly change extraction accuracy compared with the original prompts in this 105-RCT proof-of-concept."
+  - source_id: li-2026-extraction
+    relationship: qualifies
+    locator: "Figures 2-3 and Table 3, PDF pp. 10-11"
+    note: "In contrast, customized task-specific prompts increased statistical-result recall by an average 14.8 percentage points, with a small average precision decrease."
+last_reviewed: 2026-09-26

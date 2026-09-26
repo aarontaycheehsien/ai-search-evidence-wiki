@@ -1,0 +1,20 @@
+id: tan-2026-structural
+type: preprint
+title: "Diagnosing Structural Failures in LLM-Based Evidence Extraction for Meta-Analysis"
+authors:
+  - Zhiyin Tan
+  - Jennifer D'Souza
+year: 2026
+doi: 10.48550/arXiv.2602.10881
+url: https://doi.org/10.48550/arXiv.2602.10881
+publication_status: "arXiv preprint posted 2026-02-11"
+source_category: preprint
+local_file: "incoming/papers/Tan and D'Souza - 2026 - Structural failures in LLM evidence extraction.pdf"
+notes: >
+  Benchmarked GPT-5.2 and Qwen3-VL on 52 manually annotated empirical papers
+  across five domains. Macro F1 was 0.18-0.35 overall; performance declined
+  from single-attribute extraction to relational tuples, and both models had
+  F1=0 for the full meta-analytic association tuple. Long-context inputs often
+  worsened performance. The benchmark includes broad scholarly evidence
+  extraction rather than only clinical review studies; predictions were
+  scored against manually curated annotations with a semantic matching step.

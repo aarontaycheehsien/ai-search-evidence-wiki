@@ -1,0 +1,29 @@
+id: munguia-realpozo-2026-custom-gpt
+type: journal-article
+title: "Custom GPT models for complex rheumatology systematic reviews: A two-part evaluation of data extraction and prognosis appraisal"
+authors:
+  - Pamela Munguía-Realpozo
+  - Edith Ramírez-Lara
+  - Claudia Mendoza-Pinto
+  - Ivet Etchegaray-Morales
+  - Juan Carlos Solis-Poblano
+  - Marco Alejandro Trinidad-González
+  - Jorge Ayón-Aguilar
+  - Máximo Alejandro García-Flores
+  - Álvaro José Montiel-Jarquín
+year: 2026
+doi: 10.1177/20552076261467480
+url: https://doi.org/10.1177/20552076261467480
+publication_status: "Published in DIGITAL HEALTH 12, 1-11"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Munguia-Realpozo et al - 2026 - Custom GPT extraction rheumatology.pdf"
+notes: >
+  In a data-extraction arm nested within a registered review, a customized
+  GPT-4o extracted fields from 15 SLE metabolomics studies. Overall template
+  concordance with human consensus was 25%; country extraction matched for
+  15/15 studies, while age and sex-distribution fields matched for 0/15.
+  Mean model extraction time was 5.7 minutes per study versus 30.4 minutes for
+  human reviewers. The sample was small and disease-specific; table and
+  supplementary information were frequent failure points. This paper also
+  contains a separate risk-of-bias arm that is outside the extraction results
+  recorded here.

@@ -1,0 +1,22 @@
+id: extraction-005
+claim: >
+  Small workflow evaluations report that human-plus-LLM or complementary
+  multi-LLM extraction can improve accuracy or coverage and reduce extraction
+  time, while retaining a human verification role.
+status: supported
+topics:
+  - llm-data-extraction
+evidence:
+  - source_id: wang-2025-leads
+    relationship: supports
+    locator: "Results, Figure 5 and text, PDF pp. 8-9"
+    note: "In a pilot involving 90 clinical-trial publications and two medical researchers, the expert-plus-LEADS arm achieved accuracy 0.85 versus 0.80 for expert-only and reduced task time by 26.9%; authors note the pilot was small and expert oversight remains needed."
+  - source_id: munguia-realpozo-2026-custom-gpt
+    relationship: supports
+    locator: "Results, Table 1 and Figure 1, PDF pp. 5-6"
+    note: "In 15 SLE metabolomics studies, customized GPT-4o extraction took a mean 5.7 minutes per study versus 30.4 minutes for human reviewers, but overall template concordance was 25.0%, supporting speed gains with substantial verification needs."
+  - source_id: vivekanantha-2026-dual-extraction
+    relationship: supports
+    locator: "Results, Tables 1-3, PDF pp. 5-8; Discussion, PDF pp. 8-9"
+    note: "Across eight studies, at least one of GPT-5.2 or Gemini 3 Pro was fully correct on 95.1% of 384 fields. The authors frame parallel LLMs as a human-verified first-pass approach; the adjudicator was not blinded to model outputs."
+last_reviewed: 2026-09-26

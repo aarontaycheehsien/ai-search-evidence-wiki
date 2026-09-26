@@ -7,4 +7,7 @@ question: >
 claim_ids:
   - extraction-001
   - extraction-002
-last_reviewed: 2026-09-25
+  - extraction-003
+  - extraction-004
+  - extraction-005
+last_reviewed: 2026-09-26
