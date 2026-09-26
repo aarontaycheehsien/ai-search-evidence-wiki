@@ -12,10 +12,12 @@ Each source retains its publication category. Open a record for bibliographic de
 - [AI-accelerated meta-analysis in psychology: Large language models code study properties with high accuracy](azaad-2026-meta-analysis-coding.md) (2026)
 - [Evaluating the accuracy and speed of eight deduplication tools: A comparative study](bateup-2026.md) (2026)
 - [Using artificial intelligence for systematic review: the example of elicit](bernard-2025.md) (2025)
+- [Data Extractions Using a Large Language Model (Elicit) and Human Reviewers in Randomized Controlled Trials: A Systematic Comparison](bianchi-2025.md) (2025)
 - [Fully Automated Scholarly Search for Biomedical Systematic Literature Reviews](budau-2024-fass.md) (2024)
 - [Development of Prompt Templates for Large Language Model-Driven Screening in Systematic Reviews](cao-2025.md) (2025)
 - [Comparative evaluation of artificial intelligence–assisted literature search tools for identifying clinically meaningful evidence in cardiology](di-febo-2026.md) (2026)
 - [A critical evaluation of generative query expansion on biomedical literature retrieval](fang-2026-query.md) (2026)
+- [Artificial Intelligence Search Tools for Evidence Synthesis: Comparative Analysis and Implementation Recommendations](featherstone-2025.md) (2025)
 - [Incorporating Generative AI to Promote Inquiry-Based Learning: Comparing Elicit AI Research Assistant to PubMed and CINAHL Complete](fenske-2024.md) (2024)
 - [AI-Infused Discovery Environments: Information Retrieval Boon or Overpromised Hype?](galbreath-2025.md) (2025)
 - [Artificial Intelligence-Assisted Data Extraction With a Large Language Model: A Study Within Reviews](gartlehner-2025.md) (2025)
@@ -46,6 +48,7 @@ Each source retains its publication category. Open a record for bibliographic de
 - [Navigating Machine-Driven Research Landscapes: A Comparative Approach](tranfield-2024.md) (2024)
 - [Do it faster with PICOS: Generative AI-Assisted systematic review screening](vallamchetla-2025.md) (2025)
 - [Automated data extraction for systematic reviews using GPT-5.2 and Google Gemini Pro 3: A dual-large language model approach in orthopaedic research](vivekanantha-2026-dual-extraction.md) (2026)
+- [The Use of Artificial Intelligence in Dermatology Systematic Reviews: A Comparative Analysis of Elicit Against Human Reviewers](vyas-2026.md) (2026)
 - [Human vs. machine in medical search strategy development: a comparative evaluation of ChatGPT-4.1](walz-2025-search.md) (2025)
 - [Can ChatGPT Write a Good Boolean Query for Systematic Review Literature Search?](wang-2023-boolean.md) (2023)
 - [A foundation model for human-AI collaboration in medical literature mining](wang-2025-leads.md) (2025)
@@ -56,6 +59,7 @@ Each source retains its publication category. Open a record for bibliographic de
 
 ## Preprints
 
+- [Useful for Exploration, Risky for Precision: Evaluating AI Tools in Academic Research](dathe-2026.md) (2026)
 - [Audited large language model triage for systematic review screening in national clinical guideline production: validation and prospective deployment](fagerberg-2026.md) (2026)
 - [Evaluating and Guarding Citation Faithfulness in Agentic Scientific Synthesis](goo-2026-citation-faithfulness.md) (2026)
 - [Breaking the Extraction Bottleneck: A Single AI Agent Achieves Statistical Equivalence with Human-Extracted Meta-Analysis Data Across Five Agricultural Datasets](halpern-2026-agricultural-extraction.md) (2026)

@@ -13,7 +13,7 @@ Define the evidence-synthesis setting, eligible study types, and task boundaries
 
 ## Overview
 
-This topic groups 6 claims linked to 14 source records.
+This topic groups 7 claims linked to 18 source records.
 
 ## Current evidence
 
@@ -27,6 +27,7 @@ The relationships and source categories below come from the structured evidence 
 
 - **supports** — [Comparison of Elicit AI and Traditional Literature Searching in Evidence Syntheses Using Four Case Studies](../evidence/lau-golder-2025.md) (peer-reviewed-study); locator: Abstract, p. 1; case-study results, PDF pp. 4–6. Across four evidence syntheses, mean sensitivity was 39.5% for Elicit versus 94.5% for original searches, while mean precision was 41.8% versus 7.55%. Elicit also found eligible studies absent from the original searches.
 - **qualifies** — [Using artificial intelligence for systematic review: the example of elicit](../evidence/bernard-2025.md) (peer-reviewed-study); locator: Results, PDF pp. 3–4. For one umbrella-review question, repeated runs retrieved 246, 169, and 172 records; Elicit found 3 of 17 included reviews from the prior review and 3 additional eligible reviews. This used an earlier product version and one topic.
+- **supports** — [The Use of Artificial Intelligence in Dermatology Systematic Reviews: A Comparative Analysis of Elicit Against Human Reviewers](../evidence/vyas-2026.md) (peer-reviewed-study); locator: Methods and Results, PDF p. 1; Discussion, PDF p. 2. Against 24 trials from one completed dermatology review, Elicit recovered 1 included trial in a 59-result concept search and none in a 27-result keyword search. This is a narrow single-review comparison.
 
 ### [Independent tool comparisons report different retrieval relevance and coverage profiles across query sets; current evidence does not establish a general-purpose winner over conventional library search.](../claims/assistant-002.md)
 
@@ -35,6 +36,8 @@ The relationships and source categories below come from the structured evidence 
 - **supports** — [Are AI tools better than traditional tools in literature searching? Evidence from E-commerce research](../evidence/tomczyk-2024.md) (peer-reviewed-study); locator: Methods and Findings, PDF p. 5. For the top eight results across nine e-commerce questions, title/abstract accuracy was 56% for Elicit and 33% for SciSpace, compared with 65% for Scopus and 78% for Web of Science; AI tools also surfaced unique papers.
 - **contextual** — [AI-Infused Discovery Environments: Information Retrieval Boon or Overpromised Hype?](../evidence/galbreath-2025.md) (peer-reviewed-study); locator: Abstract, p. 1; results section. Across 103 natural-language queries, the share of top citations judged relevant was similar for Primo Research Assistant and conventional Primo (46.3% vs 45.6%), with limited title overlap.
 - **qualifies** — [Navigating Machine-Driven Research Landscapes: A Comparative Approach](../evidence/tranfield-2024.md) (peer-reviewed-study); locator: Preliminary Results, PDF pp. 4–5. In a six-tool comparison across ten STEM subdisciplines, SciSpace had high citation overlap and Elicit retrieved fewer recent materials; abstract relevance scoring was still ongoing, so this is descriptive coverage evidence rather than a completed accuracy comparison.
+- **supports** — [Artificial Intelligence Search Tools for Evidence Synthesis: Comparative Analysis and Implementation Recommendations](../evidence/featherstone-2025.md) (peer-reviewed-study); locator: Methods, PDF pp. 2-5; Tables 2-5, PDF pp. 7-12. Across six review projects, average sensitivity was 0.676 for Lens.org, 0.230-0.257 for SpiderCite, and 0.244 for Copilot, versus 0.986 for customary searches; results differed between simple and complex projects.
+- **qualifies** — [Useful for Exploration, Risky for Precision: Evaluating AI Tools in Academic Research](../evidence/dathe-2026.md) (preprint); locator: Methods, PDF pp. 7-9; Table 10 and Results, PDF p. 13. For one research question, usable-source counts and repeat-run overlap varied across Consensus, ChatGPT, You.com, and Perplexity. The study is a preprint with one rater per tool.
 
 ### [One single-domain study reported high Consensus precision on a specialized tissue-engineering query, while broader comparative studies do not support treating that result as a stable cross-domain performance estimate.](../claims/assistant-003.md)
 
@@ -43,6 +46,7 @@ The relationships and source categories below come from the structured evidence 
 - **supports** — [Optimizing scholarly literature search: a comparative study of relevance and evidence quality across AI-powered, semantic, and traditional search engines](../evidence/gavgani-2026.md) (peer-reviewed-study); locator: Abstract only; full text not obtained. The abstract reports 86.0% precision and no false drops for the top 50 Consensus results in one tissue-engineering evaluation.
 - **contextual** — [Evaluating Eight Retrieval-Augmented Generation (RAG) Large Language Models’ Responses to Clinical Questions: A Comparative Study](../evidence/krump-2026.md) (preprint); locator: medRxiv abstract only. The abstract reports no significant between-tool differences in critical or non-critical concept coverage for 12 generated clinical questions (p=.95 and p=.16), including Consensus, Elicit, SciSpace, and Undermind. This is an unreviewed preprint and the full text was not obtained.
 - **contextual** — [Comparative evaluation of artificial intelligence–assisted literature search tools for identifying clinically meaningful evidence in cardiology](../evidence/di-febo-2026.md) (peer-reviewed-study); locator: Abstract, p. 1; Results, PDF pp. 6–8. In four cardiology topics, ChatGPT-5 ranked highest for relevant articles and key references, while Scite ranked lowest. Consensus was included, but the available abstract does not disclose its product-specific point estimate.
+- **qualifies** — [Useful for Exploration, Risky for Precision: Evaluating AI Tools in Academic Research](../evidence/dathe-2026.md) (preprint); locator: Methods, PDF pp. 7-9; Results and Table 10, PDF p. 13. For one emotional-contagion question, 14 of 50 Consensus sources met the study's usable-source definition and repeat-run Jaccard overlap was 28.0%. This preprint used one rater and one question.
 
 ### [A small rubric study rated Undermind and paid Elicit highly, but its low interrater agreement makes these ratings preliminary; Undermind’s quantified search-performance claims come from a vendor-authored benchmark.](../claims/assistant-004.md)
 
@@ -59,6 +63,8 @@ The relationships and source categories below come from the structured evidence 
 - **supports** — [Evaluating the AI Tool ‘Elicit’ as a Semi-Automated Second Reviewer for Data Extraction in Systematic Reviews: A Proof-of-Concept](../evidence/hilkenmeier-2025.md) (peer-reviewed-study); locator: Results, PDF pp. 6–7; methods, pp. 3–5. Across 43 studies and 602 data points, Elicit accuracy was 81.4% versus 86.7% for a human reviewer against a consensus ground truth; agreement and accuracy were lower for complex constructs and main-results fields.
 - **qualifies** — [Evaluating Elicit’s systematic reviews workflow in an umbrella review on air pollution and acute lower respiratory infections: a methodological study for quality appraisal](../evidence/mazzali-2026.md) (peer-reviewed-study); locator: Results, PDF p. 8. Elicit disagreed with reviewers on 24.4% of general and 30.4% of additional AMSTAR-2 EH appraisal items; errors clustered on multi-component and expert-interpretation questions.
 - **qualifies** — [Using Elicit AI research assistant for data extraction in systematic reviews: A feasibility study across environmental and life sciences](../evidence/lagisz-2026.md) (peer-reviewed-study); locator: Abstract, PDF p. 1; Results, PDF pp. 10–13. Across seven life/environmental science reviews, test-set extraction accuracy was 86.6%; re-extraction across accounts agreed on 90% of values but only 46% of supporting quotes and 30% of reasoning. Accuracy in high-accuracy mode was 82.1%. Prompt-development results tended to be higher than results on held-out articles.
+- **supports** — [Data Extractions Using a Large Language Model (Elicit) and Human Reviewers in Randomized Controlled Trials: A Systematic Comparison](../evidence/bianchi-2025.md) (peer-reviewed-study); locator: Methods, PDF p. 2; Results and Figure 1, PDF pp. 3-4. Across 140 field-level comparisons in 20 trials, Elicit outputs were equivalent to human extractions in 20.7%, contained more correct information in 29.3%, were incomplete in 45.7%, and were incorrect in 4.3%; intervention fields were least complete.
+- **supports** — [The Use of Artificial Intelligence in Dermatology Systematic Reviews: A Comparative Analysis of Elicit Against Human Reviewers](../evidence/vyas-2026.md) (peer-reviewed-study); locator: Results, PDF p. 1; Discussion, PDF p. 2. Across 24 trials, Elicit identified disease correctly in all cases but misidentified study location and produced inputs yielding incorrect Jadad scores in 5 of 24 cases each.
 
 ### [User-facing evaluations identify speed and ease of use as benefits of Elicit, alongside concerns about generated-abstract accuracy, brevity, and transparency of result counts.](../claims/assistant-006.md)
 
@@ -66,6 +72,17 @@ The relationships and source categories below come from the structured evidence 
 
 - **supports** — [Incorporating Generative AI to Promote Inquiry-Based Learning: Comparing Elicit AI Research Assistant to PubMed and CINAHL Complete](../evidence/fenske-2024.md) (peer-reviewed-study); locator: Results, PDF pp. 5–9. In a descriptive course study with 323 graduate nursing students, 26.0% preferred Elicit, compared with 30.7% for PubMed and 31.6% for CINAHL. Among Elicit-preferring students, 38.8% cited ease of use and 16.3% cited speed; across respondents, 34.1% identified inaccurate abstracts and 39.5% overly brief abstracts as weaknesses. This was not a blinded article-level accuracy benchmark.
 - **contextual** — [Which AI Tools Work Best for Research? Using Librarian and Student Perspectives to Inform a Rating Rubric](../evidence/patterson-2025.md) (peer-reviewed-study); locator: Methods and results, PDF pp. 3–6. Librarian/student raters valued discovery and search features, but the study used a small rater group and had low average agreement.
+- **contextual** — [Artificial Intelligence Search Tools for Evidence Synthesis: Comparative Analysis and Implementation Recommendations](../evidence/featherstone-2025.md) (peer-reviewed-study); locator: Focus-group findings, PDF pp. 13-15. Seven information specialists described SpiderCite as fast for citation chasing, Lens.org query translation as tedious, and Copilot as unpredictable and validation intensive.
+- **qualifies** — [Useful for Exploration, Risky for Precision: Evaluating AI Tools in Academic Research](../evidence/dathe-2026.md) (preprint); locator: Tables 7-10 and Results, PDF pp. 11-13. Document-tool source highlighting scored 1-3 on a five-point scale, and no literature-review tool exposed database coverage or exported search metadata. The study is a single-rater preprint evaluation.
+- **qualifies** — [The Use of Artificial Intelligence in Dermatology Systematic Reviews: A Comparative Analysis of Elicit Against Human Reviewers](../evidence/vyas-2026.md) (peer-reviewed-study); locator: Discussion, PDF p. 2. The authors found raw extraction faster, but cumbersome custom-column setup and required cross-validation could prolong the overall task. No formal timing study was reported.
+
+### [AI search and extraction tools can reduce initial search or screening effort, but measured efficiency gains may coincide with lower retrieval sensitivity or be offset by prompt development, screening, and human verification.](../claims/assistant-007.md)
+
+**Status:** provisional
+
+- **supports** — [Artificial Intelligence Search Tools for Evidence Synthesis: Comparative Analysis and Implementation Recommendations](../evidence/featherstone-2025.md) (peer-reviewed-study); locator: Tables 2-5, PDF pp. 7-12; focus-group findings, PDF pp. 13-15. The tested tools required less search execution and modeled screening time than customary practice, but average sensitivity across six review projects was 0.230-0.676 versus 0.986 for the reference searches.
+- **qualifies** — [The Use of Artificial Intelligence in Dermatology Systematic Reviews: A Comparative Analysis of Elicit Against Human Reviewers](../evidence/vyas-2026.md) (peer-reviewed-study); locator: Discussion, PDF p. 2. Raw extraction was faster, but the authors reported that custom-column setup and cross-validation could lead researchers to spend more time obtaining correct data. This was not a formal timing comparison.
+- **contextual** — [Using Elicit AI research assistant for data extraction in systematic reviews: A feasibility study across environmental and life sciences](../evidence/lagisz-2026.md) (peer-reviewed-study); locator: Methods and Results, PDF pp. 4-12. Forty of 70 successful extraction variables required two to four prompt iterations, and 20 of 90 variables failed to reach the development threshold after five iterations; manual-versus-AI time was not measured.
 
 ## Connected concepts
 
@@ -84,7 +101,9 @@ Record unresolved questions and evidence gaps here as they are identified during
 ## Peer-reviewed studies
 
 - [Using artificial intelligence for systematic review: the example of elicit](../evidence/bernard-2025.md)
+- [Data Extractions Using a Large Language Model (Elicit) and Human Reviewers in Randomized Controlled Trials: A Systematic Comparison](../evidence/bianchi-2025.md)
 - [Comparative evaluation of artificial intelligence–assisted literature search tools for identifying clinically meaningful evidence in cardiology](../evidence/di-febo-2026.md)
+- [Artificial Intelligence Search Tools for Evidence Synthesis: Comparative Analysis and Implementation Recommendations](../evidence/featherstone-2025.md)
 - [Incorporating Generative AI to Promote Inquiry-Based Learning: Comparing Elicit AI Research Assistant to PubMed and CINAHL Complete](../evidence/fenske-2024.md)
 - [AI-Infused Discovery Environments: Information Retrieval Boon or Overpromised Hype?](../evidence/galbreath-2025.md)
 - [Optimizing scholarly literature search: a comparative study of relevance and evidence quality across AI-powered, semantic, and traditional search engines](../evidence/gavgani-2026.md)
@@ -95,9 +114,11 @@ Record unresolved questions and evidence gaps here as they are identified during
 - [Which AI Tools Work Best for Research? Using Librarian and Student Perspectives to Inform a Rating Rubric](../evidence/patterson-2025.md)
 - [Are AI tools better than traditional tools in literature searching? Evidence from E-commerce research](../evidence/tomczyk-2024.md)
 - [Navigating Machine-Driven Research Landscapes: A Comparative Approach](../evidence/tranfield-2024.md)
+- [The Use of Artificial Intelligence in Dermatology Systematic Reviews: A Comparative Analysis of Elicit Against Human Reviewers](../evidence/vyas-2026.md)
 
 ## Preprints and unverified manuscripts
 
+- [Useful for Exploration, Risky for Precision: Evaluating AI Tools in Academic Research](../evidence/dathe-2026.md) — arXiv preprint 2605.10125v2
 - [Evaluating Eight Retrieval-Augmented Generation (RAG) Large Language Models’ Responses to Clinical Questions: A Comparative Study](../evidence/krump-2026.md) — medRxiv preprint posted 12 August 2026; not peer reviewed; abstract-only evidence
 
 ## Independent experiments
@@ -112,7 +133,8 @@ No independent experiments are linked.
 - [A small rubric study rated Undermind and paid Elicit highly, but its low interrater agreement makes these ratings preliminary; Undermind’s quantified search-performance claims come from a vendor-authored benchmark.](../claims/assistant-004.md) is marked **provisional**.
 - [Elicit data-extraction evaluations report imperfect accuracy that varies by field and evidence base, supporting human verification rather than autonomous use.](../claims/assistant-005.md) is marked **mixed**.
 - [User-facing evaluations identify speed and ease of use as benefits of Elicit, alongside concerns about generated-abstract accuracy, brevity, and transparency of result counts.](../claims/assistant-006.md) is marked **provisional**.
+- [AI search and extraction tools can reduce initial search or screening effort, but measured efficiency gains may coincide with lower retrieval sensitivity or be offset by prompt development, screening, and human verification.](../claims/assistant-007.md) is marked **provisional**.
 
 Read the individual source records for study design, scope, and unresolved reporting discrepancies.
 
-**Last reviewed:** 2026-09-25
+**Last reviewed:** 2026-09-26

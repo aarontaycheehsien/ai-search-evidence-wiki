@@ -1,0 +1,29 @@
+id: featherstone-2025
+type: journal-article
+title: "Artificial Intelligence Search Tools for Evidence Synthesis: Comparative Analysis and Implementation Recommendations"
+authors:
+  - Robin Featherstone
+  - Melissa Walter
+  - Danielle MacDougall
+  - Eric Morenz
+  - Sharon Bailey
+  - Robyn Butcher
+  - Caitlyn Ford
+  - Hannah Loshak
+  - David Kaunelis
+year: 2025
+doi: 10.1002/cesm.70045
+url: https://doi.org/10.1002/cesm.70045
+publication_status: "Published in Cochrane Evidence Synthesis and Methods 3:e70045"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Featherstone et al - 2025 - AI search tools for evidence synthesis.pdf"
+notes: >
+  Retrospectively compared Lens.org, SpiderCite, and Microsoft Copilot with
+  customary information-specialist searches across seven health-technology
+  assessment projects, followed by a focus group with seven information
+  specialists. Average sensitivity across six review projects was 0.676 for
+  Lens.org, 0.230-0.257 for the two SpiderCite directions, and 0.244 for
+  Copilot, versus 0.986 for the reference searches. Test searches took less
+  execution and modeled screening time, but their suitability varied by task.
+  Searchers knew the target studies, the project sample was small, and tools
+  were not evaluated in combination.

@@ -30,8 +30,24 @@
 - **Locator:** Abstract, PDF p. 1; Results, PDF pp. 10–13
 - **Note:** Across seven life/environmental science reviews, test-set extraction accuracy was 86.6%; re-extraction across accounts agreed on 90% of values but only 46% of supporting quotes and 30% of reasoning. Accuracy in high-accuracy mode was 82.1%. Prompt-development results tended to be higher than results on held-out articles.
 
+### Data Extractions Using a Large Language Model (Elicit) and Human Reviewers in Randomized Controlled Trials: A Systematic Comparison
+
+- **Source:** [bianchi-2025](../evidence/bianchi-2025.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Methods, PDF p. 2; Results and Figure 1, PDF pp. 3-4
+- **Note:** Across 140 field-level comparisons in 20 trials, Elicit outputs were equivalent to human extractions in 20.7%, contained more correct information in 29.3%, were incomplete in 45.7%, and were incorrect in 4.3%; intervention fields were least complete.
+
+### The Use of Artificial Intelligence in Dermatology Systematic Reviews: A Comparative Analysis of Elicit Against Human Reviewers
+
+- **Source:** [vyas-2026](../evidence/vyas-2026.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Results, PDF p. 1; Discussion, PDF p. 2
+- **Note:** Across 24 trials, Elicit identified disease correctly in all cases but misidentified study location and produced inputs yielding incorrect Jadad scores in 5 of 24 cases each.
+
 ## Topics
 
 - [Empirical evaluations of AI research assistants](../topics/research-assistant-tools.md)
 
-**Last reviewed:** 2026-09-25
+**Last reviewed:** 2026-09-26

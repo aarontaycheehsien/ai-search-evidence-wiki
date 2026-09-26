@@ -22,8 +22,32 @@
 - **Locator:** Methods and results, PDF pp. 3–6
 - **Note:** Librarian/student raters valued discovery and search features, but the study used a small rater group and had low average agreement.
 
+### Artificial Intelligence Search Tools for Evidence Synthesis: Comparative Analysis and Implementation Recommendations
+
+- **Source:** [featherstone-2025](../evidence/featherstone-2025.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** contextual
+- **Locator:** Focus-group findings, PDF pp. 13-15
+- **Note:** Seven information specialists described SpiderCite as fast for citation chasing, Lens.org query translation as tedious, and Copilot as unpredictable and validation intensive.
+
+### Useful for Exploration, Risky for Precision: Evaluating AI Tools in Academic Research
+
+- **Source:** [dathe-2026](../evidence/dathe-2026.md)
+- **Category:** preprint
+- **Relationship:** qualifies
+- **Locator:** Tables 7-10 and Results, PDF pp. 11-13
+- **Note:** Document-tool source highlighting scored 1-3 on a five-point scale, and no literature-review tool exposed database coverage or exported search metadata. The study is a single-rater preprint evaluation.
+
+### The Use of Artificial Intelligence in Dermatology Systematic Reviews: A Comparative Analysis of Elicit Against Human Reviewers
+
+- **Source:** [vyas-2026](../evidence/vyas-2026.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** qualifies
+- **Locator:** Discussion, PDF p. 2
+- **Note:** The authors found raw extraction faster, but cumbersome custom-column setup and required cross-validation could prolong the overall task. No formal timing study was reported.
+
 ## Topics
 
 - [Empirical evaluations of AI research assistants](../topics/research-assistant-tools.md)
 
-**Last reviewed:** 2026-09-25
+**Last reviewed:** 2026-09-26

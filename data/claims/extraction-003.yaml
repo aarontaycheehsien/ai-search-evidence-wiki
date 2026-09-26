@@ -43,4 +43,12 @@ evidence:
     relationship: qualifies
     locator: "Tables 4-9, PDF pp. 12-19; limitations, PDF pp. 26-27"
     note: "This bioRxiv preprint reports pooled-effect equivalence across five agricultural datasets but depends on LLM-based record alignment and does not formally validate variance extraction; it is a qualified counterexample for aggregated effect estimates, not evidence of uniform item-level accuracy."
+  - source_id: bianchi-2025
+    relationship: supports
+    locator: "Results and Figure 1, PDF pp. 3-4"
+    note: "Across 20 trials, Elicit captured more or equivalent study-design information in every case, while 70% of intervention descriptions and 95% of intervention-effect extractions were incomplete."
+  - source_id: vyas-2026
+    relationship: supports
+    locator: "Results, PDF p. 1"
+    note: "Disease was extracted correctly for all 24 dermatology trials, while study location and Jadad-score inputs were wrong in 5 of 24 cases each."
 last_reviewed: 2026-09-26

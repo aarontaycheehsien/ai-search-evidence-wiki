@@ -30,8 +30,16 @@
 - **Locator:** Abstract, p. 1; Results, PDF pp. 6–8
 - **Note:** In four cardiology topics, ChatGPT-5 ranked highest for relevant articles and key references, while Scite ranked lowest. Consensus was included, but the available abstract does not disclose its product-specific point estimate.
 
+### Useful for Exploration, Risky for Precision: Evaluating AI Tools in Academic Research
+
+- **Source:** [dathe-2026](../evidence/dathe-2026.md)
+- **Category:** preprint
+- **Relationship:** qualifies
+- **Locator:** Methods, PDF pp. 7-9; Results and Table 10, PDF p. 13
+- **Note:** For one emotional-contagion question, 14 of 50 Consensus sources met the study's usable-source definition and repeat-run Jaccard overlap was 28.0%. This preprint used one rater and one question.
+
 ## Topics
 
 - [Empirical evaluations of AI research assistants](../topics/research-assistant-tools.md)
 
-**Last reviewed:** 2026-09-25
+**Last reviewed:** 2026-09-26

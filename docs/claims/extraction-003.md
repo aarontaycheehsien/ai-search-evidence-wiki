@@ -78,6 +78,22 @@
 - **Locator:** Tables 4-9, PDF pp. 12-19; limitations, PDF pp. 26-27
 - **Note:** This bioRxiv preprint reports pooled-effect equivalence across five agricultural datasets but depends on LLM-based record alignment and does not formally validate variance extraction; it is a qualified counterexample for aggregated effect estimates, not evidence of uniform item-level accuracy.
 
+### Data Extractions Using a Large Language Model (Elicit) and Human Reviewers in Randomized Controlled Trials: A Systematic Comparison
+
+- **Source:** [bianchi-2025](../evidence/bianchi-2025.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Results and Figure 1, PDF pp. 3-4
+- **Note:** Across 20 trials, Elicit captured more or equivalent study-design information in every case, while 70% of intervention descriptions and 95% of intervention-effect extractions were incomplete.
+
+### The Use of Artificial Intelligence in Dermatology Systematic Reviews: A Comparative Analysis of Elicit Against Human Reviewers
+
+- **Source:** [vyas-2026](../evidence/vyas-2026.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Results, PDF p. 1
+- **Note:** Disease was extracted correctly for all 24 dermatology trials, while study location and Jadad-score inputs were wrong in 5 of 24 cases each.
+
 ## Topics
 
 - [LLMs for structured data extraction](../topics/llm-data-extraction.md)

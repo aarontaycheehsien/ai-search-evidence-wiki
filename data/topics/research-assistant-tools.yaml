@@ -12,6 +12,7 @@ claim_ids:
   - assistant-004
   - assistant-005
   - assistant-006
+  - assistant-007
 concept_ids:
   - recall-and-sensitivity
   - precision
@@ -20,4 +21,4 @@ concept_ids:
   - reproducibility-and-stability
   - automation-bias
   - extraction-and-screening-errors
-last_reviewed: 2026-09-25
+last_reviewed: 2026-09-26

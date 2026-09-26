@@ -13,7 +13,7 @@ Define the evidence-synthesis setting, eligible study types, and task boundaries
 
 ## Overview
 
-This topic groups 5 claims linked to 11 source records.
+This topic groups 5 claims linked to 13 source records.
 
 ## Current evidence
 
@@ -51,6 +51,8 @@ The relationships and source categories below come from the structured evidence 
 - **qualifies** — [A foundation model for human-AI collaboration in medical literature mining](../evidence/wang-2025-leads.md) (peer-reviewed-study); locator: Figure 4, PDF p. 7; Results, Figure 5, PDF pp. 8-9. LEADS benchmark and workflow evaluations varied by field: manual-evaluation accuracy was 84.0% for participant-statistic text but 56.7% for numeric trial results; the small expert-plus-AI pilot reached 0.85 accuracy for its extraction task.
 - **supports** — [Automated data extraction for systematic reviews using GPT-5.2 and Google Gemini Pro 3: A dual-large language model approach in orthopaedic research](../evidence/vivekanantha-2026-dual-extraction.md) (peer-reviewed-study); locator: Results, PDF pp. 4-6; Tables 1-3, PDF pp. 5-8. Across eight orthopaedic studies, study-characteristic fields were both-model correct on 100% of fields, while secondary surgery details were both-model correct on 68.8%; at least one model was fully correct on 95.1% of all fields.
 - **qualifies** — [Breaking the Extraction Bottleneck: A Single AI Agent Achieves Statistical Equivalence with Human-Extracted Meta-Analysis Data Across Five Agricultural Datasets](../evidence/halpern-2026-agricultural-extraction.md) (preprint); locator: Tables 4-9, PDF pp. 12-19; limitations, PDF pp. 26-27. This bioRxiv preprint reports pooled-effect equivalence across five agricultural datasets but depends on LLM-based record alignment and does not formally validate variance extraction; it is a qualified counterexample for aggregated effect estimates, not evidence of uniform item-level accuracy.
+- **supports** — [Data Extractions Using a Large Language Model (Elicit) and Human Reviewers in Randomized Controlled Trials: A Systematic Comparison](../evidence/bianchi-2025.md) (peer-reviewed-study); locator: Results and Figure 1, PDF pp. 3-4. Across 20 trials, Elicit captured more or equivalent study-design information in every case, while 70% of intervention descriptions and 95% of intervention-effect extractions were incomplete.
+- **supports** — [The Use of Artificial Intelligence in Dermatology Systematic Reviews: A Comparative Analysis of Elicit Against Human Reviewers](../evidence/vyas-2026.md) (peer-reviewed-study); locator: Results, PDF p. 1. Disease was extracted correctly for all 24 dermatology trials, while study location and Jadad-score inputs were wrong in 5 of 24 cases each.
 
 ### [Additional reasoning or self-reflection prompting does not consistently improve extraction accuracy and can increase processing time.](../claims/extraction-004.md)
 
@@ -86,11 +88,13 @@ Record unresolved questions and evidence gaps here as they are identified during
 
 - [OpenExtract: Automated Data Extraction for Systematic Reviews in Health](../evidence/achterberg-2026-openextract.md)
 - [AI-accelerated meta-analysis in psychology: Large language models code study properties with high accuracy](../evidence/azaad-2026-meta-analysis-coding.md)
+- [Data Extractions Using a Large Language Model (Elicit) and Human Reviewers in Randomized Controlled Trials: A Systematic Comparison](../evidence/bianchi-2025.md)
 - [Artificial Intelligence-Assisted Data Extraction With a Large Language Model: A Study Within Reviews](../evidence/gartlehner-2025.md)
 - [What level of automation is 'good enough'? A benchmark of large language models for meta-analysis data extraction](../evidence/li-2026-extraction.md)
 - [Custom GPT models for complex rheumatology systematic reviews: A two-part evaluation of data extraction and prognosis appraisal](../evidence/munguia-realpozo-2026-custom-gpt.md)
 - [Performance of large language models and prompt engineering strategies for data extraction in systematic reviews](../evidence/oami-2026-extraction.md)
 - [Automated data extraction for systematic reviews using GPT-5.2 and Google Gemini Pro 3: A dual-large language model approach in orthopaedic research](../evidence/vivekanantha-2026-dual-extraction.md)
+- [The Use of Artificial Intelligence in Dermatology Systematic Reviews: A Comparative Analysis of Elicit Against Human Reviewers](../evidence/vyas-2026.md)
 - [A foundation model for human-AI collaboration in medical literature mining](../evidence/wang-2025-leads.md)
 - [Assessing data extraction in randomized clinical trials with large language models](../evidence/yisha-2026-rct-extraction.md)
 

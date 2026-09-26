@@ -15,4 +15,16 @@ evidence:
     relationship: contextual
     locator: "Methods and results, PDF pp. 3–6"
     note: "Librarian/student raters valued discovery and search features, but the study used a small rater group and had low average agreement."
-last_reviewed: 2026-09-25
+  - source_id: featherstone-2025
+    relationship: contextual
+    locator: "Focus-group findings, PDF pp. 13-15"
+    note: "Seven information specialists described SpiderCite as fast for citation chasing, Lens.org query translation as tedious, and Copilot as unpredictable and validation intensive."
+  - source_id: dathe-2026
+    relationship: qualifies
+    locator: "Tables 7-10 and Results, PDF pp. 11-13"
+    note: "Document-tool source highlighting scored 1-3 on a five-point scale, and no literature-review tool exposed database coverage or exported search metadata. The study is a single-rater preprint evaluation."
+  - source_id: vyas-2026
+    relationship: qualifies
+    locator: "Discussion, PDF p. 2"
+    note: "The authors found raw extraction faster, but cumbersome custom-column setup and required cross-validation could prolong the overall task. No formal timing study was reported."
+last_reviewed: 2026-09-26

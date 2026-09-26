@@ -22,8 +22,16 @@
 - **Locator:** Results, PDF pp. 3–4
 - **Note:** For one umbrella-review question, repeated runs retrieved 246, 169, and 172 records; Elicit found 3 of 17 included reviews from the prior review and 3 additional eligible reviews. This used an earlier product version and one topic.
 
+### The Use of Artificial Intelligence in Dermatology Systematic Reviews: A Comparative Analysis of Elicit Against Human Reviewers
+
+- **Source:** [vyas-2026](../evidence/vyas-2026.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Methods and Results, PDF p. 1; Discussion, PDF p. 2
+- **Note:** Against 24 trials from one completed dermatology review, Elicit recovered 1 included trial in a 59-result concept search and none in a 27-result keyword search. This is a narrow single-review comparison.
+
 ## Topics
 
 - [Empirical evaluations of AI research assistants](../topics/research-assistant-tools.md)
 
-**Last reviewed:** 2026-09-25
+**Last reviewed:** 2026-09-26

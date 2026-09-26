@@ -16,3 +16,4 @@
 ## Linked claims
 
 - [Elicit data-extraction evaluations report imperfect accuracy that varies by field and evidence base, supporting human verification rather than autonomous use.](../claims/assistant-005.md) — **qualifies**
+- [AI search and extraction tools can reduce initial search or screening effort, but measured efficiency gains may coincide with lower retrieval sensitivity or be offset by prompt development, screening, and human verification.](../claims/assistant-007.md) — **contextual**
