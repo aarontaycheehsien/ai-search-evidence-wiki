@@ -7,6 +7,8 @@ description: >
 claim_ids:
   - assistant-002
   - assistant-003
+  - assistant-021
+  - assistant-032
 concept_ids:
   - recall-and-sensitivity
   - precision
@@ -17,4 +19,6 @@ evidence_source_ids:
   - krump-2026
   - di-febo-2026
   - dathe-2026
-last_reviewed: 2026-09-26
+  - chandler-2026-scholarly-diversity
+  - khandelwal-2025-neurolit
+last_reviewed: 2026-09-27

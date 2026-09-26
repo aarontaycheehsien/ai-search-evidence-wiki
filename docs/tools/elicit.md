@@ -2,7 +2,7 @@
 
 # Elicit.com
 
-**Evidence:** 14 sources; 2024–2026; 13 peer-reviewed studies, 1 preprint
+**Evidence:** 16 sources; 2024–2026; 15 peer-reviewed studies, 1 preprint
 
 ## Scope
 
@@ -11,7 +11,7 @@ Empirical evaluations of Elicit's literature retrieval, screening, extraction, a
 
 ## Overview
 
-This tool page groups 8 claims and 14 source records that evaluate or directly contextualize Elicit.com.
+This tool page groups 10 claims and 16 source records that evaluate or directly contextualize Elicit.com.
 
 Cross-tool claims are repeated where relevant, but the evidence shown below is limited to the source records assigned to this tool.
 
@@ -66,11 +66,23 @@ Cross-tool claims are repeated where relevant, but the evidence shown below is l
 - **supports** — [Which AI Tools Work Best for Research? Using Librarian and Student Perspectives to Inform a Rating Rubric](../evidence/patterson-2025.md) (peer-reviewed-study); locator: Methods, PDF pp. 3–4; results and discussion, pp. 5–6. Undermind had a reported mean score of 4.31 and paid Elicit 3.69, but average percent agreement was 21.1% and agreement for Undermind was 54%. Three raters assessed 15 tools; this was a subjective rubric, not a retrieval benchmark.
 - **contextual** — [Evaluating Eight Retrieval-Augmented Generation (RAG) Large Language Models’ Responses to Clinical Questions: A Comparative Study](../evidence/krump-2026.md) (preprint); locator: medRxiv abstract only. Undermind was one of eight evaluated RAG tools; the abstract reports no statistically significant differences in concept coverage across tools.
 
+### [A four-topic top-result audit reports differences in scholarly representation across search tools, without establishing comparative relevance, recall or causal bias.](../claims/assistant-021.md)
+
+**Status:** supported
+
+- **supports** — [‘GenAI’ Literature Search Tools and Scholarly Diversity: An Algorithmic Ethnographical Analysis](../evidence/chandler-2026-scholarly-diversity.md) (peer-reviewed-study); locator: Methods and Table 2, PDF pp. 5–8. 800 top-twenty results across ten tools. Within each 80-result sample, papers with first authors based in Global Majority countries: Scopus AI 27, Semantic Scholar 29, ResearchRabbit 25, Elicit 24, Consensus 21. These are not Global North counts. Conventional-tool Table 2 totals conflict with displayed component sums; no tool ranking based on those conflicting totals. Authorship composition is not search accuracy.
+
 ### [In a small qualitative study of researchers using AI discovery and synthesis tools, opaque provenance and confident outputs prompted compensatory source verification and context-dependent trust.](../claims/assistant-008.md)
 
 **Status:** provisional
 
 - **supports** — [How Researchers Navigate Accountability, Transparency, and Trust When Using AI Tools in Early-Stage Research: A Think-Aloud Study](../evidence/gautam-2026.md) (peer-reviewed-study); locator: Sections 3-4, PDF pp. 3-8; limitations, p. 10. Think-aloud sessions with 15 researchers included Research Rabbit and Elicit tasks. Nine raised retrieval/source opacity concerns and eight used redundant manual verification. This is lived-experience evidence, not a retrieval-accuracy benchmark.
+
+### [LitSearch documents low target-paper recovery for commercial searches on an 80-query specific-question subset; its fixed-corpus benchmark is not directly comparable to commercial engine coverage.](../claims/assistant-016.md)
+
+**Status:** supported
+
+- **supports** — [LitSearch: A Retrieval Benchmark for Scientific Literature Search](../evidence/ajith-2024-litsearch.md) (peer-reviewed-study); locator: Section 5.3 and Table 7, PDF p. 7. Recall@5 for inline/author queries: Google Scholar 20.5%/17.5%, Elicit 23.1%/17.5%, Google Search 23.1%/62.5%. Each type has 40 queries; ML/NLP benchmark and different search corpora limit generalization.
 
 ### [One single-domain study reported high Consensus precision on a specialized tissue-engineering query, while broader comparative studies do not support treating that result as a stable cross-domain performance estimate.](../claims/assistant-003.md)
 
@@ -96,6 +108,7 @@ Cross-tool claims are repeated where relevant, but the evidence shown below is l
 - [How Researchers Navigate Accountability, Transparency, and Trust When Using AI Tools in Early-Stage Research: A Think-Aloud Study](../evidence/gautam-2026.md)
 - [The Use of Artificial Intelligence in Dermatology Systematic Reviews: A Comparative Analysis of Elicit Against Human Reviewers](../evidence/vyas-2026.md)
 - [Using Elicit AI research assistant for data extraction in systematic reviews: A feasibility study across environmental and life sciences](../evidence/lagisz-2026.md)
+- [‘GenAI’ Literature Search Tools and Scholarly Diversity: An Algorithmic Ethnographical Analysis](../evidence/chandler-2026-scholarly-diversity.md)
 - [Comparison of Elicit AI and Traditional Literature Searching in Evidence Syntheses Using Four Case Studies](../evidence/lau-golder-2025.md)
 - [Data Extractions Using a Large Language Model (Elicit) and Human Reviewers in Randomized Controlled Trials: A Systematic Comparison](../evidence/bianchi-2025.md)
 - [Evaluating the AI Tool ‘Elicit’ as a Semi-Automated Second Reviewer for Data Extraction in Systematic Reviews: A Proof-of-Concept](../evidence/hilkenmeier-2025.md)
@@ -104,6 +117,7 @@ Cross-tool claims are repeated where relevant, but the evidence shown below is l
 - [Which AI Tools Work Best for Research? Using Librarian and Student Perspectives to Inform a Rating Rubric](../evidence/patterson-2025.md)
 - [Are AI tools better than traditional tools in literature searching? Evidence from E-commerce research](../evidence/tomczyk-2024.md)
 - [Incorporating Generative AI to Promote Inquiry-Based Learning: Comparing Elicit AI Research Assistant to PubMed and CINAHL Complete](../evidence/fenske-2024.md)
+- [LitSearch: A Retrieval Benchmark for Scientific Literature Search](../evidence/ajith-2024-litsearch.md)
 - [Navigating Machine-Driven Research Landscapes: A Comparative Approach](../evidence/tranfield-2024.md)
 
 ### Preprints and unverified manuscripts
@@ -127,4 +141,4 @@ No vendor, system, experimental, or editorial records are linked.
 
 Read the individual source records for study design, scope, and unresolved reporting discrepancies.
 
-**Last reviewed:** 2026-09-26
+**Last reviewed:** 2026-09-27

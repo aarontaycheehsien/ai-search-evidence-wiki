@@ -1,0 +1,13 @@
+id: "assistant-023"
+claim: "WisPaper developers report high criterion-matching accuracy but substantially lower end-to-end retrieval recall; these component and system metrics should not be conflated."
+status: "provisional"
+topics:
+  - "wispaper"
+  - "academic-search-benchmarks"
+evidence:
+  - source_id: "ju-2025-wispaper"
+    relationship: "supports"
+    locator: "Tables 2–3 and Figure 4, PDF pp. 8–10"
+    note: "WisModel criterion matching 93.70% versus Gemini3-Pro 73.23%; TaxoBench end-to-end WisPaper recall 22.26% versus O3 20.92%. TaxoBench is restricted to 72 computer-science surveys and shares authors with the evaluation; not independent validation."
+
+last_reviewed: "2026-09-27"

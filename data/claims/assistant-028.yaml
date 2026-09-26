@@ -1,0 +1,12 @@
+id: "assistant-028"
+claim: "An early COVID-19 evaluation found two commercial deep-learning search systems below the strongest academic TREC-COVID submissions on top-rank relevance metrics."
+status: "supported"
+topics:
+  - "academic-search-benchmarks"
+evidence:
+  - source_id: "soni-2021-covid-search"
+    relationship: "supports"
+    locator: "Evaluation setup and Table 2, PDF pp. 2–4"
+    note: "Across thirty topics, best Amazon configuration precision@10 .6400, Google COVID-19 Research Explorer .5600, best academic submission .7133. Historical snapshot with additional pooled judgments and common cutoffs; no inference about current engines or exhaustive recall."
+
+last_reviewed: "2026-09-27"

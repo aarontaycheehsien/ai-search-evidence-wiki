@@ -1,0 +1,18 @@
+id: "khandelwal-2025-neurolit"
+type: "preprint"
+title: "NeuroLit Navigator: A Neurosymbolic Approach to Scholarly Article Searches for Systematic Reviews"
+authors:
+  - "Vedant Khandelwal"
+  - "Kaushik Roy"
+  - "Valerie Lookingbill"
+  - "Ritvik Garimella"
+  - "Harshul Surana"
+  - "Heather Heckman"
+  - "Amit Sheth"
+year: 2025
+doi: null
+url: "https://arxiv.org/abs/2503.00278"
+publication_status: "arXiv:2503.00278v1, March 1, 2025; printed AAAI copyright does not establish venue here"
+source_category: "preprint"
+local_file: "incoming/papers/undermind-2026-09-27/Kha25e.pdf"
+notes: "South Carolina system developers, NSF supported. Small top-five sentinel comparison; query counts/denominators insufficiently transparent. Table 1 Consensus 38% versus NeuroLit 36%, despite broad outperforming language. Claimed time savings lack a sufficiently documented controlled timing design; do not promote as measured effect."

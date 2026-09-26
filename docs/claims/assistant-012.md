@@ -1,0 +1,21 @@
+> **THIS FILE IS GENERATED. DO NOT EDIT DIRECTLY.**
+
+# A small Polish library-director survey reported perceived search and information-service benefits from Primo Research Assistant alongside trust and metadata concerns, with limited evaluation data and doubts about meeting users' information needs; it does not establish measured workload savings or retrieval quality.
+
+**Status:** provisional — 1 source; 2026; 1 peer-reviewed study
+
+## Evidence
+
+### Case Study of the Implementation of AI Primo Research Assistant (Beta Version) in Academic Libraries in Poland
+
+- **Source:** [kotula-2026](../evidence/kotula-2026.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Adopter survey results, PDF pp. 8-11, Figures 3-5; Discussion, pp. 11 and 14; Appendix A, pp. 16-17
+- **Note:** Of the five responses reflected in the adopter evaluation items, 60% lacked information about user evaluations and 80% lacked information about staff evaluations. Three responses identified information-service support and three identified easier retrieval; one selected faster work. Three of five said the assistant could not meet users' information needs. Open-ended concerns included trust, better metadata, local metadata integration, and usage statistics. Figure 5 shows overall ratings of 5, 7, 8, 8, and 9 on a 1-10 scale. The abstract and discussion emphasize workload reduction, but Figure 4 shows zero selections for that item; this internal discrepancy is retained rather than resolved. Director reports are not direct user-satisfaction measurements, timed comparisons, or relevance/recall benchmarks. The authors report six adopter responses overall, so item-level denominators should not be assumed to be six.
+
+## Tools
+
+- [Primo Research Assistant](../tools/primo-research-assistant.md)
+
+**Last reviewed:** 2026-09-27

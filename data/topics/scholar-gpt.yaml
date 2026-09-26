@@ -1,0 +1,15 @@
+id: "scholar-gpt"
+title: "Scholar GPT"
+type: "tool"
+description: "Full-text evidence on Scholar GPT. Findings are scoped to tested versions, tasks and interfaces; study independence and publication status are recorded separately."
+claim_ids:
+  - "assistant-013"
+concept_ids:
+  - "recall-and-sensitivity"
+  - "precision"
+  - "reference-standards"
+  - "human-in-the-loop-verification"
+  - "reproducibility-and-stability"
+evidence_source_ids:
+  - "wlodarczyk-2024"
+last_reviewed: "2026-09-27"

@@ -1,0 +1,12 @@
+id: "assistant-014"
+claim: "A launch-period Scholar Labs functional probe describes query-dependent retrieval limitations, but does not estimate precision, recall or comparative effectiveness."
+status: "provisional"
+topics:
+  - "scholar-labs"
+evidence:
+  - source_id: "lopezosa-2025-scholar-labs"
+    relationship: "supports"
+    locator: "Prompt examples and conclusions, PDF pp. 3–10"
+    note: "Four built-in and five custom prompts in November 2025; author-name example contains a spelling error. Observed result limits and missing highly cited items are a dated qualitative snapshot, not current product guarantees."
+
+last_reviewed: "2026-09-27"

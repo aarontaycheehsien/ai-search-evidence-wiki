@@ -1,0 +1,16 @@
+id: "assistant-021"
+claim: "A four-topic top-result audit reports differences in scholarly representation across search tools, without establishing comparative relevance, recall or causal bias."
+status: "supported"
+topics:
+  - "scopus-ai"
+  - "semantic-scholar"
+  - "elicit"
+  - "consensus"
+  - "research-rabbit"
+evidence:
+  - source_id: "chandler-2026-scholarly-diversity"
+    relationship: "supports"
+    locator: "Methods and Table 2, PDF pp. 5–8"
+    note: "800 top-twenty results across ten tools. Within each 80-result sample, papers with first authors based in Global Majority countries: Scopus AI 27, Semantic Scholar 29, ResearchRabbit 25, Elicit 24, Consensus 21. These are not Global North counts. Conventional-tool Table 2 totals conflict with displayed component sums; no tool ranking based on those conflicting totals. Authorship composition is not search accuracy."
+
+last_reviewed: "2026-09-27"

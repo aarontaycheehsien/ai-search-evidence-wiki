@@ -1,0 +1,12 @@
+id: "assistant-026"
+claim: "A literature-search preprint demonstrates that citation-list recovery and LLM-judged semantic relevance can yield different rankings; neither is an exhaustive relevance gold standard."
+status: "provisional"
+topics:
+  - "academic-search-benchmarks"
+evidence:
+  - source_id: "sahu-2026-search-evaluation"
+    relationship: "supports"
+    locator: "Tables 1 and 3, PDF pp. 3–5"
+    note: "On 9,204 query-reference pairs from 250 computer-science papers, Qwen-based deep research recall@100 22.2% and recall@1000 51.9%, versus .3%/1.9% without deep research. LLM-judge relevance favored reranked candidates over reference lists, but that does not establish that original citations are wrong."
+
+last_reviewed: "2026-09-27"

@@ -1,0 +1,12 @@
+id: "assistant-022"
+claim: "PaSa developers report higher target-paper recovery than selected search baselines on their own AI-domain benchmarks, with limited independent validation and differing baseline conditions."
+status: "provisional"
+topics:
+  - "academic-search-benchmarks"
+evidence:
+  - source_id: "he-2025-pasa"
+    relationship: "supports"
+    locator: "RealScholarQuery methods and Table 5, PDF pp. 4, 8"
+    note: "On 50 expert-labeled AI queries, PaSa-7b precision .5146, recall .6111, recall@20 .5798; Google with GPT-4o recall@20 .2020. This is a developer benchmark with pooled candidate judgments, not evidence of universal superiority."
+
+last_reviewed: "2026-09-27"

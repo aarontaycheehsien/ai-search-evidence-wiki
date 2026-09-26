@@ -1,0 +1,16 @@
+id: "liu-2026-study-retrieval"
+type: "preprint"
+title: "Do AI chatbots find what experts would? Effects of model, user role, and sample size on study retrieval for medical questions"
+authors:
+  - "Qingfang Liu"
+  - "Qiao Jin"
+  - "Joe D. Menke"
+  - "Thorsten Kahnt"
+  - "Zhiyong Lu"
+year: 2026
+doi: null
+url: "https://arxiv.org/abs/2608.13786"
+publication_status: "arXiv:2608.13786v1, August 13, 2026"
+source_category: "preprint"
+local_file: "incoming/papers/undermind-2026-09-27/Liu26c.pdf"
+notes: "Independent NIH/Illinois comparison: twenty Cochrane reviews, 442 included studies, three models/three roles/four repetitions (720 responses). Pooled recall across runs differs from mean per-response recall; retrieval misses despite generally accurate metadata. Excluded-paper count differs 143 versus Table 1 total 142."

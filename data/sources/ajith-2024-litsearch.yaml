@@ -1,0 +1,17 @@
+id: "ajith-2024-litsearch"
+type: "conference-paper"
+title: "LitSearch: A Retrieval Benchmark for Scientific Literature Search"
+authors:
+  - "Anirudh Ajith"
+  - "Mengzhou Xia"
+  - "Alexis Chevalier"
+  - "Tanya Goyal"
+  - "Danqi Chen"
+  - "Tianyu Gao"
+year: 2024
+doi: "10.18653/v1/2024.emnlp-main.840"
+url: "https://doi.org/10.18653/v1/2024.emnlp-main.840"
+publication_status: "Published in EMNLP 2024, 15068–15083; downloaded arXiv manuscript"
+source_category: "peer-reviewed-study"
+local_file: "incoming/papers/undermind-2026-09-27/Aji24.pdf"
+notes: "597 questions and 64,183-paper ML/NLP corpus. Commercial-system subset: 40 inline-citation and 40 author-written specific queries. Fixed-corpus and commercial searches have different corpus/task conditions, so performance values are not directly interchangeable. Publication verified against ACL Anthology."

@@ -1,0 +1,13 @@
+id: "soni-2021-covid-search"
+type: "journal-article"
+title: "An evaluation of two commercial deep learning-based information retrieval systems for COVID-19 literature"
+authors:
+  - "Sarvesh Soni"
+  - "Kirk Roberts"
+year: 2021
+doi: "10.1093/jamia/ocaa271"
+url: "https://doi.org/10.1093/jamia/ocaa271"
+publication_status: "Published in JAMIA 28(1), 132–137, 2021; advance publication November 17, 2020"
+source_category: "peer-reviewed-study"
+local_file: "incoming/papers/undermind-2026-09-27/Son20.pdf"
+notes: "Independent early pandemic comparison of Amazon CORD-19 Search/Google COVID-19 Research Explorer against TREC-COVID submissions, thirty topics. Added 141 pooled relevance judgments. Top-rank and cutoff metrics do not establish exhaustive systematic-review completeness or current product performance."

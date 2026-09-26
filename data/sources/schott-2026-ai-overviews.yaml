@@ -1,0 +1,17 @@
+id: "schott-2026-ai-overviews"
+type: "preprint"
+title: "AI Overviews in Academic Search: Evaluating AI-generated Summaries of Search Results in a Domain-specific Search Engine"
+authors:
+  - "Kevin Schott"
+  - "Kanishka Silva"
+  - "Ingo Frommholz"
+  - "Philipp Mayr"
+  - "Dagmar Kern"
+  - "Daniel Hienert"
+year: 2026
+doi: "10.48550/arXiv.2607.03421"
+url: "https://doi.org/10.48550/arXiv.2607.03421"
+publication_status: "arXiv preprint; downloaded manuscript carries an ASIS&T November 2026 conference header"
+source_category: "preprint"
+local_file: "incoming/papers/undermind-2026-09-27/Sch26b.pdf"
+notes: "GESIS/system-developer evaluation of its own academic-search interface. Ten queries, summaries of top-five records, three quality raters; 30-user within-subject experiment. Future conference header does not establish completed publication as of September 27, 2026. Exploratory mental-demand finding is not a confirmatory overall-workload benefit."

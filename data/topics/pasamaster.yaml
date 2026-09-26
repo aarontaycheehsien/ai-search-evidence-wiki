@@ -1,0 +1,15 @@
+id: "pasamaster"
+title: "PaSaMaster"
+type: "tool"
+description: "Full-text evidence on PaSaMaster. Findings are scoped to tested versions, tasks and interfaces; study independence and publication status are recorded separately."
+claim_ids:
+  - "assistant-033"
+concept_ids:
+  - "recall-and-sensitivity"
+  - "precision"
+  - "reference-standards"
+  - "human-in-the-loop-verification"
+  - "reproducibility-and-stability"
+evidence_source_ids:
+  - "du-2026-recursive-retrieval"
+last_reviewed: "2026-09-27"

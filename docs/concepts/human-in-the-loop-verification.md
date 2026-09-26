@@ -25,11 +25,22 @@ Record the measures, decision rules, and reference standards used by each study;
 ## Related tools
 
 - [Elicit.com](../tools/elicit.md)
+- [Academic search prototypes and benchmarks](../tools/academic-search-benchmarks.md)
 - [General-purpose AI assistants](../tools/general-purpose-ai-assistants.md)
 - [Undermind.ai](../tools/undermind.md)
-- [Microsoft Copilot](../tools/microsoft-copilot.md)
 - [Research Rabbit](../tools/research-rabbit.md)
+- [Scopus AI](../tools/scopus-ai.md)
+- [Google Scholar Labs](../tools/scholar-labs.md)
+- [Ai2 Asta](../tools/asta.md)
+- [Automated citation-network searching](../tools/citation-network-search.md)
+- [IRIS.AI](../tools/iris-ai.md)
+- [Microsoft Copilot](../tools/microsoft-copilot.md)
+- [Scholar GPT](../tools/scholar-gpt.md)
+- [ScholarAI](../tools/scholarai.md)
+- [Semantic Scholar](../tools/semantic-scholar.md)
 - [SpiderCite](../tools/spidercite.md)
+- [PaSaMaster](../tools/pasamaster.md)
+- [WisPaper](../tools/wispaper.md)
 
 ## Linked claims
 

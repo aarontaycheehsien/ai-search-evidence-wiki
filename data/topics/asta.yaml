@@ -1,0 +1,15 @@
+id: "asta"
+title: "Ai2 Asta"
+type: "tool"
+description: "Full-text evidence on Ai2 Asta. Findings are scoped to tested versions, tasks and interfaces; study independence and publication status are recorded separately."
+claim_ids:
+  - "assistant-015"
+concept_ids:
+  - "recall-and-sensitivity"
+  - "precision"
+  - "reference-standards"
+  - "human-in-the-loop-verification"
+  - "reproducibility-and-stability"
+evidence_source_ids:
+  - "orduna-malea-2025-asta"
+last_reviewed: "2026-09-27"

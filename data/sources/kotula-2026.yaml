@@ -1,0 +1,24 @@
+id: kotula-2026
+type: journal-article
+title: "Case Study of the Implementation of AI Primo Research Assistant (Beta Version) in Academic Libraries in Poland"
+authors:
+  - Sebastian Dawid Kotuła
+  - Grzegorz Gmiterek
+year: 2026
+doi: 10.5860/ital.v45i2.17479
+url: https://doi.org/10.5860/ital.v45i2.17479
+publication_status: "Published in Information Technology and Libraries 45(2), 15 June 2026"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Kotula and Gmiterek - 2026 - Primo Research Assistant implementation study.pdf"
+notes: >
+  Implementation case study of the beta version in Polish public-university
+  libraries, based on a preliminary interview and two director surveys open
+  March 25-31, 2025. The authors identified 19 Primo VE libraries among 65
+  public-university libraries, with nine having enabled the assistant, and
+  report six adopter and eight non-adopter survey responses. Several adopter
+  items have five responses. Findings concern institutional reports and
+  perceptions, not direct user testing or measured retrieval performance.
+  The abstract and discussion emphasize reduced workload, but Figure 4
+  (p. 9) shows zero workload-reduction selections and one work-acceleration
+  selection; this discrepancy is not resolved here. The small sample,
+  missing evaluation data, and beta-version context limit generalization.

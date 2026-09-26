@@ -1,0 +1,12 @@
+id: "assistant-029"
+claim: "A developer user study found scenario-dependent usability differences between conversational and graphical scholarly-search interfaces, without measuring exhaustive retrieval quality."
+status: "supported"
+topics:
+  - "academic-search-benchmarks"
+evidence:
+  - source_id: "schneider-2024-conversational-search"
+    relationship: "supports"
+    locator: "User study and Table 1, PDF pp. 6–8"
+    note: "Forty nonexperts: scenario-one SUS conversational 76 versus graphical 77.25; scenario-two 76.63 versus 65.25. Topic-classifier F1 .95 is a separate component result, not retrieval precision or recall."
+
+last_reviewed: "2026-09-27"

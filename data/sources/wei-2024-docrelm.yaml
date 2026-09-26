@@ -1,0 +1,19 @@
+id: "wei-2024-docrelm"
+type: "preprint"
+title: "DocReLM: Mastering Document Retrieval with Language Model"
+authors:
+  - "Gengchen Wei"
+  - "Xinle Pang"
+  - "Tianning Zhang"
+  - "Yu Sun"
+  - "Xun Qian"
+  - "Chen Lin"
+  - "Han-Sen Zhong"
+  - "Wanli Ouyang"
+year: 2024
+doi: null
+url: "https://arxiv.org/abs/2405.11461"
+publication_status: "arXiv:2405.11461v1, May 19, 2024"
+source_category: "preprint"
+local_file: "incoming/papers/undermind-2026-09-27/Wei24.pdf"
+notes: "System developers evaluate CV/quantum-physics survey-reference tasks (204/301 queries; 37,390/56,927-paper corpora). Reported top-k accuracy differs from exhaustive recall. Google Scholar abstract baseline values differ from plotted values; do not silently reconcile."

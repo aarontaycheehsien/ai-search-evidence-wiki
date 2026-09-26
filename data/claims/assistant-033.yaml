@@ -1,0 +1,14 @@
+id: "assistant-033"
+claim: "PaSaMaster developers report a quantitative Scholar Labs comparison on a multidisciplinary benchmark; it is not independent validation of either system."
+status: "provisional"
+topics:
+  - "scholar-labs"
+  - "pasamaster"
+  - "academic-search-benchmarks"
+evidence:
+  - source_id: "du-2026-recursive-retrieval"
+    relationship: "supports"
+    locator: "PaSaMaster-Bench methods and Table 2, PDF pp. 5–7"
+    note: "244 queries across 38 disciplines, pooled expert-labeled targets. Top-20 Google Scholar Labs recall 29.01%, precision 18.79%, F1 18.87%, NDCG 30.54%; PaSaMaster 33.24%, 23.46%, 23.00%, 39.52%. Both reported zero source hallucination in this sample, not guaranteed absence. Does supply a formal Scholar Labs benchmark beyond the launch note."
+
+last_reviewed: "2026-09-27"

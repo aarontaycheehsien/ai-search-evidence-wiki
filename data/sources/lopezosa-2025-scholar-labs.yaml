@@ -1,0 +1,13 @@
+id: "lopezosa-2025-scholar-labs"
+type: "journal-note"
+title: "Scholar Labs: hacia las respuestas académicas vitaminadas con IA"
+authors:
+  - "Carlos Lopezosa"
+  - "Enrique Orduña-Malea"
+year: 2025
+doi: "10.3145/thinkepi.2025.e19a28"
+url: "https://doi.org/10.3145/thinkepi.2025.e19a28"
+publication_status: "Published analytical note in Anuario ThinkEPI 19, e19a28"
+source_category: "editorial-source"
+local_file: "incoming/papers/undermind-2026-09-27/Lop25b.pdf"
+notes: "Functional analysis: four built-in and five custom prompts, November 19/22, 2025. Not a controlled benchmark; publication peer-review status not established here. Author-name prompt misspells Thelwall as Thellwall (PDF p. 8); zero results cannot establish a general author-search failure."

@@ -1,0 +1,679 @@
+{
+  "downloaded_on": "2026-09-27",
+  "workspace_id": "088fb2d4-b2aa-47ec-a78a-7acf932bbe10",
+  "search_path": "/research-assistant-tool-evaluations/Academic literature search platform evaluations",
+  "download_count": 67,
+  "notes": "Downloaded via Undermind MCP. pdfinfo structurally verified all 67 PDFs. Relevant findings from 23 new sources were checked against local text/pages; not all 67 received a new evidence record. Signed URLs intentionally omitted. Du26 corrupted first download replaced.",
+  "papers": [
+    {
+      "cite_key": "Lau25",
+      "file": "incoming/papers/undermind-2026-09-27/Lau25.pdf",
+      "bytes": 649634,
+      "sha256": "9d7850f0afaff1012049024f50ba5530eab463d787c5af80b6c8673f7d64ffe2",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Fea25",
+      "file": "incoming/papers/undermind-2026-09-27/Fea25.pdf",
+      "bytes": 606027,
+      "sha256": "d345616409de5312558eaf16dc075a5c54246235a84b8a95695ba5d1384a8f77",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Feb26",
+      "file": "incoming/papers/undermind-2026-09-27/Feb26.pdf",
+      "bytes": 1569703,
+      "sha256": "8eaeed57459808494bc432522b25cc58fec99e17690cbd2da8d2f5dfa308cac9",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Ber25b",
+      "file": "incoming/papers/undermind-2026-09-27/Ber25b.pdf",
+      "bytes": 1037218,
+      "sha256": "be6d5b38d73dbfbd6e80fe14438ba20d74cfa622528f9fa38acf8df8c33d6d1b",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Maz26",
+      "file": "incoming/papers/undermind-2026-09-27/Maz26.pdf",
+      "bytes": 2051308,
+      "sha256": "e329f0b90cdd850be7ae2fbe96a2d6f3217fb2ac06ff4115025c37f03e2a71f1",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Wod24",
+      "file": "incoming/papers/undermind-2026-09-27/Wod24.pdf",
+      "bytes": 434810,
+      "sha256": "73ba250ab5cc8ff9690e5c7f3ae42eb613aeede653d00c66154364ca9df7f12b",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "wlodarczyk-2024",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Leo26",
+      "file": "incoming/papers/undermind-2026-09-27/Leo26.pdf",
+      "bytes": 1534759,
+      "sha256": "9a1a08eeab88e1b0bce201dbf52fed6fd4168f7e96f6ed5572c31352b4f78478",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "leon-2026-search-audit",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Dat26",
+      "file": "incoming/papers/undermind-2026-09-27/Dat26.pdf",
+      "bytes": 250475,
+      "sha256": "e84548fcecabb77d08ed1aec26a71a328491b67e2875a7ab45ceb6865c443ecb",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Che25",
+      "file": "incoming/papers/undermind-2026-09-27/Che25.pdf",
+      "bytes": 765398,
+      "sha256": "632abac5e948069f1fd69215c7a0a76969082a0185a40b925281b224b5e28acf",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Sch20c",
+      "file": "incoming/papers/undermind-2026-09-27/Sch20c.pdf",
+      "bytes": 385896,
+      "sha256": "67d20c813a0bae5c88e98613bc050d46e90843e31faff102cbd1e6e579cda7a3",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "schoeb-2020-iris",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Gal25b",
+      "file": "incoming/papers/undermind-2026-09-27/Gal25b.pdf",
+      "bytes": 488542,
+      "sha256": "e029bb668ace8c8fab33c5ba4fa608baa03c2408b597f751c594bf93f63f5085",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Tra24d",
+      "file": "incoming/papers/undermind-2026-09-27/Tra24d.pdf",
+      "bytes": 1286561,
+      "sha256": "19c64c442a49020d330cad25dbc446f1d43c6454a5a2c420a1236286f1f1b665",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Sha13",
+      "file": "incoming/papers/undermind-2026-09-27/Sha13.pdf",
+      "bytes": 270714,
+      "sha256": "3138057caa6bf896cae66ab3da0c924e651b9fb30634037c304c12789e5194e4",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Ord25",
+      "file": "incoming/papers/undermind-2026-09-27/Ord25.pdf",
+      "bytes": 1002839,
+      "sha256": "7363c720370d2f022110d2ac70023c48f3b736c2c14a7ee6ef735eb885ef64e1",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "orduna-malea-2025-asta",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Aji24",
+      "file": "incoming/papers/undermind-2026-09-27/Aji24.pdf",
+      "bytes": 1131110,
+      "sha256": "530166b697aecbbcb190816ab581cdd0c95f629b7bfaf6dce766c62cadeb57d9",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "ajith-2024-litsearch",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Bra16",
+      "file": "incoming/papers/undermind-2026-09-27/Bra16.pdf",
+      "bytes": 716061,
+      "sha256": "525cb177f04b3f8c33087e8d88affb80fe905b3b57b0ed47fd45aa7e23f5caf0",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "He25b",
+      "file": "incoming/papers/undermind-2026-09-27/He25b.pdf",
+      "bytes": 710535,
+      "sha256": "b6d5d0fdd613e802faad83f79f3465063700b6d35fd7f1ef965203bd32d18fb2",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "he-2025-pasa",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Boe13",
+      "file": "incoming/papers/undermind-2026-09-27/Boe13.pdf",
+      "bytes": 815179,
+      "sha256": "6bb6663044deb5ab9cd410c9f0249c2f274273fd406ea1a94f7490ce10636be9",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Yip25",
+      "file": "incoming/papers/undermind-2026-09-27/Yip25.pdf",
+      "bytes": 1729113,
+      "sha256": "ba9e88d75515f620f85080560bdcec3210e49ae1ceced68e9b14c00b952ba2db",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Wei24",
+      "file": "incoming/papers/undermind-2026-09-27/Wei24.pdf",
+      "bytes": 631229,
+      "sha256": "0fa2810b3232c9435d814df72db51032c7fcd5451c8435bf4c1def90b11b4745",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "wei-2024-docrelm",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Bra13",
+      "file": "incoming/papers/undermind-2026-09-27/Bra13.pdf",
+      "bytes": 370430,
+      "sha256": "934e36d76b616291c66b8582896684879de6b89a5289157903e16bad40831282",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Wu25",
+      "file": "incoming/papers/undermind-2026-09-27/Wu25.pdf",
+      "bytes": 984793,
+      "sha256": "37b52e61aecb8a35a3ffa925dd76a3c207824d491a3478663d3b1eb7291d59fc",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "wu-2025-paperask",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Ben26c",
+      "file": "incoming/papers/undermind-2026-09-27/Ben26c.pdf",
+      "bytes": 4267964,
+      "sha256": "88cb7bb62f7db628ce777740cc3d9c1075de5ad211028a9c0d08bf6fc5cc9fe4",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "bentegeac-2026-biblizap",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Agg26",
+      "file": "incoming/papers/undermind-2026-09-27/Agg26.pdf",
+      "bytes": 372199,
+      "sha256": "218f3d28ba24f649622f70d36641b077f8dfcb3478f8080052eddc1ba94e4445",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "aggarwal-2026-scholarai-scispace",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Had15",
+      "file": "incoming/papers/undermind-2026-09-27/Had15.pdf",
+      "bytes": 557198,
+      "sha256": "ab6f37e0cdb2449d4556f3281aaed262146098bf13df92b8913bec3e1a135530",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Sah26d",
+      "file": "incoming/papers/undermind-2026-09-27/Sah26d.pdf",
+      "bytes": 488268,
+      "sha256": "90f65ea8fae259321341042124f2446f7deaa697953cb79eb3818a2fdb91c390",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "sahu-2026-search-evaluation",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Gol25",
+      "file": "incoming/papers/undermind-2026-09-27/Gol25.pdf",
+      "bytes": 313214,
+      "sha256": "ef3f9c0acbd0427c1b0208565b84eb690427c9a72da6419c95be751722a3678d",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Sch26b",
+      "file": "incoming/papers/undermind-2026-09-27/Sch26b.pdf",
+      "bytes": 730102,
+      "sha256": "d9386f4d3bd0d6bf35d77cf557452409aec41a7a61317c776e6de46e2188db1a",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "schott-2026-ai-overviews",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Du26",
+      "file": "incoming/papers/undermind-2026-09-27/Du26.pdf",
+      "bytes": 2651952,
+      "sha256": "7f90081d957a697fc5ec2d0fd785ea155af0fac2e2939780d8ab17689718b1b7",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "du-2026-recursive-retrieval",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Sjo24",
+      "file": "incoming/papers/undermind-2026-09-27/Sjo24.pdf",
+      "bytes": 889555,
+      "sha256": "f24eefa331472f6a7e7506369ea60a5bddc5f5c01fd35de6338389f60accda28",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Raj25",
+      "file": "incoming/papers/undermind-2026-09-27/Raj25.pdf",
+      "bytes": 966457,
+      "sha256": "23877466e8a9b400d086c7ca3afb020ece5af2d4fb1938f422104ee7d8cfbca9",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Hel26",
+      "file": "incoming/papers/undermind-2026-09-27/Hel26.pdf",
+      "bytes": 325625,
+      "sha256": "a0192a5b41d30a12e4bd31ca3a52a55fdf71075443b6a79c73d6d6538c262fba",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Ju25",
+      "file": "incoming/papers/undermind-2026-09-27/Ju25.pdf",
+      "bytes": 893983,
+      "sha256": "c7cc51d97f325f1e63227fadd707ca576f14ce2156c719bdf903cadc56511abf",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "ju-2025-wispaper",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Sch24d",
+      "file": "incoming/papers/undermind-2026-09-27/Sch24d.pdf",
+      "bytes": 1219334,
+      "sha256": "101f6e29ae14ff28641b9a33d3ad7d9134bb7d5a68e29000e6a471a6aad3efaf",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "schneider-2024-conversational-search",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Liu26c",
+      "file": "incoming/papers/undermind-2026-09-27/Liu26c.pdf",
+      "bytes": 303599,
+      "sha256": "72392f7a5fa5691ce0d50897cee8e44c7fb761bdeb468ffc052c23ac5b67d7f7",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "liu-2026-study-retrieval",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Gao26",
+      "file": "incoming/papers/undermind-2026-09-27/Gao26.pdf",
+      "bytes": 633357,
+      "sha256": "72cd881649f844575f76892b076329ef64b86de35ab4687b87d451dfdd5c0fd7",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "gao-2026-retrieval-errors",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Klc23",
+      "file": "incoming/papers/undermind-2026-09-27/Klc23.pdf",
+      "bytes": 4537685,
+      "sha256": "7f9c2559c9a88bb64d77fa6c8446e6622eb938a25b431db1022fc37a535b3722",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "May07",
+      "file": "incoming/papers/undermind-2026-09-27/May07.pdf",
+      "bytes": 576305,
+      "sha256": "1a8a354c821848b8ca41d893dac849cf405043afbe5c0499ed3daf34f965bb73",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Haz26",
+      "file": "incoming/papers/undermind-2026-09-27/Haz26.pdf",
+      "bytes": 835488,
+      "sha256": "8e6b7013374cfb1ef04daf02d8157c0d040154b777339ca7104080ecbf25f46b",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "hazra-2026-graph-search",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Dev24",
+      "file": "incoming/papers/undermind-2026-09-27/Dev24.pdf",
+      "bytes": 537359,
+      "sha256": "b7712e949a23da0db695ad476ef3fd04347e33ec7e8ee85deafec80d220fa934",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "excluded-feature-review-no-performance-test"
+    },
+    {
+      "cite_key": "Shu07",
+      "file": "incoming/papers/undermind-2026-09-27/Shu07.pdf",
+      "bytes": 398914,
+      "sha256": "8b2d7eee3a556ffca016f9783b7907c32fb4526647cf40ebabd931c53b362bd1",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Lop25b",
+      "file": "incoming/papers/undermind-2026-09-27/Lop25b.pdf",
+      "bytes": 4707612,
+      "sha256": "49839ea8a1180d6d649674e25cbafbe8ba108b6de359176d3306114e8e9969db",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "lopezosa-2025-scholar-labs",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Cha26h",
+      "file": "incoming/papers/undermind-2026-09-27/Cha26h.pdf",
+      "bytes": 3542373,
+      "sha256": "3af8c9e0af159877311ed765301e69f08da8342e32de7963cf8cedeb6693111b",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "chandler-2026-scholarly-diversity",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Mit17",
+      "file": "incoming/papers/undermind-2026-09-27/Mit17.pdf",
+      "bytes": 180985,
+      "sha256": "f0c9d9686c58141a2d9c8732e99f54be1e832756f4b726f1192b122c38ddd0ad",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Bas22",
+      "file": "incoming/papers/undermind-2026-09-27/Bas22.pdf",
+      "bytes": 1402884,
+      "sha256": "31869d621b17dac0de3edb223a1edf2acea7f18a1cc8465c2397946f69a255f7",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Ach08",
+      "file": "incoming/papers/undermind-2026-09-27/Ach08.pdf",
+      "bytes": 269692,
+      "sha256": "0f0dc6a33c428d25fd23736e15539410441ec4284451ec88ca03fb73858dad60",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Kha25e",
+      "file": "incoming/papers/undermind-2026-09-27/Kha25e.pdf",
+      "bytes": 1291986,
+      "sha256": "71d2d27fbc1c06e5ce884a30740c8c6a70b318d877b14152b08046fba8a253cf",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "khandelwal-2025-neurolit",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Cla25",
+      "file": "incoming/papers/undermind-2026-09-27/Cla25.pdf",
+      "bytes": 1154841,
+      "sha256": "1690185fde0df080d6460ffa6af8378961bb092b79130594711a1e32270d81c1",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Tam26",
+      "file": "incoming/papers/undermind-2026-09-27/Tam26.pdf",
+      "bytes": 1132620,
+      "sha256": "7f19e475ddfbb1d3ed2116cfe7cccd38932951e6a170cf33de73a87e7d8cd7d2",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Cab25",
+      "file": "incoming/papers/undermind-2026-09-27/Cab25.pdf",
+      "bytes": 726143,
+      "sha256": "2591ece1cec95961cc17dc0742f7bdc30262813deb7332375511c00a63f6a755",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Per17",
+      "file": "incoming/papers/undermind-2026-09-27/Per17.pdf",
+      "bytes": 958366,
+      "sha256": "3685b5bb9933e68466e7a40627bd0c97d286f4d1f3051c77f5de304d1e79f341",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Gat20d",
+      "file": "incoming/papers/undermind-2026-09-27/Gat20d.pdf",
+      "bytes": 366249,
+      "sha256": "61bbcb285e7da30eb9479e8e6438a10e66dc0736fa805f677b7354750e27bd34",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Bak26",
+      "file": "incoming/papers/undermind-2026-09-27/Bak26.pdf",
+      "bytes": 3152019,
+      "sha256": "49aa0d9a5466f4e819892f44ae8160815592a123cefd7cc063147f13112818c5",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "She26b",
+      "file": "incoming/papers/undermind-2026-09-27/She26b.pdf",
+      "bytes": 857387,
+      "sha256": "3adbbd43e584a1fc70cf6c19cf3a06362d6be38a28e363a714e5d71917408bfe",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "shen-2026-scholargym",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Wan23",
+      "file": "incoming/papers/undermind-2026-09-27/Wan23.pdf",
+      "bytes": 823772,
+      "sha256": "d0a96057fb6bd4746d59bc7bf81fa7386054b809e1810decef868092c9293af5",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Son20",
+      "file": "incoming/papers/undermind-2026-09-27/Son20.pdf",
+      "bytes": 448793,
+      "sha256": "03438bfbc1b47f3d5473d2cb821b9cc8782d2e4028b19b604454469acea84896",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": "soni-2021-covid-search",
+      "processing_status": "promoted-full-text"
+    },
+    {
+      "cite_key": "Sch23b",
+      "file": "incoming/papers/undermind-2026-09-27/Sch23b.pdf",
+      "bytes": 614347,
+      "sha256": "33f78c50662cacb72718df707dad9ab9db7b55af0ae39511f8f1fbb52a5e3c0b",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Che25b",
+      "file": "incoming/papers/undermind-2026-09-27/Che25b.pdf",
+      "bytes": 2742090,
+      "sha256": "17359769435c2517b40158e0efa4cc029f07af3e8df4ac8cb606907d47af0173",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Rom26",
+      "file": "incoming/papers/undermind-2026-09-27/Rom26.pdf",
+      "bytes": 3103943,
+      "sha256": "fee1c0a0c1111b112a61bcc6c9c9383194c49dd50bd88bcaa6ead345e0e04ac5",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Yip24",
+      "file": "incoming/papers/undermind-2026-09-27/Yip24.pdf",
+      "bytes": 2753895,
+      "sha256": "ff566be30138c2ef60bc4f46850111e196bc2f6b7263da55fa40bcd72a763638",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Kwo25",
+      "file": "incoming/papers/undermind-2026-09-27/Kwo25.pdf",
+      "bytes": 1570253,
+      "sha256": "310b51051b4ae618a5cac8e89d46e3be45a6cd5177125779ab0001f08ac8132f",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Gua23",
+      "file": "incoming/papers/undermind-2026-09-27/Gua23.pdf",
+      "bytes": 108723,
+      "sha256": "952b767e386125cff5a4078741a26a9a214ff999541213f63723bb41385afb01",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Raa16",
+      "file": "incoming/papers/undermind-2026-09-27/Raa16.pdf",
+      "bytes": 496239,
+      "sha256": "8cb2176799991b2e17489883fc8862b74776200dcb5411c00717ae9ce96a09ab",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Red24",
+      "file": "incoming/papers/undermind-2026-09-27/Red24.pdf",
+      "bytes": 1829815,
+      "sha256": "4692a35960397b910511ac728597a5d4070641a593918c4f36183a6501de3964",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Han16",
+      "file": "incoming/papers/undermind-2026-09-27/Han16.pdf",
+      "bytes": 197885,
+      "sha256": "55cf44a9adee14667ee7394fc590b0f5069dfdffe0426d2722655d767034274a",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Ord17b",
+      "file": "incoming/papers/undermind-2026-09-27/Ord17b.pdf",
+      "bytes": 1810206,
+      "sha256": "bf0122b21e8721e51c6fe62f778a66e62763cfc647ac2237c8223b2819312bf9",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    },
+    {
+      "cite_key": "Par25",
+      "file": "incoming/papers/undermind-2026-09-27/Par25.pdf",
+      "bytes": 1460774,
+      "sha256": "34ee3e229bf98cd54b4e26e0611b02e636efe21d3da3458fb0f48b9cdb6b33d2",
+      "status": "downloaded",
+      "pdf_structure_verified": true,
+      "source_id": null,
+      "processing_status": "downloaded-not-newly-promoted"
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import yaml
@@ -7,6 +8,26 @@ import yaml
 from scripts.affected_pages import affected_claim, affected_source
 from scripts.build_pages import ROOT, evidence_summary, record_sources, render_all
 from scripts.validate import validate
+
+
+def test_undermind_promoted_records_have_download_provenance() -> None:
+    manifest = json.loads((ROOT / "incoming/undermind-download-manifest-2026-09-27.json").read_text(encoding="utf-8"))
+    papers = manifest["papers"]
+    assert len(papers) == manifest["download_count"] == 67
+    assert len({paper["cite_key"] for paper in papers}) == 67
+    promoted = [paper for paper in papers if paper["processing_status"] == "promoted-full-text"]
+    assert len(promoted) == 23
+    for paper in papers:
+        assert paper["pdf_structure_verified"] is True
+        assert len(paper["sha256"]) == 64
+        assert set(paper["sha256"]) <= set("0123456789abcdef")
+        assert "url" not in paper
+    for paper in promoted:
+        source = yaml.safe_load((ROOT / "data/sources" / (paper["source_id"] + ".yaml")).read_text(encoding="utf-8"))
+        assert source["local_file"] == paper["file"]
+    excluded = next(paper for paper in papers if paper["cite_key"] == "Dev24")
+    assert excluded["source_id"] is None
+    assert excluded["processing_status"] == "excluded-feature-review-no-performance-test"
 
 
 def make_valid_tree(tmp_path: Path) -> Path:
@@ -204,11 +225,11 @@ def test_record_sources_respects_tool_filter_and_topic_deduplication() -> None:
 def test_evidence_context_uses_authoritative_counts_and_categories() -> None:
     pages = render_all()
     tools = pages["docs/tools/index.md"]
-    assert "[Elicit.com](elicit.md) (14) — 2024–2026; 13 peer-reviewed studies, 1 preprint" in tools
+    assert "[Elicit.com](elicit.md) (16) — 2024–2026; 15 peer-reviewed studies, 1 preprint" in tools
     assert "[Undermind.ai](undermind.md) (3) — 2024–2026; 1 peer-reviewed study, 1 preprint, 1 vendor documentation record" in tools
-    assert "[Consensus](consensus.md) (4) — 2026; 2 peer-reviewed studies, 2 preprints" in tools
+    assert "[Consensus](consensus.md) (6) — 2025–2026; 3 peer-reviewed studies, 3 preprints" in tools
     assert "(15) — 2023–2026; 12 peer-reviewed studies, 3 preprints" in pages["docs/topics/index.md"]
-    assert "**Evidence:** 14 sources; 2024–2026; 13 peer-reviewed studies, 1 preprint" in pages["docs/tools/elicit.md"]
+    assert "**Evidence:** 16 sources; 2024–2026; 15 peer-reviewed studies, 1 preprint" in pages["docs/tools/elicit.md"]
     assert "Scaffold with no directly linked evidence." in pages["docs/concepts/precision.md"]
     assert "docs/topics/index.md" in affected_source("guo-2024")
     assert "docs/tools/index.md" in affected_source("hartke-undermind")

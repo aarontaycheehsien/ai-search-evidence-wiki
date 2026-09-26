@@ -1,0 +1,15 @@
+id: "semantic-scholar"
+title: "Semantic Scholar"
+type: "tool"
+description: "Full-text evidence on Semantic Scholar. Findings are scoped to tested versions, tasks and interfaces; study independence and publication status are recorded separately."
+claim_ids:
+  - "assistant-021"
+concept_ids:
+  - "recall-and-sensitivity"
+  - "precision"
+  - "reference-standards"
+  - "human-in-the-loop-verification"
+  - "reproducibility-and-stability"
+evidence_source_ids:
+  - "chandler-2026-scholarly-diversity"
+last_reviewed: "2026-09-27"

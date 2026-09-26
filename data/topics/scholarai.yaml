@@ -1,0 +1,15 @@
+id: "scholarai"
+title: "ScholarAI"
+type: "tool"
+description: "Full-text evidence on ScholarAI. Findings are scoped to tested versions, tasks and interfaces; study independence and publication status are recorded separately."
+claim_ids:
+  - "assistant-019"
+concept_ids:
+  - "recall-and-sensitivity"
+  - "precision"
+  - "reference-standards"
+  - "human-in-the-loop-verification"
+  - "reproducibility-and-stability"
+evidence_source_ids:
+  - "aggarwal-2026-scholarai-scispace"
+last_reviewed: "2026-09-27"

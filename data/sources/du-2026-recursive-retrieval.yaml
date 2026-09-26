@@ -1,0 +1,22 @@
+id: "du-2026-recursive-retrieval"
+type: "preprint"
+title: "Towards Recursive Self-Evolving Agentic Literature Retrieval"
+authors:
+  - "Yuwen Du"
+  - "Tian Jin"
+  - "Jing Kang"
+  - "Xianghe Pang"
+  - "Jingyi Chai"
+  - "Tingjia Miao"
+  - "Fenyi Liu"
+  - "WenHao Wang"
+  - "Sikai Yao"
+  - "Yuzhi Zhang"
+  - "Siheng Chen"
+year: 2026
+doi: null
+url: "https://arxiv.org/abs/2605.14306"
+publication_status: "arXiv:2605.14306v3, June 27, 2026"
+source_category: "preprint"
+local_file: "incoming/papers/undermind-2026-09-27/Du26.pdf"
+notes: "SciLand/university PaSaMaster developer evaluation, not independent product validation. PaSaMaster-Bench: 244 queries across 38 disciplines, expert-labeled pooled candidates; top-20 metrics. Includes Google Scholar Labs, Bohrium and OpenScholar. Reported zero source hallucination applies only to this sample. Initial corrupted MCP download replaced and structurally verified."

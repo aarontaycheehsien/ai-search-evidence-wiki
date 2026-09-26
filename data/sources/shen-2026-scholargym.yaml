@@ -1,0 +1,15 @@
+id: "shen-2026-scholargym"
+type: "preprint"
+title: "ScholarGym: Benchmarking Large Language Model Capabilities in the Information-Gathering Stage of Deep Research"
+authors:
+  - "Hao Shen"
+  - "Hang Yang"
+  - "Zhouhong Gu"
+  - "Weili Han"
+year: 2026
+doi: null
+url: "https://arxiv.org/abs/2601.21654"
+publication_status: "arXiv:2601.21654v3, February 17, 2026"
+source_category: "preprint"
+local_file: "incoming/papers/undermind-2026-09-27/She26b.pdf"
+notes: "Developer-created agent environment, approximately 570,000 arXiv papers and 2,536 queries from PaSa/LitSearch. Fast evaluation subset 200; hard subset 100 selected using model difficulties. Native academic search products not evaluated. Title verified on downloaded v3, differs from indexed older title."

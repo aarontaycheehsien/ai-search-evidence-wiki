@@ -1,0 +1,16 @@
+id: "wu-2025-paperask"
+type: "preprint"
+title: "PaperAsk: A Benchmark for Reliability Evaluation of LLMs in Paper Search and Reading"
+authors:
+  - "Yutao Wu"
+  - "Xiao Liu"
+  - "Yunhao Feng"
+  - "Jiale Ding"
+  - "Xingjun Ma"
+year: 2025
+doi: null
+url: "https://arxiv.org/abs/2510.22242"
+publication_status: "Downloaded arXiv:2510.22242v1, October 25, 2025; later conference status not verified here"
+source_category: "preprint"
+local_file: "incoming/papers/undermind-2026-09-27/Wu25.pdf"
+notes: "Benchmark authors evaluate general LLMs on 840 cases: 300 citation/140 extraction/100 discovery/300 verification. Whole-response citation failure rate is not per-reference hallucination. MCP metadata reports later ACM Web Conference publication, but record conservatively describes the verified downloaded preprint."

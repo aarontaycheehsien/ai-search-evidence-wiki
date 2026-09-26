@@ -1,0 +1,13 @@
+id: "schneider-2024-conversational-search"
+type: "conference-paper"
+title: "Conversational Exploratory Search of Scholarly Publications Using Knowledge Graphs"
+authors:
+  - "Phillip Schneider"
+  - "Florian Matthes"
+year: 2024
+doi: null
+url: "https://aclanthology.org/2024.icnlsp-1.40/"
+publication_status: "Published in ICNLSP 2024, 384–396; downloaded arXiv manuscript"
+source_category: "peer-reviewed-study"
+local_file: "incoming/papers/undermind-2026-09-27/Sch24d.pdf"
+notes: "TUM developer comparison of its own conversational and graphical interfaces, forty nonexperts/two scenarios. SUS/usability results are not recall or precision. Topic-classification F1 on synthetic tasks is not end-to-end literature retrieval. Publication verified with ACL Anthology."

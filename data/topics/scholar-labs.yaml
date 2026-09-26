@@ -1,0 +1,17 @@
+id: "scholar-labs"
+title: "Google Scholar Labs"
+type: "tool"
+description: "Full-text evidence on Google Scholar Labs. Findings are scoped to tested versions, tasks and interfaces; study independence and publication status are recorded separately."
+claim_ids:
+  - "assistant-014"
+  - "assistant-033"
+concept_ids:
+  - "recall-and-sensitivity"
+  - "precision"
+  - "reference-standards"
+  - "human-in-the-loop-verification"
+  - "reproducibility-and-stability"
+evidence_source_ids:
+  - "lopezosa-2025-scholar-labs"
+  - "du-2026-recursive-retrieval"
+last_reviewed: "2026-09-27"

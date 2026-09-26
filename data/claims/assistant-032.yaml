@@ -1,0 +1,13 @@
+id: "assistant-032"
+claim: "The NeuroLit developer preprint provides a small, incompletely documented comparison that does not establish superiority over Consensus or controlled time savings."
+status: "uncertain"
+topics:
+  - "academic-search-benchmarks"
+  - "consensus"
+evidence:
+  - source_id: "khandelwal-2025-neurolit"
+    relationship: "qualifies"
+    locator: "Table 1 and evaluation text, PDF pp. 6–8"
+    note: "Table 1 Consensus 38%, NeuroLit 36%, Scite and Perplexity 33%, GEAR 26.6%. Broad outperforming language conflicts with this table; top-five sentinel criteria and unclear denominators limit interpretation. Asserted time savings are not promoted as a measured controlled effect."
+
+last_reviewed: "2026-09-27"

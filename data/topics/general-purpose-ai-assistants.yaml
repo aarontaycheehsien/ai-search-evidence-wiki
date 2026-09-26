@@ -10,6 +10,10 @@ claim_ids:
   - assistant-007
   - assistant-009
   - assistant-010
+  - assistant-018
+  - assistant-024
+  - assistant-025
+  - assistant-030
 concept_ids:
   - recall-and-sensitivity
   - precision
@@ -24,4 +28,8 @@ evidence_source_ids:
   - gautam-2026
   - lund-2026
   - kim-2026-library-referrals
-last_reviewed: 2026-09-26
+  - leon-2026-search-audit
+  - liu-2026-study-retrieval
+  - gao-2026-retrieval-errors
+  - wu-2025-paperask
+last_reviewed: 2026-09-27

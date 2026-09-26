@@ -1,0 +1,15 @@
+id: "wispaper"
+title: "WisPaper"
+type: "tool"
+description: "Full-text evidence on WisPaper. Findings are scoped to tested versions, tasks and interfaces; study independence and publication status are recorded separately."
+claim_ids:
+  - "assistant-023"
+concept_ids:
+  - "recall-and-sensitivity"
+  - "precision"
+  - "reference-standards"
+  - "human-in-the-loop-verification"
+  - "reproducibility-and-stability"
+evidence_source_ids:
+  - "ju-2025-wispaper"
+last_reviewed: "2026-09-27"

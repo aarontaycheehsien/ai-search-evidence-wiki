@@ -1,0 +1,17 @@
+id: "scopus-ai"
+title: "Scopus AI"
+type: "tool"
+description: "Full-text evidence on Scopus AI. Findings are scoped to tested versions, tasks and interfaces; study independence and publication status are recorded separately."
+claim_ids:
+  - "assistant-013"
+  - "assistant-021"
+concept_ids:
+  - "recall-and-sensitivity"
+  - "precision"
+  - "reference-standards"
+  - "human-in-the-loop-verification"
+  - "reproducibility-and-stability"
+evidence_source_ids:
+  - "wlodarczyk-2024"
+  - "chandler-2026-scholarly-diversity"
+last_reviewed: "2026-09-27"

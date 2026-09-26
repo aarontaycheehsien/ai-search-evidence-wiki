@@ -1,0 +1,14 @@
+id: "sahu-2026-search-evaluation"
+type: "preprint"
+title: "Rethinking Literature Search Evaluation: Deep Research Helps, and Human Citation Lists Are Not a Ground Truth"
+authors:
+  - "Gaurav Sahu"
+  - "Laurent Charlin"
+  - "Christopher Pal"
+year: 2026
+doi: null
+url: "https://arxiv.org/abs/2605.29234"
+publication_status: "arXiv:2605.29234v1, May 28, 2026"
+source_category: "preprint"
+local_file: "incoming/papers/undermind-2026-09-27/Sah26d.pdf"
+notes: "Researcher-developed pipeline benchmark: 250 computer-science arXiv papers, 9,204 query-reference pairs. June 2025 snapshot. Citation recovery and 0–5 LLM-judge semantic relevance evaluate different constructs; judge scores cannot establish that human references are incorrect."

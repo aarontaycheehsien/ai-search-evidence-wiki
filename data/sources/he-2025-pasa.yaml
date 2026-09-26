@@ -1,0 +1,18 @@
+id: "he-2025-pasa"
+type: "conference-paper"
+title: "PaSa: An LLM Agent for Comprehensive Academic Paper Search"
+authors:
+  - "Yichen He"
+  - "Guanhua Huang"
+  - "Peiyuan Feng"
+  - "Yuan Lin"
+  - "Yuchen Zhang"
+  - "Hang Li"
+  - "Weinan E"
+year: 2025
+doi: "10.18653/v1/2025.acl-long.572"
+url: "https://doi.org/10.18653/v1/2025.acl-long.572"
+publication_status: "Published in ACL 2025, 11663–11679; downloaded arXiv manuscript"
+source_category: "peer-reviewed-study"
+local_file: "incoming/papers/undermind-2026-09-27/He25b.pdf"
+notes: "ByteDance Seed/Peking University system-developer benchmark, not independent PaSa validation. RealScholarQuery: 50 AI queries, pooled candidate labels by expert annotators. AutoScholarQuery training count differs 33,511/33,551 in manuscript. Some baseline conditions/sample sizes differ. Publication verified with ACL Anthology."

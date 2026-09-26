@@ -1,0 +1,13 @@
+id: "assistant-013"
+claim: "In one four-question library/social-media case study, citation and expert-discovery outcomes differed between Scopus AI and Scholar GPT; asymmetric prompts and citation auditing prevent a general superiority conclusion."
+status: "mixed"
+topics:
+  - "scopus-ai"
+  - "scholar-gpt"
+evidence:
+  - source_id: "wlodarczyk-2024"
+    relationship: "supports"
+    locator: "Tables 3–4 and methods, PDF pp. 8, 12–16"
+    note: "Scholar GPT returned 39 real references, of which 18 had correct bibliographic descriptions; errors/omissions are metadata failures, not necessarily fabricated papers. Scopus AI produced six relevant expert recommendations; Scholar GPT's nine unique recommendations included zero highly relevant, three weakly relevant and six unrelated. Scopus descriptions were not audited symmetrically."
+
+last_reviewed: "2026-09-27"

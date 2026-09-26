@@ -1,0 +1,16 @@
+id: "chandler-2026-scholarly-diversity"
+type: "journal-article"
+title: "‘GenAI’ Literature Search Tools and Scholarly Diversity: An Algorithmic Ethnographical Analysis"
+authors:
+  - "Kathy M. Chandler"
+  - "Katy Jordan"
+  - "Ishaq Al-Naabi"
+  - "Panagiota Tzanni"
+  - "Leone Gately"
+year: 2026
+doi: "10.55982/openpraxis.18.2.970"
+url: "https://doi.org/10.55982/openpraxis.18.2.970"
+publication_status: "Published in Open Praxis 18(2), 291–309, June 2, 2026"
+source_category: "peer-reviewed-study"
+local_file: "incoming/papers/undermind-2026-09-27/Cha26h.pdf"
+notes: "Independent 800-result descriptive audit: four topics, ten tools, top twenty results each, October 2024/April 2025. Outcomes are authorship geography, gender and citation/journal composition, not relevance/recall. Authors group Semantic Scholar/ResearchRabbit with GenAI; do not infer these are generative systems. Table 2 conventional-tool total column disagrees with topic-cell sums for all five conventional rows; aggregate 115 agrees. Table 4 Google Scholar rank sum 16.4 versus displayed components 16.5. Preserve these discrepancies."

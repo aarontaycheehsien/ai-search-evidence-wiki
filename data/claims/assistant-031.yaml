@@ -1,0 +1,12 @@
+id: "assistant-031"
+claim: "A developer evaluation of BibliZap found that adding multilevel citation searching increased PubMed-based recovery while markedly increasing candidate screening burden."
+status: "supported"
+topics:
+  - "citation-network-search"
+evidence:
+  - source_id: "bentegeac-2026-biblizap"
+    relationship: "supports"
+    locator: "Results, PDF pp. 5–7"
+    note: "Sixty-six reviews, 2,675 PMID-eligible studies: PubMed alone sensitivity 75% (95% CI 68–81), plus top-500 citation search 91% (88–94), full citation search 97% (95–98). Median candidates rose from 1,889 to 8,422. Not a comparison against complete multibase searches or a generative engine."
+
+last_reviewed: "2026-09-27"

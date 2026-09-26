@@ -8,5 +8,8 @@ venv/
 site/
 tmp/
 incoming/papers/*.pdf
+incoming/papers/undermind-2026-09-27/*.pdf
+.cache/undermind-*
+.cache/download-undermind.cjs
 .DS_Store
 Thumbs.db

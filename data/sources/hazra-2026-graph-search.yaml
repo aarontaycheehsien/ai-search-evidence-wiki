@@ -1,0 +1,16 @@
+id: "hazra-2026-graph-search"
+type: "preprint"
+title: "Structurally-bounded Agentic Graph Exploration for Evidence-Grounded Scholarly DeepSearch"
+authors:
+  - "Rima Hazra"
+  - "Sayan Layek"
+  - "Somnath Banerjee"
+  - "Soumen Chakrabarti"
+  - "Animesh Mukherjee"
+year: 2026
+doi: null
+url: "https://arxiv.org/abs/2608.24809"
+publication_status: "arXiv:2608.24809v1, August 25, 2026"
+source_category: "preprint"
+local_file: "incoming/papers/undermind-2026-09-27/Haz26.pdf"
+notes: "Crase system-developer benchmark using approximately 500,000 AI arXiv papers; 114 ACL/60 ICLR/98 additional queries. Seed-neighborhood reach limits retrieval. Table 1 ICLR Llama-PPR recall@50 0.3720 versus Table 4 0.3659; preserve discrepancy rather than choose one."

@@ -1,0 +1,12 @@
+id: "assistant-020"
+claim: "AI-generated academic search overviews showed factual-quality limitations and no statistically significant confirmatory workload or satisfaction benefit in one 30-user interface experiment."
+status: "provisional"
+topics:
+  - "academic-search-benchmarks"
+evidence:
+  - source_id: "schott-2026-ai-overviews"
+    relationship: "supports"
+    locator: "Summary evaluation and user study, PDF pp. 5–8, Tables 1–2"
+    note: "On ten queries, five GPT-4o-mini versus two Llama-4-Scout summaries were judged correct. After Holm correction, confirmatory workload/usefulness/satisfaction/confidence tests were not significant; exploratory mental-demand result p=.040 is not a confirmed overall benefit. Developer evaluation; preprint."
+
+last_reviewed: "2026-09-27"

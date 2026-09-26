@@ -1,0 +1,18 @@
+id: "schoeb-2020-iris"
+type: "journal-article"
+title: "Use of Artificial Intelligence for Medical Literature Search: Randomized Controlled Trial Using the Hackathon Format"
+authors:
+  - "Dominik Schoeb"
+  - "Rodrigo Suarez-Ibarrola"
+  - "Simon Hein"
+  - "Franz Friedrich Dressler"
+  - "Fabian Adams"
+  - "Daniel Schlager"
+  - "Arkadiusz Miernik"
+year: 2020
+doi: "10.2196/16606"
+url: "https://doi.org/10.2196/16606"
+publication_status: "Published in Interactive Journal of Medical Research 9(1), e16606"
+source_category: "peer-reviewed-study"
+local_file: "incoming/papers/undermind-2026-09-27/Sch20c.pdf"
+notes: "Three randomized teams, two using IRIS.AI and one conventional databases, five-hour augmented-reality surgery task. Expert-panel appraisal rather than exhaustive reference standard. Very small team-level experiment; sponsored by Stryker, not IRIS.AI. Editorial notice: trial not registered. Participant cancellation/denominator reporting requires caution."

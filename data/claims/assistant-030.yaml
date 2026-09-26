@@ -1,0 +1,13 @@
+id: "assistant-030"
+claim: "PaperAsk reports reliability problems that vary by task and requested citation count; whole-response failure rates are not per-citation hallucination rates."
+status: "provisional"
+topics:
+  - "academic-search-benchmarks"
+  - "general-purpose-ai-assistants"
+evidence:
+  - source_id: "wu-2025-paperask"
+    relationship: "supports"
+    locator: "Benchmark and Tables 2, 5, PDF pp. 3–6"
+    note: "For ten-reference requests, whole-response citation failures GPT-4o 98%, GPT-5 78%, Gemini 48%. Discovery recalls 32.5%, 33.33%, 38%. Benchmark cases differ by task and are not a native academic-engine comparison; verified downloaded version is a preprint."
+
+last_reviewed: "2026-09-27"

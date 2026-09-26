@@ -1,0 +1,13 @@
+id: "leon-2026-search-audit"
+type: "journal-article"
+title: "Auditing GenAI Literature Search Workflows: A Replicable Protocol for Traceable, Accountable Retrieval in Student-Facing Inquiry"
+authors:
+  - "Cristo Leon"
+  - "Michelle Kudelka"
+year: 2026
+doi: "10.3390/aieduc2020008"
+url: "https://doi.org/10.3390/aieduc2020008"
+publication_status: "Published in AI in Education 2, article 8"
+source_category: "peer-reviewed-study"
+local_file: "incoming/papers/undermind-2026-09-27/Leo26.pdf"
+notes: "Independent audit of Gemini, two ChatGPT configurations and Perplexity Academic configuration, one topic, two runs/two search postures per system. Scopus executes generated Boolean queries: not Scopus AI. Table 2/4/5/10 retrieved-count denominators disagree (PDF pp. 13–16, 25); do not silently reconcile or pool counts. Repeat-run DOI Jaccard is distinct from DOI existence."

@@ -13,6 +13,8 @@ claim_ids:
   - assistant-006
   - assistant-007
   - assistant-008
+  - assistant-016
+  - assistant-021
 concept_ids:
   - recall-and-sensitivity
   - precision
@@ -36,4 +38,6 @@ evidence_source_ids:
   - andersen-2025-second-reviewer
   - fenske-2024
   - gautam-2026
-last_reviewed: 2026-09-26
+  - ajith-2024-litsearch
+  - chandler-2026-scholarly-diversity
+last_reviewed: 2026-09-27

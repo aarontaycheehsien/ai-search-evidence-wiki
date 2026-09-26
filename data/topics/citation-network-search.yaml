@@ -1,0 +1,15 @@
+id: "citation-network-search"
+title: "Automated citation-network searching"
+type: "tool"
+description: "Full-text evidence on Automated citation-network searching. Findings are scoped to tested versions, tasks and interfaces; study independence and publication status are recorded separately."
+claim_ids:
+  - "assistant-031"
+concept_ids:
+  - "recall-and-sensitivity"
+  - "precision"
+  - "reference-standards"
+  - "human-in-the-loop-verification"
+  - "reproducibility-and-stability"
+evidence_source_ids:
+  - "bentegeac-2026-biblizap"
+last_reviewed: "2026-09-27"

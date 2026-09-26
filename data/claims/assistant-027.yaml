@@ -1,0 +1,12 @@
+id: "assistant-027"
+claim: "ScholarGym illustrates agent recall–precision tradeoffs and poorer performance on a deliberately difficult subset, not native search-product effectiveness."
+status: "provisional"
+topics:
+  - "academic-search-benchmarks"
+evidence:
+  - source_id: "shen-2026-scholargym"
+    relationship: "supports"
+    locator: "Benchmark construction and Table 3, PDF pp. 3–6"
+    note: "On the fast subset GPT-5.2 recall .837, precision .305, F1 .447; Gemini recall .950, precision .199, F1 .329. Hard subset selected by model failures; GPT-5.2 F1 .081. Static arXiv environment and model-derived task selection constrain generalization."
+
+last_reviewed: "2026-09-27"
