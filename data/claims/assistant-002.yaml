@@ -5,7 +5,14 @@ claim: >
   general-purpose winner over conventional library search.
 status: mixed
 topics:
-  - research-assistant-tools
+  - elicit
+  - consensus
+  - scispace
+  - primo-research-assistant
+  - microsoft-copilot
+  - lens-org
+  - spidercite
+  - general-purpose-ai-assistants
 evidence:
   - source_id: tomczyk-2024
     relationship: supports

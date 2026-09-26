@@ -5,7 +5,8 @@ claim: >
   search-performance claims come from a vendor-authored benchmark.
 status: provisional
 topics:
-  - research-assistant-tools
+  - undermind
+  - elicit
 evidence:
   - source_id: patterson-2025
     relationship: supports

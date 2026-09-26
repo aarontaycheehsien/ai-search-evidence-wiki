@@ -133,6 +133,32 @@ def validate(root: Path = ROOT) -> list[str]:
                     concept = topic_by_id.get(concept_id)
                     if concept is None or concept.get("type") != "concept":
                         errors.append(f"{label}: references missing concept {concept_id!r}")
+        if topic.get("type") == "tool":
+            _required(topic, ("description", "concept_ids", "evidence_source_ids", "last_reviewed"), label, errors)
+            if not isinstance(topic.get("description"), str):
+                errors.append(f"{label}: description must be text")
+            concept_ids = topic.get("concept_ids", [])
+            if not isinstance(concept_ids, list):
+                errors.append(f"{label}: concept_ids must be a list")
+            else:
+                for concept_id in concept_ids:
+                    concept = topic_by_id.get(concept_id)
+                    if concept is None or concept.get("type") != "concept":
+                        errors.append(f"{label}: references missing concept {concept_id!r}")
+            evidence_source_ids = topic.get("evidence_source_ids", [])
+            if not isinstance(evidence_source_ids, list):
+                errors.append(f"{label}: evidence_source_ids must be a list")
+            else:
+                claim_source_ids = {
+                    evidence.get("source_id")
+                    for claim_id in topic.get("claim_ids", [])
+                    for evidence in claim_by_id.get(claim_id, {}).get("evidence", [])
+                }
+                for source_id in evidence_source_ids:
+                    if source_id not in source_by_id:
+                        errors.append(f"{label}: references missing source {source_id!r}")
+                    elif source_id not in claim_source_ids:
+                        errors.append(f"{label}: source {source_id!r} is not linked by one of its claims")
         if topic.get("type") == "concept":
             _required(topic, ("related_topics",), label, errors)
             related_topics = topic.get("related_topics", [])

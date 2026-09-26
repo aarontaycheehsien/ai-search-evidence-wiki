@@ -1,0 +1,20 @@
+id: undermind
+title: Undermind.ai
+type: tool
+description: >
+  Independent and vendor-authored evaluations that include Undermind's
+  literature-search or answer-generation performance.
+claim_ids:
+  - assistant-003
+  - assistant-004
+concept_ids:
+  - recall-and-sensitivity
+  - precision
+  - reference-standards
+  - human-in-the-loop-verification
+  - reproducibility-and-stability
+evidence_source_ids:
+  - patterson-2025
+  - hartke-undermind
+  - krump-2026
+last_reviewed: 2026-09-26

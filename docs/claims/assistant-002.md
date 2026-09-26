@@ -46,8 +46,15 @@
 - **Locator:** Methods, PDF pp. 7-9; Table 10 and Results, PDF p. 13
 - **Note:** For one research question, usable-source counts and repeat-run overlap varied across Consensus, ChatGPT, You.com, and Perplexity. The study is a preprint with one rater per tool.
 
-## Topics
+## Tools
 
-- [Empirical evaluations of AI research assistants](../topics/research-assistant-tools.md)
+- [Elicit.com](../tools/elicit.md)
+- [Consensus](../tools/consensus.md)
+- [SciSpace](../tools/scispace.md)
+- [Primo Research Assistant](../tools/primo-research-assistant.md)
+- [Microsoft Copilot](../tools/microsoft-copilot.md)
+- [Lens.org](../tools/lens-org.md)
+- [SpiderCite](../tools/spidercite.md)
+- [General-purpose AI assistants](../tools/general-purpose-ai-assistants.md)
 
 **Last reviewed:** 2026-09-26

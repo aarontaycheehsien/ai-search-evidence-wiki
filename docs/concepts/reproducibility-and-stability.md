@@ -22,7 +22,13 @@ Record the measures, decision rules, and reference standards used by each study;
 - [LLMs for structured data extraction](../topics/llm-data-extraction.md)
 - [LLMs for Citation Screening](../topics/llm-screening.md)
 - [LLMs for search strategy generation and expansion](../topics/llm-search-strategy-generation.md)
-- [Empirical evaluations of AI research assistants](../topics/research-assistant-tools.md)
+
+## Related tools
+
+- [Consensus](../tools/consensus.md)
+- [Elicit.com](../tools/elicit.md)
+- [General-purpose AI assistants](../tools/general-purpose-ai-assistants.md)
+- [Undermind.ai](../tools/undermind.md)
 
 ## Linked claims
 

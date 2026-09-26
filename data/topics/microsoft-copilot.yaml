@@ -1,0 +1,17 @@
+id: microsoft-copilot
+title: Microsoft Copilot
+type: tool
+description: >
+  Evidence from comparative search and workflow evaluations that include
+  Microsoft Copilot.
+claim_ids:
+  - assistant-002
+  - assistant-007
+concept_ids:
+  - recall-and-sensitivity
+  - precision
+  - reference-standards
+  - human-in-the-loop-verification
+evidence_source_ids:
+  - featherstone-2025
+last_reviewed: 2026-09-26

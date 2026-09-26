@@ -1,0 +1,20 @@
+id: consensus
+title: Consensus
+type: tool
+description: >
+  Empirical evaluations that report retrieval relevance, coverage, or
+  stability results for Consensus.
+claim_ids:
+  - assistant-002
+  - assistant-003
+concept_ids:
+  - recall-and-sensitivity
+  - precision
+  - reference-standards
+  - reproducibility-and-stability
+evidence_source_ids:
+  - gavgani-2026
+  - krump-2026
+  - di-febo-2026
+  - dathe-2026
+last_reviewed: 2026-09-26

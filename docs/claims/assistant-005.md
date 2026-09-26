@@ -54,8 +54,8 @@
 - **Locator:** Results sections 4.1-4.5, PDF pp. 4-6; Table 2, p. 6
 - **Note:** Elicit precision and recall were both 92.2%, but mild underreporting counted as true positive; fully complete extractions were 80/90 and confabulations occurred in 4/90. No timing or absent-data benchmark.
 
-## Topics
+## Tools
 
-- [Empirical evaluations of AI research assistants](../topics/research-assistant-tools.md)
+- [Elicit.com](../tools/elicit.md)
 
 **Last reviewed:** 2026-09-26

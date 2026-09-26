@@ -1,0 +1,16 @@
+id: lens-org
+title: Lens.org
+type: tool
+description: >
+  Evidence from comparative search and workflow evaluations that include
+  Lens.org.
+claim_ids:
+  - assistant-002
+  - assistant-007
+concept_ids:
+  - recall-and-sensitivity
+  - precision
+  - reference-standards
+evidence_source_ids:
+  - featherstone-2025
+last_reviewed: 2026-09-26

@@ -3,7 +3,7 @@ claim: >
   One student survey reported higher satisfaction with traditional search engines than generative AI, with substantial variation by student group and frequency of use.
 status: provisional
 topics:
-  - research-assistant-tools
+  - general-purpose-ai-assistants
 evidence:
   - source_id: lund-2026
     relationship: supports

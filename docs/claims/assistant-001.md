@@ -30,8 +30,8 @@
 - **Locator:** Methods and Results, PDF p. 1; Discussion, PDF p. 2
 - **Note:** Against 24 trials from one completed dermatology review, Elicit recovered 1 included trial in a 59-result concept search and none in a 27-result keyword search. This is a narrow single-review comparison.
 
-## Topics
+## Tools
 
-- [Empirical evaluations of AI research assistants](../topics/research-assistant-tools.md)
+- [Elicit.com](../tools/elicit.md)
 
 **Last reviewed:** 2026-09-26

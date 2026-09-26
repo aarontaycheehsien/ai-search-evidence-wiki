@@ -1,0 +1,14 @@
+id: research-rabbit
+title: Research Rabbit
+type: tool
+description: >
+  User-facing evidence about provenance, trust, and verification while using
+  Research Rabbit for early-stage discovery.
+claim_ids:
+  - assistant-008
+concept_ids:
+  - human-in-the-loop-verification
+  - automation-bias
+evidence_source_ids:
+  - gautam-2026
+last_reviewed: 2026-09-26

@@ -46,8 +46,12 @@
 - **Locator:** Figure 2, PDF p. 3; Methods, p. 5
 - **Note:** Assisted extraction time of 14.7 min includes generation, verification and modification; the 86.9-min manual comparator is historical. This provides evidence that checking need not erase all gains, while not establishing a concurrent causal comparison.
 
-## Topics
+## Tools
 
-- [Empirical evaluations of AI research assistants](../topics/research-assistant-tools.md)
+- [Elicit.com](../tools/elicit.md)
+- [Microsoft Copilot](../tools/microsoft-copilot.md)
+- [Lens.org](../tools/lens-org.md)
+- [SpiderCite](../tools/spidercite.md)
+- [General-purpose AI assistants](../tools/general-purpose-ai-assistants.md)
 
 **Last reviewed:** 2026-09-26

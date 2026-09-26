@@ -117,6 +117,20 @@ def test_v2_topic_and_concept_scaffolds_are_generated() -> None:
     assert "../topics/llm-screening.md" in pages["docs/claims/screening-001.md"]
 
 
+def test_tools_are_a_separate_generated_section() -> None:
+    pages = render_all()
+    assert "docs/tools/index.md" in pages
+    assert "docs/tools/elicit.md" in pages
+    assert "docs/tools/undermind.md" in pages
+    assert "docs/tools/consensus.md" in pages
+    assert "docs/topics/research-assistant-tools.md" not in pages
+    assert "[Elicit.com](elicit.md)" in pages["docs/tools/index.md"]
+    assert "../evidence/lau-golder-2025.md" in pages["docs/tools/elicit.md"]
+    assert "../evidence/hartke-undermind.md" not in pages["docs/tools/elicit.md"]
+    assert "../tools/elicit.md" in pages["docs/claims/assistant-001.md"]
+    assert "## Related tools" in pages["docs/concepts/precision.md"]
+
+
 def test_generated_markdown_matches_expected_output() -> None:
     for relative, expected in render_all().items():
         path = ROOT / relative
@@ -150,3 +164,15 @@ def test_changed_source_maps_to_its_pages() -> None:
         "docs/evidence/index.md",
         "docs/topics/llm-screening.md",
     ]
+
+
+def test_changed_tool_claim_maps_to_tool_pages() -> None:
+    pages = affected_claim("assistant-004")
+    assert "docs/tools/elicit.md" in pages
+    assert "docs/tools/undermind.md" in pages
+
+
+def test_changed_tool_source_maps_only_to_relevant_tool_pages() -> None:
+    pages = affected_source("hartke-undermind")
+    assert "docs/tools/undermind.md" in pages
+    assert "docs/tools/elicit.md" not in pages

@@ -11,7 +11,7 @@ import yaml
 from scripts.validate import ROOT, validate
 
 MARKER = "> **THIS FILE IS GENERATED. DO NOT EDIT DIRECTLY.**"
-GENERATED_DIRS = ("docs/topics", "docs/concepts", "docs/claims", "docs/evidence")
+GENERATED_DIRS = ("docs/topics", "docs/tools", "docs/concepts", "docs/claims", "docs/evidence")
 
 
 def load_records(kind: str) -> list[dict[str, Any]]:
@@ -30,6 +30,11 @@ def _claim_map(claims: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
     return {item["id"]: item for item in claims}
 
 
+def _record_link(record: dict[str, Any]) -> str:
+    folder = "tools" if record["type"] == "tool" else "topics"
+    return f"../{folder}/{record['id']}.md"
+
+
 def render_claim(claim: dict[str, Any], sources: dict[str, dict[str, Any]], topics: dict[str, dict[str, Any]]) -> str:
     lines = [MARKER, "", f"# {claim['claim'].strip()}", "", f"**Status:** {claim['status']}", "", "## Evidence", ""]
     if not claim["evidence"]:
@@ -44,11 +49,16 @@ def render_claim(claim: dict[str, Any], sources: dict[str, dict[str, Any]], topi
             f"- **Locator:** {_line(ev.get('locator'))}",
             f"- **Note:** {_line(ev.get('note'))}", "",
         ])
-    lines.extend(["## Topics", ""])
-    if claim["topics"]:
-        lines.extend(f"- [{topics[t]['title']}](../topics/{t}.md)" for t in claim["topics"])
-    else:
-        lines.append("No topic linked.")
+    linked_topics = [topics[t] for t in claim["topics"] if topics[t]["type"] != "tool"]
+    linked_tools = [topics[t] for t in claim["topics"] if topics[t]["type"] == "tool"]
+    if linked_topics:
+        lines.extend(["## Topics", ""])
+        lines.extend(f"- [{record['title']}]({_record_link(record)})" for record in linked_topics)
+    if linked_tools:
+        if linked_topics:
+            lines.append("")
+        lines.extend(["## Tools", ""])
+        lines.extend(f"- [{record['title']}]({_record_link(record)})" for record in linked_tools)
     lines.extend(["", f"**Last reviewed:** {claim['last_reviewed']}", ""])
     return "\n".join(lines)
 
@@ -90,6 +100,16 @@ def render_claim_index(claims: list[dict[str, Any]]) -> str:
 def render_topic_index(topics: list[dict[str, Any]]) -> str:
     lines = [MARKER, "", "# Topics", "", "Research questions organized around AI-assisted academic search and evidence synthesis.", ""]
     lines.extend(f"- [{topic['title']}]({topic['id']}.md)" for topic in topics if topic["type"] == "question")
+    lines.append("")
+    return "\n".join(lines)
+
+
+def render_tool_index(tools: list[dict[str, Any]]) -> str:
+    lines = [
+        MARKER, "", "# Tools", "",
+        "Empirical evaluations organized by the research assistant or discovery tool evaluated.", "",
+    ]
+    lines.extend(f"- [{tool['title']}]({tool['id']}.md)" for tool in tools)
     lines.append("")
     return "\n".join(lines)
 
@@ -152,7 +172,50 @@ def render_topic(topic: dict[str, Any], claims: dict[str, dict[str, Any]], sourc
     return "\n".join(lines)
 
 
-def render_concept(concept: dict[str, Any], topics: dict[str, dict[str, Any]], claims: dict[str, dict[str, Any]]) -> str:
+def render_tool(tool: dict[str, Any], claims: dict[str, dict[str, Any]], sources: dict[str, dict[str, Any]], concepts: dict[str, dict[str, Any]]) -> str:
+    tool_claims = [claims[cid] for cid in tool["claim_ids"]]
+    included_source_ids = set(tool["evidence_source_ids"])
+    linked_sources = [source for source in sources.values() if source["id"] in included_source_ids]
+    lines = [
+        MARKER, "", f"# {tool['title']}", "", "## Scope", "",
+        tool["description"], "", "## Overview", "",
+        f"This tool page groups {len(tool_claims)} claims and {len(linked_sources)} source records that evaluate or directly contextualize {tool['title']}.", "",
+        "Cross-tool claims are repeated where relevant, but the evidence shown below is limited to the source records assigned to this tool.", "",
+        "## Key claims", "",
+    ]
+    for claim in tool_claims:
+        relevant_evidence = [ev for ev in claim["evidence"] if ev["source_id"] in included_source_ids]
+        if not relevant_evidence:
+            continue
+        lines.extend([f"### [{claim['claim'].strip()}](../claims/{claim['id']}.md)", "", f"**Status:** {claim['status']}", ""])
+        for ev in relevant_evidence:
+            src = sources[ev["source_id"]]
+            lines.append(f"- **{ev['relationship']}** — [{src['title']}](../evidence/{src['id']}.md) ({src['source_category']}); locator: {_line(ev.get('locator'))}. {_line(ev.get('note'))}")
+        lines.append("")
+    lines.extend(["## Connected concepts", ""])
+    connected = [concepts[concept_id] for concept_id in tool.get("concept_ids", [])]
+    if connected:
+        lines.extend(f"- [{concept['title']}](../concepts/{concept['id']}.md)" for concept in connected)
+    else:
+        lines.append("No concepts are linked yet.")
+    lines.extend(["", "## Source records", ""])
+    peer_reviewed = [s for s in linked_sources if s["source_category"] == "peer-reviewed-study"]
+    preprints = [s for s in linked_sources if s["source_category"] == "preprint"]
+    other = [s for s in linked_sources if s["source_category"] not in {"peer-reviewed-study", "preprint"}]
+    lines.extend(["### Peer-reviewed studies", ""])
+    lines.extend(f"- [{s['title']}](../evidence/{s['id']}.md)" for s in peer_reviewed) if peer_reviewed else lines.append("No peer-reviewed study records are linked.")
+    lines.extend(["", "### Preprints and unverified manuscripts", ""])
+    lines.extend(f"- [{s['title']}](../evidence/{s['id']}.md) — {s['publication_status']}" for s in preprints) if preprints else lines.append("No preprints or unverified manuscripts are linked.")
+    lines.extend(["", "### Other evidence categories", ""])
+    lines.extend(f"- [{s['title']}](../evidence/{s['id']}.md) — {s['source_category']}" for s in other) if other else lines.append("No vendor, system, experimental, or editorial records are linked.")
+    lines.extend(["", "## Important uncertainties", ""])
+    flagged = [claim for claim in tool_claims if claim["status"] in {"provisional", "uncertain", "mixed", "contradicted"}]
+    lines.extend(f"- [{claim['claim'].strip()}](../claims/{claim['id']}.md) is marked **{claim['status']}**." for claim in flagged) if flagged else lines.append("No linked claim is currently flagged as provisional, uncertain, mixed, or contradicted.")
+    lines.extend(["", "Read the individual source records for study design, scope, and unresolved reporting discrepancies.", "", f"**Last reviewed:** {tool.get('last_reviewed', 'Not recorded')}", ""])
+    return "\n".join(lines)
+
+
+def render_concept(concept: dict[str, Any], topics: dict[str, dict[str, Any]], tools: list[dict[str, Any]], claims: dict[str, dict[str, Any]]) -> str:
     lines = [
         MARKER, "", f"# {concept['title']}", "", "## Working definition", "",
         "To be defined and cited. This scaffold does not assert a definition.", "",
@@ -167,6 +230,12 @@ def render_concept(concept: dict[str, Any], topics: dict[str, dict[str, Any]], c
         lines.extend(f"- [{topics[topic_id]['title']}](../topics/{topic_id}.md)" for topic_id in related)
     else:
         lines.append("No topics linked yet.")
+    related_tools = [tool for tool in tools if concept["id"] in tool.get("concept_ids", [])]
+    lines.extend(["", "## Related tools", ""])
+    if related_tools:
+        lines.extend(f"- [{tool['title']}](../tools/{tool['id']}.md)" for tool in related_tools)
+    else:
+        lines.append("No tools linked yet.")
     lines.extend(["", "## Linked claims", ""])
     if concept.get("claim_ids"):
         lines.extend(f"- [{claims[claim_id]['claim'].strip()}](../claims/{claim_id}.md)" for claim_id in concept["claim_ids"])
@@ -185,17 +254,21 @@ def render_all() -> dict[str, str]:
     claim_by_id = _claim_map(claims)
     topic_by_id = {item["id"]: item for item in topics}
     questions = [item for item in topics if item["type"] == "question"]
+    tools = [item for item in topics if item["type"] == "tool"]
     concepts = [item for item in topics if item["type"] == "concept"]
     concept_by_id = {item["id"]: item for item in concepts}
     output: dict[str, str] = {}
     output["docs/topics/index.md"] = render_topic_index(topics)
+    output["docs/tools/index.md"] = render_tool_index(tools)
     output["docs/concepts/index.md"] = render_concept_index(topics)
     output["docs/claims/index.md"] = render_claim_index(claims)
     output["docs/evidence/index.md"] = render_source_index(sources)
     for topic in questions:
         output[f"docs/topics/{topic['id']}.md"] = render_topic(topic, claim_by_id, source_by_id, experiments, concept_by_id)
+    for tool in tools:
+        output[f"docs/tools/{tool['id']}.md"] = render_tool(tool, claim_by_id, source_by_id, concept_by_id)
     for concept in concepts:
-        output[f"docs/concepts/{concept['id']}.md"] = render_concept(concept, topic_by_id, claim_by_id)
+        output[f"docs/concepts/{concept['id']}.md"] = render_concept(concept, topic_by_id, tools, claim_by_id)
     for claim in claims:
         output[f"docs/claims/{claim['id']}.md"] = render_claim(claim, source_by_id, topic_by_id)
     for source in sources:

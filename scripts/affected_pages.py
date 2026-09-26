@@ -15,8 +15,11 @@ def affected_claim(claim_id: str) -> list[str]:
         return []
     paths = {f"docs/claims/{claim_id}.md", "docs/claims/index.md"}
     for topic in topics:
-        if claim_id in topic.get("claim_ids", []) and topic.get("type") == "question":
-            paths.add(f"docs/topics/{topic['id']}.md")
+        if claim_id in topic.get("claim_ids", []):
+            if topic.get("type") == "question":
+                paths.add(f"docs/topics/{topic['id']}.md")
+            elif topic.get("type") == "tool":
+                paths.add(f"docs/tools/{topic['id']}.md")
     for evidence in claims[claim_id].get("evidence", []):
         paths.add(f"docs/evidence/{evidence['source_id']}.md")
     return sorted(paths)
@@ -34,6 +37,8 @@ def affected_source(source_id: str) -> list[str]:
             for topic in load_records("topics"):
                 if topic.get("type") == "question" and claim["id"] in topic.get("claim_ids", []):
                     paths.add(f"docs/topics/{topic['id']}.md")
+                elif topic.get("type") == "tool" and claim["id"] in topic.get("claim_ids", []) and source_id in topic.get("evidence_source_ids", []):
+                    paths.add(f"docs/tools/{topic['id']}.md")
     return sorted(paths)
 
 

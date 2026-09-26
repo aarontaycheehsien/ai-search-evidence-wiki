@@ -1,6 +1,6 @@
 # AI Search Evidence Wiki
 
-A Git-based evidence wiki about AI-assisted academic search and evidence synthesis. Version 2 organizes the evidence into research topics and cross-cutting concept scaffolds. Current topics cover citation screening, research assistants, search-strategy generation, structured data extraction, evidence appraisal, citation fidelity, and deduplication.
+A Git-based evidence wiki about AI-assisted academic search and evidence synthesis. Version 2 organizes the evidence into research topics, tool-specific evaluations, and cross-cutting concept scaffolds. Current topics cover citation screening, search-strategy generation, structured data extraction, evidence appraisal, citation fidelity, and deduplication; the separate Tools section covers evaluated research assistants and discovery systems.
 
 The repository keeps source and claim records in YAML. Python scripts validate those records and deterministically generate Markdown pages. Zensical builds the Markdown into a static site. Codex Desktop can provide interactive reasoning while a human reviews proposed evidence changes; the repository itself makes no LLM or API calls.
 
@@ -11,7 +11,7 @@ The evidence records include journal studies and preprints. Most were extracted 
 - `incoming/papers/`: place papers here for human-assisted processing.
 - `data/sources/`: bibliographic and source-type records.
 - `data/claims/`: stable claim records with explicit source relationships.
-- `data/topics/`: topic and concept records that group claims and connect the wiki's cross-cutting concepts.
+- `data/topics/`: topic, tool, and concept records that group claims and connect the wiki's cross-cutting concepts.
 - `data/experiments/`: independent experiments, kept distinct from published research.
 - `editorial/`: human-written interpretation; not generated or silently edited.
 - `docs/`: site source, including generated topic, concept, claim, and evidence pages.

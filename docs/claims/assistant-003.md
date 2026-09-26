@@ -38,8 +38,12 @@
 - **Locator:** Methods, PDF pp. 7-9; Results and Table 10, PDF p. 13
 - **Note:** For one emotional-contagion question, 14 of 50 Consensus sources met the study's usable-source definition and repeat-run Jaccard overlap was 28.0%. This preprint used one rater and one question.
 
-## Topics
+## Tools
 
-- [Empirical evaluations of AI research assistants](../topics/research-assistant-tools.md)
+- [Consensus](../tools/consensus.md)
+- [Undermind.ai](../tools/undermind.md)
+- [Elicit.com](../tools/elicit.md)
+- [SciSpace](../tools/scispace.md)
+- [General-purpose AI assistants](../tools/general-purpose-ai-assistants.md)
 
 **Last reviewed:** 2026-09-26

@@ -14,8 +14,8 @@
 - **Locator:** Methodology, PDF pp. 6-9; content-level results and Table 3, pp. 14-15; limitations, pp. 17-19
 - **Note:** This arXiv preprint reports 9,753 AI-referred sessions across Drexel library systems, including 7,303 repository sessions; theses/dissertations accounted for 4,098 (56.1%) repository sessions. Incomplete referrer tracking and potential bot noise limit interpretation.
 
-## Topics
+## Tools
 
-- [Empirical evaluations of AI research assistants](../topics/research-assistant-tools.md)
+- [General-purpose AI assistants](../tools/general-purpose-ai-assistants.md)
 
 **Last reviewed:** 2026-09-26

@@ -30,8 +30,9 @@
 - **Locator:** medRxiv abstract only
 - **Note:** Undermind was one of eight evaluated RAG tools; the abstract reports no statistically significant differences in concept coverage across tools.
 
-## Topics
+## Tools
 
-- [Empirical evaluations of AI research assistants](../topics/research-assistant-tools.md)
+- [Undermind.ai](../tools/undermind.md)
+- [Elicit.com](../tools/elicit.md)
 
 **Last reviewed:** 2026-09-25

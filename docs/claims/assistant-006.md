@@ -46,8 +46,8 @@
 - **Locator:** Discussion, PDF p. 2
 - **Note:** The authors found raw extraction faster, but cumbersome custom-column setup and required cross-validation could prolong the overall task. No formal timing study was reported.
 
-## Topics
+## Tools
 
-- [Empirical evaluations of AI research assistants](../topics/research-assistant-tools.md)
+- [Elicit.com](../tools/elicit.md)
 
 **Last reviewed:** 2026-09-26

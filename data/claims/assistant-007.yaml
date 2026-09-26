@@ -5,7 +5,11 @@ claim: >
   or be offset by prompt development, screening, and human verification.
 status: provisional
 topics:
-  - research-assistant-tools
+  - elicit
+  - microsoft-copilot
+  - lens-org
+  - spidercite
+  - general-purpose-ai-assistants
 evidence:
   - source_id: featherstone-2025
     relationship: supports

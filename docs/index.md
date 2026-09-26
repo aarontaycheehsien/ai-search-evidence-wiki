@@ -5,6 +5,7 @@ Version 2 organizes this living, source-linked evidence base around empirical ev
 ## Explore
 
 - [Topics](topics/index.md)
+- [Tools](tools/index.md)
 - [Concepts](concepts/index.md)
 - [Sources](evidence/index.md)
 - [Claims](claims/index.md)

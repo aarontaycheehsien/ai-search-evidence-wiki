@@ -19,7 +19,12 @@ Record the measures, decision rules, and reference standards used by each study;
 - [AI for risk-of-bias and evidence appraisal](../topics/ai-evidence-appraisal.md)
 - [LLMs for Citation Screening](../topics/llm-screening.md)
 - [LLMs for structured data extraction](../topics/llm-data-extraction.md)
-- [Empirical evaluations of AI research assistants](../topics/research-assistant-tools.md)
+
+## Related tools
+
+- [Elicit.com](../tools/elicit.md)
+- [General-purpose AI assistants](../tools/general-purpose-ai-assistants.md)
+- [Research Rabbit](../tools/research-rabbit.md)
 
 ## Linked claims
 

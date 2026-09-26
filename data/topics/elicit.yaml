@@ -1,0 +1,39 @@
+id: elicit
+title: Elicit.com
+type: tool
+description: >
+  Empirical evaluations of Elicit's literature retrieval, screening,
+  extraction, appraisal, usability, and reproducibility.
+claim_ids:
+  - assistant-001
+  - assistant-002
+  - assistant-003
+  - assistant-004
+  - assistant-005
+  - assistant-006
+  - assistant-007
+  - assistant-008
+concept_ids:
+  - recall-and-sensitivity
+  - precision
+  - reference-standards
+  - human-in-the-loop-verification
+  - reproducibility-and-stability
+  - automation-bias
+  - extraction-and-screening-errors
+evidence_source_ids:
+  - lau-golder-2025
+  - bernard-2025
+  - vyas-2026
+  - tomczyk-2024
+  - tranfield-2024
+  - krump-2026
+  - patterson-2025
+  - hilkenmeier-2025
+  - mazzali-2026
+  - lagisz-2026
+  - bianchi-2025
+  - andersen-2025-second-reviewer
+  - fenske-2024
+  - gautam-2026
+last_reviewed: 2026-09-26

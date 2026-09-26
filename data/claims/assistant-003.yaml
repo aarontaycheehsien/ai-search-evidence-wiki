@@ -5,7 +5,11 @@ claim: >
   treating that result as a stable cross-domain performance estimate.
 status: provisional
 topics:
-  - research-assistant-tools
+  - consensus
+  - undermind
+  - elicit
+  - scispace
+  - general-purpose-ai-assistants
 evidence:
   - source_id: gavgani-2026
     relationship: supports

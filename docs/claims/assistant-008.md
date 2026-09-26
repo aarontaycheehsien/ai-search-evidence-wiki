@@ -14,8 +14,9 @@
 - **Locator:** Sections 3-4, PDF pp. 3-8; limitations, p. 10
 - **Note:** Think-aloud sessions with 15 researchers included Research Rabbit and Elicit tasks. Nine raised retrieval/source opacity concerns and eight used redundant manual verification. This is lived-experience evidence, not a retrieval-accuracy benchmark.
 
-## Topics
+## Tools
 
-- [Empirical evaluations of AI research assistants](../topics/research-assistant-tools.md)
+- [Elicit.com](../tools/elicit.md)
+- [Research Rabbit](../tools/research-rabbit.md)
 
 **Last reviewed:** 2026-09-26

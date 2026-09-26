@@ -1,0 +1,15 @@
+id: primo-research-assistant
+title: Primo Research Assistant
+type: tool
+description: >
+  Comparative evidence on the relevance and overlap of Primo Research
+  Assistant results and conventional Primo search results.
+claim_ids:
+  - assistant-002
+concept_ids:
+  - recall-and-sensitivity
+  - precision
+  - reference-standards
+evidence_source_ids:
+  - galbreath-2025
+last_reviewed: 2026-09-26

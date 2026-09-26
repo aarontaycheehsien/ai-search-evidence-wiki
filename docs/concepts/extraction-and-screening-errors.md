@@ -20,7 +20,10 @@ Record the measures, decision rules, and reference standards used by each study;
 - [Citation fidelity in LLM-generated reviews](../topics/citation-fidelity.md)
 - [LLMs for structured data extraction](../topics/llm-data-extraction.md)
 - [LLMs for Citation Screening](../topics/llm-screening.md)
-- [Empirical evaluations of AI research assistants](../topics/research-assistant-tools.md)
+
+## Related tools
+
+- [Elicit.com](../tools/elicit.md)
 
 ## Linked claims
 
