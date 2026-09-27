@@ -8,7 +8,7 @@ Counts describe distinct linked source records. A source may appear under multip
 
 - [Elicit.com](elicit.md) (16) — 2024–2026; 15 peer-reviewed studies, 1 preprint
 - [Academic search prototypes and benchmarks](academic-search-benchmarks.md) (13) — 2021–2026; 4 peer-reviewed studies, 9 preprints
-- [General-purpose AI assistants](general-purpose-ai-assistants.md) (10) — 2025–2026; 4 peer-reviewed studies, 6 preprints
+- [General-purpose AI assistants](general-purpose-ai-assistants.md) (11) — 2024–2026; 5 peer-reviewed studies, 6 preprints
 - [Consensus](consensus.md) (6) — 2025–2026; 3 peer-reviewed studies, 3 preprints
 - [SciSpace](scispace.md) (4) — 2024–2026; 3 peer-reviewed studies, 1 preprint
 - [Scite and Scite Assistant](scite.md) (4) — 2024–2026; 3 peer-reviewed studies, 1 preprint

@@ -23,4 +23,8 @@ evidence:
     relationship: contextual
     locator: "Table 1 and note, PDF pp. 7-8"
     note: "Preprint prospective deployment routed 10,821 of 74,679 records to routine human review and estimated 34 versus 415 first-pass person-days; time was modeled and implementation overhead omitted."
+  - source_id: sciurti-2025-compact-screening
+    relationship: supports
+    locator: "Results, PDF pp. 8-9"
+    note: "Using majority voting across three compact LLMs, reported workload savings at 100% sensitivity against final full-text inclusions ranged from 12.5% to 88.5% across three retrospective review datasets. This is a modeled record reduction, not observed reviewer time."
 last_reviewed: 2026-09-25

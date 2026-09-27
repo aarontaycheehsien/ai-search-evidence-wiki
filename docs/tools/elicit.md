@@ -11,7 +11,7 @@ Empirical evaluations of Elicit's literature retrieval, screening, extraction, a
 
 ## Overview
 
-This tool page groups 10 claims and 16 source records that evaluate or directly contextualize Elicit.com.
+This tool page groups 11 claims and 16 source records that evaluate or directly contextualize Elicit.com.
 
 Cross-tool claims are repeated where relevant, but the evidence shown below is limited to the source records assigned to this tool.
 
@@ -41,8 +41,8 @@ Cross-tool claims are repeated where relevant, but the evidence shown below is l
 **Status:** mixed
 
 - **supports** — [The Use of Artificial Intelligence in Dermatology Systematic Reviews: A Comparative Analysis of Elicit Against Human Reviewers](../evidence/vyas-2026.md) (peer-reviewed-study); locator: Methods and Results, PDF p. 1; Discussion, PDF p. 2. Against 24 trials from one completed dermatology review, Elicit recovered 1 included trial in a 59-result concept search and none in a 27-result keyword search. This is a narrow single-review comparison.
-- **supports** — [Comparison of Elicit AI and Traditional Literature Searching in Evidence Syntheses Using Four Case Studies](../evidence/lau-golder-2025.md) (peer-reviewed-study); locator: Abstract, p. 1; case-study results, PDF pp. 4–6. Across four evidence syntheses, mean sensitivity was 39.5% for Elicit versus 94.5% for original searches, while mean precision was 41.8% versus 7.55%. Elicit also found eligible studies absent from the original searches.
-- **qualifies** — [Using artificial intelligence for systematic review: the example of elicit](../evidence/bernard-2025.md) (peer-reviewed-study); locator: Results, PDF pp. 3–4. For one umbrella-review question, repeated runs retrieved 246, 169, and 172 records; Elicit found 3 of 17 included reviews from the prior review and 3 additional eligible reviews. This used an earlier product version and one topic.
+- **supports** — [Comparison of Elicit AI and Traditional Literature Searching in Evidence Syntheses Using Four Case Studies](../evidence/lau-golder-2025.md) (peer-reviewed-study); locator: Abstract, p. 1; case-study results, PDF pp. 4–6. Across four evidence syntheses, mean sensitivity was 39.5% for Elicit versus 94.5% for original searches, while mean precision was 41.8% versus 7.55%. Elicit also found eligible studies absent from the original searches. Methods (PDF pp. 2-3) and Table 1 (p. 6) show these estimates concern a combined top-500 retrieval and automated-screening workflow; precision is calculated over Elicit-included records, not all candidates.
+- **qualifies** — [Using artificial intelligence for systematic review: the example of elicit](../evidence/bernard-2025.md) (peer-reviewed-study); locator: Results, PDF pp. 3–4. For one umbrella-review question, repeated runs retrieved 246, 169, and 172 records; Elicit found 3 of 17 included reviews from the prior review and 3 additional eligible reviews. Results and Figure 1 (p. 3) report 14 reviews exclusive to the prior review, whereas the abstract (p. 1) says 17 exclusive reviews. The 3-of-17 benchmark count follows Results/Figure 1. This used an earlier product version and one topic.
 
 ### [User-facing evaluations identify speed and ease of use as benefits of Elicit, alongside concerns about generated-abstract accuracy, brevity, and transparency of result counts.](../claims/assistant-006.md)
 
@@ -72,6 +72,12 @@ Cross-tool claims are repeated where relevant, but the evidence shown below is l
 **Status:** supported
 
 - **supports** — [‘GenAI’ Literature Search Tools and Scholarly Diversity: An Algorithmic Ethnographical Analysis](../evidence/chandler-2026-scholarly-diversity.md) (peer-reviewed-study); locator: Methods and Table 2, PDF pp. 5–8. 800 top-twenty results across ten tools. Within each 80-result sample, papers with first authors based in Global Majority countries: Scopus AI 27, Semantic Scholar 29, ResearchRabbit 25, Elicit 24, Consensus 21. These are not Global North counts. Conventional-tool Table 2 totals conflict with displayed component sums; no tool ranking based on those conflicting totals. Authorship composition is not search accuracy.
+
+### [In a four-review evaluation of Elicit Pro Review mode, eligible records were lost during both initial retrieval and automated screening.](../claims/assistant-040.md)
+
+**Status:** provisional
+
+- **supports** — [Comparison of Elicit AI and Traditional Literature Searching in Evidence Syntheses Using Four Case Studies](../evidence/lau-golder-2025.md) (peer-reviewed-study); locator: Methods, PDF pp. 2-3; Results sections 3.1-3.4, pp. 4-6; Table 1, p. 6. Among records included in the original reviews, case studies 1-4 report 31, 27, 12 and 21 not retrieved by Elicit, and 11, 11, 4 and 8 retrieved but excluded. The workflow first retrieved 500 candidates per question, then screened them using manually adjusted criteria. Reported mean sensitivity of 39.5% describes this combined workflow, and the 41.8% mean precision is calculated over Elicit-included records. These are not performance estimates for retrieval alone or for every Elicit mode.
 
 ### [In a small qualitative study of researchers using AI discovery and synthesis tools, opaque provenance and confident outputs prompted compensatory source verification and context-dependent trust.](../claims/assistant-008.md)
 
@@ -137,6 +143,7 @@ No vendor, system, experimental, or editorial records are linked.
 - [User-facing evaluations identify speed and ease of use as benefits of Elicit, alongside concerns about generated-abstract accuracy, brevity, and transparency of result counts.](../claims/assistant-006.md) is marked **provisional**.
 - [Independent tool comparisons report different retrieval relevance and coverage profiles across query sets; current evidence does not establish a general-purpose winner over conventional library search.](../claims/assistant-002.md) is marked **mixed**.
 - [A small rubric study rated Undermind and paid Elicit highly, but its low interrater agreement makes these ratings preliminary; Undermind’s quantified search-performance claims come from a vendor-authored benchmark.](../claims/assistant-004.md) is marked **provisional**.
+- [In a four-review evaluation of Elicit Pro Review mode, eligible records were lost during both initial retrieval and automated screening.](../claims/assistant-040.md) is marked **provisional**.
 - [In a small qualitative study of researchers using AI discovery and synthesis tools, opaque provenance and confident outputs prompted compensatory source verification and context-dependent trust.](../claims/assistant-008.md) is marked **provisional**.
 - [One single-domain study reported high Consensus precision on a specialized tissue-engineering query, while broader comparative studies do not support treating that result as a stable cross-domain performance estimate.](../claims/assistant-003.md) is marked **provisional**.
 

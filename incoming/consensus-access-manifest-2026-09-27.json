@@ -1,0 +1,57 @@
+{
+  "checked_on": "2026-09-27",
+  "libkey_used": false,
+  "candidate_count": 6,
+  "existing_pdfs_reused": 4,
+  "new_pdfs_downloaded": 0,
+  "new_full_text_xml_downloaded": 1,
+  "abstract_only": 1,
+  "papers": [
+    {
+      "source_id": "lau-golder-2025",
+      "access_status": "existing-full-text-pdf-reused",
+      "local_file": "incoming/papers/Lau and Golder - 2025 - Elicit vs traditional search.pdf",
+      "sha256": "9d7850f0afaff1012049024f50ba5530eab463d787c5af80b6c8673f7d64ffe2",
+      "pdf_structure_verified": true,
+      "pages": 12
+    },
+    {
+      "source_id": "featherstone-2025",
+      "access_status": "existing-full-text-pdf-reused",
+      "local_file": "incoming/papers/Featherstone et al - 2025 - AI search tools for evidence synthesis.pdf",
+      "sha256": "d345616409de5312558eaf16dc075a5c54246235a84b8a95695ba5d1384a8f77",
+      "pdf_structure_verified": true,
+      "pages": 20
+    },
+    {
+      "source_id": "bernard-2025",
+      "access_status": "existing-full-text-pdf-reused",
+      "local_file": "incoming/papers/Bernard et al - 2025 - Elicit systematic review.pdf",
+      "sha256": "be6d5b38d73dbfbd6e80fe14438ba20d74cfa622528f9fa38acf8df8c33d6d1b",
+      "pdf_structure_verified": true,
+      "pages": 6
+    },
+    {
+      "source_id": "di-febo-2026",
+      "access_status": "existing-full-text-pdf-reused",
+      "local_file": "incoming/papers/Di Febo et al - 2026 - AI literature search cardiology comparison.pdf",
+      "sha256": "8eaeed57459808494bc432522b25cc58fec99e17690cbd2da8d2f5dfa308cac9",
+      "pdf_structure_verified": true,
+      "pages": 10
+    },
+    {
+      "source_id": "gwon-2024",
+      "access_status": "new-full-text-xml-downloaded-pdf-attempts-failed",
+      "local_file": "incoming/papers/Gwon et al - 2024 - ChatGPT and Bing literature searches.xml",
+      "sha256": "0eae7bcfefd65819412de34d0cac1d5e662b0167397024f029abc2bfdd79dbf2",
+      "download_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11107769/fullTextXML",
+      "format": "JATS XML"
+    },
+    {
+      "source_id": "gavgani-2026",
+      "access_status": "publisher-abstract-only-full-text-paywalled",
+      "local_file": null,
+      "corrigendum_doi": "10.1108/IDD-08-2026-0302"
+    }
+  ]
+}

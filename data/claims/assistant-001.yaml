@@ -10,13 +10,25 @@ evidence:
   - source_id: lau-golder-2025
     relationship: supports
     locator: "Abstract, p. 1; case-study results, PDF pp. 4–6"
-    note: "Across four evidence syntheses, mean sensitivity was 39.5% for Elicit versus 94.5% for original searches, while mean precision was 41.8% versus 7.55%. Elicit also found eligible studies absent from the original searches."
+    note: >
+      Across four evidence syntheses, mean sensitivity was 39.5% for Elicit
+      versus 94.5% for original searches, while mean precision was 41.8%
+      versus 7.55%. Elicit also found eligible studies absent from the original
+      searches. Methods (PDF pp. 2-3) and Table 1 (p. 6) show these estimates
+      concern a combined top-500 retrieval and automated-screening workflow;
+      precision is calculated over Elicit-included records, not all candidates.
   - source_id: bernard-2025
     relationship: qualifies
     locator: "Results, PDF pp. 3–4"
-    note: "For one umbrella-review question, repeated runs retrieved 246, 169, and 172 records; Elicit found 3 of 17 included reviews from the prior review and 3 additional eligible reviews. This used an earlier product version and one topic."
+    note: >
+      For one umbrella-review question, repeated runs retrieved 246, 169,
+      and 172 records; Elicit found 3 of 17 included reviews from the prior
+      review and 3 additional eligible reviews. Results and Figure 1 (p. 3)
+      report 14 reviews exclusive to the prior review, whereas the abstract
+      (p. 1) says 17 exclusive reviews. The 3-of-17 benchmark count follows
+      Results/Figure 1. This used an earlier product version and one topic.
   - source_id: vyas-2026
     relationship: supports
     locator: "Methods and Results, PDF p. 1; Discussion, PDF p. 2"
     note: "Against 24 trials from one completed dermatology review, Elicit recovered 1 included trial in a 59-result concept search and none in a 27-result keyword search. This is a narrow single-review comparison."
-last_reviewed: 2026-09-26
+last_reviewed: 2026-09-27

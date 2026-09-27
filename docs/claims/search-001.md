@@ -2,7 +2,7 @@
 
 # LLM-generated Boolean search strategies remain highly sensitive to model, prompt, validation, and seed-study choices, and generally do not match the recall of expert manual strategies without substantial precision tradeoffs.
 
-**Status:** supported — 8 sources; 2023–2026; 8 peer-reviewed studies
+**Status:** supported — 10 sources; 2023–2026; 10 peer-reviewed studies
 
 ## Evidence
 
@@ -13,6 +13,22 @@
 - **Relationship:** qualifies
 - **Locator:** Table 5, PDF p. 14; Table 6, PDF p. 15
 - **Note:** AutoBool reached CLEF TAR recall 0.8387 versus 0.8458 for expert queries while retrieving 818 versus 14,327 documents, but Seed Collection recall remained lower (0.6828 vs. 0.7241).
+
+### Development and Evaluation of a Generative AI Chatbot for Database Searching in Systematic Review
+
+- **Source:** [tam-2026-search-chatbot](../evidence/tam-2026-search-chatbot.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Abstract, Results
+- **Note:** A custom ChatGPT-4 chatbot tested on 50 Cochrane reviews retrieved a median 67.4% of included studies (72.0% among indexed studies; abstract-based record). It was presented as a starting point rather than a replacement for expert-developed searches.
+
+### Evaluating the utility of large language models in generating search strings for systematic reviews in anesthesiology: a comparative analysis of top-ranked journals
+
+- **Source:** [decassai-2025-search](../evidence/decassai-2025-search.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Abstract, Results
+- **Note:** Across 85 anesthesiology systematic reviews, median PubMed retrieval was 6% for ChatGPT-4o-generated strings, 24% for a custom Meta-Analysis Librarian, and 65% for original strings. Abstract-based record; single specialty and reference-set comparison.
 
 ### Human vs. machine in medical search strategy development: a comparative evaluation of ChatGPT-4.1
 

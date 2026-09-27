@@ -27,3 +27,9 @@ notes: >
   execution and modeled screening time, but their suitability varied by task.
   Searchers knew the target studies, the project sample was small, and tools
   were not evaluated in combination.
+  Methods section 2.2.5 (PDF p. 4) specifies that Copilot generated Boolean
+  strategies, refined with information-specialist prompts, which were then
+  executed in PubMed. It was not asked to return a generated bibliography.
+  Section 2.2.6 (p. 4) restricts Copilot sensitivity/NNR denominators to
+  eligible MEDLINE articles from the reference searches; its denominator
+  is not the full cross-database set used for the other tools.

@@ -4,13 +4,13 @@
 
 Each source retains its publication category. Open a record for bibliographic details, scope notes, and linked claims.
 
-93 sources; 2020–2026; 68 peer-reviewed studies, 23 preprints, 1 vendor documentation record, 1 editorial source
+99 sources; 2020–2026; 74 peer-reviewed studies, 23 preprints, 1 vendor documentation record, 1 editorial source
 
 Counts describe distinct linked source records. A source may appear under multiple entries; source counts and year ranges are not evidence-quality ratings. Years are the years recorded for the sources.
 
-## Peer-reviewed studies (68)
+## Peer-reviewed studies (74)
 
-2020–2026; 68 peer-reviewed studies
+2020–2026; 74 peer-reviewed studies
 
 - [A critical evaluation of generative query expansion on biomedical literature retrieval](fang-2026-query.md) (2026)
 - [AI-accelerated meta-analysis in psychology: Large language models code study properties with high accuracy](azaad-2026-meta-analysis-coding.md) (2026)
@@ -22,6 +22,7 @@ Counts describe distinct linked source records. A source may appear under multip
 - [Case Study of the Implementation of AI Primo Research Assistant (Beta Version) in Academic Libraries in Poland](kotula-2026.md) (2026)
 - [Comparative evaluation of artificial intelligence–assisted literature search tools for identifying clinically meaningful evidence in cardiology](di-febo-2026.md) (2026)
 - [Custom GPT models for complex rheumatology systematic reviews: A two-part evaluation of data extraction and prognosis appraisal](munguia-realpozo-2026-custom-gpt.md) (2026)
+- [Development and Evaluation of a Generative AI Chatbot for Database Searching in Systematic Review](tam-2026-search-chatbot.md) (2026)
 - [Evaluating Elicit’s systematic reviews workflow in an umbrella review on air pollution and acute lower respiratory infections: a methodological study for quality appraisal](mazzali-2026.md) (2026)
 - [Evaluating the accuracy and speed of eight deduplication tools: A comparative study](bateup-2026.md) (2026)
 - [Evaluation of output of AI models ScholarAI and SciSpace: Implications for use of generative artificial intelligence models as research assistants](aggarwal-2026-scholarai-scispace.md) (2026)
@@ -33,6 +34,7 @@ Counts describe distinct linked source records. A source may appear under multip
 - [Performance of large language models and prompt engineering strategies for data extraction in systematic reviews](oami-2026-extraction.md) (2026)
 - [The Use of Artificial Intelligence in Dermatology Systematic Reviews: A Comparative Analysis of Elicit Against Human Reviewers](vyas-2026.md) (2026)
 - [Using Elicit AI research assistant for data extraction in systematic reviews: A feasibility study across environmental and life sciences](lagisz-2026.md) (2026)
+- [Validating Large Language Models for Title-Abstract Screening in Low-Prevalence Systematic Reviews: An Environmental Science Case Study](nawrath-2026-screening.md) (2026)
 - [What level of automation is 'good enough'? A benchmark of large language models for meta-analysis data extraction](li-2026-extraction.md) (2026)
 - [‘GenAI’ Literature Search Tools and Scholarly Diversity: An Algorithmic Ethnographical Analysis](chandler-2026-scholarly-diversity.md) (2026)
 - [A foundation model for human-AI collaboration in medical literature mining](wang-2025-leads.md) (2025)
@@ -43,6 +45,7 @@ Counts describe distinct linked source records. A source may appear under multip
 - [Artificial Intelligence-Assisted Data Extraction With a Large Language Model: A Study Within Reviews](gartlehner-2025.md) (2025)
 - [Chained Prompting for Better Systematic Review Search Strategies](nasser-2025-chained.md) (2025)
 - [Collaborative large language models for automated data extraction in living systematic reviews](khan-2025-collaborative-extraction.md) (2025)
+- [Compact large language models for title and abstract screening in systematic reviews: An assessment of feasibility, accuracy, and workload reduction](sciurti-2025-compact-screening.md) (2025)
 - [Comparison of Elicit AI and Traditional Literature Searching in Evidence Syntheses Using Four Case Studies](lau-golder-2025.md) (2025)
 - [Cross sectional pilot study on clinical review generation using large language models](luo-2025-clinical-reviews.md) (2025)
 - [Data Extractions Using a Large Language Model (Elicit) and Human Reviewers in Randomized Controlled Trials: A Systematic Comparison](bianchi-2025.md) (2025)
@@ -50,6 +53,7 @@ Counts describe distinct linked source records. A source may appear under multip
 - [Development of Prompt Templates for Large Language Model-Driven Screening in Systematic Reviews](cao-2025.md) (2025)
 - [Do it faster with PICOS: Generative AI-Assisted systematic review screening](vallamchetla-2025.md) (2025)
 - [Evaluating the AI Tool ‘Elicit’ as a Semi-Automated Second Reviewer for Data Extraction in Systematic Reviews: A Proof-of-Concept](hilkenmeier-2025.md) (2025)
+- [Evaluating the utility of large language models in generating search strings for systematic reviews in anesthesiology: a comparative analysis of top-ranked journals](decassai-2025-search.md) (2025)
 - [High-performance automated abstract screening with large language model ensembles](sanghera-2025.md) (2025)
 - [Human vs. machine in medical search strategy development: a comparative evaluation of ChatGPT-4.1](walz-2025-search.md) (2025)
 - [Language models for data extraction and risk of bias assessment in complementary medicine](lai-2025-complementary-medicine.md) (2025)
@@ -70,12 +74,14 @@ Counts describe distinct linked source records. A source may appear under multip
 - [Conversational Exploratory Search of Scholarly Publications Using Knowledge Graphs](schneider-2024-conversational-search.md) (2024)
 - [Evaluating the Effectiveness of Large Language Models in Abstract Screening: A Comparative Analysis](li-2024.md) (2024)
 - [Fully Automated Scholarly Search for Biomedical Systematic Literature Reviews](budau-2024-fass.md) (2024)
+- [Human-Comparable Sensitivity of Large Language Models in Identifying Eligible Studies Through Title and Abstract Screening: 3-Layer Strategy Using GPT-3.5 and GPT-4 for Systematic Reviews](matsui-2024-screening.md) (2024)
 - [Incorporating Generative AI to Promote Inquiry-Based Learning: Comparing Elicit AI Research Assistant to PubMed and CINAHL Complete](fenske-2024.md) (2024)
 - [Literature search sandbox: a large language model that generates search queries for systematic reviews](adam-2024-search.md) (2024)
 - [LitSearch: A Retrieval Benchmark for Scientific Literature Search](ajith-2024-litsearch.md) (2024)
 - [Navigating Machine-Driven Research Landscapes: A Comparative Approach](tranfield-2024.md) (2024)
 - [Sensitivity and Specificity of Using GPT-3.5 Turbo Models for Title and Abstract Screening in Systematic Reviews and Meta-analyses](tran-2024.md) (2024)
 - [Sztuczna inteligencja jako element wsparcia pracy badawczej. Analiza porównawcza narzędzi Scopus AI i Scholar GPT](wlodarczyk-2024.md) (2024)
+- [The Use of Generative AI for Scientific Literature Searches for Systematic Reviews: ChatGPT and Microsoft Bing AI Performance Evaluation](gwon-2024.md) (2024)
 - [Can ChatGPT Write a Good Boolean Query for Systematic Review Literature Search?](wang-2023-boolean.md) (2023)
 - [Harnessing the Power of ChatGPT for Automating Systematic Review Process: Methodology, Case Study, Limitations, and Future Directions](alshami-2023.md) (2023)
 - [An evaluation of two commercial deep learning-based information retrieval systems for COVID-19 literature](soni-2021-covid-search.md) (2021)

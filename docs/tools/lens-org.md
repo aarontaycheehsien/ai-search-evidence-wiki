@@ -21,13 +21,13 @@ Cross-tool claims are repeated where relevant, but the evidence shown below is l
 
 **Status:** provisional
 
-- **supports** — [Artificial Intelligence Search Tools for Evidence Synthesis: Comparative Analysis and Implementation Recommendations](../evidence/featherstone-2025.md) (peer-reviewed-study); locator: Tables 2-5, PDF pp. 7-12; focus-group findings, PDF pp. 13-15. The tested tools required less search execution and modeled screening time than customary practice, but average sensitivity across six review projects was 0.230-0.676 versus 0.986 for the reference searches.
+- **supports** — [Artificial Intelligence Search Tools for Evidence Synthesis: Comparative Analysis and Implementation Recommendations](../evidence/featherstone-2025.md) (peer-reviewed-study); locator: Tables 2-5, PDF pp. 7-12; focus-group findings, PDF pp. 13-15. The tested tools required less search execution and modeled screening time on average than customary practice, but reported average sensitivity across six review projects was 0.230-0.676, with 0.986 for reference searches. Copilot's tested workflow generated strategies run in PubMed, and its sensitivity denominator was restricted to eligible MEDLINE articles (Methods sections 2.2.5-2.2.6, PDF p. 4). Screening time was modeled at 3.33 hours per 100 records, not observed prospectively.
 
 ### [Independent tool comparisons report different retrieval relevance and coverage profiles across query sets; current evidence does not establish a general-purpose winner over conventional library search.](../claims/assistant-002.md)
 
 **Status:** mixed
 
-- **supports** — [Artificial Intelligence Search Tools for Evidence Synthesis: Comparative Analysis and Implementation Recommendations](../evidence/featherstone-2025.md) (peer-reviewed-study); locator: Methods, PDF pp. 2-5; Tables 2-5, PDF pp. 7-12. Across six review projects, average sensitivity was 0.676 for Lens.org, 0.230-0.257 for SpiderCite, and 0.244 for Copilot, versus 0.986 for customary searches; results differed between simple and complex projects.
+- **supports** — [Artificial Intelligence Search Tools for Evidence Synthesis: Comparative Analysis and Implementation Recommendations](../evidence/featherstone-2025.md) (peer-reviewed-study); locator: Methods, PDF pp. 2-5; Tables 2-5, PDF pp. 7-12. Across six review projects, average sensitivity was 0.676 for Lens.org, 0.230-0.257 for SpiderCite, and 0.244 for Copilot, with 0.986 reported for customary searches; results differed between simple and complex projects. Copilot generated Boolean strategies that were executed in PubMed after iterative expert prompting. Its sensitivity denominator was restricted to eligible MEDLINE articles, whereas the other tools used the broader reference set (Methods sections 2.2.5-2.2.6, PDF p. 4). These are different workflows and reference-set boundaries.
 
 ## Connected concepts
 

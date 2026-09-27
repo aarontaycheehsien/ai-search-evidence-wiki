@@ -36,7 +36,7 @@
 - **Category:** peer-reviewed-study
 - **Relationship:** supports
 - **Locator:** Tables 2-5, PDF pp. 7-12; focus-group findings, PDF pp. 13-15
-- **Note:** The tested tools required less search execution and modeled screening time than customary practice, but average sensitivity across six review projects was 0.230-0.676 versus 0.986 for the reference searches.
+- **Note:** The tested tools required less search execution and modeled screening time on average than customary practice, but reported average sensitivity across six review projects was 0.230-0.676, with 0.986 for reference searches. Copilot's tested workflow generated strategies run in PubMed, and its sensitivity denominator was restricted to eligible MEDLINE articles (Methods sections 2.2.5-2.2.6, PDF p. 4). Screening time was modeled at 3.33 hours per 100 records, not observed prospectively.
 
 ### Language models for data extraction and risk of bias assessment in complementary medicine
 
@@ -54,4 +54,4 @@
 - [SpiderCite](../tools/spidercite.md)
 - [General-purpose AI assistants](../tools/general-purpose-ai-assistants.md)
 
-**Last reviewed:** 2026-09-26
+**Last reviewed:** 2026-09-27

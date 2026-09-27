@@ -15,6 +15,16 @@ topics:
   - general-purpose-ai-assistants
   - scite
 evidence:
+  - source_id: gwon-2024
+    relationship: contextual
+    locator: "Methods and Results; Tables 1-2 (full-text JATS XML, PMC11107769)"
+    note: >
+      On one Peyronie-disease topic in 2023, GPT-3.5 produced 1 strict
+      benchmark match and 4 under relaxed criteria, whereas Bing Precise
+      produced 2 benchmark matches. Relevant/bibliographically correct
+      references and benchmark matches are distinct endpoints. Unequal
+      question counts, conversation flows, and retrieval access limit
+      causal tool comparisons and do not establish a current general winner.
   - source_id: tomczyk-2024
     relationship: supports
     locator: "Methods and Findings, PDF p. 5"
@@ -30,7 +40,15 @@ evidence:
   - source_id: featherstone-2025
     relationship: supports
     locator: "Methods, PDF pp. 2-5; Tables 2-5, PDF pp. 7-12"
-    note: "Across six review projects, average sensitivity was 0.676 for Lens.org, 0.230-0.257 for SpiderCite, and 0.244 for Copilot, versus 0.986 for customary searches; results differed between simple and complex projects."
+    note: >
+      Across six review projects, average sensitivity was 0.676 for Lens.org,
+      0.230-0.257 for SpiderCite, and 0.244 for Copilot, with 0.986 reported
+      for customary searches; results differed between simple and complex
+      projects. Copilot generated Boolean strategies that were executed in
+      PubMed after iterative expert prompting. Its sensitivity denominator
+      was restricted to eligible MEDLINE articles, whereas the other tools
+      used the broader reference set (Methods sections 2.2.5-2.2.6, PDF p. 4).
+      These are different workflows and reference-set boundaries.
   - source_id: dathe-2026
     relationship: qualifies
     locator: "Methods, PDF pp. 7-9; Table 10 and Results, PDF p. 13"

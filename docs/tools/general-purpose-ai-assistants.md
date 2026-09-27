@@ -2,7 +2,7 @@
 
 # General-purpose AI assistants
 
-**Evidence:** 10 sources; 2025–2026; 4 peer-reviewed studies, 6 preprints
+**Evidence:** 11 sources; 2024–2026; 5 peer-reviewed studies, 6 preprints
 
 ## Scope
 
@@ -11,11 +11,19 @@ Cross-tool evidence on systems such as ChatGPT, Perplexity, You.com, Scite, and 
 
 ## Overview
 
-This tool page groups 9 claims and 10 source records that evaluate or directly contextualize General-purpose AI assistants.
+This tool page groups 10 claims and 11 source records that evaluate or directly contextualize General-purpose AI assistants.
 
 Cross-tool claims are repeated where relevant, but the evidence shown below is limited to the source records assigned to this tool.
 
 ## Key claims
+
+### [Independent tool comparisons report different retrieval relevance and coverage profiles across query sets; current evidence does not establish a general-purpose winner over conventional library search.](../claims/assistant-002.md)
+
+**Status:** mixed
+
+- **supports** — [Comparative evaluation of artificial intelligence–assisted literature search tools for identifying clinically meaningful evidence in cardiology](../evidence/di-febo-2026.md) (peer-reviewed-study); locator: Methods, PDF pp. 3-4; Results and Figure 4, pp. 6-7; limitations, p. 9. On four CRT topics, Scite Assistant had median proportions of relevant and expert-defined key references of 20% and 10%, compared with 90% and 60% for ChatGPT-5. Both primary metrics divide qualifying items by retrieved articles and are precision-type, not exhaustive recall. The free web interfaces, one run per prompt, tool-contributed reference standard, single subdomain, and different corpus/purpose boundaries constrain general tool rankings.
+- **contextual** — [The Use of Generative AI for Scientific Literature Searches for Systematic Reviews: ChatGPT and Microsoft Bing AI Performance Evaluation](../evidence/gwon-2024.md) (peer-reviewed-study); locator: Methods and Results; Tables 1-2 (full-text JATS XML, PMC11107769). On one Peyronie-disease topic in 2023, GPT-3.5 produced 1 strict benchmark match and 4 under relaxed criteria, whereas Bing Precise produced 2 benchmark matches. Relevant/bibliographically correct references and benchmark matches are distinct endpoints. Unequal question counts, conversation flows, and retrieval access limit causal tool comparisons and do not establish a current general winner.
+- **qualifies** — [Useful for Exploration, Risky for Precision: Evaluating AI Tools in Academic Research](../evidence/dathe-2026.md) (preprint); locator: Methods, PDF pp. 7-9; Table 10 and Results, PDF p. 13. For one research question, usable-source counts and repeat-run overlap varied across Consensus, ChatGPT, You.com, and Perplexity. The study is a preprint with one rater per tool.
 
 ### [AI search and extraction tools can reduce initial search or screening effort, but measured efficiency gains may coincide with lower retrieval sensitivity or be offset by prompt development, screening, and human verification.](../claims/assistant-007.md)
 
@@ -24,18 +32,11 @@ Cross-tool claims are repeated where relevant, but the evidence shown below is l
 - **contextual** — [How Researchers Navigate Accountability, Transparency, and Trust When Using AI Tools in Early-Stage Research: A Think-Aloud Study](../evidence/gautam-2026.md) (peer-reviewed-study); locator: Sections 4.2.3-4.2.5, PDF p. 7. Eight of 15 researchers used redundant manual verification; three described burdens from detailed prompting. Qualitative reports identify work added by verification but do not quantify net task time.
 - **qualifies** — [Language models for data extraction and risk of bias assessment in complementary medicine](../evidence/lai-2025-complementary-medicine.md) (peer-reviewed-study); locator: Figure 2, PDF p. 3; Methods, p. 5. Assisted extraction time of 14.7 min includes generation, verification and modification; the 86.9-min manual comparator is historical. This provides evidence that checking need not erase all gains, while not establishing a concurrent causal comparison.
 
-### [Independent tool comparisons report different retrieval relevance and coverage profiles across query sets; current evidence does not establish a general-purpose winner over conventional library search.](../claims/assistant-002.md)
-
-**Status:** mixed
-
-- **supports** — [Comparative evaluation of artificial intelligence–assisted literature search tools for identifying clinically meaningful evidence in cardiology](../evidence/di-febo-2026.md) (peer-reviewed-study); locator: Methods, PDF pp. 3-4; Results and Figure 4, pp. 6-7; limitations, p. 9. On four CRT topics, Scite Assistant had median proportions of relevant and expert-defined key references of 20% and 10%, compared with 90% and 60% for ChatGPT-5. Both primary metrics divide qualifying items by retrieved articles and are precision-type, not exhaustive recall. The free web interfaces, one run per prompt, tool-contributed reference standard, single subdomain, and different corpus/purpose boundaries constrain general tool rankings.
-- **qualifies** — [Useful for Exploration, Risky for Precision: Evaluating AI Tools in Academic Research](../evidence/dathe-2026.md) (preprint); locator: Methods, PDF pp. 7-9; Table 10 and Results, PDF p. 13. For one research question, usable-source counts and repeat-run overlap varied across Consensus, ChatGPT, You.com, and Perplexity. The study is a preprint with one rater per tool.
-
 ### [One single-domain study reported high Consensus precision on a specialized tissue-engineering query, while broader comparative studies do not support treating that result as a stable cross-domain performance estimate.](../claims/assistant-003.md)
 
 **Status:** provisional
 
-- **contextual** — [Comparative evaluation of artificial intelligence–assisted literature search tools for identifying clinically meaningful evidence in cardiology](../evidence/di-febo-2026.md) (peer-reviewed-study); locator: Abstract, p. 1; Results, PDF pp. 6–8. In four cardiology topics, ChatGPT-5 ranked highest for relevant articles and key references, while Scite ranked lowest. Consensus was included, but the available abstract does not disclose its product-specific point estimate.
+- **contextual** — [Comparative evaluation of artificial intelligence–assisted literature search tools for identifying clinically meaningful evidence in cardiology](../evidence/di-febo-2026.md) (peer-reviewed-study); locator: Methods, PDF pp. 3-4; Results and Figure 4, pp. 6-8; limitations, p. 9. In four CRT topics, ChatGPT-5 ranked highest for relevant articles and key references, while Scite ranked lowest. Consensus was included; its relevance and key-reference results appear in Figure 4 without a product-specific overall point estimate in the Results prose. Both primary endpoints are proportions within each tool's retrieved articles, not exhaustive recall. One run per prompt, free tiers, a single subdomain and a tool-contributed reference corpus constrain general tool rankings.
 - **qualifies** — [Useful for Exploration, Risky for Precision: Evaluating AI Tools in Academic Research](../evidence/dathe-2026.md) (preprint); locator: Methods, PDF pp. 7-9; Results and Table 10, PDF p. 13. For one emotional-contagion question, 14 of 50 Consensus sources met the study's usable-source definition and repeat-run Jaccard overlap was 28.0%. This preprint used one rater and one question.
 
 ### [A one-topic audit distinguishes citation traceability from repeat-run retrieval stability, but conflicting count denominators make aggregate tool comparisons uncertain.](../claims/assistant-018.md)
@@ -43,6 +44,12 @@ Cross-tool claims are repeated where relevant, but the evidence shown below is l
 **Status:** uncertain
 
 - **qualifies** — [Auditing GenAI Literature Search Workflows: A Replicable Protocol for Traceable, Accountable Retrieval in Student-Facing Inquiry](../evidence/leon-2026-search-audit.md) (peer-reviewed-study); locator: Tables 2, 4, 5 and 10, PDF pp. 13–16, 25. Gemini and paid ChatGPT show low DOI-set Jaccard values, while free ChatGPT is higher in the reported comparison. A failed Perplexity run should not be treated as ordinary variability. Retrieved counts disagree across tables; do not pool or rank using unresolved totals. Boolean searches run in Scopus are not Scopus AI.
+
+### [In one 2023 Peyronie-disease literature-search experiment, GPT-3.5 and Bing AI matched few trials from a completed review's 24 included RCTs; references graded as relevant were not necessarily benchmark matches.](../claims/assistant-039.md)
+
+**Status:** provisional
+
+- **supports** — [The Use of Generative AI for Scientific Literature Searches for Systematic Reviews: ChatGPT and Microsoft Bing AI Performance Evaluation](../evidence/gwon-2024.md) (peer-reviewed-study); locator: Methods: Quality Assessment of Answers and Searching Strategy for Bing AI; Results: Systematic Search Results via ChatGPT/Bing AI; Tables 1-2 (full-text JATS XML, PMC11107769). ChatGPT produced 1,287 reference entries from 639 questions, including 7 grade-A and 18 grade-B entries. Results report 1 strict match to the benchmark and 4 matches under relaxed criteria. Bing produced 48 entries from 223 questions, including 19 grade-A entries but only 2 benchmark matches. These output-quality and benchmark-match denominators differ; 19 grade-A references does not mean Bing recovered 19 of 24 benchmark trials. GPT-3.5, Bing Precise mode, unequal question counts, different conversation flows and one topic constrain generalization.
 
 ### [A forty-abstract medical citation task found missing references and metadata/relevance failures across five free chatbots, with outcomes depending on the error definition.](../claims/assistant-025.md)
 
@@ -91,6 +98,7 @@ Cross-tool claims are repeated where relevant, but the evidence shown below is l
 - [Comparative evaluation of artificial intelligence–assisted literature search tools for identifying clinically meaningful evidence in cardiology](../evidence/di-febo-2026.md)
 - [How Researchers Navigate Accountability, Transparency, and Trust When Using AI Tools in Early-Stage Research: A Think-Aloud Study](../evidence/gautam-2026.md)
 - [Language models for data extraction and risk of bias assessment in complementary medicine](../evidence/lai-2025-complementary-medicine.md)
+- [The Use of Generative AI for Scientific Literature Searches for Systematic Reviews: ChatGPT and Microsoft Bing AI Performance Evaluation](../evidence/gwon-2024.md)
 
 ### Preprints and unverified manuscripts
 
@@ -107,10 +115,11 @@ No vendor, system, experimental, or editorial records are linked.
 
 ## Important uncertainties
 
-- [AI search and extraction tools can reduce initial search or screening effort, but measured efficiency gains may coincide with lower retrieval sensitivity or be offset by prompt development, screening, and human verification.](../claims/assistant-007.md) is marked **provisional**.
 - [Independent tool comparisons report different retrieval relevance and coverage profiles across query sets; current evidence does not establish a general-purpose winner over conventional library search.](../claims/assistant-002.md) is marked **mixed**.
+- [AI search and extraction tools can reduce initial search or screening effort, but measured efficiency gains may coincide with lower retrieval sensitivity or be offset by prompt development, screening, and human verification.](../claims/assistant-007.md) is marked **provisional**.
 - [One single-domain study reported high Consensus precision on a specialized tissue-engineering query, while broader comparative studies do not support treating that result as a stable cross-domain performance estimate.](../claims/assistant-003.md) is marked **provisional**.
 - [A one-topic audit distinguishes citation traceability from repeat-run retrieval stability, but conflicting count denominators make aggregate tool comparisons uncertain.](../claims/assistant-018.md) is marked **uncertain**.
+- [In one 2023 Peyronie-disease literature-search experiment, GPT-3.5 and Bing AI matched few trials from a completed review's 24 included RCTs; references graded as relevant were not necessarily benchmark matches.](../claims/assistant-039.md) is marked **provisional**.
 - [A forty-abstract medical citation task found missing references and metadata/relevance failures across five free chatbots, with outcomes depending on the error definition.](../claims/assistant-025.md) is marked **provisional**.
 - [A single-library analytics study found that generative AI referrals concentrated on repository content, especially theses and dissertations; referral counts do not establish retrieval quality or user intent.](../claims/assistant-010.md) is marked **provisional**.
 - [An independent preprint finds substantial model-dependent misses when chatbots retrieve studies from twenty Cochrane reviews, even where citation metadata is mostly accurate.](../claims/assistant-024.md) is marked **provisional**.

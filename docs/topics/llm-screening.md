@@ -2,7 +2,7 @@
 
 # LLMs for Citation Screening
 
-**Evidence:** 15 sources; 2023–2026; 12 peer-reviewed studies, 3 preprints
+**Evidence:** 18 sources; 2023–2026; 15 peer-reviewed studies, 3 preprints
 
 ## Research question
 
@@ -15,7 +15,7 @@ Define the evidence-synthesis setting, eligible study types, and task boundaries
 
 ## Overview
 
-This topic groups 10 claims linked to 15 source records.
+This topic groups 10 claims linked to 18 source records.
 
 ## Current evidence
 
@@ -27,6 +27,8 @@ The relationships and source categories below come from the structured evidence 
 
 **Status:** supported
 
+- **supports** — [Validating Large Language Models for Title-Abstract Screening in Low-Prevalence Systematic Reviews: An Environmental Science Case Study](../evidence/nawrath-2026-screening.md) (peer-reviewed-study); locator: Abstract, Results. On a 500-record environmental dataset with eight inclusions, sensitivity and specificity varied across five LLMs; reported sensitivity ranged from 0.375 to 1.00. Low prevalence also changed how agreement statistics represented performance. Abstract-based record.
+- **supports** — [Compact large language models for title and abstract screening in systematic reviews: An assessment of feasibility, accuracy, and workload reduction](../evidence/sciurti-2025-compact-screening.md) (peer-reviewed-study); locator: Table 2 and Results, PDF pp. 8-9. For three reviews, compact-model performance varied by model, review, and rating threshold. Against final full-text inclusions, the majority-vote ensemble reached 100% sensitivity in all three reviews, but positive predictive values were low.
 - **supports** — [Development and evaluation of prompts for a large language model to screen titles and abstracts in a living systematic review](../evidence/homiar-2025.md) (peer-reviewed-study); locator: Table 3, PDF p. 4. Title/abstract sensitivity was 0.91 on the baseline set, 1.00 in update 1, and 0.58 in update 2; sensitivity for final full-text inclusions was 1.00 in each set.
 - **supports** — [Development of Prompt Templates for Large Language Model-Driven Screening in Systematic Reviews](../evidence/cao-2025.md) (peer-reviewed-study); locator: PubMed abstract, Results (PMID 39993313). Abstract-only evidence: optimized-prompt sensitivity ranged from 86.7% to 100% across ten reviews, with weighted sensitivity 97.7%.
 - **supports** — [High-performance automated abstract screening with large language model ensembles](../evidence/sanghera-2025.md) (peer-reviewed-study); locator: Table 3, PDF p. 7. Across 119,695 records from 23 reviews, selected model-prompt combinations had sensitivity from 0.756 to 1.000.
@@ -34,6 +36,7 @@ The relationships and source categories below come from the structured evidence 
 - **supports** — [Automated Paper Screening for Clinical Reviews Using Large Language Models: Data Analysis Study](../evidence/guo-2024.md) (peer-reviewed-study); locator: Table 3, PDF p. 5. Inclusion sensitivity ranged from 0.593 to 1.000 across six clinical review datasets; weighted overall sensitivity was 0.764.
 - **contextual** — [Can large language models replace humans in systematic reviews? Evaluating GPT-4's efficacy in screening and extracting data from peer-reviewed and grey literature in multiple languages](../evidence/khraisha-2024.md) (peer-reviewed-study); locator: Table 1, PDF p. 7. GPT-4 title/abstract sensitivity was 0.42 for balanced English peer-reviewed records, 0.48 for English grey literature, and 0.50 for other-language records.
 - **supports** — [Evaluating the Effectiveness of Large Language Models in Abstract Screening: A Comparative Analysis](../evidence/li-2024.md) (peer-reviewed-study); locator: Tables 2-4, journal PDF pp. 9, 11-12. Published journal version: ChatGPT v4.0 sensitivity was 0.930, 0.812, and 0.932 in three selected datasets.
+- **supports** — [Human-Comparable Sensitivity of Large Language Models in Identifying Eligible Studies Through Title and Abstract Screening: 3-Layer Strategy Using GPT-3.5 and GPT-4 for Systematic Reviews](../evidence/matsui-2024-screening.md) (peer-reviewed-study); locator: Abstract, Results and Conclusions. In two bipolar-disorder reviews, three-layer GPT-3.5/GPT-4 screening showed review- and model-dependent sensitivity; both models retained all 15 studies later included in the meta-analyses. The abstract reports errors from GPT-4 misinterpreting eligibility criteria. Abstract-based record.
 - **supports** — [Sensitivity and Specificity of Using GPT-3.5 Turbo Models for Title and Abstract Screening in Systematic Reviews and Meta-analyses](../evidence/tran-2024.md) (peer-reviewed-study); locator: Table 2, PDF p. 7. Across five reviews, sensitivity was 81.1%-96.5% under the balanced rule and 94.6%-99.8% under the sensitive rule.
 - **supports** — [Assessing the Ability of ChatGPT to Screen Articles for Systematic Reviews](../evidence/syriani-2023.md) (preprint); locator: Table 10, PDF p. 19. GPT-3.5 recall ranged from 0.327 to 0.947 across five software-engineering review datasets.
 
@@ -63,6 +66,16 @@ The relationships and source categories below come from the structured evidence 
 - **supports** — [Assessing the Ability of ChatGPT to Screen Articles for Systematic Reviews](../evidence/syriani-2023.md) (preprint); locator: Table 10, PDF p. 19. GPT-3.5 recall was 0.327 on MobileMDE and below 1.0 on all five reported datasets.
 - **supports** — [Automated title and abstract screening for scoping reviews using the GPT-4 Large Language Model](../evidence/wilkins-2023.md) (preprint); locator: Results, PDF p. 7. Preprint: 71% weighted sensitivity across 1,147 records in six scoping reviews.
 
+### [Evaluated LLM screening workflows yielded calculated reductions in manual screening volume, with the amount saved dependent on the decision rule and observed sensitivity.](../claims/screening-007.md)
+
+**Status:** supported
+
+- **supports** — [Compact large language models for title and abstract screening in systematic reviews: An assessment of feasibility, accuracy, and workload reduction](../evidence/sciurti-2025-compact-screening.md) (peer-reviewed-study); locator: Results, PDF pp. 8-9. Using majority voting across three compact LLMs, reported workload savings at 100% sensitivity against final full-text inclusions ranged from 12.5% to 88.5% across three retrospective review datasets. This is a modeled record reduction, not observed reviewer time.
+- **supports** — [Development and evaluation of prompts for a large language model to screen titles and abstracts in a living systematic review](../evidence/homiar-2025.md) (peer-reviewed-study); locator: Table 3, PDF p. 4. Simulated manual-screening reductions were 65.72% in the baseline set and 79.04% and 85.63% in two updates, with title/abstract sensitivity 0.91, 1.00, and 0.58 respectively.
+- **supports** — [High-performance automated abstract screening with large language model ensembles](../evidence/sanghera-2025.md) (peer-reviewed-study); locator: Table 4, PDF p. 9. On 119,695 retrospective records, perfect-sensitivity parallel ensembles had calculated workload reductions of 37.55%-41.81%; a series ensemble reached 99.13% with sensitivity 0.6900. These are modeled record counts, not observed reviewer time.
+- **supports** — [Testing the utility of GPT for title and abstract screening in environmental systematic evidence synthesis](../evidence/nykvist-2025.md) (peer-reviewed-study); locator: Table 1 and Results, PDF pp. 3-4. In one environmental review, work saved over sampling rose from 0.55 at cutoff 0.5 to 0.75 at cutoff 0.8, while recall fell from 1.00 to 0.96.
+- **contextual** — [Audited large language model triage for systematic review screening in national clinical guideline production: validation and prospective deployment](../evidence/fagerberg-2026.md) (preprint); locator: Table 1 and note, PDF pp. 7-8. Preprint prospective deployment routed 10,821 of 74,679 records to routine human review and estimated 34 versus 415 first-pass person-days; time was modeled and implementation overhead omitted.
+
 ### [Overall screening accuracy alone can obscure lower sensitivity for citations that human reference standards included.](../claims/screening-002.md)
 
 **Status:** supported
@@ -72,15 +85,6 @@ The relationships and source categories below come from the structured evidence 
 - **supports** — [Can large language models replace humans in systematic reviews? Evaluating GPT-4's efficacy in screening and extracting data from peer-reviewed and grey literature in multiple languages](../evidence/khraisha-2024.md) (peer-reviewed-study); locator: Table 1, PDF p. 7. Other-language title/abstract accuracy was 0.88 with sensitivity 0.50; the stratum was highly imbalanced.
 - **supports** — [Evaluating the Effectiveness of Large Language Models in Abstract Screening: A Comparative Analysis](../evidence/li-2024.md) (peer-reviewed-study); locator: Tables 3-4, journal PDF pp. 11-12. Published journal version: Google PaLM on Meijboom had accuracy 0.890 and sensitivity 0.647; ChatGPT v3.5 on Menon had accuracy 0.711 and sensitivity 0.315.
 - **supports** — [Automated title and abstract screening for scoping reviews using the GPT-4 Large Language Model](../evidence/wilkins-2023.md) (preprint); locator: Results, PDF p. 7. Preprint: GPTscreenR accuracy was 84% while weighted sensitivity was 71%.
-
-### [Evaluated LLM screening workflows yielded calculated reductions in manual screening volume, with the amount saved dependent on the decision rule and observed sensitivity.](../claims/screening-007.md)
-
-**Status:** supported
-
-- **supports** — [Development and evaluation of prompts for a large language model to screen titles and abstracts in a living systematic review](../evidence/homiar-2025.md) (peer-reviewed-study); locator: Table 3, PDF p. 4. Simulated manual-screening reductions were 65.72% in the baseline set and 79.04% and 85.63% in two updates, with title/abstract sensitivity 0.91, 1.00, and 0.58 respectively.
-- **supports** — [High-performance automated abstract screening with large language model ensembles](../evidence/sanghera-2025.md) (peer-reviewed-study); locator: Table 4, PDF p. 9. On 119,695 retrospective records, perfect-sensitivity parallel ensembles had calculated workload reductions of 37.55%-41.81%; a series ensemble reached 99.13% with sensitivity 0.6900. These are modeled record counts, not observed reviewer time.
-- **supports** — [Testing the utility of GPT for title and abstract screening in environmental systematic evidence synthesis](../evidence/nykvist-2025.md) (peer-reviewed-study); locator: Table 1 and Results, PDF pp. 3-4. In one environmental review, work saved over sampling rose from 0.55 at cutoff 0.5 to 0.75 at cutoff 0.8, while recall fell from 1.00 to 0.96.
-- **contextual** — [Audited large language model triage for systematic review screening in national clinical guideline production: validation and prospective deployment](../evidence/fagerberg-2026.md) (preprint); locator: Table 1 and note, PDF pp. 7-8. Preprint prospective deployment routed 10,821 of 74,679 records to routine human review and estimated 34 versus 415 first-pass person-days; time was modeled and implementation overhead omitted.
 
 ### [In a retrospective five-review evaluation, using GPT-3.5 as a second reviewer or to trim citations involved a tradeoff between manual work and missed eligible records.](../claims/screening-006.md)
 
@@ -130,6 +134,8 @@ Record unresolved questions and evidence gaps here as they are identified during
 ## Peer-reviewed studies
 
 - [Evaluating Elicit’s systematic reviews workflow in an umbrella review on air pollution and acute lower respiratory infections: a methodological study for quality appraisal](../evidence/mazzali-2026.md)
+- [Validating Large Language Models for Title-Abstract Screening in Low-Prevalence Systematic Reviews: An Environmental Science Case Study](../evidence/nawrath-2026-screening.md)
+- [Compact large language models for title and abstract screening in systematic reviews: An assessment of feasibility, accuracy, and workload reduction](../evidence/sciurti-2025-compact-screening.md)
 - [Development and evaluation of prompts for a large language model to screen titles and abstracts in a living systematic review](../evidence/homiar-2025.md)
 - [Development of Prompt Templates for Large Language Model-Driven Screening in Systematic Reviews](../evidence/cao-2025.md)
 - [Do it faster with PICOS: Generative AI-Assisted systematic review screening](../evidence/vallamchetla-2025.md)
@@ -139,6 +145,7 @@ Record unresolved questions and evidence gaps here as they are identified during
 - [Automated Paper Screening for Clinical Reviews Using Large Language Models: Data Analysis Study](../evidence/guo-2024.md)
 - [Can large language models replace humans in systematic reviews? Evaluating GPT-4's efficacy in screening and extracting data from peer-reviewed and grey literature in multiple languages](../evidence/khraisha-2024.md)
 - [Evaluating the Effectiveness of Large Language Models in Abstract Screening: A Comparative Analysis](../evidence/li-2024.md)
+- [Human-Comparable Sensitivity of Large Language Models in Identifying Eligible Studies Through Title and Abstract Screening: 3-Layer Strategy Using GPT-3.5 and GPT-4 for Systematic Reviews](../evidence/matsui-2024-screening.md)
 - [Sensitivity and Specificity of Using GPT-3.5 Turbo Models for Title and Abstract Screening in Systematic Reviews and Meta-analyses](../evidence/tran-2024.md)
 - [Harnessing the Power of ChatGPT for Automating Systematic Review Process: Methodology, Case Study, Limitations, and Future Directions](../evidence/alshami-2023.md)
 

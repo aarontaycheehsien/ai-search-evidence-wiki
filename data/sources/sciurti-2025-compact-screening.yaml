@@ -1,0 +1,29 @@
+id: sciurti-2025-compact-screening
+type: journal-article
+title: "Compact large language models for title and abstract screening in systematic reviews: An assessment of feasibility, accuracy, and workload reduction"
+authors:
+  - Antonio Sciurti
+  - Giuseppe Migliara
+  - Leonardo Maria Siena
+  - Claudia Isonne
+  - Maria Roberta De Blasiis
+  - Alessandra Sinopoli
+  - Jessica Iera
+  - Carolina Marzuillo
+  - Corrado De Vito
+  - Paolo Villari
+  - Valentina Baccolini
+year: 2025
+doi: 10.1017/rsm.2025.10044
+url: https://doi.org/10.1017/rsm.2025.10044
+publication_status: "Published online in Research Synthesis Methods in 2025; volume 17, pages 332-347 (2026)"
+source_category: peer-reviewed-study
+local_file: "incoming/papers/Sciurti et al - 2025 - Compact LLM screening.pdf"
+notes: >
+  Full-text checked. Retrospective evaluation of GPT-4o mini, Llama 3.1 8B, and
+  Gemma 2 9B across three reviews (1,757, 21,116, and 7,693 records), using
+  prespecified rating thresholds and a majority-vote ensemble. Against
+  full-text inclusions, majority voting achieved 100% sensitivity in all three
+  reviews; workload saving at 100% sensitivity ranged from 12.5% to 88.5%.
+  Positive predictive values remained low. Results are retrospective, and the
+  small number of review datasets limits generalizability.

@@ -14,7 +14,14 @@ evidence:
   - source_id: featherstone-2025
     relationship: supports
     locator: "Tables 2-5, PDF pp. 7-12; focus-group findings, PDF pp. 13-15"
-    note: "The tested tools required less search execution and modeled screening time than customary practice, but average sensitivity across six review projects was 0.230-0.676 versus 0.986 for the reference searches."
+    note: >
+      The tested tools required less search execution and modeled screening
+      time on average than customary practice, but reported average sensitivity
+      across six review projects was 0.230-0.676, with 0.986 for reference
+      searches. Copilot's tested workflow generated strategies run in PubMed,
+      and its sensitivity denominator was restricted to eligible MEDLINE
+      articles (Methods sections 2.2.5-2.2.6, PDF p. 4). Screening time was
+      modeled at 3.33 hours per 100 records, not observed prospectively.
   - source_id: vyas-2026
     relationship: qualifies
     locator: "Discussion, PDF p. 2"
@@ -31,4 +38,4 @@ evidence:
     relationship: qualifies
     locator: "Figure 2, PDF p. 3; Methods, p. 5"
     note: "Assisted extraction time of 14.7 min includes generation, verification and modification; the 86.9-min manual comparator is historical. This provides evidence that checking need not erase all gains, while not establishing a concurrent causal comparison."
-last_reviewed: 2026-09-26
+last_reviewed: 2026-09-27

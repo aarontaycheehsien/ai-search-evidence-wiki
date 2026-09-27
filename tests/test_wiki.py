@@ -169,7 +169,10 @@ def test_changed_claim_maps_to_its_pages() -> None:
         "docs/evidence/homiar-2025.md",
         "docs/evidence/khraisha-2024.md",
         "docs/evidence/li-2024.md",
+        "docs/evidence/matsui-2024-screening.md",
+        "docs/evidence/nawrath-2026-screening.md",
         "docs/evidence/sanghera-2025.md",
+        "docs/evidence/sciurti-2025-compact-screening.md",
         "docs/evidence/syriani-2023.md",
         "docs/evidence/tran-2024.md",
         "docs/topics/index.md",
@@ -228,7 +231,7 @@ def test_evidence_context_uses_authoritative_counts_and_categories() -> None:
     assert "[Elicit.com](elicit.md) (16) — 2024–2026; 15 peer-reviewed studies, 1 preprint" in tools
     assert "[Undermind.ai](undermind.md) (3) — 2024–2026; 1 peer-reviewed study, 1 preprint, 1 vendor documentation record" in tools
     assert "[Consensus](consensus.md) (6) — 2025–2026; 3 peer-reviewed studies, 3 preprints" in tools
-    assert "(15) — 2023–2026; 12 peer-reviewed studies, 3 preprints" in pages["docs/topics/index.md"]
+    assert "(18) — 2023–2026; 15 peer-reviewed studies, 3 preprints" in pages["docs/topics/index.md"]
     assert "**Evidence:** 16 sources; 2024–2026; 15 peer-reviewed studies, 1 preprint" in pages["docs/tools/elicit.md"]
     assert "Scaffold with no directly linked evidence." in pages["docs/concepts/precision.md"]
     assert "docs/topics/index.md" in affected_source("guo-2024")
@@ -241,7 +244,7 @@ def test_evidence_indexes_rank_source_volume_with_peer_reviewed_tiebreak() -> No
     topics = pages["docs/topics/index.md"]
     assert tools.index("[Elicit.com]") < tools.index("[General-purpose AI assistants]")
     assert tools.index("[SciSpace]") < tools.index("[Undermind.ai]")
-    assert topics.index("[LLMs for structured data extraction]") < topics.index("[LLMs for Citation Screening]")
+    assert topics.index("[LLMs for Citation Screening]") < topics.index("[LLMs for structured data extraction]")
     claims = pages["docs/claims/index.md"]
     assert "13 sources;" in claims
     assert "9 sources;" in claims

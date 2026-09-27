@@ -2,7 +2,7 @@
 
 # Independent tool comparisons report different retrieval relevance and coverage profiles across query sets; current evidence does not establish a general-purpose winner over conventional library search.
 
-**Status:** mixed — 8 sources; 2024–2026; 6 peer-reviewed studies, 2 preprints
+**Status:** mixed — 9 sources; 2024–2026; 7 peer-reviewed studies, 2 preprints
 
 ## Evidence
 
@@ -36,7 +36,7 @@
 - **Category:** peer-reviewed-study
 - **Relationship:** supports
 - **Locator:** Methods, PDF pp. 2-5; Tables 2-5, PDF pp. 7-12
-- **Note:** Across six review projects, average sensitivity was 0.676 for Lens.org, 0.230-0.257 for SpiderCite, and 0.244 for Copilot, versus 0.986 for customary searches; results differed between simple and complex projects.
+- **Note:** Across six review projects, average sensitivity was 0.676 for Lens.org, 0.230-0.257 for SpiderCite, and 0.244 for Copilot, with 0.986 reported for customary searches; results differed between simple and complex projects. Copilot generated Boolean strategies that were executed in PubMed after iterative expert prompting. Its sensitivity denominator was restricted to eligible MEDLINE articles, whereas the other tools used the broader reference set (Methods sections 2.2.5-2.2.6, PDF p. 4). These are different workflows and reference-set boundaries.
 
 ### Are AI tools better than traditional tools in literature searching? Evidence from E-commerce research
 
@@ -53,6 +53,14 @@
 - **Relationship:** qualifies
 - **Locator:** Preliminary Results, PDF pp. 4–5
 - **Note:** In a six-tool comparison across ten STEM subdisciplines, SciSpace had high citation overlap and Elicit retrieved fewer recent materials. Figure 3 labels Scite's cross-tool duplicated-result proportion as 26.6%; this is overlap with other tools, not within-tool duplicates or accuracy. Scite bibliographic search was tested; Assistant is not identified. Relevance scoring was ongoing, so this is descriptive coverage evidence rather than a completed accuracy comparison.
+
+### The Use of Generative AI for Scientific Literature Searches for Systematic Reviews: ChatGPT and Microsoft Bing AI Performance Evaluation
+
+- **Source:** [gwon-2024](../evidence/gwon-2024.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** contextual
+- **Locator:** Methods and Results; Tables 1-2 (full-text JATS XML, PMC11107769)
+- **Note:** On one Peyronie-disease topic in 2023, GPT-3.5 produced 1 strict benchmark match and 4 under relaxed criteria, whereas Bing Precise produced 2 benchmark matches. Relevant/bibliographically correct references and benchmark matches are distinct endpoints. Unequal question counts, conversation flows, and retrieval access limit causal tool comparisons and do not establish a current general winner.
 
 ### Evaluating Eight Retrieval-Augmented Generation (RAG) Large Language Models’ Responses to Clinical Questions: A Comparative Study
 

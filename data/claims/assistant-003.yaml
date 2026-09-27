@@ -14,17 +14,31 @@ evidence:
   - source_id: gavgani-2026
     relationship: supports
     locator: "Abstract only; full text not obtained"
-    note: "The abstract reports 86.0% precision and no false drops for the top 50 Consensus results in one tissue-engineering evaluation."
+    note: >
+      The publisher abstract reports 86.0% precision and no false drops for
+      the top 50 Consensus results in one tissue-engineering evaluation.
+      Full text remains unavailable in this workspace. A linked funding
+      corrigendum (10.1108/IDD-08-2026-0302) was checked on 2026-09-27;
+      it does not report a change to retrieval results or provide access
+      to the underlying methods.
   - source_id: krump-2026
     relationship: contextual
     locator: "medRxiv abstract only"
     note: "The abstract reports no significant between-tool differences in critical or non-critical concept coverage for 12 generated clinical questions (p=.95 and p=.16), including Consensus, Elicit, SciSpace, and Undermind. This is an unreviewed preprint and the full text was not obtained."
   - source_id: di-febo-2026
     relationship: contextual
-    locator: "Abstract, p. 1; Results, PDF pp. 6–8"
-    note: "In four cardiology topics, ChatGPT-5 ranked highest for relevant articles and key references, while Scite ranked lowest. Consensus was included, but the available abstract does not disclose its product-specific point estimate."
+    locator: "Methods, PDF pp. 3-4; Results and Figure 4, pp. 6-8; limitations, p. 9"
+    note: >
+      In four CRT topics, ChatGPT-5 ranked highest for relevant articles
+      and key references, while Scite ranked lowest. Consensus was included;
+      its relevance and key-reference results appear in Figure 4 without
+      a product-specific overall point estimate in the Results prose.
+      Both primary endpoints are proportions within each tool's retrieved
+      articles, not exhaustive recall. One run per prompt, free tiers,
+      a single subdomain and a tool-contributed reference corpus constrain
+      general tool rankings.
   - source_id: dathe-2026
     relationship: qualifies
     locator: "Methods, PDF pp. 7-9; Results and Table 10, PDF p. 13"
     note: "For one emotional-contagion question, 14 of 50 Consensus sources met the study's usable-source definition and repeat-run Jaccard overlap was 28.0%. This preprint used one rater and one question."
-last_reviewed: 2026-09-26
+last_reviewed: 2026-09-27

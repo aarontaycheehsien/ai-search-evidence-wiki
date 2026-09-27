@@ -2,7 +2,7 @@
 
 # LLMs for search strategy generation and expansion
 
-**Evidence:** 11 sources; 2023–2026; 11 peer-reviewed studies
+**Evidence:** 13 sources; 2023–2026; 13 peer-reviewed studies
 
 ## Research question
 
@@ -15,7 +15,7 @@ Define the evidence-synthesis setting, eligible study types, and task boundaries
 
 ## Overview
 
-This topic groups 4 claims linked to 11 source records.
+This topic groups 4 claims linked to 13 source records.
 
 ## Current evidence
 
@@ -28,6 +28,8 @@ The relationships and source categories below come from the structured evidence 
 **Status:** supported
 
 - **qualifies** — [AutoBool: Reinforcement-Learned LLM for Effective Automatic Systematic Reviews Boolean Query Generation](../evidence/wang-2026-autobool.md) (peer-reviewed-study); locator: Table 5, PDF p. 14; Table 6, PDF p. 15. AutoBool reached CLEF TAR recall 0.8387 versus 0.8458 for expert queries while retrieving 818 versus 14,327 documents, but Seed Collection recall remained lower (0.6828 vs. 0.7241).
+- **supports** — [Development and Evaluation of a Generative AI Chatbot for Database Searching in Systematic Review](../evidence/tam-2026-search-chatbot.md) (peer-reviewed-study); locator: Abstract, Results. A custom ChatGPT-4 chatbot tested on 50 Cochrane reviews retrieved a median 67.4% of included studies (72.0% among indexed studies; abstract-based record). It was presented as a starting point rather than a replacement for expert-developed searches.
+- **supports** — [Evaluating the utility of large language models in generating search strings for systematic reviews in anesthesiology: a comparative analysis of top-ranked journals](../evidence/decassai-2025-search.md) (peer-reviewed-study); locator: Abstract, Results. Across 85 anesthesiology systematic reviews, median PubMed retrieval was 6% for ChatGPT-4o-generated strings, 24% for a custom Meta-Analysis Librarian, and 65% for original strings. Abstract-based record; single specialty and reference-set comparison.
 - **qualifies** — [Human vs. machine in medical search strategy development: a comparative evaluation of ChatGPT-4.1](../evidence/walz-2025-search.md) (peer-reviewed-study); locator: Results, PDF p. 3. Five of six ChatGPT-4.1 strategies across two topics retrieved all benchmark included articles, but no precision or time advantage was measured and hallucinated MeSH terms were common.
 - **supports** — [Quality Evaluation of Generative AI-Based Search Strategies in Systematic Reviews and Comparison of Search Performance with Human Expert (Medical Librarian)](../evidence/park-2025-search.md) (peer-reviewed-study); locator: Table 6, PDF p. 14. For one obesity-psychotherapy topic across 139 included studies, ChatGPT-5 recall was 46.8% and Gemini 2.5 recall 49.6%, compared with 54.7% for a medical librarian; all precision estimates were below 1%.
 - **supports** — [Reassessing Large Language Model Boolean Query Generation for Systematic Reviews](../evidence/wang-2025-query.md) (peer-reviewed-study); locator: Tables 2-3, PDF pp. 6-7; Discussion and limitations, PDF p. 13. Across 71 CLEF TAR topics, the expert manual recall was 0.8436 while the best reported generated-query recall in Table 2 was 0.6545. On the seed collection, combining guided queries reached recall 0.7361 versus 0.7241 for manual queries but with very low precision; best-seed selection was post hoc.
@@ -75,7 +77,9 @@ Record unresolved questions and evidence gaps here as they are identified during
 
 - [A critical evaluation of generative query expansion on biomedical literature retrieval](../evidence/fang-2026-query.md)
 - [AutoBool: Reinforcement-Learned LLM for Effective Automatic Systematic Reviews Boolean Query Generation](../evidence/wang-2026-autobool.md)
+- [Development and Evaluation of a Generative AI Chatbot for Database Searching in Systematic Review](../evidence/tam-2026-search-chatbot.md)
 - [Chained Prompting for Better Systematic Review Search Strategies](../evidence/nasser-2025-chained.md)
+- [Evaluating the utility of large language models in generating search strings for systematic reviews in anesthesiology: a comparative analysis of top-ranked journals](../evidence/decassai-2025-search.md)
 - [Human vs. machine in medical search strategy development: a comparative evaluation of ChatGPT-4.1](../evidence/walz-2025-search.md)
 - [Quality Evaluation of Generative AI-Based Search Strategies in Systematic Reviews and Comparison of Search Performance with Human Expert (Medical Librarian)](../evidence/park-2025-search.md)
 - [Reassessing Large Language Model Boolean Query Generation for Systematic Reviews](../evidence/wang-2025-query.md)

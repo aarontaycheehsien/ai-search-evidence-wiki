@@ -5,6 +5,7 @@ description: >
   Cross-tool evidence on systems such as ChatGPT, Perplexity, You.com, Scite,
   and other generative assistants used to find or refer users to research.
 claim_ids:
+  - assistant-039
   - assistant-002
   - assistant-003
   - assistant-007
@@ -22,6 +23,7 @@ concept_ids:
   - reproducibility-and-stability
   - automation-bias
 evidence_source_ids:
+  - gwon-2024
   - dathe-2026
   - di-febo-2026
   - lai-2025-complementary-medicine

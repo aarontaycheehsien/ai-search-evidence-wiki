@@ -1,0 +1,22 @@
+id: matsui-2024-screening
+type: journal-article
+title: "Human-Comparable Sensitivity of Large Language Models in Identifying Eligible Studies Through Title and Abstract Screening: 3-Layer Strategy Using GPT-3.5 and GPT-4 for Systematic Reviews"
+authors:
+  - Kentaro Matsui
+  - Tomohiro Utsumi
+  - Yumi Aoki
+  - Taku Maruki
+  - Masahiro Takeshima
+  - Yoshikazu Takaesu
+year: 2024
+doi: 10.2196/52758
+url: https://doi.org/10.2196/52758
+publication_status: "Published in Journal of Medical Internet Research 26, e52758, 2024"
+source_category: peer-reviewed-study
+notes: >
+  Abstract-based record. Retrospective evaluation of a three-layer GPT-3.5/GPT-4
+  screening workflow on two bipolar-disorder reviews (1,381 and 3,146 records).
+  The abstract reports sensitivities varying by review and model, and says all
+  15 records later included in the meta-analyses were retained. GPT-4 errors
+  included misinterpretation of eligibility criteria. Full-text methods and
+  tables have not been independently checked for this wiki record.

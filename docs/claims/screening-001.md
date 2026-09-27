@@ -2,9 +2,25 @@
 
 # Observed sensitivity of LLM citation screening differs substantially between evaluated review datasets and decision rules.
 
-**Status:** supported — 9 sources; 2023–2025; 8 peer-reviewed studies, 1 preprint
+**Status:** supported — 12 sources; 2023–2026; 11 peer-reviewed studies, 1 preprint
 
 ## Evidence
+
+### Validating Large Language Models for Title-Abstract Screening in Low-Prevalence Systematic Reviews: An Environmental Science Case Study
+
+- **Source:** [nawrath-2026-screening](../evidence/nawrath-2026-screening.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Abstract, Results
+- **Note:** On a 500-record environmental dataset with eight inclusions, sensitivity and specificity varied across five LLMs; reported sensitivity ranged from 0.375 to 1.00. Low prevalence also changed how agreement statistics represented performance. Abstract-based record.
+
+### Compact large language models for title and abstract screening in systematic reviews: An assessment of feasibility, accuracy, and workload reduction
+
+- **Source:** [sciurti-2025-compact-screening](../evidence/sciurti-2025-compact-screening.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Table 2 and Results, PDF pp. 8-9
+- **Note:** For three reviews, compact-model performance varied by model, review, and rating threshold. Against final full-text inclusions, the majority-vote ensemble reached 100% sensitivity in all three reviews, but positive predictive values were low.
 
 ### Development and evaluation of prompts for a large language model to screen titles and abstracts in a living systematic review
 
@@ -61,6 +77,14 @@
 - **Relationship:** supports
 - **Locator:** Tables 2-4, journal PDF pp. 9, 11-12
 - **Note:** Published journal version: ChatGPT v4.0 sensitivity was 0.930, 0.812, and 0.932 in three selected datasets.
+
+### Human-Comparable Sensitivity of Large Language Models in Identifying Eligible Studies Through Title and Abstract Screening: 3-Layer Strategy Using GPT-3.5 and GPT-4 for Systematic Reviews
+
+- **Source:** [matsui-2024-screening](../evidence/matsui-2024-screening.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Abstract, Results and Conclusions
+- **Note:** In two bipolar-disorder reviews, three-layer GPT-3.5/GPT-4 screening showed review- and model-dependent sensitivity; both models retained all 15 studies later included in the meta-analyses. The abstract reports errors from GPT-4 misinterpreting eligibility criteria. Abstract-based record.
 
 ### Sensitivity and Specificity of Using GPT-3.5 Turbo Models for Title and Abstract Screening in Systematic Reviews and Meta-analyses
 

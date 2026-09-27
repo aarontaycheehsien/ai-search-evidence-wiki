@@ -1,0 +1,25 @@
+id: decassai-2025-search
+type: journal-article
+title: "Evaluating the utility of large language models in generating search strings for systematic reviews in anesthesiology: a comparative analysis of top-ranked journals"
+authors:
+  - Andrea de Cassai
+  - Burak Dost
+  - Yavuz Emre Karapınar
+  - Muzeyyen Beldagli
+  - Mirac Selcen Ozkal Yalin
+  - E. Turunç
+  - E. I. Turan
+  - Nicolò Sella
+year: 2025
+doi: 10.1136/rapm-2024-106231
+url: https://doi.org/10.1136/rapm-2024-106231
+publication_status: "Published in Regional Anesthesia & Pain Medicine 51(5), 554-557; issue published 2026"
+source_category: peer-reviewed-study
+notes: >
+  Abstract-based record. Compared PubMed retrieval from ChatGPT-4o and a custom
+  Meta-Analysis Librarian search string against original search strings for 85
+  anesthesiology systematic reviews. The abstract reports median retrieval
+  rates of 6% for ChatGPT-4o, 24% for the custom model, and 65% for original
+  strategies. The comparison uses prior review retrieval/reference sets and
+  one specialty; full-text methods and tables have not been independently
+  checked for this wiki record.

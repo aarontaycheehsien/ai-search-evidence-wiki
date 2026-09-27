@@ -20,7 +20,7 @@
 - **Category:** peer-reviewed-study
 - **Relationship:** supports
 - **Locator:** Abstract, p. 1; case-study results, PDF pp. 4–6
-- **Note:** Across four evidence syntheses, mean sensitivity was 39.5% for Elicit versus 94.5% for original searches, while mean precision was 41.8% versus 7.55%. Elicit also found eligible studies absent from the original searches.
+- **Note:** Across four evidence syntheses, mean sensitivity was 39.5% for Elicit versus 94.5% for original searches, while mean precision was 41.8% versus 7.55%. Elicit also found eligible studies absent from the original searches. Methods (PDF pp. 2-3) and Table 1 (p. 6) show these estimates concern a combined top-500 retrieval and automated-screening workflow; precision is calculated over Elicit-included records, not all candidates.
 
 ### Using artificial intelligence for systematic review: the example of elicit
 
@@ -28,10 +28,10 @@
 - **Category:** peer-reviewed-study
 - **Relationship:** qualifies
 - **Locator:** Results, PDF pp. 3–4
-- **Note:** For one umbrella-review question, repeated runs retrieved 246, 169, and 172 records; Elicit found 3 of 17 included reviews from the prior review and 3 additional eligible reviews. This used an earlier product version and one topic.
+- **Note:** For one umbrella-review question, repeated runs retrieved 246, 169, and 172 records; Elicit found 3 of 17 included reviews from the prior review and 3 additional eligible reviews. Results and Figure 1 (p. 3) report 14 reviews exclusive to the prior review, whereas the abstract (p. 1) says 17 exclusive reviews. The 3-of-17 benchmark count follows Results/Figure 1. This used an earlier product version and one topic.
 
 ## Tools
 
 - [Elicit.com](../tools/elicit.md)
 
-**Last reviewed:** 2026-09-26
+**Last reviewed:** 2026-09-27

@@ -42,4 +42,16 @@ evidence:
     relationship: supports
     locator: "Results sections 3.1-3.6 and Figures 3-8, PDF pp. 11-16"
     note: "Model behavior differed sharply on target-enriched subsets: GPT-4o had 100% recall across evaluated quartiles, while OpenHermes missed nearly all targets and GPT-2 accepted all records in single-prompt screening. Two domain-specific target sets limit generalization."
+  - source_id: matsui-2024-screening
+    relationship: supports
+    locator: "Abstract, Results and Conclusions"
+    note: "In two bipolar-disorder reviews, three-layer GPT-3.5/GPT-4 screening showed review- and model-dependent sensitivity; both models retained all 15 studies later included in the meta-analyses. The abstract reports errors from GPT-4 misinterpreting eligibility criteria. Abstract-based record."
+  - source_id: sciurti-2025-compact-screening
+    relationship: supports
+    locator: "Table 2 and Results, PDF pp. 8-9"
+    note: "For three reviews, compact-model performance varied by model, review, and rating threshold. Against final full-text inclusions, the majority-vote ensemble reached 100% sensitivity in all three reviews, but positive predictive values were low."
+  - source_id: nawrath-2026-screening
+    relationship: supports
+    locator: "Abstract, Results"
+    note: "On a 500-record environmental dataset with eight inclusions, sensitivity and specificity varied across five LLMs; reported sensitivity ranged from 0.375 to 1.00. Low prevalence also changed how agreement statistics represented performance. Abstract-based record."
 last_reviewed: 2026-09-26

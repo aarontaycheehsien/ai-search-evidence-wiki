@@ -1,0 +1,20 @@
+id: assistant-040
+claim: >
+  In a four-review evaluation of Elicit Pro Review mode, eligible records
+  were lost during both initial retrieval and automated screening.
+status: provisional
+topics:
+  - elicit
+evidence:
+  - source_id: lau-golder-2025
+    relationship: supports
+    locator: "Methods, PDF pp. 2-3; Results sections 3.1-3.4, pp. 4-6; Table 1, p. 6"
+    note: >
+      Among records included in the original reviews, case studies 1-4 report
+      31, 27, 12 and 21 not retrieved by Elicit, and 11, 11, 4 and 8 retrieved
+      but excluded. The workflow first retrieved 500 candidates per question,
+      then screened them using manually adjusted criteria. Reported mean
+      sensitivity of 39.5% describes this combined workflow, and the 41.8%
+      mean precision is calculated over Elicit-included records. These are
+      not performance estimates for retrieval alone or for every Elicit mode.
+last_reviewed: 2026-09-27

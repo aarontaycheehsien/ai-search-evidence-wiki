@@ -5,6 +5,7 @@ description: >
   Empirical evaluations of Elicit's literature retrieval, screening,
   extraction, appraisal, usability, and reproducibility.
 claim_ids:
+  - assistant-040
   - assistant-001
   - assistant-002
   - assistant-003

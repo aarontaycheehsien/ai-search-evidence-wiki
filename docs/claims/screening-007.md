@@ -2,9 +2,17 @@
 
 # Evaluated LLM screening workflows yielded calculated reductions in manual screening volume, with the amount saved dependent on the decision rule and observed sensitivity.
 
-**Status:** supported — 4 sources; 2025–2026; 3 peer-reviewed studies, 1 preprint
+**Status:** supported — 5 sources; 2025–2026; 4 peer-reviewed studies, 1 preprint
 
 ## Evidence
+
+### Compact large language models for title and abstract screening in systematic reviews: An assessment of feasibility, accuracy, and workload reduction
+
+- **Source:** [sciurti-2025-compact-screening](../evidence/sciurti-2025-compact-screening.md)
+- **Category:** peer-reviewed-study
+- **Relationship:** supports
+- **Locator:** Results, PDF pp. 8-9
+- **Note:** Using majority voting across three compact LLMs, reported workload savings at 100% sensitivity against final full-text inclusions ranged from 12.5% to 88.5% across three retrospective review datasets. This is a modeled record reduction, not observed reviewer time.
 
 ### Development and evaluation of prompts for a large language model to screen titles and abstracts in a living systematic review
 

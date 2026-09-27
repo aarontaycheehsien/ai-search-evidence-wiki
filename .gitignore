@@ -8,6 +8,7 @@ venv/
 site/
 tmp/
 incoming/papers/*.pdf
+incoming/papers/*.xml
 incoming/papers/undermind-2026-09-27/*.pdf
 .cache/undermind-*
 .cache/download-undermind.cjs

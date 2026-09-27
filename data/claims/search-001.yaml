@@ -39,4 +39,12 @@ evidence:
     relationship: qualifies
     locator: "Results, PDF p. 3"
     note: "Five of six ChatGPT-4.1 strategies across two topics retrieved all benchmark included articles, but no precision or time advantage was measured and hallucinated MeSH terms were common."
+  - source_id: tam-2026-search-chatbot
+    relationship: supports
+    locator: "Abstract, Results"
+    note: "A custom ChatGPT-4 chatbot tested on 50 Cochrane reviews retrieved a median 67.4% of included studies (72.0% among indexed studies; abstract-based record). It was presented as a starting point rather than a replacement for expert-developed searches."
+  - source_id: decassai-2025-search
+    relationship: supports
+    locator: "Abstract, Results"
+    note: "Across 85 anesthesiology systematic reviews, median PubMed retrieval was 6% for ChatGPT-4o-generated strings, 24% for a custom Meta-Analysis Librarian, and 65% for original strings. Abstract-based record; single specialty and reference-set comparison."
 last_reviewed: 2026-09-25

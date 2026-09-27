@@ -11,8 +11,8 @@
 - **Source:** [di-febo-2026](../evidence/di-febo-2026.md)
 - **Category:** peer-reviewed-study
 - **Relationship:** contextual
-- **Locator:** Abstract, p. 1; Results, PDF pp. 6–8
-- **Note:** In four cardiology topics, ChatGPT-5 ranked highest for relevant articles and key references, while Scite ranked lowest. Consensus was included, but the available abstract does not disclose its product-specific point estimate.
+- **Locator:** Methods, PDF pp. 3-4; Results and Figure 4, pp. 6-8; limitations, p. 9
+- **Note:** In four CRT topics, ChatGPT-5 ranked highest for relevant articles and key references, while Scite ranked lowest. Consensus was included; its relevance and key-reference results appear in Figure 4 without a product-specific overall point estimate in the Results prose. Both primary endpoints are proportions within each tool's retrieved articles, not exhaustive recall. One run per prompt, free tiers, a single subdomain and a tool-contributed reference corpus constrain general tool rankings.
 
 ### Optimizing scholarly literature search: a comparative study of relevance and evidence quality across AI-powered, semantic, and traditional search engines
 
@@ -20,7 +20,7 @@
 - **Category:** peer-reviewed-study
 - **Relationship:** supports
 - **Locator:** Abstract only; full text not obtained
-- **Note:** The abstract reports 86.0% precision and no false drops for the top 50 Consensus results in one tissue-engineering evaluation.
+- **Note:** The publisher abstract reports 86.0% precision and no false drops for the top 50 Consensus results in one tissue-engineering evaluation. Full text remains unavailable in this workspace. A linked funding corrigendum (10.1108/IDD-08-2026-0302) was checked on 2026-09-27; it does not report a change to retrieval results or provide access to the underlying methods.
 
 ### Evaluating Eight Retrieval-Augmented Generation (RAG) Large Language Models’ Responses to Clinical Questions: A Comparative Study
 
@@ -46,4 +46,4 @@
 - [SciSpace](../tools/scispace.md)
 - [General-purpose AI assistants](../tools/general-purpose-ai-assistants.md)
 
-**Last reviewed:** 2026-09-26
+**Last reviewed:** 2026-09-27

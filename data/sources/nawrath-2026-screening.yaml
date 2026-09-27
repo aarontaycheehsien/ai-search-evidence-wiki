@@ -1,0 +1,22 @@
+id: nawrath-2026-screening
+type: journal-article
+title: "Validating Large Language Models for Title-Abstract Screening in Low-Prevalence Systematic Reviews: An Environmental Science Case Study"
+authors:
+  - Maximilian Nawrath
+  - Andrea Merlina
+  - Jemmima Knight
+  - Samuel A. Welch
+  - Mahla Rashidian
+  - I. Seifert-Dähnn
+year: 2026
+doi: 10.3390/info17050501
+url: https://doi.org/10.3390/info17050501
+publication_status: "Published in Information 17(5), article 501, 2026"
+source_category: peer-reviewed-study
+notes: >
+  Abstract-based record. Retrospective validation of five LLMs on a 500-record
+  environmental-science dataset with eight inclusions (1.6% prevalence). The
+  abstract reports no false negatives for Gemini 2.0 Flash and Mistral Large,
+  while DeepSeek V3 had the highest specificity and accuracy but 0.375
+  sensitivity. Metrics of agreement differed under low prevalence. Full-text
+  methods and tables have not been independently checked for this wiki record.
